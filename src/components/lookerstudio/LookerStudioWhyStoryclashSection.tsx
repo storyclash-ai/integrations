@@ -71,15 +71,15 @@ const benefits = [
 
 export default function LookerStudioWhyStoryclashSection() {
   return (
-    <section className="py-20 px-6 bg-white border-t border-b" style={{ borderColor: '#E5EAEC' }}>
+    <section className="py-20 px-6 border-t border-b" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5EAEC' }}>
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl lg:text-5xl font-black mb-16 text-center tracking-tight" style={{ color: '#4285F4' }}>
+        <h2 className="mb-16 text-center" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>
           Why Storyclash for Looker Studio?
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">
-            <div className="bg-gradient-to-br from-blue-50/50 to-transparent rounded-2xl p-8 lg:p-12">
+            <div className="bg-gradient-to-br from-green-50/50 to-transparent p-8 lg:p-12" style={{ borderRadius: '20px' }}>
               <DataFlowIllustration />
             </div>
           </div>
@@ -95,15 +95,15 @@ export default function LookerStudioWhyStoryclashSection() {
                     animation: `fadeInUp 0.6s ease-out ${index * 0.15}s both`,
                   }}
                 >
-                  <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:scale-110" style={{ color: '#4285F4' }}>
+                  <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:scale-110" style={{ color: '#19B776' }}>
                     <Icon />
                   </div>
 
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2 tracking-tight">
+                    <h3 className="mb-2" style={{ fontSize: '20px', lineHeight: '1.1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
                       {benefit.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed text-[15px]">
+                    <p style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
                       {benefit.description}
                     </p>
                   </div>

@@ -56,9 +56,9 @@ const steps = [
 
 export default function LookerStudioHowItWorksSection() {
   return (
-    <section className="py-20 px-6" style={{ backgroundColor: '#E5EAEC' }}>
+    <section className="py-20 px-6" style={{ backgroundColor: '#FAFAFA' }}>
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl lg:text-5xl font-black text-center mb-16 tracking-tight" style={{ color: '#233C42' }}>
+        <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
           How the Looker Studio Integration Works
         </h2>
 
@@ -69,7 +69,7 @@ export default function LookerStudioHowItWorksSection() {
               animation: 'slideInLeft 0.8s ease-out both',
             }}
           >
-            <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-sm">
+            <div className="bg-white p-8 lg:p-12" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
               <FlowIllustration />
             </div>
           </div>
@@ -83,20 +83,24 @@ export default function LookerStudioHowItWorksSection() {
             {steps.map((step, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300"
+                className="bg-white p-6 border border-gray-200 transition-shadow duration-300"
                 style={{
+                  borderRadius: '20px',
+                  boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
                   animation: `fadeInUp 0.6s ease-out ${0.3 + index * 0.15}s both`,
                 }}
+                onMouseEnter={(e) => e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.12)'}
+                onMouseLeave={(e) => e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'}
               >
                 <div className="flex gap-5">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-lg flex items-center justify-center font-black text-lg text-white" style={{ backgroundColor: '#4285F4' }}>
+                  <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center font-black text-lg text-white" style={{ backgroundColor: '#19B776', borderRadius: '20px' }}>
                     {step.number}
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold mb-2 tracking-tight" style={{ color: '#233C42' }}>
+                    <h3 className="mb-2" style={{ fontSize: '20px', lineHeight: '1.1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
                       {step.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed text-[15px]">
+                    <p style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
                       {step.description}
                     </p>
                   </div>
