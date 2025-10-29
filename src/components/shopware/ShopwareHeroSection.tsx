@@ -18,7 +18,7 @@ export default function ShopwareHeroSection() {
               Integrations
             </a>
             <span className="mx-2">/</span>
-            <span>Shopware Marketing Integration</span>
+            <span className="font-semibold">Shopware Marketing Integration</span>
           </div>
         </div>
 

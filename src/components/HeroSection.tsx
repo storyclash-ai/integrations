@@ -12,7 +12,7 @@ export default function HeroSection() {
               Integrations
             </a>
             <span className="mx-2">/</span>
-            <span>Power BI Marketing Integration</span>
+            <span className="font-semibold">Power BI Marketing Integration</span>
           </div>
         </div>
 
