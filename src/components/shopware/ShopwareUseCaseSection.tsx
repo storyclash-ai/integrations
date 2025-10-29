@@ -75,13 +75,13 @@ const useCases = [
 
 export default function ShopwareUseCaseSection() {
   return (
-    <section className="py-20 px-6 bg-white">
+    <section className="py-20 px-6" style={{ backgroundColor: '#FFFFFF' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-black mb-4 tracking-tight" style={{ color: '#233C42' }}>
+          <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
             From Creator Content to Ecommerce Revenue
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
             Integrate Storyclash with Shopware to connect influencer performance with order data, customer lifetime value, and conversion metrics.
             Get a complete view of how creator campaigns drive your ecommerce growth.
           </p>
@@ -94,13 +94,13 @@ export default function ShopwareUseCaseSection() {
               animation: 'slideInLeft 0.8s ease-out both',
             }}
           >
-            <div className="bg-gradient-to-br from-gray-50 to-transparent rounded-2xl p-8 lg:p-12">
+            <div className="bg-gradient-to-br from-gray-50 to-transparent p-8 lg:p-12" style={{ borderRadius: '20px' }}>
               <DataPipelineIllustration />
             </div>
           </div>
 
           <div className="order-1 lg:order-2 space-y-6">
-            <h3 className="text-xl font-bold mb-6 tracking-tight" style={{ color: '#233C42' }}>
+            <h3 className="mb-6" style={{ fontSize: '24px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
               Key Use Cases:
             </h3>
             {useCases.map((useCase, index) => {
@@ -108,20 +108,17 @@ export default function ShopwareUseCaseSection() {
               return (
                 <div
                   key={index}
-                  className="flex gap-5 group"
+                  className="inline-flex items-center gap-2 group"
                   style={{
                     animation: `fadeInUp 0.6s ease-out ${index * 0.15}s both`,
                   }}
                 >
-                  <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:scale-110" style={{ color: '#189EFF' }}>
+                  <div className="flex-shrink-0 w-6 h-6 flex items-center justify-center transition-all duration-300 group-hover:scale-110" style={{ color: '#19B776' }}>
                     <Icon />
                   </div>
-
-                  <div>
-                    <p className="text-gray-700 leading-relaxed text-[15px] pt-2">
-                      {useCase.text}
-                    </p>
-                  </div>
+                  <p style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
+                    {useCase.text}
+                  </p>
                 </div>
               );
             })}
