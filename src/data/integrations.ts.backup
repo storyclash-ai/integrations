@@ -1,0 +1,250 @@
+export interface Integration {
+  id: string;
+  name: string;
+  slug: string;
+  category: string;
+  description: string;
+  logo?: string;
+}
+
+export const integrations: Integration[] = [
+  {
+    id: '1',
+    name: 'Power BI',
+    slug: '/integrations/power-bi-influencer-marketing',
+    category: 'Analytics',
+    description: 'Bring creator KPIs into your dashboards.',
+    logo: '/logos/Power_BI.svg'
+  },
+  {
+    id: '2',
+    name: 'Cloudflare',
+    slug: '/integrations/cloudflare-influencer-marketing',
+    category: 'Infrastructure',
+    description: 'Secure and accelerate creator campaign delivery.',
+    logo: '/logos/cloudflare.svg'
+  },
+  {
+    id: '3',
+    name: 'Shopify',
+    slug: '/integrations/shopify-influencer-marketing',
+    category: 'Ecommerce',
+    description: 'Track sales & conversions from creator campaigns.',
+    logo: '/logos/Shopify.svg'
+  },
+  {
+    id: '4',
+    name: 'WooCommerce',
+    slug: '/integrations/woocommerce-influencer-marketing',
+    category: 'Ecommerce',
+    description: 'Track sales & conversions from creator campaigns.',
+    logo: '/logos/WooCommerce.svg'
+  },
+  {
+    id: '5',
+    name: 'Adobe',
+    slug: '/integrations/adobe-influencer-marketing',
+    category: 'Ecommerce',
+    description: 'Track sales & conversions from creator campaigns.',
+    logo: '/logos/Adobe_Corporate_logo.svg'
+  },
+  {
+    id: '6',
+    name: 'Shopware',
+    slug: '/integrations/shopware-influencer-marketing',
+    category: 'Ecommerce',
+    description: 'Track sales & conversions from creator campaigns.',
+    logo: '/logos/shopware.png'
+  },
+  {
+    id: '7',
+    name: 'Google Analytics',
+    slug: '/integrations/google-analytics-influencer-marketing',
+    category: 'Analytics',
+    description: 'Bring creator KPIs into your dashboards.',
+    logo: '/logos/Google_Analytics.svg'
+  },
+  {
+    id: '8',
+    name: 'Looker Studio',
+    slug: '/integrations/looker-studio-influencer-marketing',
+    category: 'Analytics',
+    description: 'Bring creator KPIs into your dashboards.',
+    logo: '/logos/Looker_Logo.svg'
+  },
+  {
+    id: '9',
+    name: 'Tableau',
+    slug: '/integrations/tableau-influencer-marketing',
+    category: 'Analytics',
+    description: 'Bring creator KPIs into your dashboards.',
+    logo: '/logos/Tableau.png'
+  },
+  {
+    id: '10',
+    name: 'Snowflake',
+    slug: '/integrations/snowflake-influencer-marketing',
+    category: 'Data Warehouse',
+    description: 'Sync standardized creator data for modeling.',
+    logo: '/logos/Snowflake.svg'
+  },
+  {
+    id: '11',
+    name: 'BigQuery',
+    slug: '/integrations/bigquery-influencer-marketing',
+    category: 'Data Warehouse',
+    description: 'Sync standardized creator data for modeling.',
+    logo: '/logos/BigQuery.png'
+  },
+  {
+    id: '12',
+    name: 'Segment',
+    slug: '/integrations/segment-influencer-marketing',
+    category: 'Data Warehouse',
+    description: 'Sync standardized creator data for modeling.',
+    logo: '/logos/Segment.svg'
+  },
+  {
+    id: '13',
+    name: 'HubSpot',
+    slug: '/integrations/hubspot-influencer-marketing',
+    category: 'CRM',
+    description: 'Sync creator campaign data with your CRM workflows.',
+    logo: '/logos/HubSpot.svg'
+  },
+  {
+    id: '14',
+    name: 'Salesforce',
+    slug: '/integrations/salesforce-influencer-marketing',
+    category: 'CRM',
+    description: 'Sync creator campaign data with your CRM workflows.',
+    logo: '/logos/Salesforce.svg'
+  },
+  {
+    id: '15',
+    name: 'Klaviyo',
+    slug: '/integrations/klaviyo-influencer-marketing',
+    category: 'Marketing Automation',
+    description: 'Connect creator insights to email campaigns.',
+    logo: '/logos/Klaviyo.svg'
+  },
+  {
+    id: '16',
+    name: 'Mailchimp',
+    slug: '/integrations/mailchimp-influencer-marketing',
+    category: 'Marketing Automation',
+    description: 'Connect creator insights to email campaigns.',
+    logo: '/logos/Mailchimp.svg'
+  },
+  {
+    id: '17',
+    name: 'Google Ads',
+    slug: '/integrations/google-ads-influencer-marketing',
+    category: 'Advertising',
+    description: 'Attribute performance and optimize creator spend.',
+    logo: '/logos/Google_Ads.svg'
+  },
+  {
+    id: '18',
+    name: 'Meta Ads',
+    slug: '/integrations/meta-ads-influencer-marketing',
+    category: 'Advertising',
+    description: 'Attribute performance and optimize creator spend.',
+    logo: '/logos/Instagram.svg'
+  },
+  {
+    id: '19',
+    name: 'TikTok',
+    slug: '/integrations/tiktok-influencer-marketing',
+    category: 'Social Media',
+    description: 'Attribute performance and optimize creator spend.',
+    logo: '/logos/TikTok.svg'
+  },
+  {
+    id: '20',
+    name: 'Instagram',
+    slug: '/integrations/instagram-influencer-marketing',
+    category: 'Social Media',
+    description: 'Attribute performance and optimize creator spend.',
+    logo: '/logos/Instagram.svg'
+  },
+  {
+    id: '21',
+    name: 'YouTube',
+    slug: '/integrations/youtube-influencer-marketing',
+    category: 'Social Media',
+    description: 'Attribute performance and optimize creator spend.',
+    logo: '/logos/YouTube.svg'
+  },
+  {
+    id: '22',
+    name: 'Snapchat',
+    slug: '/integrations/snapchat-influencer-marketing',
+    category: 'Social Media',
+    description: 'Attribute performance and optimize creator spend.',
+    logo: '/logos/Snapchat.svg'
+  },
+  {
+    id: '23',
+    name: 'Microsoft 365',
+    slug: '/integrations/microsoft-365-influencer-marketing',
+    category: 'Productivity',
+    description: 'Integrate creator reports with your workspace.',
+    logo: '/logos/Microsoft365.svg'
+  },
+  {
+    id: '24',
+    name: 'Gmail',
+    slug: '/integrations/gmail-influencer-marketing',
+    category: 'Productivity',
+    description: 'Integrate creator reports with your workspace.',
+    logo: '/logos/Gmail.svg'
+  },
+  {
+    id: '25',
+    name: 'Slack',
+    slug: '/integrations/slack-influencer-marketing',
+    category: 'Productivity',
+    description: 'Get real-time creator performance alerts.',
+    logo: '/logos/Slack.svg'
+  },
+  {
+    id: '26',
+    name: 'Notion',
+    slug: '/integrations/notion-influencer-marketing',
+    category: 'Productivity',
+    description: 'Sync creator data with your knowledge base.',
+    logo: '/logos/Notion.svg'
+  },
+  {
+    id: '27',
+    name: 'Zapier',
+    slug: '/integrations/zapier-influencer-marketing',
+    category: 'Automation',
+    description: 'Connect Storyclash to 5000+ apps.',
+    logo: '/logos/Zapier.svg'
+  },
+  {
+    id: '28',
+    name: 'Webhooks',
+    slug: '/integrations/webhooks',
+    category: 'Developer',
+    description: 'Real-time event streaming for custom workflows.',
+    logo: '/logos/webhooks.svg'
+  },
+  {
+    id: '29',
+    name: 'Storyclash API',
+    slug: '/integrations/api-integration',
+    category: 'Developer',
+    description: 'Full programmatic access to creator data.',
+    logo: '/logos/storyclash.svg'
+  },
+  {
+    id: '30',
+    name: 'Custom Integration',
+    slug: '/integrations/custom',
+    category: 'Custom',
+    description: 'Build your own integration with our support.'
+  }
+];
