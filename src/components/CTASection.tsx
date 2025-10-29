@@ -33,7 +33,7 @@ export default function CTASection() {
             fontFamily: 'Roboto, sans-serif'
           }}
         >
-          Bring Influencer Insights into Power BI
+          Bring creator performance and ROI insights into your stack.
         </h2>
 
         <p
@@ -48,7 +48,7 @@ export default function CTASection() {
             fontFamily: 'Roboto, sans-serif'
           }}
         >
-          Track performance, measure ROI, and make smarter data-driven decisions.
+          Get a tailored walkthrough of Storyclash — see how creator data, campaign reporting, and revenue attribution can plug into your systems.
         </p>
 
         <div
