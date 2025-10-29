@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Header from '../components/Header';
+import IntegrationsHeader from '../components/integrations/IntegrationsHeader';
 import Footer from '../components/Footer';
 import IntegrationsHero from '../components/integrations/IntegrationsHero';
 import IntegrationsGrid from '../components/integrations/IntegrationsGrid';
@@ -43,7 +43,7 @@ export default function IntegrationsPage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <Header />
+      <IntegrationsHeader />
       <main>
         <IntegrationsHero onSearch={setSearchQuery} />
         <CategoryChips
