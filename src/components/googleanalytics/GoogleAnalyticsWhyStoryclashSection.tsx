@@ -1,24 +1,24 @@
 const DataFlowIllustration = () => (
   <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-    <rect x="40" y="40" width="120" height="80" rx="8" stroke="#F9AB00" strokeWidth="2" fill="rgba(249, 171, 0, 0.05)" />
+    <rect x="40" y="40" width="120" height="80" rx="8" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
     <text x="100" y="85" fontSize="14" fontWeight="600" fill="#233C42" textAnchor="middle">Storyclash</text>
 
-    <rect x="240" y="40" width="120" height="80" rx="8" stroke="#F9AB00" strokeWidth="2" fill="rgba(249, 171, 0, 0.05)" />
+    <rect x="240" y="40" width="120" height="80" rx="8" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
     <text x="300" y="85" fontSize="14" fontWeight="600" fill="#233C42" textAnchor="middle">Google Analytics</text>
 
-    <path d="M165 80 L235 80" stroke="#F9AB00" strokeWidth="2" strokeDasharray="4 4">
+    <path d="M165 80 L235 80" stroke="#19B776" strokeWidth="2" strokeDasharray="4 4">
       <animate attributeName="stroke-dashoffset" from="0" to="8" dur="0.5s" repeatCount="indefinite" />
     </path>
-    <path d="M230 75 L240 80 L230 85" fill="#F9AB00" />
+    <path d="M230 75 L240 80 L230 85" fill="#19B776" />
 
-    <circle cx="100" cy="180" r="30" stroke="#F9AB00" strokeWidth="2" fill="rgba(249, 171, 0, 0.08)" />
-    <text x="100" y="185" fontSize="12" fontWeight="500" fill="#F9AB00" textAnchor="middle">Traffic</text>
+    <circle cx="100" cy="180" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
+    <text x="100" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Traffic</text>
 
-    <circle cx="200" cy="240" r="30" stroke="#F9AB00" strokeWidth="2" fill="rgba(249, 171, 0, 0.08)" />
-    <text x="200" y="245" fontSize="12" fontWeight="500" fill="#F9AB00" textAnchor="middle">KPIs</text>
+    <circle cx="200" cy="240" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
+    <text x="200" y="245" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">KPIs</text>
 
-    <circle cx="300" cy="180" r="30" stroke="#F9AB00" strokeWidth="2" fill="rgba(249, 171, 0, 0.08)" />
-    <text x="300" y="185" fontSize="12" fontWeight="500" fill="#F9AB00" textAnchor="middle">Insights</text>
+    <circle cx="300" cy="180" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
+    <text x="300" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Insights</text>
 
     <path d="M100 150 L100 130" stroke="#E5EAEC" strokeWidth="2" />
     <path d="M180 220 L130 190" stroke="#E5EAEC" strokeWidth="2" />
@@ -71,15 +71,15 @@ const benefits = [
 
 export default function GoogleAnalyticsWhyStoryclashSection() {
   return (
-    <section className="py-20 px-6 bg-white border-t border-b" style={{ borderColor: '#E5EAEC' }}>
+    <section className="py-20 px-6 border-t border-b" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5EAEC' }}>
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl lg:text-5xl font-black mb-16 text-center tracking-tight" style={{ color: '#F9AB00' }}>
+        <h2 className="mb-16 text-center" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>
           Why Storyclash for Google Analytics?
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">
-            <div className="bg-gradient-to-br from-orange-50/50 to-transparent rounded-2xl p-8 lg:p-12">
+            <div className="bg-gradient-to-br from-green-50/50 to-transparent p-8 lg:p-12" style={{ borderRadius: '20px' }}>
               <DataFlowIllustration />
             </div>
           </div>
@@ -95,15 +95,15 @@ export default function GoogleAnalyticsWhyStoryclashSection() {
                     animation: `fadeInUp 0.6s ease-out ${index * 0.15}s both`,
                   }}
                 >
-                  <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:scale-110" style={{ color: '#F9AB00' }}>
+                  <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:scale-110" style={{ color: '#19B776' }}>
                     <Icon />
                   </div>
 
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2 tracking-tight">
+                    <h3 className="mb-2" style={{ fontSize: '20px', lineHeight: '1.1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
                       {benefit.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed text-[15px]">
+                    <p style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
                       {benefit.description}
                     </p>
                   </div>

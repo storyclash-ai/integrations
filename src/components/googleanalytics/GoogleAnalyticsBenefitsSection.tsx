@@ -3,16 +3,19 @@ import { ConnectIcon, ChartIcon, AutomateIcon } from '../icons/CustomIcons';
 const benefits = [
   {
     icon: ConnectIcon,
+    color: '#19B776',
     title: 'Unified analytics integration',
     description: 'Import creator metrics and campaign data directly into Google Analytics via Storyclash API for comprehensive web analytics.'
   },
   {
     icon: ChartIcon,
+    color: '#D1215D',
     title: 'Track influencer attribution',
     description: 'Combine influencer data with Google Analytics traffic, behavior, and conversion data to identify which creators drive the most valuable visitors.'
   },
   {
     icon: AutomateIcon,
+    color: '#F49D3B',
     title: 'Automated campaign reports',
     description: 'Build automated dashboards that merge Google Analytics web data with creator performance for complete attribution insights.'
   }
@@ -20,13 +23,13 @@ const benefits = [
 
 export default function GoogleAnalyticsBenefitsSection() {
   return (
-    <section className="py-24 px-6 bg-gradient-to-b from-white to-gray-50/50">
+    <section className="py-24 px-6" style={{ backgroundColor: '#FAFAFA' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
-          <h2 className="text-4xl lg:text-5xl font-black text-gray-900 mb-4 tracking-tight">
+          <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
             Unite Creator Data with Web Analytics
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
             Connect Google Analytics with influencer intelligence for complete attribution visibility
           </p>
         </div>
@@ -36,18 +39,18 @@ export default function GoogleAnalyticsBenefitsSection() {
             return (
               <div
                 key={index}
-                className="group relative p-8 bg-white rounded-xl border border-gray-200 transition-all duration-300 hover:border-gray-300 hover:shadow-xl hover:-translate-y-1"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="group relative p-8 bg-white border border-gray-200 transition-all duration-300 hover:border-gray-300 hover:-translate-y-1"
+                style={{ animationDelay: `${index * 0.1}s`, borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}
               >
-                <div className="absolute inset-0 bg-gradient-to-br from-orange-50/50 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-green-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{ borderRadius: '20px' }}></div>
                 <div className="relative">
-                  <div className="w-12 h-12 flex items-center justify-center mb-6 text-gray-700 group-hover:text-[#F9AB00] transition-colors duration-300">
+                  <div className="w-12 h-12 flex items-center justify-center mb-6 transition-colors duration-300" style={{ color: benefit.color }}>
                     <Icon />
                   </div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-3 tracking-tight">
+                  <h3 className="mb-3" style={{ fontSize: '20px', lineHeight: '1.1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
                     {benefit.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed text-[15px]">
+                  <p style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
                     {benefit.description}
                   </p>
                 </div>
