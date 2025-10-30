@@ -9,11 +9,11 @@ const ShopwareIcon = () => (
 
 export default function ShopwareHeroSection() {
   return (
-    <section className="px-4 sm:px-6" style={{ backgroundColor: '#FAFAFA', paddingTop: '120px', paddingBottom: '60px' }}>
+    <section className="px-6" style={{ backgroundColor: '#FAFAFA', paddingTop: '156px', paddingBottom: '80px' }}>
       <div className="max-w-7xl mx-auto">
         {/* Breadcrumb */}
-        <div className="mb-4 sm:mb-6">
-          <div className="text-xs sm:text-sm text-gray-500">
+        <div className="mb-6">
+          <div className="text-sm text-gray-500">
             <a href="/integrations" className="hover:text-gray-700 transition-colors">
               Integrations
             </a>
@@ -22,17 +22,17 @@ export default function ShopwareHeroSection() {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
-            <h1 className="leading-tight mb-4 sm:mb-6 text-3xl sm:text-4xl md:text-5xl lg:text-[56px]" style={{ lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
+            <h1 className="leading-tight mb-6" style={{ fontSize: '56px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
               Shopware + Influencer Marketing Integration
             </h1>
-            <p className="mb-6 sm:mb-8 text-sm sm:text-base" style={{ lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
+            <p className="mb-8" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
               Connect your Shopware store with creator data to track influencer-driven sales, measure campaign ROI, and optimize your creator partnerships for maximum ecommerce impact.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"
-              className="inline-flex items-center justify-center gap-2 text-white transition-all duration-300 text-sm sm:text-base"
+              className="inline-flex items-center justify-center gap-2 text-white transition-all duration-300"
               style={{
                 backgroundColor: '#19B776',
                 borderRadius: '9999px',
