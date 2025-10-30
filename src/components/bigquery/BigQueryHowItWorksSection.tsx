@@ -1,36 +1,36 @@
 const FlowIllustration = () => (
   <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-    <rect x="40" y="40" width="100" height="70" rx="8" stroke="#4285F4" strokeWidth="2.5" fill="rgba(66, 133, 244, 0.06)" />
-    <text x="90" y="72" fontSize="13" fontWeight="700" fill="#4285F4" textAnchor="middle">Storyclash</text>
+    <rect x="40" y="40" width="100" height="70" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
+    <text x="90" y="72" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Storyclash</text>
     <text x="90" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Connect</text>
 
-    <rect x="150" y="140" width="100" height="70" rx="8" stroke="#4285F4" strokeWidth="2.5" fill="rgba(66, 133, 244, 0.06)" />
-    <text x="200" y="172" fontSize="13" fontWeight="700" fill="#4285F4" textAnchor="middle">Data Sync</text>
+    <rect x="150" y="140" width="100" height="70" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
+    <text x="200" y="172" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Data Sync</text>
     <text x="200" y="188" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Auto-update</text>
 
-    <rect x="260" y="40" width="100" height="70" rx="8" stroke="#4285F4" strokeWidth="2.5" fill="rgba(66, 133, 244, 0.06)" />
-    <text x="310" y="72" fontSize="13" fontWeight="700" fill="#4285F4" textAnchor="middle">BigQuery</text>
+    <rect x="260" y="40" width="100" height="70" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
+    <text x="310" y="72" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">BigQuery</text>
     <text x="310" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Analytics</text>
 
-    <path d="M145 75 L195 145" stroke="#4285F4" strokeWidth="2" markerEnd="url(#arrowhead1)" />
-    <path d="M205 145 L265 80" stroke="#4285F4" strokeWidth="2" markerEnd="url(#arrowhead2)" />
+    <path d="M145 75 L195 145" stroke="#19B776" strokeWidth="2" markerEnd="url(#arrowhead1)" />
+    <path d="M205 145 L265 80" stroke="#19B776" strokeWidth="2" markerEnd="url(#arrowhead2)" />
 
-    <circle cx="90" cy="240" r="5" fill="#4285F4">
+    <circle cx="90" cy="240" r="5" fill="#19B776">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
     </circle>
-    <circle cx="200" cy="240" r="5" fill="#4285F4">
+    <circle cx="200" cy="240" r="5" fill="#19B776">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.7s" repeatCount="indefinite" />
     </circle>
-    <circle cx="310" cy="240" r="5" fill="#4285F4">
+    <circle cx="310" cy="240" r="5" fill="#19B776">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.4s" repeatCount="indefinite" />
     </circle>
 
     <defs>
       <marker id="arrowhead1" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-        <polygon points="0 0, 10 3, 0 6" fill="#4285F4" />
+        <polygon points="0 0, 10 3, 0 6" fill="#19B776" />
       </marker>
       <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-        <polygon points="0 0, 10 3, 0 6" fill="#4285F4" />
+        <polygon points="0 0, 10 3, 0 6" fill="#19B776" />
       </marker>
     </defs>
   </svg>
@@ -56,9 +56,9 @@ const steps = [
 
 export default function BigQueryHowItWorksSection() {
   return (
-    <section className="py-20 px-6" style={{ backgroundColor: '#E5EAEC' }}>
+    <section className="py-20 px-6" style={{ backgroundColor: '#FAFAFA' }}>
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl lg:text-5xl font-black text-center mb-16 tracking-tight" style={{ color: '#233C42' }}>
+        <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
           How the BigQuery Integration Works
         </h2>
 
@@ -69,7 +69,7 @@ export default function BigQueryHowItWorksSection() {
               animation: 'slideInLeft 0.8s ease-out both',
             }}
           >
-            <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-sm">
+            <div className="bg-white p-8 lg:p-12" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
               <FlowIllustration />
             </div>
           </div>
@@ -83,20 +83,24 @@ export default function BigQueryHowItWorksSection() {
             {steps.map((step, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-300"
+                className="bg-white p-6 border border-gray-200 transition-shadow duration-300"
                 style={{
+                  borderRadius: '20px',
+                  boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
                   animation: `fadeInUp 0.6s ease-out ${0.3 + index * 0.15}s both`,
                 }}
+                onMouseEnter={(e) => e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.12)'}
+                onMouseLeave={(e) => e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'}
               >
                 <div className="flex gap-5">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-lg flex items-center justify-center font-black text-lg text-white" style={{ backgroundColor: '#4285F4' }}>
+                  <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center font-black text-lg text-white" style={{ backgroundColor: '#19B776', borderRadius: '20px' }}>
                     {step.number}
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold mb-2 tracking-tight" style={{ color: '#233C42' }}>
+                    <h3 className="mb-2" style={{ fontSize: '20px', lineHeight: '1.1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
                       {step.title}
                     </h3>
-                    <p className="text-gray-600 leading-relaxed text-[15px]">
+                    <p style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
                       {step.description}
                     </p>
                   </div>
