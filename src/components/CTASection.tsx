@@ -22,10 +22,8 @@ export default function CTASection() {
 
       <div style={{ maxWidth: '640px', margin: '0 auto' }}>
         <h2
-          className="text-white opacity-0"
+          className="text-white opacity-0 text-[24px] leading-tight max-[420px]:text-[22px] sm:text-[32px] sm:leading-snug md:text-[40px] md:leading-snug lg:text-[48px] lg:leading-tight"
           style={{
-            fontSize: '56px',
-            lineHeight: '1',
             fontWeight: '600',
             letterSpacing: '-0.3px',
             marginBottom: '16px',
