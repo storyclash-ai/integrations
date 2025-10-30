@@ -25,7 +25,13 @@ export default function IntegrationsCTA() {
         </h2>
 
         <p
-          className="text-white/80 text-xs leading-snug sm:text-sm sm:leading-relaxed max-w-[560px] mx-auto mb-8 text-center"
+          className="mx-auto mb-8"
+          style={{
+            fontSize: 'clamp(16px, 2vw, 20px)',
+            lineHeight: '1.6',
+            color: 'rgba(255, 255, 255, 0.85)',
+            fontWeight: '500'
+          }}
         >
           Get in touch — we'll help you connect Storyclash to your stack.
         </p>

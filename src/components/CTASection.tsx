@@ -37,8 +37,12 @@ export default function CTASection() {
         </h2>
 
         <p
-          className="text-white/80 text-xs leading-snug sm:text-sm sm:leading-relaxed max-w-[560px] mx-auto mt-4 sm:mt-6 text-center opacity-0"
+          className="mx-auto opacity-0"
           style={{
+            fontSize: '16px',
+            lineHeight: '1.3',
+            fontWeight: '400',
+            color: 'rgba(255, 255, 255, 0.85)',
             marginBottom: '32px',
             animation: 'fadeInUp 0.6s ease-out 0.2s forwards',
             fontFamily: 'Roboto, sans-serif'
