@@ -1,57 +1,75 @@
-import { ArrowRight, BarChart3 } from 'lucide-react';
+import { LineChart } from 'lucide-react';
 
 export default function TableauHeroSection() {
   return (
-    <section className="pt-32 pb-20 px-6" style={{ backgroundColor: '#233C42' }}>
+    <section className="px-6" style={{ backgroundColor: '#FAFAFA', paddingTop: '156px', paddingBottom: '80px' }}>
       <div className="max-w-7xl mx-auto">
+        {/* Breadcrumb */}
+        <div className="mb-6">
+          <div className="text-sm text-gray-500">
+            <a href="/integrations" className="hover:text-gray-700 transition-colors">
+              Integrations
+            </a>
+            <span className="mx-2">/</span>
+            <span className="font-semibold">Tableau Marketing Integration</span>
+          </div>
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
-            <h1 className="text-5xl lg:text-6xl font-black text-white leading-tight mb-6">
+            <h1 className="leading-tight mb-6" style={{ fontSize: '56px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
               Tableau + Influencer Marketing Integration
             </h1>
-            <p className="text-xl mb-8 leading-relaxed" style={{ color: '#E5EAEC' }}>
+            <p className="mb-8" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
               Transform creator data into stunning visual stories. Build interactive dashboards that reveal influencer ROI, campaign trends, and content performance at a glance.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <a
-                href="https://www.storyclash.com/request-demo#request-demo"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl text-white font-bold text-lg transition-all duration-200 hover:shadow-lg"
-                style={{ backgroundColor: '#19B776' }}
-                onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#159963'}
-                onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#19B776'}
-              >
-                Book a Demo
-                <ArrowRight className="w-5 h-5" />
-              </a>
-              <a
-                href="/integrations"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl text-white font-bold text-lg border-2 transition-all duration-200"
-                style={{ borderColor: '#19B776' }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = '#19B776';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = 'transparent';
-                }}
-              >
-                Explore all integrations
-              </a>
-            </div>
+            <a
+              href="https://www.storyclash.com/request-demo"
+              className="inline-flex items-center justify-center gap-2 text-white transition-all duration-300"
+              style={{
+                backgroundColor: '#19B776',
+                borderRadius: '9999px',
+                padding: '10px 20px',
+                fontSize: '15px',
+                fontWeight: '600',
+                color: '#FFFFFF'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = '#159963';
+                e.currentTarget.style.transform = 'translateY(-1px)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = '#19B776';
+                e.currentTarget.style.transform = 'translateY(0)';
+              }}
+            >
+              Book a Demo
+            </a>
           </div>
           <div className="animate-fade-in">
             <div className="relative">
-              <div className="absolute inset-0 rounded-2xl opacity-20 blur-3xl" style={{ backgroundColor: '#E97627' }}></div>
-              <div className="relative bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
-                <BarChart3 className="w-full h-64 text-gray-300" strokeWidth={1} />
+              <div className="absolute inset-0 opacity-20 blur-3xl" style={{ backgroundColor: '#19B776', borderRadius: '20px' }}></div>
+              <div className="relative bg-white p-8 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
+                <LineChart className="w-full h-64 text-gray-300" strokeWidth={1} />
                 <div className="absolute top-12 left-12 right-12 flex justify-between items-start">
-                  <div className="bg-white rounded-lg shadow-lg px-4 py-3 border border-gray-100">
-                    <div className="text-xs text-gray-500 mb-1">Engagement</div>
-                    <div className="text-xl font-black" style={{ color: '#E97627' }}>2.4M</div>
+                  <div className="bg-white px-4 py-3 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
+                    <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>Engagement</div>
+                    <div className="text-xl font-black" style={{ color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>2.4M</div>
                   </div>
-                  <div className="bg-white rounded-lg shadow-lg px-4 py-3 border border-gray-100">
-                    <div className="text-xs text-gray-500 mb-1">Reach</div>
-                    <div className="text-xl font-black" style={{ color: '#19B776' }}>18.7M</div>
+                  <div className="bg-white px-4 py-3 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
+                    <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>Reach</div>
+                    <div className="text-xl font-black" style={{ color: '#F49D3B', fontFamily: 'Roboto, sans-serif' }}>18.7M</div>
                   </div>
+                </div>
+                <div
+                  className="absolute bottom-8 left-8 opacity-0 transition-opacity duration-300"
+                  style={{
+                    animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
+                  onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
+                >
+                  <img src="/logos/Tableau.png" alt="Tableau" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>
@@ -70,11 +88,13 @@ export default function TableauHeroSection() {
             transform: translateY(0);
           }
         }
-        .animate-fade-in-up {
-          animation: fadeInUp 0.8s ease-out;
-        }
-        .animate-fade-in {
-          animation: fadeInUp 0.8s ease-out 0.2s both;
+        @keyframes logoFadeIn {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
         }
       `}</style>
     </section>
