@@ -1,19 +1,25 @@
 const DataFlowIllustration = () => (
   <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-    <rect x="40" y="40" width="120" height="80" rx="8" stroke="#52BD94" strokeWidth="2" fill="rgba(82, 189, 148, 0.05)" />
+    <rect x="40" y="40" width="120" height="80" rx="8" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
     <text x="100" y="85" fontSize="14" fontWeight="600" fill="#233C42" textAnchor="middle">Storyclash</text>
-    <rect x="240" y="40" width="120" height="80" rx="8" stroke="#52BD94" strokeWidth="2" fill="rgba(82, 189, 148, 0.05)" />
+
+    <rect x="240" y="40" width="120" height="80" rx="8" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
     <text x="300" y="85" fontSize="14" fontWeight="600" fill="#233C42" textAnchor="middle">Segment</text>
-    <path d="M165 80 L235 80" stroke="#52BD94" strokeWidth="2" strokeDasharray="4 4">
+
+    <path d="M165 80 L235 80" stroke="#19B776" strokeWidth="2" strokeDasharray="4 4">
       <animate attributeName="stroke-dashoffset" from="0" to="8" dur="0.5s" repeatCount="indefinite" />
     </path>
-    <path d="M230 75 L240 80 L230 85" fill="#52BD94" />
-    <circle cx="100" cy="180" r="30" stroke="#52BD94" strokeWidth="2" fill="rgba(82, 189, 148, 0.08)" />
-    <text x="100" y="185" fontSize="12" fontWeight="500" fill="#52BD94" textAnchor="middle">Data</text>
-    <circle cx="200" cy="240" r="30" stroke="#52BD94" strokeWidth="2" fill="rgba(82, 189, 148, 0.08)" />
-    <text x="200" y="245" fontSize="12" fontWeight="500" fill="#52BD94" textAnchor="middle">Events</text>
-    <circle cx="300" cy="180" r="30" stroke="#52BD94" strokeWidth="2" fill="rgba(82, 189, 148, 0.08)" />
-    <text x="300" y="185" fontSize="12" fontWeight="500" fill="#52BD94" textAnchor="middle">CDP</text>
+    <path d="M230 75 L240 80 L230 85" fill="#19B776" />
+
+    <circle cx="100" cy="180" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
+    <text x="100" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Data</text>
+
+    <circle cx="200" cy="240" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
+    <text x="200" y="245" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Events</text>
+
+    <circle cx="300" cy="180" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
+    <text x="300" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">CDP</text>
+
     <path d="M100 150 L100 130" stroke="#E5EAEC" strokeWidth="2" />
     <path d="M180 220 L130 190" stroke="#E5EAEC" strokeWidth="2" />
     <path d="M220 220 L270 190" stroke="#E5EAEC" strokeWidth="2" />
@@ -46,29 +52,60 @@ const ROIIcon = () => (
 );
 
 const benefits = [
-  { icon: SimplifyIcon, title: 'Unified Customer Data Platform', description: 'Storyclash sends clean, structured events to Segment following CDP best practices. Creator data flows seamlessly alongside web, mobile, and offline interactions.' },
-  { icon: EnterpriseIcon, title: 'Zero Custom Integrations', description: 'Connect Storyclash to Segment once and route influencer data to hundreds of tools automatically. No need to build custom integrations for each destination.' },
-  { icon: ROIIcon, title: 'Complete Behavioral Profiles', description: 'Enrich customer profiles with creator engagement context. Track which influencers drive conversions and build segments for personalized campaigns.' }
+  {
+    icon: SimplifyIcon,
+    title: 'Unified Customer Data Platform',
+    description: 'Storyclash sends clean, structured events to Segment following CDP best practices. Creator data flows seamlessly alongside web, mobile, and offline interactions.'
+  },
+  {
+    icon: EnterpriseIcon,
+    title: 'Zero Custom Integrations',
+    description: 'Connect Storyclash to Segment once and route influencer data to hundreds of tools automatically. No need to build custom integrations for each destination.'
+  },
+  {
+    icon: ROIIcon,
+    title: 'Complete Behavioral Profiles',
+    description: 'Enrich customer profiles with creator engagement context. Track which influencers drive conversions and build segments for personalized campaigns.'
+  }
 ];
 
 export default function SegmentWhyStoryclashSection() {
   return (
-    <section className="py-20 px-6 bg-white border-t border-b" style={{ borderColor: '#E5EAEC' }}>
+    <section className="py-20 px-6 border-t border-b" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5EAEC' }}>
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl lg:text-5xl font-black mb-16 text-center tracking-tight" style={{ color: '#52BD94' }}>Why Storyclash for Segment?</h2>
+        <h2 className="mb-16 text-center" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>
+          Why Storyclash for Segment?
+        </h2>
+
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">
-            <div className="bg-gradient-to-br from-green-50/50 to-transparent rounded-2xl p-8 lg:p-12"><DataFlowIllustration /></div>
+            <div className="bg-gradient-to-br from-green-50/50 to-transparent p-8 lg:p-12" style={{ borderRadius: '20px' }}>
+              <DataFlowIllustration />
+            </div>
           </div>
+
           <div className="order-1 lg:order-2 space-y-8">
             {benefits.map((benefit, index) => {
               const Icon = benefit.icon;
               return (
-                <div key={index} className="flex gap-5 group" style={{ animation: `fadeInUp 0.6s ease-out ${index * 0.15}s both` }}>
-                  <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:scale-110" style={{ color: '#52BD94' }}><Icon /></div>
+                <div
+                  key={index}
+                  className="flex gap-5 group"
+                  style={{
+                    animation: `fadeInUp 0.6s ease-out ${index * 0.15}s both`,
+                  }}
+                >
+                  <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:scale-110" style={{ color: '#19B776' }}>
+                    <Icon />
+                  </div>
+
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2 tracking-tight">{benefit.title}</h3>
-                    <p className="text-gray-600 leading-relaxed text-[15px]">{benefit.description}</p>
+                    <h3 className="mb-2" style={{ fontSize: '20px', lineHeight: '1.1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
+                      {benefit.title}
+                    </h3>
+                    <p style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
+                      {benefit.description}
+                    </p>
                   </div>
                 </div>
               );
@@ -76,7 +113,19 @@ export default function SegmentWhyStoryclashSection() {
           </div>
         </div>
       </div>
-      <style>{`@keyframes fadeInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}`}</style>
+
+      <style>{`
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(20px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
     </section>
   );
 }
