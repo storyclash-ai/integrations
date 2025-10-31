@@ -9,7 +9,7 @@ const features = [
 
 export default function SegmentFeaturesTable() {
   return (
-    <section className="py-20 px-6" style={{ backgroundColor: '#E5EAEC' }}>
+    <section className="py-20 px-6" style={{ backgroundColor: '#FFFFFF' }}>
       <div className="max-w-5xl mx-auto">
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
           Enterprise-Grade Features
