@@ -20,6 +20,7 @@ import MicrosoftExcelPage from './pages/MicrosoftExcelPage';
 import MatomoPage from './pages/MatomoPage';
 import KlipfolioPage from './pages/KlipfolioPage';
 import MetabasePage from './pages/MetabasePage';
+import GrafanaPage from './pages/GrafanaPage';
 import LookerStudioPage from './pages/LookerStudioPage';
 import SnowflakePage from './pages/SnowflakePage';
 import HubSpotPage from './pages/HubSpotPage';
@@ -58,6 +59,7 @@ function App() {
         <Route path="/integrations/matomo-influencer-marketing" element={<MatomoPage />} />
         <Route path="/integrations/klipfolio-influencer-marketing" element={<KlipfolioPage />} />
         <Route path="/integrations/metabase-influencer-marketing" element={<MetabasePage />} />
+        <Route path="/integrations/grafana-influencer-marketing" element={<GrafanaPage />} />
         <Route path="/integrations/looker-studio-influencer-marketing" element={<LookerStudioPage />} />
         <Route path="/integrations/snowflake-influencer-marketing" element={<SnowflakePage />} />
         <Route path="/integrations/hubspot-influencer-marketing" element={<HubSpotPage />} />
@@ -87,6 +89,7 @@ function App() {
         <Route path="/matomo" element={<MatomoPage />} />
         <Route path="/klipfolio" element={<KlipfolioPage />} />
         <Route path="/metabase" element={<MetabasePage />} />
+        <Route path="/grafana" element={<GrafanaPage />} />
         <Route path="/looker-studio" element={<LookerStudioPage />} />
         <Route path="/snowflake" element={<SnowflakePage />} />
         <Route path="/hubspot" element={<HubSpotPage />} />
