@@ -15,6 +15,7 @@ import SprykerPage from './pages/SprykerPage';
 import CommercetoolsPage from './pages/CommercetoolsPage';
 import TableauPage from './pages/TableauPage';
 import GoogleAnalyticsPage from './pages/GoogleAnalyticsPage';
+import GoogleSheetsPage from './pages/GoogleSheetsPage';
 import LookerStudioPage from './pages/LookerStudioPage';
 import SnowflakePage from './pages/SnowflakePage';
 import HubSpotPage from './pages/HubSpotPage';
@@ -48,6 +49,7 @@ function App() {
         <Route path="/integrations/commercetools-influencer-marketing" element={<CommercetoolsPage />} />
         <Route path="/integrations/tableau-influencer-marketing" element={<TableauPage />} />
         <Route path="/integrations/google-analytics-influencer-marketing" element={<GoogleAnalyticsPage />} />
+        <Route path="/integrations/google-sheets-influencer-marketing" element={<GoogleSheetsPage />} />
         <Route path="/integrations/looker-studio-influencer-marketing" element={<LookerStudioPage />} />
         <Route path="/integrations/snowflake-influencer-marketing" element={<SnowflakePage />} />
         <Route path="/integrations/hubspot-influencer-marketing" element={<HubSpotPage />} />
@@ -72,6 +74,7 @@ function App() {
         <Route path="/commercetools" element={<CommercetoolsPage />} />
         <Route path="/tableau" element={<TableauPage />} />
         <Route path="/google-analytics" element={<GoogleAnalyticsPage />} />
+        <Route path="/google-sheets" element={<GoogleSheetsPage />} />
         <Route path="/looker-studio" element={<LookerStudioPage />} />
         <Route path="/snowflake" element={<SnowflakePage />} />
         <Route path="/hubspot" element={<HubSpotPage />} />
