@@ -9,6 +9,7 @@ import MagentoPage from './pages/MagentoPage';
 import WixPage from './pages/WixPage';
 import SquarespacePage from './pages/SquarespacePage';
 import PrestaShopPage from './pages/PrestaShopPage';
+import LightspeedPage from './pages/LightspeedPage';
 import TableauPage from './pages/TableauPage';
 import GoogleAnalyticsPage from './pages/GoogleAnalyticsPage';
 import LookerStudioPage from './pages/LookerStudioPage';
@@ -38,6 +39,7 @@ function App() {
         <Route path="/integrations/wix-ecommerce-influencer-marketing" element={<WixPage />} />
         <Route path="/integrations/squarespace-commerce-influencer-marketing" element={<SquarespacePage />} />
         <Route path="/integrations/prestashop-influencer-marketing" element={<PrestaShopPage />} />
+        <Route path="/integrations/lightspeed-retail-influencer-marketing" element={<LightspeedPage />} />
         <Route path="/integrations/tableau-influencer-marketing" element={<TableauPage />} />
         <Route path="/integrations/google-analytics-influencer-marketing" element={<GoogleAnalyticsPage />} />
         <Route path="/integrations/looker-studio-influencer-marketing" element={<LookerStudioPage />} />
@@ -58,6 +60,7 @@ function App() {
         <Route path="/wix" element={<WixPage />} />
         <Route path="/squarespace" element={<SquarespacePage />} />
         <Route path="/prestashop" element={<PrestaShopPage />} />
+        <Route path="/lightspeed" element={<LightspeedPage />} />
         <Route path="/tableau" element={<TableauPage />} />
         <Route path="/google-analytics" element={<GoogleAnalyticsPage />} />
         <Route path="/looker-studio" element={<LookerStudioPage />} />
