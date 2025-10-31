@@ -15,7 +15,6 @@ import SalesforcePage from './pages/SalesforcePage';
 import KlaviyoPage from './pages/KlaviyoPage';
 import MailchimpPage from './pages/MailchimpPage';
 import GoogleAdsPage from './pages/GoogleAdsPage';
-import BigCommercePage from './pages/BigCommercePage';
 import IntegrationsPage from './pages/IntegrationsPage';
 
 function App() {
@@ -40,7 +39,6 @@ function App() {
         <Route path="/integrations/klaviyo-influencer-marketing" element={<KlaviyoPage />} />
         <Route path="/integrations/mailchimp-influencer-marketing" element={<MailchimpPage />} />
         <Route path="/integrations/google-ads-influencer-marketing" element={<GoogleAdsPage />} />
-        <Route path="/integrations/BigCommerce" element={<BigCommercePage />} />
         <Route path="/cloudflare" element={<CloudflarePage />} />
         <Route path="/shopify" element={<ShopifyPage />} />
         <Route path="/shopware" element={<ShopwarePage />} />
