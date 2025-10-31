@@ -28,6 +28,7 @@ import BigQueryPage from './pages/BigQueryPage';
 import TealiumPage from './pages/TealiumPage';
 import SegmentPage from './pages/SegmentPage';
 import SupermetricsPage from './pages/SupermetricsPage';
+import KlarPage from './pages/KlarPage';
 import SalesforcePage from './pages/SalesforcePage';
 import KlaviyoPage from './pages/KlaviyoPage';
 import MailchimpPage from './pages/MailchimpPage';
@@ -69,6 +70,7 @@ function App() {
         <Route path="/integrations/tealium-influencer-marketing" element={<TealiumPage />} />
         <Route path="/integrations/segment-influencer-marketing" element={<SegmentPage />} />
         <Route path="/integrations/supermetrics-influencer-marketing" element={<SupermetricsPage />} />
+        <Route path="/integrations/klar-influencer-marketing" element={<KlarPage />} />
         <Route path="/integrations/salesforce-influencer-marketing" element={<SalesforcePage />} />
         <Route path="/integrations/klaviyo-influencer-marketing" element={<KlaviyoPage />} />
         <Route path="/integrations/mailchimp-influencer-marketing" element={<MailchimpPage />} />
@@ -101,6 +103,7 @@ function App() {
         <Route path="/tealium" element={<TealiumPage />} />
         <Route path="/segment" element={<SegmentPage />} />
         <Route path="/supermetrics" element={<SupermetricsPage />} />
+        <Route path="/klar" element={<KlarPage />} />
         <Route path="/salesforce" element={<SalesforcePage />} />
         <Route path="/klaviyo" element={<KlaviyoPage />} />
         <Route path="/mailchimp" element={<MailchimpPage />} />
