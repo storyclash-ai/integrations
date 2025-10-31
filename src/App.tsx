@@ -25,6 +25,7 @@ import LookerStudioPage from './pages/LookerStudioPage';
 import SnowflakePage from './pages/SnowflakePage';
 import HubSpotPage from './pages/HubSpotPage';
 import BigQueryPage from './pages/BigQueryPage';
+import TealiumPage from './pages/TealiumPage';
 import SegmentPage from './pages/SegmentPage';
 import SalesforcePage from './pages/SalesforcePage';
 import KlaviyoPage from './pages/KlaviyoPage';
@@ -64,6 +65,7 @@ function App() {
         <Route path="/integrations/snowflake-influencer-marketing" element={<SnowflakePage />} />
         <Route path="/integrations/hubspot-influencer-marketing" element={<HubSpotPage />} />
         <Route path="/integrations/bigquery-influencer-marketing" element={<BigQueryPage />} />
+        <Route path="/integrations/tealium-influencer-marketing" element={<TealiumPage />} />
         <Route path="/integrations/segment-influencer-marketing" element={<SegmentPage />} />
         <Route path="/integrations/salesforce-influencer-marketing" element={<SalesforcePage />} />
         <Route path="/integrations/klaviyo-influencer-marketing" element={<KlaviyoPage />} />
@@ -94,6 +96,7 @@ function App() {
         <Route path="/snowflake" element={<SnowflakePage />} />
         <Route path="/hubspot" element={<HubSpotPage />} />
         <Route path="/bigquery" element={<BigQueryPage />} />
+        <Route path="/tealium" element={<TealiumPage />} />
         <Route path="/segment" element={<SegmentPage />} />
         <Route path="/salesforce" element={<SalesforcePage />} />
         <Route path="/klaviyo" element={<KlaviyoPage />} />
