@@ -1,15 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const MetabaseIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#509EE3"/>
-    <circle cx="14" cy="14" r="3" fill="white"/>
-    <circle cx="26" cy="14" r="3" fill="white"/>
-    <circle cx="14" cy="26" r="3" fill="white"/>
-    <circle cx="26" cy="26" r="3" fill="white"/>
-    <path d="M14 14 L26 14 L26 26 L14 26 Z" stroke="white" strokeWidth="2" fill="none"/>
-  </svg>
-);
 
 export default function MetabaseHeroSection() {
   return (
@@ -77,7 +67,7 @@ export default function MetabaseHeroSection() {
                     animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
                   }}
                 >
-                  <MetabaseIcon />
+                  <img src="/logos/Metabase.svg" alt="metabase" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

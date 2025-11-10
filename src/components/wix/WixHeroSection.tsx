@@ -1,13 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const WixIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#0C6EFC"/>
-    <path d="M8 15 L12 25 L15 18 L18 25 L22 15" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-    <path d="M24 15 L26 20 L28 15 L30 20 L32 15" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-    <circle cx="20" cy="12" r="1.5" fill="white"/>
-  </svg>
-);
 
 export default function WixHeroSection() {
   return (
@@ -77,7 +69,7 @@ export default function WixHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <WixIcon />
+                  <img src="/logos/Wix.png" alt="wix" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

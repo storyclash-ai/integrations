@@ -55,7 +55,7 @@ const benefits = [
   {
     icon: SimplifyIcon,
     title: 'Seamless Ecommerce Integration',
-    description: 'No manual exports or spreadsheets. Storyclash delivers influencer and campaign data directly into your Shopware analytics - clean, standardized, and automated for immediate insights.'
+    description: 'No manual exports or spreadsheets. Storyclash delivers influencer and campaign data via REST API to your analytics dashboards - clean, standardized, and automated for immediate insights.'
   },
   {
     icon: EnterpriseIcon,

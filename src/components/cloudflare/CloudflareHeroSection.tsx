@@ -1,13 +1,5 @@
 import { ArrowRight, LineChart } from 'lucide-react';
 
-const CloudflareIcon = () => (
-  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M23 15L20 18L17 15L20 12L23 15Z" fill="#F38020" />
-    <path d="M20 12L17 9L14 12L17 15L20 12Z" fill="#F38020" opacity="0.8" />
-    <path d="M17 15L14 18L11 15L14 12L17 15Z" fill="#F38020" opacity="0.6" />
-    <path d="M14 12L11 9L8 12L11 15L14 12Z" fill="#F38020" opacity="0.4" />
-  </svg>
-);
 
 export default function CloudflareHeroSection() {
   return (
@@ -19,7 +11,7 @@ export default function CloudflareHeroSection() {
               Cloudflare + Influencer Marketing Integration
             </h1>
             <p className="text-xl mb-8 leading-relaxed" style={{ color: '#E5EAEC' }}>
-              Bring creator performance and ROI insights directly into your Cloudflare dashboards.
+              Bring creator performance and ROI insights via REST API to your analytics dashboards.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
@@ -70,7 +62,7 @@ export default function CloudflareHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <CloudflareIcon />
+                  <img src="/logos/cloudflare.svg" alt="cloudflare" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

@@ -1,13 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const CommercetoolsIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#00B39E"/>
-    <circle cx="20" cy="20" r="8" stroke="white" strokeWidth="2.5" fill="none"/>
-    <circle cx="20" cy="20" r="3" fill="white"/>
-    <path d="M20 12 L20 8 M28 20 L32 20 M20 28 L20 32 M12 20 L8 20" stroke="white" strokeWidth="2.5" strokeLinecap="round"/>
-  </svg>
-);
 
 export default function CommercetoolsHeroSection() {
   return (
@@ -77,7 +69,7 @@ export default function CommercetoolsHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <CommercetoolsIcon />
+                  <img src="/logos/commercetools.svg" alt="commercetools" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

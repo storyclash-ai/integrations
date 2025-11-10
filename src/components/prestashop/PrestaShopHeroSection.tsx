@@ -1,13 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const PrestaShopIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#DF0067"/>
-    <path d="M20 8 C14 8 10 12 10 18 C10 24 14 28 20 32 C26 28 30 24 30 18 C30 12 26 8 20 8 Z" fill="white"/>
-    <circle cx="20" cy="18" r="5" fill="#DF0067"/>
-    <rect x="18" y="23" width="4" height="6" fill="#DF0067"/>
-  </svg>
-);
 
 export default function PrestaShopHeroSection() {
   return (
@@ -77,7 +69,7 @@ export default function PrestaShopHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <PrestaShopIcon />
+                  <img src="/logos/PrestaShop.svg.png" alt="prestashop" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

@@ -1,15 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const MagentoIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#EE672F"/>
-    <path d="M20 8 L20 32" stroke="white" strokeWidth="2.5" strokeLinecap="round"/>
-    <path d="M14 10 L20 8 L26 10 L26 30 L20 32 L14 30 Z" fill="white" opacity="0.9"/>
-    <path d="M17 12 L17 28" stroke="#EE672F" strokeWidth="1.5"/>
-    <path d="M23 12 L23 28" stroke="#EE672F" strokeWidth="1.5"/>
-    <path d="M20 12 L20 28" stroke="#EE672F" strokeWidth="2"/>
-  </svg>
-);
 
 export default function MagentoHeroSection() {
   return (
@@ -79,7 +69,7 @@ export default function MagentoHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <MagentoIcon />
+                  <img src="/logos/Magento.svg" alt="magento" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

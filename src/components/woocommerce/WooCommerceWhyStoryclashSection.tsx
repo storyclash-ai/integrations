@@ -55,7 +55,7 @@ const benefits = [
   {
     icon: SimplifyIcon,
     title: 'Simplify Data Integration',
-    description: 'No manual exports or spreadsheets. Storyclash delivers ready-to-use influencer and campaign data directly into your WooCommerce environment - clean, standardized, and automated.'
+    description: 'No manual exports or spreadsheets. Storyclash delivers ready-to-use influencer and campaign data via REST API - clean, standardized, and automated.'
   },
   {
     icon: EnterpriseIcon,
@@ -65,7 +65,7 @@ const benefits = [
   {
     icon: ROIIcon,
     title: 'Prove ROI with Confidence',
-    description: 'Combine influencer engagement and sales performance inside WooCommerce to visualize what truly drives business impact - with full transparency and zero guesswork.'
+    description: 'Combine influencer engagement and sales performance via REST API in your analytics tools to visualize what truly drives business impact - with full transparency and zero guesswork.'
   }
 ];
 

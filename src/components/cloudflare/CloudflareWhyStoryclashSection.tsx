@@ -55,7 +55,7 @@ const benefits = [
   {
     icon: SimplifyIcon,
     title: 'Simplify Data Integration',
-    description: 'No manual exports or spreadsheets. Storyclash delivers ready-to-use influencer and campaign data directly into your Cloudflare environment - clean, standardized, and automated.'
+    description: 'No manual exports or spreadsheets. Storyclash delivers ready-to-use influencer and campaign data via REST API to your analytics dashboards - clean, standardized, and automated.'
   },
   {
     icon: EnterpriseIcon,
@@ -65,7 +65,7 @@ const benefits = [
   {
     icon: ROIIcon,
     title: 'Prove ROI with Confidence',
-    description: 'Combine influencer engagement and sales performance inside Cloudflare to visualize what truly drives business impact - with full transparency and zero guesswork.'
+    description: 'Access influencer engagement and sales performance data via REST API to visualize what truly drives business impact - with full transparency and zero guesswork.'
   }
 ];
 

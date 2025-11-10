@@ -1,12 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const ExcelIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#217346"/>
-    <path d="M15 12 L25 20 L15 28 L15 12Z" fill="white"/>
-    <path d="M25 12 L15 20 L25 28 L25 12Z" fill="white" opacity="0.6"/>
-  </svg>
-);
 
 export default function MicrosoftExcelHeroSection() {
   return (
@@ -74,7 +67,7 @@ export default function MicrosoftExcelHeroSection() {
                     animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
                   }}
                 >
-                  <ExcelIcon />
+                  <img src="/logos/Microsoft_Excel.svg.png" alt="microsoftexcel" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

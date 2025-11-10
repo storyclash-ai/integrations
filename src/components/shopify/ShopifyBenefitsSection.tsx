@@ -5,7 +5,7 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Connect Storyclash to Shopify effortlessly',
-    description: 'Import creator metrics and campaign performance data directly into Shopify via the Storyclash REST API using your API key.'
+    description: 'Import creator metrics and campaign performance data via Storyclash REST API using your API key to your BI dashboards.'
   },
   {
     icon: ChartIcon,

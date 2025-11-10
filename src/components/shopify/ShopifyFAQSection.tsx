@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'How does Storyclash measure influencer ROI in Shopify?',
-    answer: 'Storyclash connects to Shopify via native API and tracks revenue, conversions, and AOV by matching UTM parameters and discount codes to creator campaigns. Results appear in real-time dashboards showing ROI, ROAS, customer acquisition cost, and repeat purchase rates per influencer-enabling teams to compare creator performance and optimize social commerce spend directly within Shopify analytics.'
+    answer: 'Storyclash connects to Shopify via REST API and tracks revenue, conversions, and AOV by matching UTM parameters and discount codes to creator campaigns. Results flow via API to your analytics dashboards showing ROI, ROAS, customer acquisition cost, and repeat purchase rates per influencer-enabling teams to compare creator performance and optimize social commerce spend.'
   },
   {
     question: 'What influencer metrics can I track in Shopify with Storyclash?',
@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: 'Can I connect Storyclash to Shopify without a developer?',
-    answer: 'Yes. Marketing and ecommerce teams can connect Storyclash to Shopify using the REST API with API key authentication. Our documentation guides you through the setup process-simply generate your API key, configure the connection, and creator campaign data syncs automatically to your Shopify analytics dashboards with configurable refresh intervals for near real-time reporting.'
+    answer: 'Yes. Marketing and ecommerce teams can connect Storyclash to Shopify using the REST API with API key authentication. Our documentation guides you through the setup process-simply generate your API key, configure the connection, and creator campaign data flows automatically via API to your analytics dashboards with configurable refresh intervals for near real-time reporting.'
   },
   {
     question: 'Is Storyclash\'s Shopify integration GDPR compliant?',

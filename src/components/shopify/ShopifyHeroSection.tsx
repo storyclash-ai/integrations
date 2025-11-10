@@ -1,12 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const ShopifyIcon = () => (
-  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M8 6L10 8L8 10L6 8L8 6Z" fill="#96BF48" />
-    <rect x="6" y="10" width="18" height="14" fill="#96BF48" opacity="0.8" />
-    <path d="M22 24L24 26L22 28L20 26L22 24Z" fill="#96BF48" />
-  </svg>
-);
 
 export default function ShopifyHeroSection() {
   return (
@@ -28,7 +21,7 @@ export default function ShopifyHeroSection() {
               Shopify + Influencer Marketing Integration
             </h1>
             <p className="mb-8" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-              Bring creator performance and ROI insights directly into your Shopify dashboards.
+              Bring creator performance and ROI insights via REST API to your BI dashboards.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"
@@ -76,7 +69,7 @@ export default function ShopifyHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <ShopifyIcon />
+                  <img src="/logos/Shopify.svg" alt="shopify" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

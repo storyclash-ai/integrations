@@ -1,14 +1,5 @@
-import { Database } from 'lucide-react';
+import { LineChart, Database } from 'lucide-react';
 
-const SnowflakeIcon = () => (
-  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M16 4L20 8L16 12L12 8L16 4Z" fill="#29B5E8" />
-    <path d="M16 20L20 24L16 28L12 24L16 20Z" fill="#29B5E8" />
-    <path d="M4 16L8 12L12 16L8 20L4 16Z" fill="#29B5E8" />
-    <path d="M20 16L24 12L28 16L24 20L20 16Z" fill="#29B5E8" />
-    <circle cx="16" cy="16" r="3" fill="#29B5E8" />
-  </svg>
-);
 
 export default function SnowflakeHeroSection() {
   return (
@@ -60,7 +51,7 @@ export default function SnowflakeHeroSection() {
             <div className="relative">
               <div className="absolute inset-0 opacity-20 blur-3xl" style={{ backgroundColor: '#19B776', borderRadius: '20px' }}></div>
               <div className="relative bg-white p-8 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
-                <Database className="w-full h-64 text-gray-300" strokeWidth={1} />
+                <LineChart className="w-full h-64 text-gray-300" strokeWidth={1} />
                 <div className="absolute top-12 left-12 right-12 flex justify-between items-start">
                   <div className="bg-white px-4 py-3 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
                     <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>Tables</div>
@@ -77,7 +68,7 @@ export default function SnowflakeHeroSection() {
                     animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
                   }}
                 >
-                  <SnowflakeIcon />
+                  <img src="/logos/Snowflake.svg" alt="snowflake" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

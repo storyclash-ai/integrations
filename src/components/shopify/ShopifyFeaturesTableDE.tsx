@@ -2,33 +2,33 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Snowflake Integration via REST API',
-    description: 'Load creator data to Snowflake tables using Storyclash REST API with your API key for secure data integration.'
+    name: 'Direkter API-Zugriff',
+    description: 'Importieren Sie Kampagnen- und Creator-Daten sicher in Shopify.'
   },
   {
-    name: 'Scalable Data Storage',
-    description: 'Store unlimited influencer metrics in Snowflake with automatic scaling and performance optimization.'
+    name: 'Automatisierte Updates',
+    description: 'Halten Sie Dashboards täglich synchronisiert ohne manuelle Exporte.'
   },
   {
-    name: 'SQL Query Support',
-    description: 'Query creator data using standard SQL alongside all your other enterprise datasets in one place.'
+    name: 'Benutzerdefinierte KPIs',
+    description: 'Verfolgen Sie EMV, ROAS, Konversionen und Engagement-Metriken.'
   },
   {
-    name: 'Automated Data Refresh',
-    description: 'Set up scheduled or event-driven data pipelines that keep your Snowflake tables current with latest metrics.'
+    name: 'Multi-Kampagnen-Support',
+    description: 'Konsolidieren Sie Daten aus mehreren Storyclash-Kampagnen.'
   },
   {
-    name: 'Multi-Tool Compatibility',
-    description: 'Connect Snowflake to BI tools, ML platforms, and custom applications for flexible data consumption.'
+    name: 'Enterprise-Sicherheit',
+    description: 'GDPR-konform, gehostet in der EU, Token-basierter Zugriff.'
   }
 ];
 
-export default function SnowflakeFeaturesTable() {
+export default function ShopifyFeaturesTableDE() {
   return (
     <section className="py-20" style={{ backgroundColor: '#FAFAFA', padding: '80px 24px' }}>
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Enterprise-Grade Features
+          Enterprise-Grade-Features
         </h2>
         <div className="bg-white border-2 border-gray-100 overflow-hidden" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
           <div className="divide-y divide-gray-200">

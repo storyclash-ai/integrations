@@ -1,13 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const GrafanaIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#F46800"/>
-    <circle cx="20" cy="20" r="10" stroke="white" strokeWidth="2" fill="none"/>
-    <circle cx="20" cy="20" r="6" stroke="white" strokeWidth="2" fill="none"/>
-    <circle cx="20" cy="20" r="2" fill="white"/>
-  </svg>
-);
 
 export default function GrafanaHeroSection() {
   return (
@@ -75,7 +67,7 @@ export default function GrafanaHeroSection() {
                     animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
                   }}
                 >
-                  <GrafanaIcon />
+                  <img src="/logos/Grafana.svg.png" alt="grafana" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

@@ -4,33 +4,33 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Connect Storyclash to Adobe Commerce seamlessly',
-    description: 'Import creator metrics and campaign performance data via REST API to Adobe Commerce for real-time insights.'
+    title: 'Verbinden Sie Storyclash mühelos mit Shopify',
+    description: 'Importieren Sie Creator-Metriken und Kampagnen-Performance-Daten direkt in Shopify über die Storyclash REST API mit Ihrem API-Schlüssel.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
-    title: 'Enterprise attribution & ROI tracking',
-    description: 'Combine influencer data with multi-channel commerce data to identify which creators drive B2B and B2C revenue across global markets.'
+    title: 'Visualisieren Sie ROI & Kampagnenimpakt',
+    description: 'Kombinieren Sie Influencer-Daten mit Verkaufs-, Web- oder CRM-Daten, um herauszufinden, welche Creator wirklich Umsatz generieren.'
   },
   {
     icon: AutomateIcon,
     color: '#F49D3B',
-    title: 'Automate executive dashboards',
-    description: 'Build automated Adobe Commerce reports for C-level stakeholders with real-time creator performance and revenue attribution metrics.'
+    title: 'Automatisieren Sie Management-Dashboards',
+    description: 'Erstellen Sie automatisierte Shopify-Reports für Management und Stakeholder – ohne manuelles Daten-Wrangling.'
   }
 ];
 
-export default function AdobeCommerceBenefitsSection() {
+export default function ShopifyBenefitsSectionDE() {
   return (
     <section className="py-24 px-6" style={{ backgroundColor: '#FAFAFA' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Sync Influencer Campaign Data to Adobe Commerce Analytics
+            Verfolgen Sie Creator-Umsätze direkt in Ihrem Shopify-Shop
           </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Scale your creator marketing with Adobe Commerce integration
+            Verbinden Sie Ihr Daten-Ökosystem und erschließen Sie leistungsstarke Erkenntnisse
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

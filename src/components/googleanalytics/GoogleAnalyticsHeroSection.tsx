@@ -1,12 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const GoogleAnalyticsIcon = () => (
-  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="4" y="18" width="6" height="10" rx="2" fill="#F9AB00" />
-    <rect x="13" y="12" width="6" height="16" rx="2" fill="#E37400" />
-    <rect x="22" y="4" width="6" height="24" rx="2" fill="#E37400" />
-  </svg>
-);
 
 export default function GoogleAnalyticsHeroSection() {
   return (
@@ -77,7 +70,7 @@ export default function GoogleAnalyticsHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <GoogleAnalyticsIcon />
+                  <img src="/logos/Google_Analytics.svg" alt="googleanalytics" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

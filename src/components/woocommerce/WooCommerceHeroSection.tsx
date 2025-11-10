@@ -1,12 +1,5 @@
 import { ArrowRight, LineChart } from 'lucide-react';
 
-const WooCommerceIcon = () => (
-  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M5 10C5 8 6 7 8 7H22C24 7 25 8 25 10V20C25 22 24 23 22 23H8C6 23 5 22 5 20V10Z" stroke="#96588A" strokeWidth="2" fill="rgba(150, 88, 138, 0.1)" />
-    <path d="M10 13L12 17L14 13" stroke="#96588A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-    <path d="M16 13L18 17L20 13" stroke="#96588A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>
-);
 
 export default function WooCommerceHeroSection() {
   return (
@@ -29,7 +22,7 @@ export default function WooCommerceHeroSection() {
               WooCommerce + Influencer Marketing Integration
             </h1>
             <p className="mb-8" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-              Bring creator performance and ROI insights directly into your WooCommerce dashboards.
+              Bring creator performance and ROI insights via REST API to your WooCommerce dashboards.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"
@@ -77,7 +70,7 @@ export default function WooCommerceHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <WooCommerceIcon />
+                  <img src="/logos/WooCommerce.svg" alt="woocommerce" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

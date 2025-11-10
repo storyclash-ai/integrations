@@ -4,7 +4,7 @@ const benefits = [
   {
     icon: ConnectIcon,
     title: 'Enterprise data warehouse integration',
-    description: 'Load creator metrics and campaign data directly into Snowflake tables via Storyclash API for centralized data management.'
+    description: 'Load creator metrics and campaign data via Storyclash REST API using your API key to Snowflake tables for centralized data management.'
   },
   {
     icon: ChartIcon,

@@ -5,7 +5,7 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Direct Looker Studio integration',
-    description: 'Import creator metrics and campaign data directly into Looker Studio via Storyclash REST API for powerful data visualization.'
+    description: 'Import creator metrics and campaign data via Storyclash REST API using your API key for powerful data visualization in Looker Studio.'
   },
   {
     icon: ChartIcon,

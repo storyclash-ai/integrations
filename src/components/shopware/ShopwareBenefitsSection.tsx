@@ -5,7 +5,7 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Seamless Shopware integration',
-    description: 'Import creator metrics and campaign performance data directly into your Shopware store via Storyclash API for unified ecommerce analytics.'
+    description: 'Import creator metrics and campaign performance data via Storyclash REST API using your API key for unified ecommerce analytics.'
   },
   {
     icon: ChartIcon,

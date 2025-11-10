@@ -1,13 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const AdobeCommerceIcon = () => (
-  <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="30" height="30" rx="4" fill="#FF0000"/>
-    <path d="M9 22L12 10H15L12 22H9Z" fill="white"/>
-    <path d="M15 22L18 10H21L18 22H15Z" fill="white"/>
-  </svg>
-);
-
 export default function AdobeCommerceHeroSection() {
   return (
     <section className="px-6" style={{ backgroundColor: '#FAFAFA', paddingTop: '156px', paddingBottom: '80px' }}>
@@ -76,7 +68,7 @@ export default function AdobeCommerceHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <AdobeCommerceIcon />
+                  <img src="/logos/Adobe_Corporate_logo.svg" alt="Adobe Commerce" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

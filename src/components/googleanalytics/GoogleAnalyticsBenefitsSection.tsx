@@ -5,7 +5,7 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Unified analytics integration',
-    description: 'Import creator metrics and campaign data directly into Google Analytics via Storyclash API for comprehensive web analytics.'
+    description: 'Import creator metrics and campaign data via Storyclash REST API using your API key for comprehensive web analytics.'
   },
   {
     icon: ChartIcon,

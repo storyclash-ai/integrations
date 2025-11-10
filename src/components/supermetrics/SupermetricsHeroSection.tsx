@@ -1,12 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const SupermetricsIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#00D4FF"/>
-    <path d="M12 28 L20 12 L28 28" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
-    <circle cx="20" cy="20" r="3" fill="white"/>
-  </svg>
-);
 
 export default function SupermetricsHeroSection() {
   return (
@@ -74,7 +67,7 @@ export default function SupermetricsHeroSection() {
                     animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
                   }}
                 >
-                  <SupermetricsIcon />
+                  <img src="/logos/Supermetrics.svg" alt="supermetrics" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

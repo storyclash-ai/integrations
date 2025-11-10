@@ -1,4 +1,4 @@
-import { ArrowRight, Mail } from 'lucide-react';
+import { LineChart, ArrowRight } from 'lucide-react';
 
 export default function KlaviyoHeroSection() {
   return (
@@ -66,7 +66,7 @@ export default function KlaviyoHeroSection() {
             <div className="relative">
               <div className="absolute inset-0 opacity-20 blur-3xl" style={{ backgroundColor: '#1C9DEB', borderRadius: '20px' }}></div>
               <div className="relative bg-white p-8 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
-                <Mail className="w-full h-64 text-gray-300" strokeWidth={1} />
+                <LineChart className="w-full h-64 text-gray-300" strokeWidth={1} />
                 <div className="absolute top-12 left-12 right-12 flex justify-between items-start">
                   <div className="bg-white px-4 py-3 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
                     <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>Open Rate</div>

@@ -55,7 +55,7 @@ const benefits = [
   {
     icon: SimplifyIcon,
     title: 'Seamless Analytics Integration',
-    description: 'No manual exports or spreadsheets. Storyclash delivers influencer data directly into Google Analytics - clean, standardized, and automated for immediate web analytics insights.'
+    description: 'No manual exports or spreadsheets. Storyclash delivers influencer data via REST API to your analytics dashboards - clean, standardized, and automated for immediate web analytics insights.'
   },
   {
     icon: EnterpriseIcon,

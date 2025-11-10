@@ -1,13 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const TripleWhaleIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#5B47FB"/>
-    <path d="M10 22 Q 15 15, 20 20 Q 25 25, 30 18" stroke="white" strokeWidth="3" strokeLinecap="round" fill="none"/>
-    <circle cx="13" cy="16" r="2" fill="white"/>
-    <circle cx="27" cy="14" r="2" fill="white"/>
-  </svg>
-);
 
 export default function TripleWhaleHeroSection() {
   return (
@@ -75,7 +67,7 @@ export default function TripleWhaleHeroSection() {
                     animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
                   }}
                 >
-                  <TripleWhaleIcon />
+                  <img src="/logos/TripleWhale.svg" alt="triplewhale" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

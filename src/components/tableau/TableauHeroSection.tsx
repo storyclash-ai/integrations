@@ -1,4 +1,3 @@
-import { LineChart } from 'lucide-react';
 
 export default function TableauHeroSection() {
   return (

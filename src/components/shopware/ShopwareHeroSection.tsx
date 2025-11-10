@@ -1,11 +1,5 @@
-import { ArrowRight, ShoppingBag } from 'lucide-react';
+import { LineChart, ArrowRight } from 'lucide-react';
 
-const ShopwareIcon = () => (
-  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M4 8L16 2L28 8V24L16 30L4 24V8Z" fill="#189EFF" opacity="0.2" stroke="#189EFF" strokeWidth="2"/>
-    <circle cx="16" cy="16" r="6" fill="#189EFF"/>
-  </svg>
-);
 
 export default function ShopwareHeroSection() {
   return (
@@ -57,7 +51,7 @@ export default function ShopwareHeroSection() {
             <div className="relative">
               <div className="absolute inset-0 opacity-20 blur-3xl" style={{ backgroundColor: '#19B776', borderRadius: '20px' }}></div>
               <div className="relative bg-white p-8 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
-                <ShoppingBag className="w-full h-64 text-gray-300" strokeWidth={1} />
+                <LineChart className="w-full h-64 text-gray-300" strokeWidth={1} />
                 <div className="absolute top-12 left-12 right-12 flex justify-between items-start">
                   <div className="bg-white px-4 py-3 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
                     <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>Revenue</div>
@@ -76,7 +70,7 @@ export default function ShopwareHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <ShopwareIcon />
+                  <img src="/logos/shopware.png" alt="shopware" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

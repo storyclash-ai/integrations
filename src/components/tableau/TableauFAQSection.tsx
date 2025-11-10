@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'How does Storyclash integrate with Tableau?',
-    answer: 'Authenticate via your API key and connect through the Storyclash REST API. The integration provides a live data source that you can drag directly into your Tableau workbooks.'
+    answer: 'Authenticate via your API key and connect through the Storyclash REST API. The integration provides live creator data that you can access in your Tableau workbooks.'
   },
   {
     question: 'What creator metrics are available in Tableau?',

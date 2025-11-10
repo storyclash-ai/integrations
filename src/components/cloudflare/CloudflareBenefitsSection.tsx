@@ -4,7 +4,7 @@ const benefits = [
   {
     icon: ConnectIcon,
     title: 'Connect Storyclash to Cloudflare effortlessly',
-    description: 'Import creator metrics and campaign performance data directly into Cloudflare via Storyclash API or connector.'
+    description: 'Import creator metrics and campaign performance data via Storyclash REST API using your API key to your analytics dashboards.'
   },
   {
     icon: ChartIcon,

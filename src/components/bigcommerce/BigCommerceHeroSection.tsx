@@ -1,13 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const BigCommerceIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#003E52"/>
-    <path d="M12 15C12 13.8954 12.8954 13 14 13H18C19.1046 13 20 13.8954 20 15V17H12V15Z" fill="white"/>
-    <path d="M20 17H28C29.1046 17 30 17.8954 30 19V25C30 26.1046 29.1046 27 28 27H12C10.8954 27 10 26.1046 10 25V19C10 17.8954 10.8954 17 12 17H20Z" fill="white" opacity="0.8"/>
-    <circle cx="25" cy="22" r="2" fill="#003E52"/>
-  </svg>
-);
 
 export default function BigCommerceHeroSection() {
   return (
@@ -77,7 +69,7 @@ export default function BigCommerceHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <BigCommerceIcon />
+                  <img src="/logos/BigCommerce.svg" alt="bigcommerce" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

@@ -1,16 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const SquarespaceIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#000000"/>
-    <circle cx="14" cy="14" r="4" fill="white"/>
-    <circle cx="26" cy="14" r="4" fill="white" opacity="0.7"/>
-    <circle cx="14" cy="26" r="4" fill="white" opacity="0.7"/>
-    <circle cx="26" cy="26" r="4" fill="white"/>
-    <path d="M14 14 L26 26" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-    <path d="M26 14 L14 26" stroke="white" strokeWidth="2" strokeLinecap="round" opacity="0.5"/>
-  </svg>
-);
 
 export default function SquarespaceHeroSection() {
   return (
@@ -80,7 +69,7 @@ export default function SquarespaceHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <SquarespaceIcon />
+                  <img src="/logos/Squarespace.svg" alt="squarespace" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

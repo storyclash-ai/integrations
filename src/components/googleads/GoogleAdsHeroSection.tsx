@@ -1,4 +1,4 @@
-import { ArrowRight, Target } from 'lucide-react';
+import { LineChart, ArrowRight } from 'lucide-react';
 
 export default function GoogleAdsHeroSection() {
   return (
@@ -42,7 +42,7 @@ export default function GoogleAdsHeroSection() {
             <div className="relative">
               <div className="absolute inset-0 rounded-2xl opacity-20 blur-3xl" style={{ backgroundColor: '#4285F4' }}></div>
               <div className="relative bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
-                <Target className="w-full h-64 text-gray-300" strokeWidth={1} />
+                <LineChart className="w-full h-64 text-gray-300" strokeWidth={1} />
                 <div className="absolute top-12 left-12 right-12 flex justify-between items-start">
                   <div className="bg-white rounded-lg shadow-lg px-4 py-3 border border-gray-100">
                     <div className="text-xs text-gray-500 mb-1">ROAS</div>

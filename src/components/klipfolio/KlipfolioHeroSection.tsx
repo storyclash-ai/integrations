@@ -1,11 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const KlipfolioIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#00A4E0"/>
-    <path d="M12 28 L20 12 L28 28 L20 20 Z" fill="white"/>
-  </svg>
-);
 
 export default function KlipfolioHeroSection() {
   return (
@@ -73,7 +67,7 @@ export default function KlipfolioHeroSection() {
                     animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
                   }}
                 >
-                  <KlipfolioIcon />
+                  <img src="/logos/Klipfolio.svg" alt="klipfolio" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

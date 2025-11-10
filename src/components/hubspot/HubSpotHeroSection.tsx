@@ -1,15 +1,5 @@
-import { ArrowRight, Users } from 'lucide-react';
+import { LineChart, ArrowRight, Users } from 'lucide-react';
 
-const HubSpotIcon = () => (
-  <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="16" cy="16" r="12" fill="#FF7A59" opacity="0.2" />
-    <circle cx="16" cy="16" r="6" fill="#FF7A59" />
-    <circle cx="8" cy="8" r="3" fill="#FF7A59" opacity="0.6" />
-    <circle cx="24" cy="8" r="3" fill="#FF7A59" opacity="0.6" />
-    <circle cx="8" cy="24" r="3" fill="#FF7A59" opacity="0.6" />
-    <circle cx="24" cy="24" r="3" fill="#FF7A59" opacity="0.6" />
-  </svg>
-);
 
 export default function HubSpotHeroSection() {
   return (
@@ -53,7 +43,7 @@ export default function HubSpotHeroSection() {
             <div className="relative">
               <div className="absolute inset-0 rounded-2xl opacity-20 blur-3xl" style={{ backgroundColor: '#FF7A59' }}></div>
               <div className="relative bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
-                <Users className="w-full h-64 text-gray-300" strokeWidth={1} />
+                <LineChart className="w-full h-64 text-gray-300" strokeWidth={1} />
                 <div className="absolute top-12 left-12 right-12 flex justify-between items-start">
                   <div className="bg-white rounded-lg shadow-lg px-4 py-3 border border-gray-100">
                     <div className="text-xs text-gray-500 mb-1">Contacts</div>
@@ -70,7 +60,7 @@ export default function HubSpotHeroSection() {
                     animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
                   }}
                 >
-                  <HubSpotIcon />
+                  <img src="/logos/HubSpot.svg" alt="hubspot" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

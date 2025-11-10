@@ -1,12 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const SprykerIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#E20074"/>
-    <path d="M12 15 L20 10 L28 15 M12 25 L20 20 L28 25" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-    <circle cx="20" cy="20" r="2" fill="white"/>
-  </svg>
-);
 
 export default function SprykerHeroSection() {
   return (
@@ -76,7 +69,7 @@ export default function SprykerHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <SprykerIcon />
+                  <img src="/logos/Spryker.svg" alt="spryker" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

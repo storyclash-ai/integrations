@@ -1,12 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const MatomoIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#3152A0"/>
-    <circle cx="20" cy="20" r="8" fill="white"/>
-    <circle cx="20" cy="20" r="4" fill="#3152A0"/>
-  </svg>
-);
 
 export default function MatomoHeroSection() {
   return (
@@ -74,7 +67,7 @@ export default function MatomoHeroSection() {
                     animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
                   }}
                 >
-                  <MatomoIcon />
+                  <img src="/logos/Matomo.svg.png" alt="matomo" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

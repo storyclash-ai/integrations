@@ -12,7 +12,7 @@ const DataFlowIllustration = () => (
     <path d="M230 75 L240 80 L230 85" fill="#19B776" />
 
     <circle cx="100" cy="180" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
-    <text x="100" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Data</text>
+    <text x="100" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Daten</text>
 
     <circle cx="200" cy="240" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
     <text x="200" y="245" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">KPIs</text>
@@ -54,27 +54,27 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Track Creator Revenue in Your BI Dashboards',
-    description: 'No manual exports or spreadsheets. Storyclash delivers ready-to-use influencer and campaign data via REST API to your BI dashboards - clean, standardized, and automated.'
+    title: 'Verfolgen Sie Creator-Umsätze direkt in Ihrem Shopify-Shop',
+    description: 'Keine manuellen Exporte oder Tabellenkalkulationen. Storyclash liefert gebrauchsfertige Influencer- und Kampagnendaten direkt in Ihre Shopify-Umgebung – sauber, standardisiert und automatisiert.'
   },
   {
     icon: EnterpriseIcon,
-    title: 'Attribute Sales to Individual Influencers and Campaigns',
-    description: 'Get trustworthy, GDPR-compliant metrics for every creator, campaign, and conversion. Storyclash provides consistent KPIs designed for analytics teams and global marketing operations.'
+    title: 'Attributieren Sie Verkäufe einzelnen Influencern und Kampagnen zu',
+    description: 'Erhalten Sie zuverlässige, GDPR-konforme Metriken für jeden Creator, jede Kampagne und jede Konversion. Storyclash bietet konsistente KPIs, die für Analytics-Teams und globale Marketing-Operationen konzipiert wurden.'
   },
   {
     icon: ROIIcon,
-    title: 'Automate Discount Codes and Product Seeding Workflows',
-    description: 'Access influencer engagement and sales performance data via REST API to visualize what truly drives business impact - with full transparency and zero guesswork.'
+    title: 'Automatisieren Sie Rabattcodes und Product-Seeding-Workflows',
+    description: 'Kombinieren Sie Influencer-Engagement und Sales-Performance innerhalb von Shopify, um zu visualisieren, was wirklich geschäftliche Auswirkungen hat – mit voller Transparenz und ohne Raterei.'
   }
 ];
 
-export default function ShopifyWhyStoryclashSection() {
+export default function ShopifyWhyStoryclashSectionDE() {
   return (
     <section className="py-20 px-6 border-t border-b" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5EAEC' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="mb-16 text-center" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>
-          Why Storyclash for Shopify?
+          Warum Storyclash für Shopify?
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">

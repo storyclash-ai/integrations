@@ -5,7 +5,7 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Connect Storyclash to WooCommerce effortlessly',
-    description: 'Import creator metrics and campaign performance data directly into WooCommerce via the Storyclash REST API using your API key.'
+    description: 'Import creator metrics and campaign performance data via REST API to WooCommerce using your API key.'
   },
   {
     icon: ChartIcon,

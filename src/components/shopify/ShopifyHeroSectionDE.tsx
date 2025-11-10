@@ -1,27 +1,34 @@
 import { LineChart } from 'lucide-react';
 
+const ShopifyLogo = () => (
+  <img
+    src="/logos/Shopify.svg"
+    alt="Shopify"
+    style={{ width: '50px', height: 'auto' }}
+  />
+);
 
-export default function GoogleSheetsHeroSection() {
+export default function ShopifyHeroSectionDE() {
   return (
     <section className="px-6" style={{ backgroundColor: '#FAFAFA', paddingTop: '156px', paddingBottom: '80px' }}>
       <div className="max-w-7xl mx-auto">
         <div className="mb-6">
           <div className="text-sm text-gray-500">
-            <a href="/integrations" className="hover:text-gray-700 transition-colors">
-              Integrations
+            <a href="/de/integrations" className="hover:text-gray-700 transition-colors">
+              Integrationen
             </a>
             <span className="mx-2">/</span>
-            <span className="font-semibold">Google Sheets Influencer Marketing Integration</span>
+            <span className="font-semibold">Shopify Influencer-Marketing-Integration</span>
           </div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
             <h1 className="leading-tight mb-6" style={{ fontSize: '56px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-              Google Sheets + Influencer Marketing Integration
+              Shopify + Influencer Marketing Integration
             </h1>
             <p className="mb-8" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-              Export creator campaign data directly to Google Sheets for flexible reporting, team collaboration, and custom analysis workflows.
+              Bringen Sie Creator-Performance und ROI-Insights direkt in Ihre Shopify-Dashboards.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"
@@ -43,7 +50,7 @@ export default function GoogleSheetsHeroSection() {
                 e.currentTarget.style.transform = 'translateY(0)';
               }}
             >
-              Book a Demo
+              Demo buchen
             </a>
           </div>
           <div className="animate-fade-in">
@@ -53,12 +60,12 @@ export default function GoogleSheetsHeroSection() {
                 <LineChart className="w-full h-64 text-gray-300" strokeWidth={1} />
                 <div className="absolute top-12 left-12 right-12 flex justify-between items-start">
                   <div className="bg-white px-4 py-3 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
-                    <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>Creators</div>
-                    <div className="text-xl font-black" style={{ color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>284</div>
+                    <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>EMV</div>
+                    <div className="text-xl font-black" style={{ color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>$124K</div>
                   </div>
                   <div className="bg-white px-4 py-3 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
-                    <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>Engagement</div>
-                    <div className="text-xl font-black" style={{ color: '#F49D3B', fontFamily: 'Roboto, sans-serif' }}>1.8M</div>
+                    <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>ROAS</div>
+                    <div className="text-xl font-black" style={{ color: '#F49D3B', fontFamily: 'Roboto, sans-serif' }}>4.8x</div>
                   </div>
                 </div>
                 <div
@@ -69,7 +76,7 @@ export default function GoogleSheetsHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <img src="/logos/Google_Sheets.svg.png" alt="googlesheets" style={{ height: '30px' }} />
+                  <ShopifyLogo />
                 </div>
               </div>
             </div>

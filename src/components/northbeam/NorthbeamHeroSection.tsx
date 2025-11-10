@@ -1,12 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const NorthbeamIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#0A0F1E"/>
-    <path d="M20 10 L20 30 M10 20 L30 20" stroke="#00E5FF" strokeWidth="3" strokeLinecap="round"/>
-    <circle cx="20" cy="20" r="6" stroke="#00E5FF" strokeWidth="2" fill="none"/>
-  </svg>
-);
 
 export default function NorthbeamHeroSection() {
   return (
@@ -74,7 +67,7 @@ export default function NorthbeamHeroSection() {
                     animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
                   }}
                 >
-                  <NorthbeamIcon />
+                  <img src="/logos/Northbeam.svg" alt="northbeam" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>

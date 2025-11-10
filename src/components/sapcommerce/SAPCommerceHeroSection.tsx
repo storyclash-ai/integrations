@@ -1,11 +1,5 @@
 import { LineChart } from 'lucide-react';
 
-const SAPIcon = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="40" height="40" rx="8" fill="#0FAAFF"/>
-    <text x="20" y="27" fontSize="16" fontWeight="900" fill="white" textAnchor="middle">SAP</text>
-  </svg>
-);
 
 export default function SAPCommerceHeroSection() {
   return (
@@ -75,7 +69,7 @@ export default function SAPCommerceHeroSection() {
                   onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
                   onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
                 >
-                  <SAPIcon />
+                  <img src="/logos/SAP.png" alt="sapcommerce" style={{ height: '30px' }} />
                 </div>
               </div>
             </div>
