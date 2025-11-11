@@ -60,7 +60,7 @@ export default function SAPCommercePage() {
                               "name": "Is this integration compliant with enterprise security standards?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - we use OAuth 2.0 authentication, encrypt all data in transit and at rest, and maintain SOC 2 Type II and GDPR compliance. Full audit logs are available."
+                                      "text": "Yes - we use OAuth 2.0 authentication, encrypt all data in transit and at rest, and maintain GDPR compliance with data processing agreements (DPAs). Full audit logs are available."
                               }
                       },
                       {
@@ -73,10 +73,10 @@ export default function SAPCommercePage() {
                       },
                       {
                               "@type": "Question",
-                              "name": "What level of technical support do you provide for enterprise clients?",
+                              "name": "How does the API integration work with SAP Commerce Cloud?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Enterprise customers receive dedicated implementation support, custom API integration assistance, and 24/7 technical support with guaranteed response times."
+                                      "text": "Storyclash connects via SAP Commerce Cloud REST APIs using secure OAuth 2.0 authentication. We handle order data syncing, customer segmentation, and revenue attribution automatically. Our API documentation and integration support help your team connect Storyclash without extensive development effort."
                               }
                       }
               ]

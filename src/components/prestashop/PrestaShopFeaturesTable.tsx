@@ -11,15 +11,15 @@ const features = [
   },
   {
     name: 'Multi-Currency & Language',
-    description: 'Handle multiple currencies, languages, and European markets with accurate revenue attribution.'
+    description: 'Support multiple currencies and languages with accurate revenue attribution across global markets.'
   },
   {
     name: 'GDPR Compliant',
     description: 'Built with European privacy standards in mind - fully GDPR compliant data handling and storage.'
   },
   {
-    name: 'European Market Focus',
-    description: 'Designed for European merchants with local payment methods, VAT handling, and regional insights.'
+    name: 'Influencer Attribution at Scale',
+    description: 'Accurately track which creators drive sales across multiple stores and markets with consistent ROI measurement.'
   }
 ];
 

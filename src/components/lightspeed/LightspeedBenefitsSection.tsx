@@ -4,8 +4,8 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Unified Retail & Online Tracking',
-    description: 'Connect both Lightspeed Retail POS and eCom platforms to track influencer impact across in-store and online sales.'
+    title: 'Complete eCom Attribution',
+    description: 'Connect Lightspeed eCom to track influencer impact on your online store with accurate revenue attribution and customer insights.'
   },
   {
     icon: ChartIcon,

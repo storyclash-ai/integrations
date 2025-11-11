@@ -60,7 +60,7 @@ const benefits = [
   {
     icon: EnterpriseIcon,
     title: 'Attribute Revenue to Individual Creators and Markets',
-    description: 'Get trustworthy, SOC 2 compliant metrics for every creator, campaign, and market. Storyclash provides consistent KPIs designed for analytics teams and global enterprise operations.'
+    description: 'Get trustworthy metrics for every creator, campaign, and market with GDPR-compliant data handling, DPAs, and role-based access control. Storyclash provides consistent KPIs designed for analytics teams and global enterprise operations.'
   },
   {
     icon: ROIIcon,

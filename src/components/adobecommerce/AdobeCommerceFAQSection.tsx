@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     question: 'Is Storyclash\'s Adobe Commerce integration enterprise-secure and GDPR compliant?',
-    answer: 'Yes. Storyclash is SOC 2 Type II certified and GDPR compliant. The integration supports enterprise security requirements including single sign-on (SSO), role-based access control (RBAC), audit logging, data encryption at rest and in transit, and custom data retention policies. All Adobe Commerce customer data is stored in EU-based data centers with DPA support, meeting Magento Enterprise and Adobe Experience Cloud security standards.'
+    answer: 'Yes. Storyclash is GDPR compliant and supports data processing agreements (DPAs). The integration supports enterprise security requirements including single sign-on (SSO), role-based access control (RBAC), audit logging, data encryption at rest and in transit, and custom data retention policies. All Adobe Commerce customer data is stored in EU-based data centers with DPA support, meeting Magento Enterprise and Adobe Experience Cloud security standards.'
   }
 ];
 

@@ -19,7 +19,7 @@ const features = [
   },
   {
     name: 'Compliance & Security',
-    description: 'Enterprise-grade data security with GDPR, SOC 2, and regional compliance built-in.'
+    description: 'Enterprise-grade data security with GDPR compliance, data processing agreements (DPAs), audit logging, and role-based access control built-in.'
   }
 ];
 

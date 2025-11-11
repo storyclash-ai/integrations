@@ -15,12 +15,12 @@ const faqs = [
     answer: 'We use secure OAuth authentication to connect to Spryker Glue API, giving us flexible access to your commerce data while respecting your custom configurations and security policies.'
   },
   {
-    question: 'Can I add new storefronts or markets without reintegration?',
-    answer: 'Yes - our modular integration scales with your composable architecture. Add new Spryker storefronts, markets, or business units without rebuilding the influencer tracking.'
+    question: 'How does Storyclash handle B2B and B2C attribution in Spryker?',
+    answer: 'We accurately attribute influencer-driven sales to both B2B and B2C customers. The integration tracks orders from both customer types and provides clear ROI metrics per influencer across your Spryker store.'
   },
   {
-    question: 'What level of customization is possible?',
-    answer: 'Extensive. We can adapt attribution models to your unique customer journeys, product catalogs, and business rules. Spryker is flexible, and so is our integration.'
+    question: 'Can I track influencers across multiple Spryker environments?',
+    answer: 'Each Storyclash workspace connects to one Spryker storefront. For multiple stores, you can create separate workspaces - each tracking creator performance independently with its own attribution data and reporting.'
   }
 ];
 

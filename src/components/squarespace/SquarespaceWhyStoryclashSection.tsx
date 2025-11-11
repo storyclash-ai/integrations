@@ -59,8 +59,8 @@ const benefits = [
   },
   {
     icon: EnterpriseIcon,
-    title: 'Design Meets Data',
-    description: 'Analytics dashboards that respect Squarespace\'s design philosophy. Beautiful visualizations that make complex creator performance data simple to understand and act on.'
+    title: 'Measure Influencer ROI in Real-Time',
+    description: 'Track which creators drive actual sales and revenue on your Squarespace store. Get clear attribution data, conversion rates, and profitability metrics for every influencer partnership so you can optimize your marketing spend and scale what works.'
   },
   {
     icon: ROIIcon,

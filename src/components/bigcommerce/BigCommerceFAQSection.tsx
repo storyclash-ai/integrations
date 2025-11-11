@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: 'Can I track multiple BigCommerce stores with one Storyclash account?',
-    answer: 'Yes. Connect multiple BigCommerce stores to a single Storyclash account for consolidated cross-store reporting and unified creator performance tracking. The platform supports multi-store setups including separate brands, regional stores, B2B wholesale portals, and test environments-with store-level segmentation in dashboards. Perfect for brands managing multiple BigCommerce storefronts or operating international ecommerce operations with centralized influencer marketing teams.'
+    answer: 'Each Storyclash workspace can connect to one BigCommerce store. However, you can create multiple workspaces and connect each one to a different BigCommerce store - for example, separate country-specific shops. This allows you to manage multiple stores while keeping each store\'s data and configuration organized within its own workspace.'
   },
   {
     question: 'Is Storyclash\'s BigCommerce integration secure and GDPR compliant?',

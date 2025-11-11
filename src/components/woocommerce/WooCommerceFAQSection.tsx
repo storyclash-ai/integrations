@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     question: 'What influencer data can I sync from WooCommerce to Storyclash?',
-    answer: 'Sync order revenue, product SKUs, conversion events, customer segments, discount code usage, cart values, refund rates, and purchase timestamps from WooCommerce. Storyclash matches this data to creator campaigns, providing metrics like revenue attribution, AOV, LTV, ROAS, EMV, engagement rates, and traffic sources-all segmented by influencer, campaign, and product category for actionable WordPress ecommerce insights.'
+    answer: 'Sync order revenue, conversion events, customer segments, discount code usage, cart values, refund rates, and purchase timestamps from WooCommerce. Storyclash matches this data to creator campaigns, providing metrics like revenue attribution, AOV, LTV, ROAS, EMV, engagement rates, and traffic sources-all segmented by influencer, campaign, and product category for actionable WordPress ecommerce insights.'
   },
   {
     question: 'How does Storyclash attribute WooCommerce sales to specific influencers?',

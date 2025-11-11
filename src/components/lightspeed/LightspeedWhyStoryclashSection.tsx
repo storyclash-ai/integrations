@@ -54,18 +54,18 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'True Omnichannel Attribution',
-    description: 'Most influencer tools only track online sales. Storyclash connects to both your POS and eCom platforms, giving you the complete picture of how creators drive customers to stores AND websites.'
+    title: 'Accurate eCom Attribution',
+    description: 'Storyclash connects to Lightspeed eCom and tracks which creators drive actual sales on your online store. See the complete customer journey from social media click to purchase.'
   },
   {
     icon: EnterpriseIcon,
-    title: 'Built for Hybrid Retailers',
-    description: 'Whether you have 1 store or 100, Storyclash handles the complexity. Track which creators drive foot traffic to specific locations while measuring online impact simultaneously.'
+    title: 'Scale Your eCom Operations',
+    description: 'Whether you have 1 product or 1000, Storyclash tracks which creators drive the most profitable sales on your Lightspeed eCom store.'
   },
   {
     icon: ROIIcon,
     title: 'Measure Real Business Impact',
-    description: 'Stop guessing if influencer marketing works for retail. See exactly which creators drive sales across all channels and optimize your partnerships with data, not hunches.'
+    description: 'Stop guessing if influencer marketing works. See exactly which creators drive sales on your eCom store and optimize your partnerships with data-backed ROI metrics.'
   }
 ];
 

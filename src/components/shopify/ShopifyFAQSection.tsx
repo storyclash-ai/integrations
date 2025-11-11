@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     question: 'Is Storyclash\'s Shopify integration GDPR compliant?',
-    answer: 'Yes. All Shopify customer and order data is encrypted in transit and at rest, stored in EU-based data centers, and processed under GDPR compliance. Storyclash is SOC 2 Type II certified and supports data processing agreements (DPAs), role-based access control, audit logging, and data retention policies that meet ecommerce security and privacy requirements.'
+    answer: 'Yes. All Shopify customer and order data is encrypted in transit and at rest, stored in EU-based data centers, and processed under GDPR compliance.'
   }
 ];
 

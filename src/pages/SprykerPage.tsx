@@ -65,18 +65,18 @@ export default function SprykerPage() {
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I add new storefronts or markets without reintegration?",
+                              "name": "How does Storyclash handle B2B and B2C attribution in Spryker?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - our modular integration scales with your composable architecture. Add new Spryker storefronts, markets, or business units without rebuilding the influencer tracking."
+                                      "text": "We accurately attribute influencer-driven sales to both B2B and B2C customers. The integration tracks orders from both customer types and provides clear ROI metrics per influencer across your Spryker store."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "What level of customization is possible?",
+                              "name": "Can I track influencers across multiple Spryker environments?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Extensive. We can adapt attribution models to your unique customer journeys, product catalogs, and business rules. Spryker is flexible, and so is our integration."
+                                      "text": "Each Storyclash workspace connects to one Spryker storefront. For multiple stores, you can create separate workspaces - each tracking creator performance independently with its own attribution data and reporting."
                               }
                       }
               ]

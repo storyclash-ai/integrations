@@ -59,8 +59,8 @@ const benefits = [
   },
   {
     icon: EnterpriseIcon,
-    title: 'European Market Expertise',
-    description: 'GDPR-compliant data handling, multi-currency support, and regional insights designed specifically for European e-commerce merchants expanding across borders.'
+    title: 'Global Influencer Tracking',
+    description: 'Measure influencer ROI regardless of your market, currency, or store location. Track creator performance across all your PrestaShop stores worldwide with consistent attribution metrics.'
   },
   {
     icon: ROIIcon,

@@ -2,24 +2,24 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'GraphQL & REST API Integration',
-    description: 'Native connection to commercetools APIs - flexible queries for orders, customers, products, and custom data types.'
+    name: 'Revenue Attribution',
+    description: 'Match influencer campaigns to commercetools orders using UTM parameters, discount codes, and referral tracking for accurate ROI measurement.'
   },
   {
-    name: 'Frontend-Agnostic Attribution',
-    description: 'Track influencer performance from any frontend - React, Vue, iOS, Android - to commercetools backend.'
+    name: 'Order & Customer Data Sync',
+    description: 'Sync order revenue, customer segments, products, and conversion events from commercetools to track which creators drive profitable sales.'
   },
   {
-    name: 'Custom Journey Mapping',
-    description: 'Map creators to your unique customer journeys and touchpoint sequences without rigid templates.'
+    name: 'B2B & B2C Attribution',
+    description: 'Track influencer impact across both B2B and B2C customer types with separate ROI reporting per segment.'
   },
   {
-    name: 'Real-Time Data Sync',
-    description: 'GraphQL subscriptions for real-time order events and customer updates tied to influencer campaigns.'
+    name: 'Real-Time Reporting',
+    description: 'See influencer performance metrics updated automatically as orders complete in commercetools - no manual exports or delays.'
   },
   {
-    name: 'Multi-Channel Support',
-    description: 'Track creator performance across web, mobile, voice, IoT, and emerging channels with unified reporting.'
+    name: 'Multi-Store Support',
+    description: 'Track creator performance across multiple commercetools storefronts, brands, or markets with unified or separate reporting.'
   }
 ];
 

@@ -2,20 +2,20 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Dual Platform Integration',
-    description: 'Connect both Lightspeed Retail POS and Lightspeed eCom for complete omnichannel influencer tracking.'
+    name: 'Lightspeed eCom Integration',
+    description: 'Connect Lightspeed eCom via secure API to sync order data, revenue, and customer information for influencer tracking.'
   },
   {
-    name: 'In-Store Attribution',
-    description: 'Track when social media drives customers to physical retail locations with POS transaction matching.'
+    name: 'Revenue Attribution',
+    description: 'Match influencer campaigns to Lightspeed eCom orders using UTM parameters, discount codes, and referral tracking.'
   },
   {
-    name: 'Online + Offline Unified Reporting',
-    description: 'See total creator impact across all channels in one dashboard - no more siloed data.'
+    name: 'Unified Reporting Dashboard',
+    description: 'See all creator performance metrics in one dashboard - revenue, conversions, AOV, ROI per influencer.'
   },
   {
-    name: 'Multi-Location Support',
-    description: 'Track creator performance across multiple retail stores and online simultaneously.'
+    name: 'Multi-Store eCom Support',
+    description: 'Track creator performance across multiple Lightspeed eCom stores with unified or separate reporting.'
   },
   {
     name: 'Inventory & Product Insights',

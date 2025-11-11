@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'How do I connect Storyclash to Squarespace Commerce?',
-    answer: 'Use the Squarespace API key from your account settings. Our guided setup takes about 5 minutes with clear step-by-step instructions.'
+    answer: 'Use the Squarespace API key from your account settings. Once connected, Storyclash automatically syncs your order data, revenue, and customer information to track which influencers drive actual sales on your store.'
   },
   {
     question: 'Does this work with Squarespace memberships and digital products?',
@@ -19,8 +19,8 @@ const faqs = [
     answer: 'Absolutely. Whether you sell products, services, bookings, or digital goods on Squarespace, Storyclash tracks creator-driven conversions.'
   },
   {
-    question: 'Is this suitable for creative entrepreneurs and small businesses?',
-    answer: 'Yes - designed specifically for creative professionals, photographers, designers, and small business owners using Squarespace.'
+    question: 'How can influencer ROI tracking help my Squarespace business?',
+    answer: 'You can identify which influencer partnerships actually drive sales and revenue, calculate ROI per creator, optimize your influencer marketing budget, and double down on partnerships that work. This helps you scale profitable influencer campaigns and reduce spending on underperforming collaborations.'
   }
 ];
 

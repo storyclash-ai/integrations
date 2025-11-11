@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'Can I track both Lightspeed Retail and eCom with one integration?',
-    answer: 'Yes - the integration supports both platforms. Track influencer impact across in-store POS sales and online orders with unified reporting.'
+    question: 'How does Storyclash integrate with Lightspeed eCom?',
+    answer: 'Storyclash connects to your Lightspeed eCom store via REST API, syncing order data, revenue, and customer information. We track which influencers drive actual sales with accurate attribution and ROI measurement.'
   },
   {
-    question: 'How does in-store attribution work?',
-    answer: 'We use unique promo codes, QR codes, and tracking pixels to match social media traffic to POS transactions at your retail locations.'
+    question: 'How does Storyclash attribute Lightspeed eCom sales to influencers?',
+    answer: 'We match influencer campaigns to Lightspeed eCom orders using UTM parameters, unique discount codes, and referral URLs to track which creators drive actual sales.'
   },
   {
-    question: 'Do I need multiple stores to use this?',
-    answer: 'No - this works for single-location retailers and multi-store chains. The value is tracking both retail and online channels together.'
+    question: 'Can I track multiple Lightspeed eCom stores?',
+    answer: 'Yes - Storyclash supports tracking creator performance across multiple Lightspeed eCom stores with unified or separate reporting per store.'
   },
   {
-    question: 'Which Lightspeed versions are supported?',
-    answer: 'We support Lightspeed Retail (POS) and Lightspeed eCom (formerly SEOshop). Contact us for specific version compatibility.'
+    question: 'Which Lightspeed eCom versions are supported?',
+    answer: 'We support Lightspeed eCom (including formerly SEOshop). Contact us for specific version compatibility and setup assistance.'
   },
   {
     question: 'Can I see which products influencers promote most effectively?',

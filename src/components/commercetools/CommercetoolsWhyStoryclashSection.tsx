@@ -54,18 +54,18 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Built for Headless Commerce',
-    description: 'commercetools is headless by design, and so is Storyclash. Our integration connects to your API layer, not your frontend - giving you complete freedom to build any customer experience while maintaining creator attribution.'
+    title: 'Accurate Influencer Attribution',
+    description: 'Connect to commercetools and track which creators drive actual sales, conversions, and revenue. See clear ROI metrics per influencer so you can optimize your creator partnerships with confidence.'
   },
   {
     icon: EnterpriseIcon,
-    title: 'Frontend-Agnostic Attribution',
-    description: 'Track influencer impact from any frontend - web, mobile, voice, IoT - to commercetools orders. Build the experiences you want without worrying about breaking influencer tracking. True omnichannel attribution.'
+    title: 'Enterprise eCommerce Integration',
+    description: 'Storyclash works with your commercetools setup - whether B2B, B2C, or marketplace. Track influencer performance across products, customer segments, and channels with unified reporting.'
   },
   {
     icon: ROIIcon,
-    title: 'Scale Without Rebuilding',
-    description: 'Add new channels, touchpoints, and customer journeys without reintegrating influencer tracking. API-first architecture means your creator attribution evolves with your commerce - no technical debt, no constraints.'
+    title: 'Scale Your eCommerce Business',
+    description: 'Grow your revenue by identifying which influencer partnerships drive the most profitable sales. Make data-driven decisions on creator spend and focus on partnerships that actually convert.'
   }
 ];
 
