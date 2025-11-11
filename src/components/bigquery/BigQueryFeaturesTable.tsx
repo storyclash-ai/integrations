@@ -2,20 +2,20 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'SQL Query Interface',
-    description: 'Run standard SQL queries on creator metrics stored in BigQuery tables with full JOIN, aggregate, and window function support.'
+    name: 'Export Influencer Data to BigQuery',
+    description: 'Automatically sync Storyclash creator metrics to BigQuery tables. All influencer performance data is available for SQL queries and custom analysis.'
   },
   {
-    name: 'Data Export & Import',
-    description: 'Load influencer data into BigQuery via API, Cloud Storage, or scheduled transfers with automatic schema detection.'
+    name: 'SQL Analytics & Custom Models',
+    description: 'Build custom reports, cohort analysis, and attribution models using SQL. Create calculated metrics (ROI, LTV, segments) in BigQuery.'
   },
   {
-    name: 'Integration with GCP',
-    description: 'Connect BigQuery to Looker Studio, Data Studio, Vertex AI, and other Google Cloud services for extended analytics.'
+    name: 'Import Insights Back to Storyclash',
+    description: 'Export calculated metrics and insights from BigQuery back to Storyclash. Use them for influencer scoring, segmentation, and ongoing attribution.'
   },
   {
-    name: 'Cost-Effective Storage',
-    description: 'Store historical creator data affordably with BigQuery\'s columnar storage and pay only for queries you run.'
+    name: 'Historical Data & Trending',
+    description: 'Archive and analyze historical influencer data in BigQuery. Track performance evolution and identify seasonal patterns and long-term trends.'
   }
 ];
 
@@ -24,7 +24,7 @@ export default function BigQueryFeaturesTable() {
     <section className="py-20" style={{ backgroundColor: '#FAFAFA', padding: '80px 24px' }}>
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Enterprise-Grade Features
+          Influencer Analytics in BigQuery
         </h2>
         <div className="bg-white border-2 border-gray-100 overflow-hidden" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
           <div className="divide-y divide-gray-200">

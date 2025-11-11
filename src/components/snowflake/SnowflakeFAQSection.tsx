@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'How does Storyclash integrate with Snowflake?',
-    answer: 'Use Storyclash API to extract creator data and load it into Snowflake via Snowpipe, Python connectors, or your preferred ETL tool. The API provides structured JSON data that maps cleanly to Snowflake tables.'
+    answer: 'Use the Storyclash REST API to export creator metrics directly to Snowflake tables. The API provides clean, structured JSON data ready for immediate SQL analysis and joins with other enterprise datasets.'
   },
   {
     question: 'What influencer data can I store in Snowflake?',
@@ -16,11 +16,11 @@ const faqs = [
   },
   {
     question: 'How do I keep the data updated?',
-    answer: 'Set up automated ETL pipelines using tools like Airflow, Fivetran, or custom Python scripts that regularly pull fresh data from Storyclash API into your Snowflake tables.'
+    answer: 'Configure scheduled data exports using the Storyclash API. Set automatic refresh intervals (hourly, daily, weekly) to keep your Snowflake influencer metrics current with the latest campaign performance data.'
   },
   {
-    question: 'What are the performance considerations?',
-    answer: 'Snowflake handles large-scale influencer datasets efficiently. Storyclash provides clean, structured data optimized for warehouse performance. Use appropriate clustering and partitioning for optimal query speed.'
+    question: 'Can I import insights from Snowflake back to Storyclash?',
+    answer: 'Yes - export calculated metrics, segments, and insights from Snowflake back to Storyclash via API. Use them for influencer scoring, segmentation, and ongoing attribution in the platform.'
   }
 ];
 

@@ -1,11 +1,11 @@
 import { Check } from 'lucide-react';
 
 const features = [
-  { name: 'Visual Query Builder', description: 'Ask questions about creator performance naturally - no SQL required. Metabase translates visual queries into insights.' },
-  { name: 'Self-Service Exploration', description: 'Empower teams to explore influencer data independently - democratic access without bottlenecking analytics teams.' },
-  { name: 'Open-Source Flexibility', description: 'Self-host on your infrastructure or use Metabase Cloud - complete control with no vendor lock-in.' },
-  { name: 'Custom Dashboards', description: 'Build interactive creator performance dashboards - combine charts, tables, and filters for comprehensive views.' },
-  { name: 'Automated Reports', description: 'Schedule dashboard snapshots to Slack or email - keep stakeholders updated with automated creator performance reports.' }
+  { name: 'Bi-Directional Data Sync', description: 'Export Storyclash creator data to Metabase via API. Sync calculated metrics and insights back to Storyclash for complete influencer attribution.' },
+  { name: 'Blended Analytics', description: 'Join Storyclash creator metrics with sales, CRM, marketing, and financial data in Metabase. Build unified dashboards showing influencer ROI impact.' },
+  { name: 'Custom Metrics & Segments', description: 'Create calculated metrics in Metabase (ROI, LTV, segments) and export them back to Storyclash for ongoing influencer scoring and segmentation.' },
+  { name: 'Interactive Dashboards', description: 'Build visual dashboards in Metabase showing creator performance trends, comparisons, and drill-downs across all business metrics.' },
+  { name: 'Data Pipeline Automation', description: 'Schedule automatic syncs between Storyclash and Metabase - keep both platforms in sync without manual exports or imports.' }
 ];
 
 export default function MetabaseFeaturesTable() {

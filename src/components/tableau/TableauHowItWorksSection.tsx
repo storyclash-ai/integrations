@@ -39,18 +39,18 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Authenticate your Storyclash account',
-    description: 'Quick and secure API setup that takes less than 5 minutes to complete.'
+    title: 'Export influencer data to Tableau',
+    description: 'Connect via secure REST API and stream all Storyclash creator metrics, campaign performance, and audience data to Tableau.'
   },
   {
     number: '02',
-    title: 'Map your data sources',
-    description: 'Configure which creator metrics, campaigns, and KPIs you want to visualize in Tableau.'
+    title: 'Analyze and create custom metrics',
+    description: 'Use Tableau\'s SQL analytics and visualization tools to build custom attribution models, segments, and advanced influencer insights.'
   },
   {
     number: '03',
-    title: 'Design interactive dashboards',
-    description: 'Drag, drop, and customize visualizations that bring your influencer data to life with Tableau\'s full power.'
+    title: 'Import insights back to Storyclash',
+    description: 'Export calculated segments and custom metrics from Tableau back to Storyclash via API for influencer scoring and segmentation.'
   }
 ];
 
@@ -59,7 +59,7 @@ export default function TableauHowItWorksSection() {
     <section className="py-20 px-6" style={{ backgroundColor: '#FAFAFA' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Visualize Multi-Channel Influencer Campaign Data
+          How the Integration Works
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">

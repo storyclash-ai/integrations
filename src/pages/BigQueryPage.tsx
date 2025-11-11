@@ -57,10 +57,10 @@ export default function BigQueryPage() {
                       },
                       {
                               "@type": "Question",
-                              "name": "What are the costs for storing creator data?",
+                              "name": "Can I import insights from BigQuery back to Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "BigQuery charges separately for storage (very affordable) and queries. Creator data typically costs pennies per GB monthly, with query costs based on data processed."
+                                      "text": "Yes - export calculated metrics, segments, and insights from BigQuery back to Storyclash via API. Use them for influencer scoring, segmentation, and ongoing attribution in the platform."
                               }
                       }
               ]

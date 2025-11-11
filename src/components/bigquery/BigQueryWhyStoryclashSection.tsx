@@ -54,18 +54,18 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Enterprise Data Warehouse Ready',
-    description: 'Storyclash delivers clean, structured influencer data optimized for BigQuery\'s columnar format. No data cleaning required - ready for SQL queries immediately.'
+    title: 'Bi-Directional Data Flow',
+    description: 'Export Storyclash creator metrics to BigQuery for analysis. Import calculated metrics and insights from BigQuery back to Storyclash for ongoing influencer scoring and attribution.'
   },
   {
     icon: EnterpriseIcon,
-    title: 'Scalable Analytics Infrastructure',
-    description: 'Query millions of creator data points instantly with BigQuery\'s serverless architecture. Storyclash data integrates seamlessly with GCP analytics workflows.'
+    title: 'SQL Analytics on Creator Metrics',
+    description: 'Write SQL queries to analyze influencer performance. Build custom reports, cohort analysis, and attribution models using all Storyclash creator data in BigQuery.'
   },
   {
     icon: ROIIcon,
-    title: 'Advanced SQL Analytics',
-    description: 'Build complex attribution models, cohort analysis, and predictive insights by joining creator data with all your enterprise datasets in one place.'
+    title: 'Blend and Enrich Influencer Data',
+    description: 'Join Storyclash creator data with sales, marketing, CRM, and financial data in BigQuery. Create unified insights and export enriched metrics back to Storyclash.'
   }
 ];
 

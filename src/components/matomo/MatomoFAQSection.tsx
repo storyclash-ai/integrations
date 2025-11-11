@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'Is Matomo integration GDPR compliant?',
-    answer: 'Yes - Matomo is designed for privacy compliance. The integration tracks creator traffic without cookies, requires no consent banners, and maintains full GDPR compliance with user data ownership.'
+    answer: 'Yes - Matomo is privacy-focused and supports GDPR compliance. The integration tracks creator traffic and stores data on your infrastructure. Note: In the EU, consent banners are still required for analytics tracking to comply with GDPR and ePrivacy regulations.'
   },
   {
     question: 'Can I use self-hosted Matomo?',

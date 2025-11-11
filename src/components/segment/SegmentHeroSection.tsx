@@ -1,3 +1,4 @@
+import { LineChart } from 'lucide-react';
 
 export default function SegmentHeroSection() {
   return (

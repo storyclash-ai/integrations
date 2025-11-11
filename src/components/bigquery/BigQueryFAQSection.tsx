@@ -15,8 +15,8 @@ const faqs = [
     answer: 'Yes - that\'s BigQuery\'s strength. Join influencer data with Google Analytics, Ads, CRM, sales, and any other data source loaded into BigQuery for complete analysis.'
   },
   {
-    question: 'What are the costs for storing creator data?',
-    answer: 'BigQuery charges separately for storage (very affordable) and queries. Creator data typically costs pennies per GB monthly, with query costs based on data processed.'
+    question: 'Can I import insights from BigQuery back to Storyclash?',
+    answer: 'Yes - export calculated metrics, segments, and insights from BigQuery back to Storyclash via API. Use them for influencer scoring, segmentation, and ongoing attribution in the platform.'
   }
 ];
 

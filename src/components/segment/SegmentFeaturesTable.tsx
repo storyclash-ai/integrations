@@ -1,10 +1,10 @@
 import { Check } from 'lucide-react';
 
 const features = [
-  { name: 'Event Tracking', description: 'Send creator engagement events to Segment with standard event schemas for consistent data across all tools.' },
-  { name: 'Customer Profiles', description: 'Enrich Segment customer profiles with influencer interaction data for complete behavioral insights.' },
-  { name: 'Multi-Destination Routing', description: 'Route creator data to 300+ destinations including analytics, CRM, email, and advertising platforms automatically.' },
-  { name: 'Real-Time Sync', description: 'Stream influencer events to Segment in real-time for immediate downstream processing and activation.' }
+  { name: 'Storyclash to Segment Connection', description: 'Send Storyclash influencer metrics to Segment CDP via secure API integration. All creator performance data streams automatically.' },
+  { name: 'Unified Customer Profiles', description: 'Enrich Segment customer profiles with Storyclash influencer engagement data for complete creator-customer insights.' },
+  { name: 'Activate Influencer Data', description: 'Use Storyclash creator metrics across all your connected marketing, analytics, CRM, and email platforms.' },
+  { name: 'Real-Time Influencer Events', description: 'Stream Storyclash influencer engagement events to Segment in real-time for immediate downstream activation.' }
 ];
 
 export default function SegmentFeaturesTable() {
@@ -12,7 +12,7 @@ export default function SegmentFeaturesTable() {
     <section className="py-20 px-6" style={{ backgroundColor: '#FFFFFF' }}>
       <div className="max-w-5xl mx-auto">
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Enterprise-Grade Features
+          Influencer Data Integration with Segment
         </h2>
         <div className="bg-white border-2 overflow-hidden" style={{ borderRadius: '20px', borderColor: '#E5EAEC', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
           <div className="divide-y divide-gray-200">

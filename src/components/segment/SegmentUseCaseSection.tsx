@@ -61,15 +61,15 @@ const ShareIcon = () => (
 const useCases = [
   {
     icon: ROIIcon,
-    text: 'Send creator events to analytics, CRM, and email tools automatically'
+    text: 'Track influencer performance metrics across all your business tools in one place'
   },
   {
     icon: TrendsIcon,
-    text: 'Build unified customer profiles enriched with influencer engagement'
+    text: 'Build customer profiles enriched with Storyclash creator engagement data'
   },
   {
     icon: ShareIcon,
-    text: 'Route creator data to 300+ destinations without custom integrations'
+    text: 'Activate influencer insights in marketing, analytics, and CRM platforms automatically'
   }
 ];
 
@@ -82,8 +82,8 @@ export default function SegmentUseCaseSection() {
           Unify Social Commerce Data Across Your Stack
         </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with Segment to unify creator engagement data across your entire tech stack.
-            One integration unlocks 300+ destinations for influencer insights.
+            Send Storyclash influencer metrics to Segment CDP for unified creator performance tracking.
+            Route creator data to all your marketing, analytics, and CRM tools automatically.
           </p>
         </div>
 

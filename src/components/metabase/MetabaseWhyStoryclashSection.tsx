@@ -50,18 +50,18 @@ const OpenSourceIcon = () => (
 const benefits = [
   {
     icon: StructuredDataIcon,
-    title: 'Structured Creator Data',
-    description: 'Storyclash provides clean, queryable influencer data that integrates seamlessly with Metabase\'s visual query builder.'
+    title: 'Bi-Directional Data Sync',
+    description: 'Export Storyclash creator data to Metabase for analysis, then sync Metabase insights (sales, conversions, ROI calculations) back to Storyclash for complete attribution.'
   },
   {
     icon: SelfServiceIcon,
-    title: 'Self-Service Analytics',
-    description: 'Enable team members to build custom dashboards without SQL expertise using Metabase\'s intuitive interface.'
+    title: 'Combined Analytics & Insights',
+    description: 'Query creator performance data from Storyclash in Metabase, blend it with your business metrics, and build unified dashboards showing influencer ROI impact.'
   },
   {
     icon: OpenSourceIcon,
-    title: 'Open-Source Control',
-    description: 'Maintain complete data ownership with open-source Metabase infrastructure - no vendor lock-in or data dependency.'
+    title: 'Own Your Data Stack',
+    description: 'Keep Storyclash creator data and Metabase insights in your own infrastructure with open-source Metabase - complete control and no vendor lock-in.'
   }
 ];
 

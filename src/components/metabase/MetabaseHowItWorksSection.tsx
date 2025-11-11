@@ -47,18 +47,18 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect database',
-    description: 'Link Storyclash data to Metabase via direct database connection - sync creator metrics automatically.'
+    title: 'Export Storyclash data to Metabase',
+    description: 'Sync creator performance metrics from Storyclash to Metabase via API. All influencer data is available for analysis and blending with business metrics.'
   },
   {
     number: '02',
-    title: 'Build questions',
-    description: 'Use visual query builder to explore influencer data - ask questions naturally, get instant visualizations.'
+    title: 'Analyze and create custom metrics',
+    description: 'Build dashboards in Metabase combining creator data with sales, marketing, and financial data. Create calculated metrics (ROI, LTV, segments) and segments.'
   },
   {
     number: '03',
-    title: 'Share insights',
-    description: 'Create dashboards and share with teams - embed reports or schedule automated email delivery.'
+    title: 'Sync insights back to Storyclash',
+    description: 'Export calculated metrics and insights from Metabase back to Storyclash. Use them for influencer scoring, segmentation, and ongoing attribution.'
   }
 ];
 
@@ -67,7 +67,7 @@ export default function MetabaseHowItWorksSection() {
     <section className="py-20 px-6" style={{ backgroundColor: '#FAFAFA' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Query Influencer Campaign Data Directly
+          How the Integration Works
         </h2>
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div

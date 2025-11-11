@@ -2,24 +2,24 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Native Tableau Connector',
-    description: 'Seamless integration with Tableau Desktop, Server, and Online.'
+    name: 'Export Influencer Data to Tableau',
+    description: 'Send all Storyclash creator metrics to Tableau via secure REST API. Access engagement, reach, EMV, conversions, and audience data for analysis.'
   },
   {
-    name: 'Live Data Connection',
-    description: 'Real-time updates ensure your dashboards always reflect current performance.'
+    name: 'SQL Analytics & Custom Models',
+    description: 'Build custom SQL queries on Storyclash influencer data. Create advanced attribution models and predictive analytics using Tableau\'s full analytical power.'
   },
   {
-    name: 'Complete Metric Coverage',
-    description: 'Access all creator KPIs: engagement, reach, EMV, conversions, audience demographics.'
+    name: 'Import Insights Back to Storyclash',
+    description: 'Export calculated segments and insights from Tableau back to Storyclash via API. Use custom metrics for influencer scoring and segmentation.'
   },
   {
-    name: 'Cross-Platform Analysis',
-    description: 'Unify data from Instagram, TikTok, YouTube, and more in a single view.'
+    name: 'Cross-Platform Creator Analysis',
+    description: 'Analyze influencer performance across Instagram, TikTok, YouTube, and other platforms in unified Tableau dashboards.'
   },
   {
-    name: 'Secure & Scalable',
-    description: 'Enterprise-grade security with role-based access control and encrypted connections.'
+    name: 'Real-Time Campaign Dashboards',
+    description: 'Monitor live influencer campaign performance with automated refresh. Track ROI, conversions, and creator impact as it happens.'
   }
 ];
 
@@ -28,7 +28,7 @@ export default function TableauFeaturesTable() {
     <section className="py-20" style={{ backgroundColor: '#FAFAFA', padding: '80px 24px' }}>
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Enterprise-Grade Features
+          Influencer Analytics in Tableau
         </h2>
         <div className="bg-white border-2 border-gray-100 overflow-hidden" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
           <div className="divide-y divide-gray-200">

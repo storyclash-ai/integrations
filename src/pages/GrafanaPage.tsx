@@ -65,10 +65,10 @@ export default function GrafanaPage() {
                       },
                       {
                               "@type": "Question",
-                              "name": "Is Grafana suitable for non-technical users?",
+                              "name": "Can I monitor multiple influencer campaigns simultaneously in Grafana?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Grafana is designed for technical teams familiar with observability tools. For self-service analytics without technical expertise, consider Metabase or Looker Studio instead."
+                                      "text": "Yes - create dashboards for each campaign or view all campaigns in one unified dashboard. Filter by creator, campaign name, platform, or time period to monitor performance across your entire influencer strategy."
                               }
                       }
               ]

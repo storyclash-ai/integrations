@@ -18,8 +18,8 @@ const features = [
     description: 'Set up scheduled or event-driven data pipelines that keep your Snowflake tables current with latest metrics.'
   },
   {
-    name: 'Multi-Tool Compatibility',
-    description: 'Connect Snowflake to BI tools, ML platforms, and custom applications for flexible data consumption.'
+    name: 'Import Insights Back to Storyclash',
+    description: 'Export calculated metrics and insights from Snowflake back to Storyclash via API. Use enriched data for influencer scoring, segmentation, and ongoing attribution.'
   }
 ];
 
@@ -28,7 +28,7 @@ export default function SnowflakeFeaturesTable() {
     <section className="py-20" style={{ backgroundColor: '#FAFAFA', padding: '80px 24px' }}>
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Enterprise-Grade Features
+          Influencer Analytics in Snowflake
         </h2>
         <div className="bg-white border-2 border-gray-100 overflow-hidden" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
           <div className="divide-y divide-gray-200">

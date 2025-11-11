@@ -2,10 +2,10 @@ import { ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 
 const faqs = [
-  { question: 'How does Storyclash integrate with Segment?', answer: 'Configure Storyclash as a Segment source to send creator engagement events. Events flow into Segment with standard schemas and route to your configured destinations automatically.' },
-  { question: 'What creator data syncs to Segment?', answer: 'Influencer engagement events including content views, clicks, conversions, and campaign interactions. Data follows Segment\'s event schema standards for consistency.' },
-  { question: 'Can I route creator data to multiple tools?', answer: 'Yes - that\'s Segment\'s core value. Route Storyclash data to analytics, CRM, email, advertising, and 300+ other tools from one integration.' },
-  { question: 'How do I build segments with creator data?', answer: 'Use Segment Personas to create customer segments based on creator interactions. Trigger campaigns when users engage with specific influencers or content types.' }
+  { question: 'How does Storyclash integrate with Segment?', answer: 'Send Storyclash influencer metrics to Segment CDP via secure API. Import calculated segments and audiences from Segment back to Storyclash for influencer scoring and segmentation.' },
+  { question: 'What Storyclash data syncs to Segment?', answer: 'All creator metrics including engagement, reach, conversions, ROI, campaign performance, and audience data. Data syncs to Segment with standardized schemas for consistency.' },
+  { question: 'Can I activate Storyclash data across tools?', answer: 'Yes - use Segment to route Storyclash influencer data to analytics, CRM, email, and advertising platforms. Activate creator insights across your entire marketing stack.' },
+  { question: 'Can I import Segment insights back to Storyclash?', answer: 'Yes - export calculated segments and audiences from Segment back to Storyclash via API. Use them for influencer scoring, segmentation, and ongoing attribution.' }
 ];
 
 export default function SegmentFAQSection() {

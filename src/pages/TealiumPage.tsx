@@ -41,34 +41,34 @@ export default function TealiumPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How does creator data flow to Tealium?",
+                              "name": "How does Storyclash integrate with Tealium?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Storyclash sends influencer interaction events to Tealium EventStream in real-time. These events are processed alongside all other customer touchpoints for unified attribution."
+                                      "text": "Send Storyclash influencer metrics to Tealium CDP via secure REST API. Stream creator performance data in real-time. Import calculated segments and audiences from Tealium back to Storyclash."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I enrich customer profiles with creator data?",
+                              "name": "What Storyclash data syncs to Tealium?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - use AudienceStream to add creator attribution attributes to customer profiles. Track which influencers drove acquisition, build segments based on creator exposure, and personalize experiences."
+                                      "text": "All creator metrics including engagement, reach, conversions, ROI, campaign performance, and audience data. Storyclash sends influencer attribution events to Tealium for unified customer profiling."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "What destinations can receive creator data?",
+                              "name": "Can I activate Storyclash data across platforms?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "All 1300+ Tealium connectors support creator data. Send influencer insights to Google Analytics, advertising platforms, personalization engines, data warehouses, or any connected tool."
+                                      "text": "Yes - use Tealium to route Storyclash influencer metrics to analytics, CRM, marketing automation, and advertising platforms. Activate creator insights across your entire marketing stack."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How does privacy compliance work?",
+                              "name": "Can I import Tealium segments back to Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Tealium handles consent management and privacy controls automatically. Creator attribution data respects existing privacy settings and compliance rules configured in your Tealium implementation."
+                                      "text": "Yes - export calculated segments and audiences from Tealium back to Storyclash via API. Use them for influencer scoring, segmentation, and ongoing attribution."
                               }
                       }
               ]

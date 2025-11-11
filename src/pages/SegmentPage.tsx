@@ -44,15 +44,31 @@ export default function SegmentPage() {
                               "name": "How does Storyclash integrate with Segment?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Configure Storyclash as a Segment source to send creator engagement events. Events flow into Segment with standard schemas and route to your configured destinations automatically."
+                                      "text": "Send Storyclash influencer metrics to Segment CDP via secure API. Import calculated segments and audiences from Segment back to Storyclash for influencer scoring and segmentation."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How do I build segments with creator data?",
+                              "name": "What Storyclash data syncs to Segment?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Use Segment Personas to create customer segments based on creator interactions. Trigger campaigns when users engage with specific influencers or content types."
+                                      "text": "All creator metrics including engagement, reach, conversions, ROI, campaign performance, and audience data. Data syncs to Segment with standardized schemas for consistency."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Can I activate Storyclash data across tools?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes - use Segment to route Storyclash influencer data to analytics, CRM, email, and advertising platforms. Activate creator insights across your entire marketing stack."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Can I import Segment insights back to Storyclash?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes - export calculated segments and audiences from Segment back to Storyclash via API. Use them for influencer scoring, segmentation, and ongoing attribution."
                               }
                       }
               ]

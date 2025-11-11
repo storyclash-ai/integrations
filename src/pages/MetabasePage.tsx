@@ -41,34 +41,34 @@ export default function MetabasePage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "Do I need SQL skills to use Metabase?",
+                              "name": "How does the Storyclash + Metabase integration work?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "No - Metabase provides a visual query builder for exploring creator data. Ask questions naturally and Metabase generates the queries automatically. SQL expertise is optional for advanced use cases."
+                                      "text": "Storyclash exports creator performance data to Metabase via API. You build custom dashboards and analyses in Metabase. Insights and calculated metrics sync back to Storyclash for complete influencer attribution and ROI tracking."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I self-host Metabase?",
+                              "name": "Can I blend Storyclash creator data with other business data in Metabase?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - Metabase is open-source and can be self-hosted on your infrastructure. Alternatively, use Metabase Cloud for managed hosting. Both options connect to Storyclash data."
+                                      "text": "Yes - in Metabase you can join Storyclash creator metrics with your sales, marketing, CRM, and financial data. Build unified dashboards showing influencer ROI alongside total business metrics."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "What creator metrics are available?",
+                              "name": "What metrics can I export from Storyclash to Metabase?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "All Storyclash metrics are available in Metabase including engagement rates, reach, conversions, ROI, and custom performance indicators. Build any analysis your team needs."
+                                      "text": "All Storyclash metrics: engagement rates, reach, impressions, conversions, revenue attribution, AOV, ROI, ROAS, and custom KPIs. Analyze, transform, and blend them with other data sources."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can multiple teams use Metabase?",
+                              "name": "Can insights from Metabase sync back to Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - Metabase supports multi-user access with permission controls. Enable self-service analytics across your organization while maintaining appropriate data access boundaries."
+                                      "text": "Yes - calculated metrics, segments, and insights from Metabase can be exported back to Storyclash. This creates a bi-directional workflow where both platforms enhance each other."
                               }
                       }
               ]

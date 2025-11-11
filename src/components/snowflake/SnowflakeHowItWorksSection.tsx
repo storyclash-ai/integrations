@@ -39,18 +39,18 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect Storyclash API',
-    description: 'Secure API authentication that integrates seamlessly with your Snowflake data warehouse infrastructure and ETL tools.'
+    title: 'Connect via Storyclash API',
+    description: 'Authenticate with Storyclash REST API using your API key. The API delivers clean, structured creator metrics ready for Snowflake ingestion.'
   },
   {
     number: '02',
-    title: 'Configure data pipeline',
-    description: 'Set up automated data flows using Snowpipe, Python connectors, or your preferred ETL tool to load creator metrics into Snowflake tables.'
+    title: 'Load data to Snowflake',
+    description: 'Use the Storyclash API to export influencer metrics directly to Snowflake tables. Data syncs automatically on a schedule you define.'
   },
   {
     number: '03',
-    title: 'Run analytics at scale',
-    description: 'Query influencer data alongside other enterprise datasets using SQL. Power BI tools, ML models, and custom applications with unified data.'
+    title: 'Analyze with SQL',
+    description: 'Query creator metrics using SQL. Join influencer data with sales, marketing, and business metrics for unified analytics.'
   }
 ];
 

@@ -18,10 +18,10 @@ export default function MetabaseHeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in-up">
             <h1 className="leading-tight mb-6" style={{ fontSize: '56px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-              Metabase + Influencer Marketing Integration
+              Storyclash + Metabase Integration
             </h1>
             <p className="mb-8" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-              Open-source analytics platform for self-service creator data exploration - build custom influencer dashboards without SQL expertise.
+              Sync creator data to Metabase for deep analysis, then import insights back to Storyclash. Build unified dashboards showing influencer ROI across all your business metrics.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"

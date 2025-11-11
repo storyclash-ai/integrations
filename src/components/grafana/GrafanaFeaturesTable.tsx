@@ -1,11 +1,11 @@
 import { Check } from 'lucide-react';
 
 const features = [
-  { name: 'Real-Time Streaming', description: 'Creator metrics update live in Grafana - monitor influencer performance as data arrives without refresh delays.' },
-  { name: 'Time-Series Visualization', description: 'Track engagement trends over time - powerful time-series queries reveal campaign patterns and seasonal variations.' },
-  { name: 'Custom Alert Rules', description: 'Set thresholds for any creator metric - get notified via Slack, email, or webhook when performance changes.' },
-  { name: 'Multi-Source Dashboards', description: 'Combine creator data with other metrics - correlate influencer performance with sales, traffic, or ad spend.' },
-  { name: 'Template Variables', description: 'Build dynamic dashboards - filter by creator, campaign, or time period with dropdown controls.' }
+  { name: 'Real-Time Campaign Monitoring', description: 'Watch influencer performance metrics update live in Grafana - monitor engagement, reach, conversions, and ROI as campaigns run without delays.' },
+  { name: 'Campaign Trend Analysis', description: 'Track creator performance over time - visualize engagement trends, seasonal patterns, and campaign trajectory to identify what works.' },
+  { name: 'Smart Campaign Alerts', description: 'Set performance thresholds for any influencer metric - get notified via Slack, email, or webhook when engagement drops or ROI changes.' },
+  { name: 'Unified Campaign Dashboards', description: 'Blend Storyclash creator data with sales, traffic, and marketing spend - see influencer impact on business metrics in one view.' },
+  { name: 'Dynamic Campaign Filters', description: 'Build interactive dashboards - filter by creator, campaign, platform, or time period with dropdown controls for deep analysis.' }
 ];
 
 export default function GrafanaFeaturesTable() {

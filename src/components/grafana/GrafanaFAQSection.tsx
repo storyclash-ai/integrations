@@ -15,8 +15,8 @@ const faqs = [
     answer: 'Yes - Grafana supports multi-source dashboards. Correlate creator metrics from Storyclash with sales data, ad spend, website traffic, or any other data source your team monitors.'
   },
   {
-    question: 'Is Grafana suitable for non-technical users?',
-    answer: 'Grafana is designed for technical teams familiar with observability tools. For self-service analytics without technical expertise, consider Metabase or Looker Studio instead.'
+    question: 'Can I monitor multiple influencer campaigns simultaneously in Grafana?',
+    answer: 'Yes - create dashboards for each campaign or view all campaigns in one unified dashboard. Filter by creator, campaign name, platform, or time period to monitor performance across your entire influencer strategy.'
   }
 ];
 

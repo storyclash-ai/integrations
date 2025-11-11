@@ -1,11 +1,11 @@
 import { Check } from 'lucide-react';
 
 const features = [
-  { name: 'EventStream Integration', description: 'Stream creator interactions in real-time - process influencer touchpoints alongside all customer events in EventStream.' },
-  { name: 'AudienceStream Enrichment', description: 'Add creator attribution to customer profiles - connect influencer impact with individual customer journeys and segments.' },
-  { name: 'Universal Activation', description: 'Send data to 1300+ destinations - activate creator insights in analytics, personalization, ads, or any connected platform.' },
-  { name: 'Real-Time Processing', description: 'Process influencer events instantly - enrich customer data with creator context as interactions happen.' },
-  { name: 'Privacy Compliance', description: 'Maintain data governance - Tealium handles consent and privacy controls for creator attribution data automatically.' }
+  { name: 'Storyclash to Tealium Connection', description: 'Send Storyclash influencer metrics to Tealium CDP via secure API. Stream creator performance data for real-time processing and activation.' },
+  { name: 'Influencer Data Enrichment', description: 'Enrich customer profiles with Storyclash creator attribution data. Connect influencer impact with individual customer journeys and segments in Tealium.' },
+  { name: 'Activate Influencer Insights', description: 'Route Storyclash creator metrics through Tealium to analytics, marketing, CRM, and advertising platforms for unified activation.' },
+  { name: 'Real-Time Creator Events', description: 'Stream Storyclash influencer events instantly to Tealium CDP. Enrich customer data with creator context as interactions happen.' },
+  { name: 'Import Segments Back to Storyclash', description: 'Export calculated segments and audiences from Tealium back to Storyclash via API. Use them for influencer scoring and segmentation.' }
 ];
 
 export default function TealiumFeaturesTable() {
@@ -13,7 +13,7 @@ export default function TealiumFeaturesTable() {
     <section className="py-20" style={{ backgroundColor: '#FAFAFA', padding: '80px 24px' }}>
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          CDP Integration Features
+          Influencer Data Integration with Tealium
         </h2>
         <div className="bg-white border-2 border-gray-100 overflow-hidden" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
           <div className="divide-y divide-gray-200">
