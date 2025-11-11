@@ -49,13 +49,13 @@ function App() {
         <Route path="/integrations/shopify-influencer-marketing" element={<ShopifyPage />} />
         <Route path="/integrations/shopware-influencer-marketing" element={<ShopwarePage />} />
         <Route path="/integrations/woocommerce-influencer-marketing" element={<WooCommercePage />} />
-        <Route path="/integrations/adobe-influencer-marketing" element={<AdobeCommercePage />} />
+        <Route path="/integrations/Adobe-Commerce-influencer-marketing" element={<AdobeCommercePage />} />
         <Route path="/integrations/bigcommerce-influencer-marketing" element={<BigCommercePage />} />
         <Route path="/integrations/magento-influencer-marketing" element={<MagentoPage />} />
         <Route path="/integrations/wix-ecommerce-influencer-marketing" element={<WixPage />} />
         <Route path="/integrations/squarespace-commerce-influencer-marketing" element={<SquarespacePage />} />
         <Route path="/integrations/prestashop-influencer-marketing" element={<PrestaShopPage />} />
-        <Route path="/integrations/lightspeed-retail-influencer-marketing" element={<LightspeedPage />} />
+        <Route path="/integrations/lightspeed-influencer-marketing" element={<LightspeedPage />} />
         <Route path="/integrations/sap-commerce-cloud-influencer-marketing" element={<SAPCommercePage />} />
         <Route path="/integrations/spryker-influencer-marketing" element={<SprykerPage />} />
         <Route path="/integrations/commercetools-influencer-marketing" element={<CommercetoolsPage />} />
