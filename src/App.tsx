@@ -37,6 +37,7 @@ import KlaviyoPage from './pages/KlaviyoPage';
 import MailchimpPage from './pages/MailchimpPage';
 import GoogleAdsPage from './pages/GoogleAdsPage';
 import IntegrationsPage from './pages/IntegrationsPage';
+import TestPage from './pages/TestPage';
 
 function App() {
   return (
@@ -117,6 +118,8 @@ function App() {
         <Route path="/klaviyo" element={<KlaviyoPage />} />
         <Route path="/mailchimp" element={<MailchimpPage />} />
         <Route path="/google-ads" element={<GoogleAdsPage />} />
+        <Route path="/integrations/test" element={<TestPage />} />
+        <Route path="/test" element={<TestPage />} />
       </Routes>
     </BrowserRouter>
   );
