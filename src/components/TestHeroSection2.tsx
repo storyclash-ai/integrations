@@ -1,8 +1,4 @@
-import { LineChart } from 'lucide-react';
-import HubSpotForm from './HubSpotForm';
-
-
-export default function TestHeroSection() {
+export default function TestHeroSection2() {
   return (
     <section className="px-6" style={{ backgroundColor: '#FAFAFA', paddingTop: '156px', paddingBottom: '80px' }}>
       <div className="max-w-7xl mx-auto">
@@ -12,16 +8,16 @@ export default function TestHeroSection() {
               Integrations
             </a>
             <span className="mx-2">/</span>
-            <span className="font-semibold">Test Page</span>
+            <span className="font-semibold">Test Page 2</span>
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="text-center">
           <div className="animate-fade-in-up">
-            <h1 className="leading-tight mb-6 text-left" style={{ fontSize: '56px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
+            <h1 className="leading-tight mb-6" style={{ fontSize: '56px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
               Shopify + Influencer Marketing Integration
             </h1>
-            <p className="mb-8 text-left" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
+            <p className="mb-8 max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
               Bring creator performance and ROI insights via REST API to your BI dashboards.
             </p>
             <a
@@ -47,15 +43,6 @@ export default function TestHeroSection() {
               Book a Demo
             </a>
           </div>
-          <div className="animate-fade-in">
-            <div className="bg-white p-8 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
-              <HubSpotForm
-                portalId="4268479"
-                formId="c5e245d0-fdc5-45b4-a486-d0ea81da75f1"
-                region="na1"
-              />
-            </div>
-          </div>
         </div>
       </div>
 
@@ -68,14 +55,6 @@ export default function TestHeroSection() {
           to {
             opacity: 1;
             transform: translateY(0);
-          }
-        }
-        @keyframes logoFadeIn {
-          0% {
-            opacity: 0;
-          }
-          100% {
-            opacity: 1;
           }
         }
       `}</style>

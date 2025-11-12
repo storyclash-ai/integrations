@@ -38,6 +38,7 @@ import MailchimpPage from './pages/MailchimpPage';
 import GoogleAdsPage from './pages/GoogleAdsPage';
 import IntegrationsPage from './pages/IntegrationsPage';
 import TestPage from './pages/TestPage';
+import TestPage2 from './pages/TestPage2';
 
 function App() {
   return (
@@ -120,6 +121,8 @@ function App() {
         <Route path="/google-ads" element={<GoogleAdsPage />} />
         <Route path="/integrations/test" element={<TestPage />} />
         <Route path="/test" element={<TestPage />} />
+        <Route path="/integrations/test2" element={<TestPage2 />} />
+        <Route path="/test2" element={<TestPage2 />} />
       </Routes>
     </BrowserRouter>
   );
