@@ -5,7 +5,6 @@ const DataFlowIllustration=()=>(
     <rect x="240" y="40" width="120" height="80" rx="8" stroke="#00A1E0" strokeWidth="2" fill="rgba(0,161,224,0.05)"/>
     <text x="300" y="85" fontSize="14" fontWeight="600" fill="#233C42" textAnchor="middle">Salesforce</text>
     <path d="M165 80 L235 80" stroke="#00A1E0" strokeWidth="2" strokeDasharray="4 4"><animate attributeName="stroke-dashoffset" from="0" to="8" dur="0.5s" repeatCount="indefinite"/></path>
-    <path d="M230 75 L240 80 L230 85" fill="#00A1E0"/>
     <circle cx="100" cy="180" r="30" stroke="#00A1E0" strokeWidth="2" fill="rgba(0,161,224,0.08)"/>
     <text x="100" y="185" fontSize="12" fontWeight="500" fill="#00A1E0" textAnchor="middle">Data</text>
     <circle cx="200" cy="240" r="30" stroke="#00A1E0" strokeWidth="2" fill="rgba(0,161,224,0.08)"/>

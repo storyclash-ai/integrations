@@ -9,7 +9,6 @@ const DataFlowIllustration = () => (
     <path d="M165 80 L235 80" stroke="#4285F4" strokeWidth="2" strokeDasharray="4 4">
       <animate attributeName="stroke-dashoffset" from="0" to="8" dur="0.5s" repeatCount="indefinite" />
     </path>
-    <path d="M230 75 L240 80 L230 85" fill="#4285F4" />
 
     <circle cx="100" cy="180" r="30" stroke="#4285F4" strokeWidth="2" fill="rgba(66, 133, 244, 0.08)" />
     <text x="100" y="185" fontSize="12" fontWeight="500" fill="#4285F4" textAnchor="middle">Data</text>

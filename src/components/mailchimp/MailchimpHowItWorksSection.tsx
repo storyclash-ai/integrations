@@ -9,15 +9,9 @@ const FlowIllustration=()=>(
     <rect x="260" y="40" width="100" height="70" rx="8" stroke="#FFE01B" strokeWidth="2.5" fill="rgba(255,224,27,0.1)"/>
     <text x="310" y="72" fontSize="13" fontWeight="700" fill="#000" textAnchor="middle">Mailchimp</text>
     <text x="310" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Email</text>
-    <path d="M145 75 L195 145" stroke="#FFE01B" strokeWidth="2" markerEnd="url(#arrowhead1-mc)"/>
-    <path d="M205 145 L265 80" stroke="#FFE01B" strokeWidth="2" markerEnd="url(#arrowhead2-mc)"/>
     <circle cx="90" cy="240" r="5" fill="#FFE01B"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
     <circle cx="200" cy="240" r="5" fill="#FFE01B"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.7s" repeatCount="indefinite"/></circle>
     <circle cx="310" cy="240" r="5" fill="#FFE01B"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.4s" repeatCount="indefinite"/></circle>
-    <defs>
-      <marker id="arrowhead1-mc" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><polygon points="0 0, 10 3, 0 6" fill="#FFE01B"/></marker>
-      <marker id="arrowhead2-mc" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><polygon points="0 0, 10 3, 0 6" fill="#FFE01B"/></marker>
-    </defs>
   </svg>
 );
 
