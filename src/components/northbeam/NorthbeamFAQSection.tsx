@@ -4,19 +4,19 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'How does multi-touch attribution work for creators?',
-    answer: 'Northbeam\'s machine learning models track creator touchpoints across the customer journey. The platform attributes revenue to influencers based on their contribution at each stage, showing how creators work with other channels to drive conversions.'
+    answer: 'Storyclash sends detailed creator engagement data via API to Northbeam, where machine learning models track creator touchpoints across the customer journey. Northbeam then attributes revenue to influencers based on their contribution at each stage, providing accurate influencer impact measurement.'
   },
   {
     question: 'What is incrementality testing for influencers?',
     answer: 'Incrementality testing measures true creator impact by comparing revenue from audiences exposed to influencer campaigns versus control groups. This reveals actual lift attributable to creators beyond what would have happened anyway.'
   },
   {
-    question: 'Can I compare creator performance with paid ads?',
-    answer: 'Yes - Northbeam shows creator metrics alongside Facebook Ads, Google Ads, TikTok Ads, and other channels in unified dashboards. Compare ROAS, CAC, and contribution across all marketing channels holistically.'
+    question: 'Can I compare creator performance across social channels?',
+    answer: 'Yes - with Storyclash data in Northbeam, you can compare creator performance across Facebook, Instagram, and Snapchat. Identify top performers and measure which channels drive the highest ROAS and CAC.'
   },
   {
     question: 'How accurate is creator attribution in Northbeam?',
-    answer: 'Northbeam uses machine learning models trained on billions of conversions for precise attribution. The platform tracks touchpoints across devices and channels, providing more accurate creator measurement than last-click or platform-reported metrics.'
+    answer: 'Storyclash provides comprehensive creator data via API that feeds into Northbeam\'s machine learning models trained on billions of conversions. This rich influencer data enables precise attribution, tracking creator touchpoints across devices and providing more accurate measurement than last-click or platform-reported metrics.'
   }
 ];
 

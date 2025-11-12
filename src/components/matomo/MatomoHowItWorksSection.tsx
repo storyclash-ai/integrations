@@ -12,11 +12,7 @@ const FlowIllustration = () => (
 
     <g transform="translate(275, 55)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.5s" fill="freeze" />
-      <path d="M0 0L4 4L0 8" fill="#FF9830" />
-      <path d="M4 0L8 4L4 8" fill="#FF9830" opacity="0.7" />
-      <rect x="10" y="2" width="6" height="4" fill="#FF9830" opacity="0.5" />
-
-      <text x="18" y="11" fontSize="11" fontWeight="700" fill="#19B776" textAnchor="start">Matomo</text>
+      <text x="37" y="11" fontSize="11" fontWeight="700" fill="#19B776" textAnchor="middle">Matomo</text>
     </g>
     <text x="310" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Analytics</text>
 

@@ -64,11 +64,11 @@ const UnifyIcon = () => (
 const useCases = [
   {
     icon: IntegrationIcon,
-    text: 'Integrate influencer data with Google Sheets, Snowflake, BigQuery, and Power BI without manual exports'
+    text: 'Connect Storyclash API with Supermetrics for seamless influencer data integration into your marketing reporting system'
   },
   {
     icon: ScheduleIcon,
-    text: 'Schedule automated transfers - hourly, daily, or weekly updates keep all platforms synchronized'
+    text: 'Schedule automated transfers - hourly, daily, or weekly updates keep creator metrics synchronized across platforms'
   },
   {
     icon: UnifyIcon,

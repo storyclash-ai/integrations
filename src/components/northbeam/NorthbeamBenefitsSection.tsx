@@ -16,8 +16,8 @@ const benefits = [
   {
     icon: AutomateIcon,
     color: '#F49D3B',
-    title: 'Unified Marketing View',
-    description: 'Compare creator performance holistically - view influencer metrics alongside paid ads, email, and organic channels in one platform.'
+    title: 'Creator Performance Comparison',
+    description: 'Compare creator performance across Facebook, Instagram, and Snapchat - identify top performers and measure which channels drive the highest ROAS and CAC.'
   }
 ];
 

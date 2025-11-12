@@ -9,15 +9,9 @@ const FlowIllustration = () => (
     <rect x="260" y="40" width="100" height="70" rx="8" stroke="#4285F4" strokeWidth="2.5" fill="rgba(66, 133, 244, 0.06)" />
     <text x="310" y="72" fontSize="13" fontWeight="700" fill="#4285F4" textAnchor="middle">Google Ads</text>
     <text x="310" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Campaigns</text>
-    <path d="M145 75 L195 145" stroke="#4285F4" strokeWidth="2" markerEnd="url(#arrowhead1-ga)" />
-    <path d="M205 145 L265 80" stroke="#4285F4" strokeWidth="2" markerEnd="url(#arrowhead2-ga)" />
     <circle cx="90" cy="240" r="5" fill="#4285F4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" /></circle>
     <circle cx="200" cy="240" r="5" fill="#4285F4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.7s" repeatCount="indefinite" /></circle>
     <circle cx="310" cy="240" r="5" fill="#4285F4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.4s" repeatCount="indefinite" /></circle>
-    <defs>
-      <marker id="arrowhead1-ga" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><polygon points="0 0, 10 3, 0 6" fill="#4285F4" /></marker>
-      <marker id="arrowhead2-ga" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><polygon points="0 0, 10 3, 0 6" fill="#4285F4" /></marker>
-    </defs>
   </svg>
 );
 

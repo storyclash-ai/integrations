@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does creator data appear in Triple Whale?',
-    answer: 'Creator metrics appear in your main Triple Whale dashboard as a channel alongside paid ads, email, and organic traffic. View influencer revenue, orders, CAC, and ROAS in the same unified view you use for all marketing channels.'
+    question: 'How does Storyclash integrate with Triple Whale?',
+    answer: 'Storyclash connects to Triple Whale via API, sending creator performance data directly to your Triple Whale dashboard. Your influencer metrics appear as a channel alongside paid ads, email, and organic traffic.'
   },
   {
-    question: 'Does the Triple Whale pixel track creator touchpoints?',
-    answer: 'Yes - the Triple Whale pixel captures influencer interactions across devices and sessions. This enables accurate multi-touch attribution showing how creators contribute to customer journeys alongside other marketing touchpoints.'
+    question: 'Can Storyclash data track creator touchpoints in Triple Whale?',
+    answer: 'Yes - Storyclash data flows into Triple Whale\'s attribution system, enabling accurate multi-touch tracking showing how creators contribute to customer journeys alongside other marketing touchpoints.'
   },
   {
-    question: 'Can I compare creator CAC with other channels?',
-    answer: 'Absolutely - Triple Whale calculates customer acquisition cost for creators alongside all other channels. Compare influencer CAC with Facebook Ads, Google Ads, email, and organic to optimize marketing spend allocation.'
+    question: 'How do I compare creator CAC with other channels?',
+    answer: 'With Storyclash data in Triple Whale, you can compare creator customer acquisition cost across Facebook, Instagram, and Snapchat to optimize your influencer marketing spend allocation.'
   },
   {
-    question: 'Are automated creator reports available?',
-    answer: 'Yes - configure automated daily or weekly reports that include creator metrics. Receive Slack notifications or email reports with influencer performance alongside other channel metrics automatically.'
+    question: 'Can I get automated creator performance reports?',
+    answer: 'Yes - configure automated daily or weekly reports with Storyclash creator metrics. Receive Slack notifications or email reports with influencer performance data automatically.'
   }
 ];
 

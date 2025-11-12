@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'What destinations does Supermetrics support?',
-    answer: 'Supermetrics connects to 50+ destinations including Google Sheets, Excel, BigQuery, Snowflake, Looker, Tableau, Power BI, Data Studio, and more. Transfer creator data to any platform Supermetrics supports.'
+    question: 'How does Storyclash integrate with Supermetrics?',
+    answer: 'Storyclash connects to Supermetrics via our API, allowing seamless access to creator performance data. Once connected, you can automatically sync influencer metrics into Supermetrics for your marketing analytics stack.'
   },
   {
     question: 'How often does creator data refresh?',
-    answer: 'Configure custom refresh schedules for creator data - from hourly updates to weekly batches. Supermetrics automatically pulls the latest influencer metrics based on your schedule.'
+    answer: 'Configure custom refresh schedules for creator data - from hourly updates to weekly batches. Storyclash automatically syncs the latest influencer metrics to Supermetrics based on your schedule.'
   },
   {
     question: 'Can I combine creator data with other marketing channels?',
-    answer: 'Yes - Supermetrics excels at data blending. Combine Storyclash creator metrics with Google Ads, Facebook Ads, Instagram, LinkedIn, and 150+ other marketing data sources in unified reports.'
+    answer: 'Yes - via the Storyclash API and Supermetrics integration, you can blend creator metrics with Facebook, Instagram, and Snapchat data in unified reports.'
   },
   {
     question: 'Is historical creator data available?',
-    answer: 'Yes - pull historical influencer performance for trend analysis and year-over-year comparisons. Access past creator metrics dating back to when your Storyclash account started tracking.'
+    answer: 'Yes - access historical influencer performance for trend analysis and year-over-year comparisons. Pull past creator metrics dating back to when your Storyclash account started tracking.'
   }
 ];
 

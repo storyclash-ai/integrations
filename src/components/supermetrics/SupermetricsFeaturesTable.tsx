@@ -2,7 +2,7 @@ import { Check } from 'lucide-react';
 
 const features = [
   { name: 'Scheduled Data Transfers', description: 'Automate creator data exports - set hourly, daily, or weekly schedules to keep influencer metrics current across platforms.' },
-  { name: 'Multiple Destinations', description: 'Send data to 50+ platforms - transfer creator metrics to Google Sheets, Excel, BigQuery, Snowflake, Looker, Tableau, Power BI.' },
+  { name: 'Flexible API Integration', description: 'Connect Storyclash seamlessly with Supermetrics - our API enables bidirectional data flow between platforms for your influencer marketing stack.' },
   { name: 'Data Blending', description: 'Combine creator metrics with other channels - unify influencer performance with paid ads, social, SEO, and email in one dataset.' },
   { name: 'Custom Field Mapping', description: 'Control data structure - map creator metrics to your preferred column names and formats automatically.' },
   { name: 'Historical Data Access', description: 'Pull historical creator performance - access past influencer metrics for trend analysis and year-over-year comparisons.' }

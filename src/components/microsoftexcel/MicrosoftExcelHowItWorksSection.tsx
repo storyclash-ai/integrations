@@ -12,16 +12,9 @@ const FlowIllustration = () => (
 
     <g transform="translate(275, 55)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.5s" fill="freeze" />
-      <path d="M0 0L4 4L0 8" fill="#FF9830" />
-      <path d="M4 0L8 4L4 8" fill="#FF9830" opacity="0.7" />
-      <rect x="10" y="2" width="6" height="4" fill="#FF9830" opacity="0.5" />
-
-      <text x="18" y="11" fontSize="11" fontWeight="700" fill="#19B776" textAnchor="start">Excel</text>
+      <text x="37" y="11" fontSize="11" fontWeight="700" fill="#19B776" textAnchor="middle">Excel</text>
     </g>
     <text x="310" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Spreadsheet</text>
-
-    <path d="M145 75 L195 145" stroke="#19B776" strokeWidth="2" markerEnd="url(#arrowhead1)" />
-    <path d="M205 145 L265 80" stroke="#19B776" strokeWidth="2" markerEnd="url(#arrowhead2)" />
 
     <circle cx="90" cy="240" r="5" fill="#19B776">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
@@ -33,14 +26,6 @@ const FlowIllustration = () => (
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.4s" repeatCount="indefinite" />
     </circle>
 
-    <defs>
-      <marker id="arrowhead1" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-        <polygon points="0 0, 10 3, 0 6" fill="#19B776" />
-      </marker>
-      <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-        <polygon points="0 0, 10 3, 0 6" fill="#19B776" />
-      </marker>
-    </defs>
   </svg>
 );
 

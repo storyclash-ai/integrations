@@ -12,16 +12,9 @@ const FlowIllustration = () => (
 
     <g transform="translate(275, 55)" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.5s" fill="freeze" />
-      <path d="M0 5C0 3 1 2 3 2H10C12 2 13 3 13 5V10C13 12 12 13 10 13H3C1 13 0 12 0 10V5Z" stroke="#96588A" strokeWidth="1.5" fill="rgba(150, 88, 138, 0.1)" />
-      <path d="M4 6L5.5 9L7 6" stroke="#96588A" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M7.5 6L9 9L10.5 6" stroke="#96588A" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" />
-
-      <text x="18" y="11" fontSize="11" fontWeight="700" fill="#19B776" textAnchor="start">WooCommerce</text>
+      <text x="37" y="11" fontSize="11" fontWeight="700" fill="#19B776" textAnchor="middle">WooCommerce</text>
     </g>
     <text x="310" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Dashboard</text>
-
-    <path d="M145 75 L195 145" stroke="#19B776" strokeWidth="2" markerEnd="url(#arrowhead1)" />
-    <path d="M205 145 L265 80" stroke="#19B776" strokeWidth="2" markerEnd="url(#arrowhead2)" />
 
     <circle cx="90" cy="240" r="5" fill="#19B776">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
@@ -33,14 +26,6 @@ const FlowIllustration = () => (
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.4s" repeatCount="indefinite" />
     </circle>
 
-    <defs>
-      <marker id="arrowhead1" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-        <polygon points="0 0, 10 3, 0 6" fill="#19B776" />
-      </marker>
-      <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-        <polygon points="0 0, 10 3, 0 6" fill="#19B776" />
-      </marker>
-    </defs>
   </svg>
 );
 
