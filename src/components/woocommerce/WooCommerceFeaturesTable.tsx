@@ -2,7 +2,7 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Direct API Access',
+    name: 'Direct Shop Access',
     description: 'Pull campaign & creator data securely into WooCommerce.'
   },
   {
@@ -11,15 +11,15 @@ const features = [
   },
   {
     name: 'Custom KPIs',
-    description: 'Track EMV, ROAS, conversions, and engagement metrics.'
+    description: 'Use your own metrics within Storyclash reports'
   },
   {
-    name: 'Multi-Campaign Support',
-    description: 'Consolidate data from multiple Storyclash campaigns.'
+    name: 'Unified Reporting Environment',
+    description: ' Consolidate social, performance & commerce data in one place'
   },
   {
     name: 'Enterprise Security',
-    description: 'GDPR-compliant, hosted in the EU, token-based access.'
+    description: 'GDPR-compliant, hosted in the EU, SSO'
   }
 ];
 
