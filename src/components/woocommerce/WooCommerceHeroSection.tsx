@@ -27,7 +27,7 @@ export default function WooCommerceHeroSection() {
               }}
             >
               See all WooCommerce creator tracking, affiliate performance and discount code analytics directly inside Storyclash.
-Get unified WordPress influencer marketing insights, conversion attribution and real creator ROI based on your WooCommerce sales data. Bring creator performance and ROI insights via REST API to your WooCommerce dashboards. 
+Get unified WordPress influencer marketing insights, conversion attribution and real creator ROI based on your WooCommerce sales data.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"
