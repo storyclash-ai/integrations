@@ -1,4 +1,4 @@
-import { LineChart, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 
 export default function LookerStudioHeroSection() {
@@ -6,7 +6,7 @@ export default function LookerStudioHeroSection() {
     <section className="px-6" style={{ backgroundColor: '#FAFAFA', paddingTop: '156px', paddingBottom: '80px' }}>
       <div className="max-w-7xl mx-auto">
         {/* Breadcrumb */}
-        <div className="mb-6">
+        <div className="mb-16">
           <div className="text-sm text-gray-500">
             <a href="/integrations" className="hover:text-gray-700 transition-colors">
               Integrations
@@ -16,12 +16,20 @@ export default function LookerStudioHeroSection() {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="text-center">
           <div className="animate-fade-in-up">
             <h1 className="leading-tight mb-6" style={{ fontSize: '56px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
               Looker Studio + Influencer Marketing Integration
             </h1>
-            <p className="mb-8" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
+            <p
+              className="hero-txt"
+              style={{
+                color: '#919191',
+                fontSize: '21px',
+                fontFamily: 'Roboto, sans-serif',
+                padding: '0 0 30px 0'
+              }}
+            >
               Connect Storyclash with Looker Studio to build interactive dashboards, visualize creator performance, and turn influencer data into actionable insights with Google's powerful BI platform.
             </p>
             <a
@@ -46,34 +54,6 @@ export default function LookerStudioHeroSection() {
             >
               Book a Demo
             </a>
-          </div>
-          <div className="animate-fade-in">
-            <div className="relative">
-              <div className="absolute inset-0 opacity-20 blur-3xl" style={{ backgroundColor: '#19B776', borderRadius: '20px' }}></div>
-              <div className="relative bg-white p-8 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 10px 30px rgba(0,0,0,0.1)' }}>
-                <LineChart className="w-full h-64 text-gray-300" strokeWidth={1} />
-                <div className="absolute top-12 left-12 right-12 flex justify-between items-start">
-                  <div className="bg-white px-4 py-3 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
-                    <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>Reach</div>
-                    <div className="text-xl font-black" style={{ color: '#4285F4', fontFamily: 'Roboto, sans-serif' }}>2.4M</div>
-                  </div>
-                  <div className="bg-white px-4 py-3 border border-gray-100" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
-                    <div className="text-xs mb-1" style={{ color: '#333333', fontFamily: 'Roboto, sans-serif' }}>EMV</div>
-                    <div className="text-xl font-black" style={{ color: '#34A853', fontFamily: 'Roboto, sans-serif' }}>€186K</div>
-                  </div>
-                </div>
-                <div
-                  className="absolute bottom-8 left-8 opacity-0 transition-opacity duration-300"
-                  style={{
-                    animation: 'logoFadeIn 0.6s ease-out 0.6s forwards'
-                  }}
-                  onMouseEnter={(e) => e.currentTarget.style.opacity = '0.8'}
-                  onMouseLeave={(e) => e.currentTarget.style.opacity = '0.9'}
-                >
-                  <img src="/logos/Looker_Logo.svg" alt="lookerstudio" style={{ height: '30px' }} />
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
