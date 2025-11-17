@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'What file formats are supported?',
-    answer: 'Export data as XLSX (Excel native) or CSV (universal format) - both compatible with Microsoft Excel, Google Sheets, and all spreadsheet applications.'
+    question: 'What file formats does the Storyclash Excel export support?',
+    answer: 'Storyclash exports influencer and creator data as XLSX or CSV (universal format). Both export types are fully compatible with Microsoft Excel, Google Sheets and other spreadsheet tools.'
   },
   {
-    question: 'Can I customize which data to export?',
-    answer: 'Yes - select specific metrics, date ranges, and creator segments before export. Only download the data you need for your analysis.'
+    question: 'Can I customize which Storyclash creator and campaign data is exported to Excel?',
+    answer: 'Yes. You can choose exactly which Storyclash metrics to export to Excel – for example engagement, reach, impressions, clicks, conversions, revenue, discount code usage or custom fields. Filter by date range, campaign or creator segments and only download the influencer data you need.'
   },
   {
-    question: 'Is historical data available for export?',
-    answer: 'Yes - export influencer performance data for any historical date range, enabling trend analysis and multi-period comparisons.'
+    question: 'Is historical influencer performance data available when exporting from Storyclash to Excel?',
+    answer: 'Yes. Storyclash lets you export historical influencer performance data for any date range into Excel. This makes it easy to run trend analyses, compare campaign periods and build year-over-year reports in your spreadsheets.'
   },
   {
-    question: 'Can I use my existing Excel templates?',
-    answer: 'Yes - import exported data into your existing Excel templates. The structured format works with your formulas, macros, and reporting logic.'
+    question: 'Can I use my existing Excel templates and dashboards with Storyclash exports?',
+    answer: 'Yes. Storyclash exports come in a structured, tabular format that works seamlessly with your existing Excel templates, formulas, pivot tables and dashboards. Simply connect the exported data to your current models and reporting logic.'
   }
 ];
 

@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function GoogleSheetsPage() {
   const title = "Google Sheets Influencer Marketing Integration | Storyclash";
-  const description = "Connect Google Sheets with Storyclash's influencer marketing platform. Export creator data to your reporting tools, automate data transfers, and unify campaign metrics. Book a demo.";
+  const description = "Connect Google Sheets with Storyclash's influencer marketing platform. Export creator and campaign data into Google Sheets via API to build live dashboards, automate reporting and blend influencer metrics with your business data. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/google-sheets-influencer-marketing";
 
   const jsonLd = {
@@ -41,34 +41,42 @@ export default function GoogleSheetsPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How often does data sync to Google Sheets?",
+                              "name": "How does Storyclash export influencer and campaign data to Google Sheets?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "You can configure automatic exports to run daily, weekly, or in real-time. Data updates appear in your Google Sheet within minutes of the scheduled sync."
+                                      "text": "Storyclash exports creator and campaign metrics to Google Sheets via a secure REST API. After authenticating with your API key, your Sheets document will receive live influencer data from Storyclash without manual exports."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I choose which metrics to export?",
+                              "name": "Which Storyclash metrics can I use inside Google Sheets dashboards?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - select exactly which creator metrics you need: engagement rate, reach, impressions, conversions, revenue, or any custom fields you track in Storyclash."
+                                      "text": "You can sync impressions, reach, engagement, engagement rate, conversions, revenue attribution, EMV, ROI, ROAS and creator-level KPIs directly into Google Sheets. All Storyclash metrics can be used in formulas, pivot tables and charts."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Is there a limit to how many people can access the Sheet?",
+                              "name": "How often does Storyclash sync creator data with Google Sheets?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "No - once data is exported to Google Sheets, you can share it with unlimited team members and stakeholders using standard Google Sheets permissions."
+                                      "text": "Storyclash can sync influencer data to Google Sheets in near real time or on scheduled intervals. Your spreadsheets always stay updated without manual imports or copy-paste work."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I export historical campaign data?",
+                              "name": "Do I need technical skills to connect Storyclash to Google Sheets?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - export influencer performance data for any date range, enabling year-over-year comparisons and historical trend analysis in Sheets."
+                                      "text": "Yes, you need some technical skills to set up the API connection with your Storyclash API key. However, once connected, marketing teams can use Google Sheets built-in formulas and charts without additional technical expertise."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Is the Storyclash → Google Sheets integration secure and GDPR-compliant?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes. The Storyclash → Google Sheets integration uses secure, encrypted API endpoints and token-based authentication. Storyclash is fully GDPR-compliant and processes influencer and campaign data on EU-hosted infrastructure."
                               }
                       }
               ]

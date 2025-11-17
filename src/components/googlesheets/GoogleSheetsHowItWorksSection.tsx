@@ -36,8 +36,8 @@ const steps = [
   },
   {
     number: '02',
-    title: 'Configure data sync',
-    description: 'Choose which creator metrics to export - engagement, reach, conversions, revenue, or custom fields.'
+    title: 'Sync Storyclash creator data into Google Sheets',
+    description: 'Storyclash exports all creator, content and campaign metrics directly into your Google Sheets spreadsheets for automated reporting.'
   },
   {
     number: '03',

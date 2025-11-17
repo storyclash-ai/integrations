@@ -28,7 +28,7 @@ export default function MatomoHeroSection() {
                 padding: '0 0 30px 0'
               }}
             >
-              Privacy-focused analytics for tracking creator-driven website traffic, conversions, and user behavior without compromising data ownership.
+              Stream influencer performance data to Matomo with automatic UTM tracking, measure creator-driven conversions, and keep full data ownership with privacy-first analytics.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"

@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'Is Matomo integration GDPR compliant?',
-    answer: 'Yes - Matomo is privacy-focused and supports GDPR compliance. The integration tracks creator traffic and stores data on your infrastructure. Note: In the EU, consent banners are still required for analytics tracking to comply with GDPR and ePrivacy regulations.'
+    question: 'Is the Matomo + Storyclash integration GDPR-compliant and privacy-friendly?',
+    answer: 'Yes – Matomo is privacy-focused and supports GDPR compliance. The Matomo + Storyclash integration tracks creator-driven traffic and stores data on your own infrastructure. Note: In the EU, consent banners are still required for analytics tracking to comply with GDPR and ePrivacy regulations.'
   },
   {
-    question: 'Can I use self-hosted Matomo?',
-    answer: 'Yes - connect both self-hosted and cloud Matomo instances. Storyclash syncs creator attribution data to your infrastructure via secure API authentication.'
+    question: 'Can I use self-hosted or cloud Matomo with Storyclash?',
+    answer: 'Yes – you can connect both self-hosted and cloud Matomo instances. Storyclash syncs creator attribution data to your infrastructure via secure API authentication.'
   },
   {
-    question: 'How does creator attribution work?',
-    answer: 'Storyclash automatically adds UTM parameters to influencer links. Matomo tracks these parameters to attribute traffic, conversions, and revenue to specific creators and campaigns.'
+    question: 'How does Storyclash track and attribute influencer traffic in Matomo?',
+    answer: 'Storyclash automatically adds UTM parameters to influencer links. Matomo tracks these parameters to attribute traffic, conversions and revenue to specific creators and campaigns inside your analytics reports.'
   },
   {
-    question: 'What metrics are tracked?',
-    answer: 'Track creator-driven page views, session duration, bounce rates, goal completions, and e-commerce conversions. All standard Matomo metrics work with influencer attribution.'
+    question: 'Which Matomo metrics are tracked for influencer campaign reporting?',
+    answer: 'You can track influencer engagement rate, reach, ROAS (return on ad spend), and conversions from creator campaigns. All Storyclash influencer metrics work with UTM attribution in your Matomo reports.'
   }
 ];
 
