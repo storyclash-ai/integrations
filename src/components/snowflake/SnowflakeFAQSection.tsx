@@ -3,24 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash integrate with Snowflake?',
-    answer: 'Use the Storyclash REST API to export creator metrics directly to Snowflake tables. The API provides clean, structured JSON data ready for immediate SQL analysis and joins with other enterprise datasets.'
+    question: 'How does Storyclash export influencer and campaign data to Snowflake?',
+    answer: 'Storyclash exports creator, content and campaign metrics to Snowflake using secure REST API authentication. Your Snowflake tables are updated automatically without manual pipelines or scheduled CSV uploads.'
   },
   {
-    question: 'What influencer data can I store in Snowflake?',
-    answer: 'All creator metrics including reach, engagement, conversions, campaign performance, content analytics, and ROI - stored as structured tables ready for SQL queries and joins with other datasets.'
+    question: 'Which Storyclash creator and campaign metrics are available in Snowflake?',
+    answer: 'Snowflake receives impressions, reach, engagement rate, conversions, attributed revenue, EMV, creator identifiers, content performance and all campaign-level KPIs. Every metric is available for SQL queries, joins and modeling.'
   },
   {
-    question: 'Can I combine Storyclash data with other sources?',
-    answer: 'Yes - that\'s the power of Snowflake. Join influencer data with sales, CRM, web analytics, and any other data source in your warehouse for comprehensive multi-channel analysis.'
+    question: 'What are the benefits of using Snowflake as a warehouse for Storyclash data?',
+    answer: 'Snowflake enables large-scale analytics, automated pipelines, cross-channel attribution, data modeling, AI workloads and joins with CRM, e-commerce, marketing spend and analytics datasets. Storyclash becomes a unified data source inside your modern marketing warehouse.'
   },
   {
-    question: 'How do I keep the data updated?',
-    answer: 'Configure scheduled data exports using the Storyclash API. Set automatic refresh intervals (hourly, daily, weekly) to keep your Snowflake influencer metrics current with the latest campaign performance data.'
-  },
-  {
-    question: 'Can I import insights from Snowflake back to Storyclash?',
-    answer: 'Yes - export calculated metrics, segments, and insights from Snowflake back to Storyclash via API. Use them for influencer scoring, segmentation, and ongoing attribution in the platform.'
+    question: 'How secure and compliant is the Storyclash → Snowflake integration?',
+    answer: 'Storyclash uses encrypted REST API endpoints, secure token authentication and GDPR-compliant EU hosting. Snowflake offers fine-grained access control, role-based permissions and enterprise-grade data governance.'
   }
 ];
 

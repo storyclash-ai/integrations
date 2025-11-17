@@ -5,7 +5,7 @@ const features = [
   { name: 'Influencer Data Enrichment', description: 'Enrich customer profiles with Storyclash creator attribution data. Connect influencer impact with individual customer journeys and segments in Tealium.' },
   { name: 'Activate Influencer Insights', description: 'Route Storyclash creator metrics through Tealium to analytics, marketing, CRM, and advertising platforms for unified activation.' },
   { name: 'Real-Time Creator Events', description: 'Stream Storyclash influencer events instantly to Tealium CDP. Enrich customer data with creator context as interactions happen.' },
-  { name: 'Import Segments Back to Storyclash', description: 'Export calculated segments and audiences from Tealium back to Storyclash via API. Use them for influencer scoring and segmentation.' }
+  { name: 'Audience Activation in Tealium', description: 'Use Tealium audiences enriched with Storyclash creator data to orchestrate campaigns and personalization across all connected channels.' }
 ];
 
 export default function TealiumFeaturesTable() {

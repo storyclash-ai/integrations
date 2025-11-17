@@ -41,34 +41,34 @@ export default function SnowflakePage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How does Storyclash integrate with Snowflake?",
+                              "name": "How does Storyclash export influencer and campaign data to Snowflake?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Use Storyclash API to extract creator data and load it into Snowflake via Snowpipe, Python connectors, or your preferred ETL tool. The API provides structured JSON data that maps cleanly to Snowflake tables."
+                                      "text": "Storyclash exports creator, content and campaign metrics to Snowflake using secure REST API authentication. Your Snowflake tables are updated automatically without manual pipelines or scheduled CSV uploads."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "What influencer data can I store in Snowflake?",
+                              "name": "Which Storyclash creator and campaign metrics are available in Snowflake?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "All creator metrics including reach, engagement, conversions, campaign performance, content analytics, and ROI - stored as structured tables ready for SQL queries and joins with other datasets."
+                                      "text": "Snowflake receives impressions, reach, engagement rate, conversions, attributed revenue, EMV, creator identifiers, content performance and all campaign-level KPIs. Every metric is available for SQL queries, joins and modeling."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How do I keep the data updated?",
+                              "name": "What are the benefits of using Snowflake as a warehouse for Storyclash data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Set up automated ETL pipelines using tools like Airflow, Fivetran, or custom Python scripts that regularly pull fresh data from Storyclash API into your Snowflake tables."
+                                      "text": "Snowflake enables large-scale analytics, automated pipelines, cross-channel attribution, data modeling, AI workloads and joins with CRM, e-commerce, marketing spend and analytics datasets. Storyclash becomes a unified data source inside your modern marketing warehouse."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "What are the performance considerations?",
+                              "name": "How secure and compliant is the Storyclash → Snowflake integration?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Snowflake handles large-scale influencer datasets efficiently. Storyclash provides clean, structured data optimized for warehouse performance. Use appropriate clustering and partitioning for optimal query speed."
+                                      "text": "Storyclash uses encrypted REST API endpoints, secure token authentication and GDPR-compliant EU hosting. Snowflake offers fine-grained access control, role-based permissions and enterprise-grade data governance."
                               }
                       }
               ]

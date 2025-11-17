@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash integrate with Tealium?',
-    answer: 'Send Storyclash influencer metrics to Tealium CDP via secure REST API. Stream creator performance data in real-time. Import calculated segments and audiences from Tealium back to Storyclash.'
+    question: 'How does Storyclash send influencer and campaign data to Tealium CDP?',
+    answer: 'Storyclash sends creator and campaign metrics to Tealium CDP via a secure REST API integration. Influencer events and performance data are streamed from Storyclash into Tealium so they can be used in customer profiles, journeys and downstream tools.'
   },
   {
-    question: 'What Storyclash data syncs to Tealium?',
-    answer: 'All creator metrics including engagement, reach, conversions, ROI, campaign performance, and audience data. Storyclash sends influencer attribution events to Tealium for unified customer profiling.'
+    question: 'What Storyclash creator and campaign data syncs to Tealium?',
+    answer: 'Tealium can receive Storyclash metrics such as impressions, reach, engagement rate, conversions, campaign identifiers, creator IDs and attributed revenue signals. These fields are mapped into Tealium events and attributes for unified customer profiles.'
   },
   {
-    question: 'Can I activate Storyclash data across platforms?',
-    answer: 'Yes - use Tealium to route Storyclash influencer metrics to analytics, CRM, marketing automation, and advertising platforms. Activate creator insights across your entire marketing stack.'
+    question: 'How can I activate Storyclash influencer data across platforms with Tealium?',
+    answer: 'Use Tealium to route Storyclash influencer data to analytics, CRM, marketing automation and advertising platforms. Creator insights from Storyclash become available across your entire stack for targeting, personalization, suppression and reporting.'
   },
   {
-    question: 'Can I import Tealium segments back to Storyclash?',
-    answer: 'Yes - export calculated segments and audiences from Tealium back to Storyclash via API. Use them for influencer scoring, segmentation, and ongoing attribution.'
+    question: 'Is the Storyclash → Tealium integration secure and GDPR-compliant?',
+    answer: 'Yes. Storyclash uses encrypted REST API connections and secure authentication when sending data to Tealium. Both platforms support GDPR-compliant data processing, consent-based tracking and enterprise-grade governance controls.'
   }
 ];
 

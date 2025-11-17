@@ -58,7 +58,7 @@ const benefits = [
   {
     icon: IntegrationIcon,
     title: 'Broad Platform Support',
-    description: 'Export to Google Sheets, Excel, BigQuery, Snowflake, Power BI, Tableau, and more. Supermetrics handles the technical integration with your entire marketing stack.'
+    description: 'Supermetrics connects to 150+ destinations including Google Sheets, Excel, BigQuery, Snowflake, Power BI, Tableau, and more. Route Storyclash creator data to any platform Supermetrics supports.'
   },
   {
     icon: MultiChannelIcon,

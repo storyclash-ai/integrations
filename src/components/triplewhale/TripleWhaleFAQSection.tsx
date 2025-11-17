@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash integrate with Triple Whale?',
-    answer: 'Storyclash connects to Triple Whale via API, sending creator performance data directly to your Triple Whale dashboard. Your influencer metrics appear as a channel alongside paid ads, email, and organic traffic.'
+    question: 'How does Storyclash export creator and campaign data to Triple Whale?',
+    answer: 'Storyclash exports creator and campaign performance metrics to Triple Whale via a secure integration. Storyclash creator data appears in your Triple Whale dashboard as a channel alongside paid ads, email and organic traffic, so you can track influencer revenue, orders, CAC and ROAS in the same unified view as all other marketing channels.'
   },
   {
-    question: 'Can Storyclash data track creator touchpoints in Triple Whale?',
-    answer: 'Yes - Storyclash data flows into Triple Whale\'s attribution system, enabling accurate multi-touch tracking showing how creators contribute to customer journeys alongside other marketing touchpoints.'
+    question: 'Can Triple Whale track creator touchpoints with pixel data from influencer campaigns?',
+    answer: 'Yes. Triple Whale\'s pixel captures influencer interactions across devices and sessions and combines them with creator campaign data from Storyclash. This enables accurate multi-touch attribution that shows how creators contribute to customer journeys alongside other marketing touchpoints.'
   },
   {
-    question: 'How do I compare creator CAC with other channels?',
-    answer: 'With Storyclash data in Triple Whale, you can compare creator customer acquisition cost across Facebook, Instagram, and Snapchat to optimize your influencer marketing spend allocation.'
+    question: 'How do I compare creator CAC from Storyclash with other channels in Triple Whale?',
+    answer: 'Triple Whale calculates customer acquisition cost for creators alongside all other channels. By combining Storyclash creator spend and Triple Whale revenue data, you can compare influencer CAC with Facebook Ads, Google Ads, email and organic to optimize budget allocation.'
   },
   {
-    question: 'Can I get automated creator performance reports?',
-    answer: 'Yes - configure automated daily or weekly reports with Storyclash creator metrics. Receive Slack notifications or email reports with influencer performance data automatically.'
+    question: 'Can I get automated creator performance reports in Triple Whale?',
+    answer: 'Yes. You can configure automated daily or weekly reports in Triple Whale that include creator metrics sourced from Storyclash. Receive Slack notifications or email reports with influencer performance alongside other channel metrics without manual reporting work.'
   }
 ];
 

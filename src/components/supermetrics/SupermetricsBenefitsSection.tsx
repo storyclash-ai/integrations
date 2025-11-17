@@ -5,13 +5,13 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Automated Data Transfer',
-    description: 'Schedule creator data exports automatically - Storyclash API syncs influencer metrics to Supermetrics without manual work.'
+    description: 'Schedule Storyclash creator data exports automatically – the Storyclash REST API sends influencer metrics to Supermetrics without manual work.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
     title: 'Seamless API Integration',
-    description: 'Connect Storyclash directly with Supermetrics via our powerful API - bidirectional data flow for your influencer marketing analytics.'
+    description: 'Connect Storyclash directly with Supermetrics via our REST API – Storyclash creator metrics become a Supermetrics data source for your influencer marketing analytics.'
   },
   {
     icon: AutomateIcon,

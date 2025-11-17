@@ -2,10 +2,10 @@ import { ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 
 const faqs = [
-  { question: 'How does Storyclash integrate with Segment?', answer: 'Send Storyclash influencer metrics to Segment CDP via secure API. Import calculated segments and audiences from Segment back to Storyclash for influencer scoring and segmentation.' },
-  { question: 'What Storyclash data syncs to Segment?', answer: 'All creator metrics including engagement, reach, conversions, ROI, campaign performance, and audience data. Data syncs to Segment with standardized schemas for consistency.' },
-  { question: 'Can I activate Storyclash data across tools?', answer: 'Yes - use Segment to route Storyclash influencer data to analytics, CRM, email, and advertising platforms. Activate creator insights across your entire marketing stack.' },
-  { question: 'Can I import Segment insights back to Storyclash?', answer: 'Yes - export calculated segments and audiences from Segment back to Storyclash via API. Use them for influencer scoring, segmentation, and ongoing attribution.' }
+  { question: 'How does Storyclash send influencer and campaign data to Segment CDP?', answer: 'Storyclash sends creator and campaign metrics to Segment CDP via a secure API integration. Influencer events and performance data are streamed from Storyclash into Segment, so they can be used in customer profiles, journeys and downstream tools.' },
+  { question: 'Which Storyclash creator and campaign metrics can be synced to Segment?', answer: 'Segment can receive Storyclash metrics such as impressions, reach, engagement rate, conversions, campaign IDs, creator identifiers and attributed revenue signals. These fields are mapped into Segment events and traits with standardized schemas.' },
+  { question: 'How can I activate Storyclash influencer data across tools with Segment?', answer: 'Use Segment to route Storyclash influencer data to analytics, CRM, email, advertising and marketing automation tools. Creator insights from Storyclash become available across your entire stack for targeting, personalization, suppression and reporting.' },
+  { question: 'Is the Storyclash → Segment integration secure and GDPR-compliant?', answer: 'Yes. Storyclash uses encrypted API connections and secure authentication when sending data to Segment. Both platforms provide GDPR-compliant data processing and support consent-based tracking and audience management.' }
 ];
 
 export default function SegmentFAQSection() {

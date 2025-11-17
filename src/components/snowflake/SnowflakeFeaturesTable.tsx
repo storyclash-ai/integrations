@@ -18,8 +18,8 @@ const features = [
     description: 'Set up scheduled or event-driven data pipelines that keep your Snowflake tables current with latest metrics.'
   },
   {
-    name: 'Import Insights Back to Storyclash',
-    description: 'Export calculated metrics and insights from Snowflake back to Storyclash via API. Use enriched data for influencer scoring, segmentation, and ongoing attribution.'
+    name: 'Advanced Analytics & ML Models',
+    description: 'Build custom SQL queries, predictive models and machine learning workloads in Snowflake using Storyclash creator data combined with your other business datasets.'
   }
 ];
 

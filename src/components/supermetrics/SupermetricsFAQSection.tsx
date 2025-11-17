@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash integrate with Supermetrics?',
-    answer: 'Storyclash connects to Supermetrics via our API, allowing seamless access to creator performance data. Once connected, you can automatically sync influencer metrics into Supermetrics for your marketing analytics stack.'
+    question: 'How does Storyclash export creator data to Supermetrics?',
+    answer: 'Storyclash connects to Supermetrics via a secure REST API. You add Storyclash as a data source in Supermetrics, authenticate once with your API key, and Supermetrics can then fetch creator metrics such as impressions, clicks, conversions and revenue for use in any supported destination.'
   },
   {
-    question: 'How often does creator data refresh?',
-    answer: 'Configure custom refresh schedules for creator data - from hourly updates to weekly batches. Storyclash automatically syncs the latest influencer metrics to Supermetrics based on your schedule.'
+    question: 'How often can Storyclash creator data be refreshed in Supermetrics?',
+    answer: 'You control the refresh schedule in Supermetrics – from hourly updates to daily or weekly batches. Supermetrics regularly pulls the latest Storyclash creator metrics via API so your reports and dashboards stay up to date automatically.'
   },
   {
-    question: 'Can I combine creator data with other marketing channels?',
-    answer: 'Yes - via the Storyclash API and Supermetrics integration, you can blend creator metrics with Facebook, Instagram, and Snapchat data in unified reports.'
+    question: 'Can I blend Storyclash creator metrics with other marketing channels in Supermetrics?',
+    answer: 'Yes. Supermetrics lets you combine Storyclash creator and influencer metrics with data from Google Ads, Meta Ads, TikTok, email platforms and 150+ other sources. You can build unified reports that show creator-driven performance alongside the rest of your marketing mix.'
   },
   {
-    question: 'Is historical creator data available?',
-    answer: 'Yes - access historical influencer performance for trend analysis and year-over-year comparisons. Pull past creator metrics dating back to when your Storyclash account started tracking.'
+    question: 'Is historical Storyclash creator data available in Supermetrics?',
+    answer: 'Yes. Supermetrics can query historical Storyclash data for trend analysis and year-over-year comparisons. You can access past creator metrics from the moment Storyclash started tracking your campaigns, subject to your account\'s data retention.'
   }
 ];
 

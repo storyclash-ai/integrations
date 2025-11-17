@@ -41,34 +41,34 @@ export default function SupermetricsPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "What destinations does Supermetrics support?",
+                              "name": "How does Storyclash export creator data to Supermetrics?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Supermetrics connects to 50+ destinations including Google Sheets, Excel, BigQuery, Snowflake, Looker, Tableau, Power BI, Data Studio, and more. Transfer creator data to any platform Supermetrics supports."
+                                      "text": "Storyclash connects to Supermetrics via a secure REST API. You add Storyclash as a data source in Supermetrics, authenticate once with your API key, and Supermetrics can then fetch creator metrics such as impressions, clicks, conversions and revenue for use in any supported destination."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How often does creator data refresh?",
+                              "name": "How often can Storyclash creator data be refreshed in Supermetrics?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Configure custom refresh schedules for creator data - from hourly updates to weekly batches. Supermetrics automatically pulls the latest influencer metrics based on your schedule."
+                                      "text": "You control the refresh schedule in Supermetrics – from hourly updates to daily or weekly batches. Supermetrics regularly pulls the latest Storyclash creator metrics via API so your reports and dashboards stay up to date automatically."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I combine creator data with other marketing channels?",
+                              "name": "Can I blend Storyclash creator metrics with other marketing channels in Supermetrics?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - Supermetrics excels at data blending. Combine Storyclash creator metrics with Google Ads, Facebook Ads, Instagram, LinkedIn, and 150+ other marketing data sources in unified reports."
+                                      "text": "Yes. Supermetrics lets you combine Storyclash creator and influencer metrics with data from Google Ads, Meta Ads, TikTok, email platforms and 150+ other sources. You can build unified reports that show creator-driven performance alongside the rest of your marketing mix."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Is historical creator data available?",
+                              "name": "Is historical Storyclash creator data available in Supermetrics?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - pull historical influencer performance for trend analysis and year-over-year comparisons. Access past creator metrics dating back to when your Storyclash account started tracking."
+                                      "text": "Yes. Supermetrics can query historical Storyclash data for trend analysis and year-over-year comparisons. You can access past creator metrics from the moment Storyclash started tracking your campaigns, subject to your account's data retention."
                               }
                       }
               ]
@@ -83,6 +83,7 @@ export default function SupermetricsPage() {
         description={description}
         canonical={canonical}
         openGraphImage="/og/integrations-supermetrics.png"
+        keywords="Supermetrics influencer marketing integration, Supermetrics creator analytics, Supermetrics Storyclash API, Supermetrics influencer ROI, Supermetrics marketing data pipeline"
         jsonLd={jsonLd}
       />
       <Header />

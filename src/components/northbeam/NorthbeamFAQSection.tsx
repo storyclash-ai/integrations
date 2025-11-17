@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does multi-touch attribution work for creators?',
-    answer: 'Storyclash sends detailed creator engagement data via API to Northbeam, where machine learning models track creator touchpoints across the customer journey. Northbeam then attributes revenue to influencers based on their contribution at each stage, providing accurate influencer impact measurement.'
+    question: 'How does Storyclash integrate creator data with Northbeam for multi-touch attribution?',
+    answer: 'Storyclash exports creator performance and revenue data to Northbeam via REST API. In Northbeam, this data is combined with paid ads, ecommerce and analytics signals so you can run multi-touch attribution models and understand how influencer campaigns contribute across the full customer journey.'
   },
   {
-    question: 'What is incrementality testing for influencers?',
-    answer: 'Incrementality testing measures true creator impact by comparing revenue from audiences exposed to influencer campaigns versus control groups. This reveals actual lift attributable to creators beyond what would have happened anyway.'
+    question: 'Which creator and revenue metrics can Storyclash send to Northbeam?',
+    answer: 'Storyclash can send creator metrics such as impressions, views, clicks, engagement, EMV, as well as revenue-related metrics like orders, attributed revenue, AOV and ROAS into Northbeam. These metrics enrich your marketing measurement setup and allow you to analyze influencer performance alongside all other channels.'
   },
   {
-    question: 'Can I compare creator performance across social channels?',
-    answer: 'Yes - with Storyclash data in Northbeam, you can compare creator performance across Facebook, Instagram, and Snapchat. Identify top performers and measure which channels drive the highest ROAS and CAC.'
+    question: 'How does Northbeam measure incrementality and true influencer ROI with Storyclash data?',
+    answer: 'Northbeam uses Storyclash creator data together with conversion events to run incrementality tests and advanced attribution models. By comparing exposed versus control audiences, you can quantify true incremental revenue, ROI and customer acquisition driven by influencer campaigns.'
   },
   {
-    question: 'How accurate is creator attribution in Northbeam?',
-    answer: 'Storyclash provides comprehensive creator data via API that feeds into Northbeam\'s machine learning models trained on billions of conversions. This rich influencer data enables precise attribution, tracking creator touchpoints across devices and providing more accurate measurement than last-click or platform-reported metrics.'
+    question: 'Can I compare creator performance and CAC against other channels in Northbeam?',
+    answer: 'Yes. In Northbeam, creators appear as a measurable channel next to paid social, search, email and other sources. With Storyclash data, you can compare creator CAC, ROAS and contribution to revenue against all other marketing channels to optimize budget allocation.'
   }
 ];
 

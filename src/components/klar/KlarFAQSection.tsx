@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash integrate with Klar?',
-    answer: 'Storyclash connects to Klar via API, sending creator campaign data to Klar for revenue attribution and performance analysis. Your influencer metrics flow seamlessly into Klar\'s attribution system.'
+    question: 'How does Storyclash send influencer and campaign data to Klar?',
+    answer: 'Storyclash exports influencer and campaign performance metrics to Klar via a secure API integration. Klar combines these creator signals with your ecommerce order data so you can see how influencer content impacts revenue, conversions and customer lifetime value.'
   },
   {
-    question: 'Can I compare creator LTV with other channels?',
-    answer: 'Yes - with Storyclash data in Klar, you can compare customer lifetime value from creators versus paid ads, email, SEO, or direct traffic to understand true influencer value.'
+    question: 'Can Klar compare creator customer lifetime value with other marketing channels?',
+    answer: 'Yes. Klar tracks customer lifetime value by acquisition source and merges Storyclash creator data with your purchase behaviour. You can compare LTV of customers acquired through influencers against paid ads, email, SEO or direct traffic to understand the true long-term impact of creator campaigns.'
   },
   {
-    question: 'What attribution models can I use with Storyclash data?',
-    answer: 'Klar supports multiple attribution models including first-click, last-click, and linear attribution. Use these with Storyclash creator data to measure influencer impact across customer journeys.'
+    question: 'Which attribution models does Klar use for creator campaigns?',
+    answer: 'Klar supports creator-specific attribution including discount code tracking, UTM parameter mapping, and influencer link attribution. You can choose the method that best captures how each creator\'s content drives conversions and apply it to Storyclash campaign data for precise creator revenue attribution.'
   },
   {
-    question: 'How do I track creator ROAS with Storyclash?',
-    answer: 'Storyclash sends creator costs to Klar, which combines them with revenue attribution from your e-commerce platform to automatically calculate creator ROAS and campaign profitability.'
+    question: 'How does Klar calculate creator ROAS using Storyclash data?',
+    answer: 'Klar calculates creator ROAS by dividing revenue attributed to each creator by the corresponding creator costs from Storyclash or your finance systems. This lets you measure the profitability of influencer campaigns based on real orders, repeat purchases and long-term customer value.'
   }
 ];
 
