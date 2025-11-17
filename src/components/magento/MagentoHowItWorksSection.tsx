@@ -33,7 +33,7 @@ const steps = [
   {
     number: '01',
     title: 'Connect your Magento store in Storyclash',
-    description: 'Activate the Magento connector in Storyclash and link it to your store in just a few clicks – no custom API work or developer support required.'
+    description: 'Activate the Magento connector in Storyclash and connect it to your store – no custom API work or developer support required.'
   },
   {
     number: '02',

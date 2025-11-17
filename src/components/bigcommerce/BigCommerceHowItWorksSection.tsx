@@ -33,7 +33,7 @@ const steps = [
   {
     number: '01',
     title: 'Connect your Storyclash account',
-    description: 'Activate the BigCommerce connector in Storyclash in minutes.'
+    description: 'Activate the BigCommerce connector in Storyclash and connect your store.'
   },
   {
     number: '02',

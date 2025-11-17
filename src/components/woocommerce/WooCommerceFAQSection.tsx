@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: 'Do I need a developer to integrate WooCommerce with Storyclash?',
-    answer: 'No. WooCommerce can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet or plugin to your WordPress/WooCommerce store and e-commerce data starts flowing into Storyclash automatically.'
+    answer: 'No. WooCommerce can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet to your WordPress/WooCommerce store and e-commerce data starts flowing into Storyclash automatically.'
   },
   {
     question: 'Is the WooCommerce → Storyclash connector GDPR-compliant and secure?',

@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: 'Do I need a developer to connect Adobe Commerce with Storyclash?',
-    answer: 'No. Marketing teams can connect Adobe Commerce with Storyclash using the connector. Simply activate the Adobe Commerce connector in Storyclash, install the tracking snippet in your Adobe Commerce environment, and e-commerce data will start flowing into Storyclash automatically. Your IT team can still review and approve the setup, but day-to-day management stays with marketing.'
+    answer: 'No. Simply activate the Adobe Commerce connector in Storyclash and install the tracking snippet in your Adobe Commerce environment. E-commerce data will start flowing into Storyclash automatically without any custom development.'
   },
   {
     question: 'Is the Adobe Commerce → Storyclash connector enterprise-secure and GDPR-compliant?',

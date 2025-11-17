@@ -33,7 +33,7 @@ const steps = [
   {
     number: '01',
     title: 'Connect WooCommerce in Storyclash',
-    description: 'Activate the WooCommerce connector in Storyclash and link it to your shop in just a few clicks – no custom development required.'
+    description: 'Activate the WooCommerce connector in Storyclash and connect it to your shop – no custom development required.'
   },
   {
     number: '02',
