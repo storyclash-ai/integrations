@@ -53,8 +53,8 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Track Creator Revenue in Your BI Dashboards',
-    description: 'No manual exports or spreadsheets. Storyclash delivers ready-to-use influencer and campaign data via REST API to your BI dashboards - clean, standardized, and automated.'
+    title: 'Track Creator Revenue in Storyclash',
+    description: 'No manual exports or spreadsheets. Shopify sends orders and revenue data directly to Storyclash via the connector - clean, standardized, and automated.'
   },
   {
     icon: EnterpriseIcon,
@@ -64,7 +64,7 @@ const benefits = [
   {
     icon: ROIIcon,
     title: 'Automate Discount Codes and Product Seeding Workflows',
-    description: 'Access influencer engagement and sales performance data via REST API to visualize what truly drives business impact - with full transparency and zero guesswork.'
+    description: 'Use Storyclash to combine influencer engagement and Shopify sales performance data in one place, so you can see what truly drives business impact – with full transparency and zero guesswork.'
   }
 ];
 

@@ -84,8 +84,7 @@ export default function AdobeCommerceUseCaseSection() {
             Connect Influencer Metrics to Commerce Operations
           </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with Adobe Commerce to connect influencer data with every commerce metric that matters - revenue, conversions, AOV, and customer segments.
-            With one unified view, you can prove the impact of creator campaigns across global markets and product lines.
+            Connect Storyclash with Adobe Commerce to bring every commerce metric that matters – orders, revenue, AOV and customer segments – into one place. Storyclash ingests Adobe Commerce data and combines it with influencer content, so you can prove the impact of creator campaigns across global markets and product lines.
           </p>
         </div>
 

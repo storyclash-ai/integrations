@@ -33,17 +33,17 @@ const steps = [
   {
     number: '01',
     title: 'Connect your Storyclash account',
-    description: 'Secure API authentication with Adobe Commerce in minutes.'
+    description: 'Activate the Adobe Commerce connector in Storyclash in minutes.'
   },
   {
     number: '02',
     title: 'Sync creator attribution data',
-    description: 'All metrics (revenue, conversions, EMV, engagement) flow automatically into Adobe Commerce datasets.'
+    description: 'Storyclash links Adobe Commerce orders, revenue and discount code usage with creator activity, so all attribution data lives in Storyclash – no manual syncing back into Adobe Commerce required.'
   },
   {
     number: '03',
     title: 'Build dashboards & measure ROI',
-    description: 'Visualize campaign performance, compare creators, and monitor ROI by product and region.'
+    description: 'Analyze creator performance in Storyclash, compare creators, and monitor ROI by product and region using Adobe Commerce order and revenue data.'
   }
 ];
 

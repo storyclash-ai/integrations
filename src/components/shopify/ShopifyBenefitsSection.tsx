@@ -4,20 +4,20 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Connect Storyclash to Shopify effortlessly',
-    description: 'Import creator metrics and campaign performance data via Storyclash REST API using your API key to your BI dashboards.'
+    title: 'Connect Shopify to Storyclash effortlessly',
+    description: 'Shopify delivers e-commerce data over the Storyclash connector. Storyclash receives orders, revenue and discount code usage directly from your store – no API key required.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
     title: 'Visualize ROI & campaign impact',
-    description: 'Combine influencer data with sales, web, or CRM data to uncover which creators truly drive revenue.'
+    description: 'Combine influencer data with Shopify sales, web, or CRM data to uncover which creators truly drive revenue.'
   },
   {
     icon: AutomateIcon,
     color: '#F49D3B',
     title: 'Automate executive-ready dashboards',
-    description: 'Build automated Shopify reports for management and stakeholders - no manual data wrangling.'
+    description: 'Build automated Storyclash reports for management and stakeholders - no manual data wrangling.'
   }
 ];
 
@@ -27,10 +27,10 @@ export default function ShopifyBenefitsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Track Creator Revenue Directly in Your Shopify Store
+            Track Creator Revenue from Shopify inside Storyclash
           </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Connect your data ecosystem and unlock powerful insights
+            Connect your Shopify store to Storyclash and unlock powerful, commerce-ready insights.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

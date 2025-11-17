@@ -3,24 +3,24 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash measure influencer ROI in Shopify?',
-    answer: 'Storyclash connects to Shopify via REST API and tracks revenue, conversions, and AOV by matching UTM parameters and discount codes to creator campaigns. Results flow via API to your analytics dashboards showing ROI, ROAS, customer acquisition cost, and repeat purchase rates per influencer-enabling teams to compare creator performance and optimize social commerce spend.'
+    question: 'How does Storyclash receive Shopify orders, revenue and discount code data?',
+    answer: 'Storyclash connects to Shopify via a secure connector and automatically receives orders, revenue, discount code usage and customer events from your store. These e-commerce signals are matched with creator content to measure real sales impact and calculate influencer ROI inside Storyclash.'
   },
   {
-    question: 'What influencer metrics can I track in Shopify with Storyclash?',
-    answer: 'Track revenue attribution, conversion rates, average order value (AOV), customer lifetime value (LTV), return on ad spend (ROAS), earned media value (EMV), engagement rates, impressions, and click-through rates. All metrics are segmented by creator, campaign, product SKU, and time period-giving you complete visibility into which influencers drive profitable sales in your Shopify store.'
+    question: 'Which Shopify metrics can be imported into Storyclash for influencer revenue attribution?',
+    answer: 'Storyclash imports Shopify metrics such as orders, revenue, net sales, products sold, discount code usage, cart values, refunds, conversions, first-time vs. returning customers, customer acquisition cost (CAC), and return on ad spend (ROAS). These shop metrics are combined with creator engagement data to deliver accurate revenue attribution for every influencer campaign.'
   },
   {
-    question: 'How does attribution work for Shopify influencer campaigns?',
-    answer: 'Storyclash uses first-party tracking via UTM parameters, unique discount codes, and referral URLs to attribute Shopify orders to specific creators and campaigns. The system captures customer journey data from initial click through purchase, handling multi-touch attribution scenarios. This ensures accurate ROI measurement even when customers interact with multiple influencer posts before buying.'
+    question: 'How does Storyclash attribute Shopify orders to specific creators and campaigns?',
+    answer: 'Storyclash uses discount codes, UTM parameters, referral URLs and cross-platform tracking to connect Shopify orders to creator activity. Multi-touch journeys are supported, ensuring every sale is attributed to the correct influencer even when customers interact with multiple posts.'
   },
   {
-    question: 'Can I connect Storyclash to Shopify without a developer?',
-    answer: 'Yes. Marketing and ecommerce teams can connect Storyclash to Shopify using the REST API with API key authentication. Our documentation guides you through the setup process-simply generate your API key, configure the connection, and creator campaign data flows automatically via API to your analytics dashboards with configurable refresh intervals for near real-time reporting.'
+    question: 'Do I need a developer to integrate Shopify with Storyclash?',
+    answer: 'No. Shopify can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet or app to your Shopify store and e-commerce data starts flowing into Storyclash automatically.'
   },
   {
-    question: 'Is Storyclash\'s Shopify integration GDPR compliant?',
-    answer: 'Yes. All Shopify customer and order data is encrypted in transit and at rest, stored in EU-based data centers, and processed under GDPR compliance.'
+    question: 'Is the Shopify → Storyclash connector GDPR-compliant and secure?',
+    answer: 'Yes. The Shopify connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers role-based access, SSO and secure data handling for all e-commerce and creator metrics.'
   }
 ];
 

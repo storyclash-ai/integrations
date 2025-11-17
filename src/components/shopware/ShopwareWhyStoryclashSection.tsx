@@ -53,18 +53,18 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Seamless Ecommerce Integration',
-    description: 'No manual exports or spreadsheets. Storyclash delivers influencer and campaign data via REST API to your analytics dashboards - clean, standardized, and automated for immediate insights.'
+    title: 'Track Creator Revenue in Storyclash',
+    description: 'No manual exports or spreadsheets. Shopware sends orders and revenue data directly to Storyclash via the connector - clean, standardized, and automated.'
   },
   {
     icon: EnterpriseIcon,
-    title: 'Enterprise-Ready Data Quality',
-    description: 'Access trustworthy, GDPR-compliant metrics for every creator, order, and conversion. Storyclash provides consistent KPIs designed for ecommerce teams and global marketing operations.'
+    title: 'Attribute Sales to Individual Influencers and Campaigns',
+    description: 'Get trustworthy, GDPR-compliant metrics for every creator, campaign, and conversion. Storyclash provides consistent KPIs designed for analytics teams and global marketing operations.'
   },
   {
     icon: ROIIcon,
-    title: 'Measure True Ecommerce Impact',
-    description: 'Connect influencer engagement with Shopware order data to visualize what truly drives revenue - with full attribution transparency and actionable insights for optimization.'
+    title: 'Visualize Global Creator Impact Across Product Lines',
+    description: 'Use Storyclash to combine influencer engagement and Shopware sales performance data in one place, so you can see what truly drives business impact – with full transparency and zero guesswork.'
   }
 ];
 

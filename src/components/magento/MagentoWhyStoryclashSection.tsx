@@ -58,8 +58,8 @@ const benefits = [
   },
   {
     icon: EnterpriseIcon,
-    title: 'Secure API Integration',
-    description: 'Enterprise-grade security with token-based authentication, role-based access control, and GDPR compliance. Your Magento store data stays protected with encrypted transmission and secure storage.'
+    title: 'Secure Data Integration',
+    description: 'Enterprise-grade security with encrypted data transfer, role-based access control and full GDPR compliance. Your Magento store data flows to Storyclash via a secure connector, with protected transmission and storage.'
   },
   {
     icon: ROIIcon,

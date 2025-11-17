@@ -18,7 +18,7 @@ export default function ShopifyHeroSection() {
               Shopify + Influencer Marketing Integration
             </h1>
             <p className="mb-8 max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-              Bring creator performance and ROI insights via REST API to your BI dashboards. 
+              Bring Shopify orders, creator performance and ROI insights into Storyclash and make data-driven decisions for every campaign.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"

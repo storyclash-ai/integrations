@@ -4,21 +4,21 @@ const FlowIllustration = () => (
     <text x="90" y="72" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Storyclash</text>
     <text x="90" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Creator Data</text>
 
-    <rect x="150" y="140" width="100" height="70" rx="8" stroke="#189EFF" strokeWidth="2.5" fill="rgba(24, 158, 255, 0.06)" />
-    <text x="200" y="172" fontSize="13" fontWeight="700" fill="#189EFF" textAnchor="middle">REST API</text>
-    <text x="200" y="188" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Live Sync</text>
+    <rect x="150" y="140" width="100" height="70" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
+    <text x="200" y="172" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Connector</text>
+    <text x="200" y="188" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Data Sync</text>
 
-    <rect x="260" y="40" width="100" height="70" rx="8" stroke="#189EFF" strokeWidth="2.5" fill="rgba(24, 158, 255, 0.06)" />
-    <text x="310" y="72" fontSize="13" fontWeight="700" fill="#189EFF" textAnchor="middle">Shopware</text>
-    <text x="310" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Analytics</text>
+    <rect x="260" y="40" width="100" height="70" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
+    <text x="310" y="72" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Storyclash</text>
+    <text x="310" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Dashboard</text>
 
     <circle cx="90" cy="240" r="5" fill="#19B776">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
     </circle>
-    <circle cx="200" cy="240" r="5" fill="#189EFF">
+    <circle cx="200" cy="240" r="5" fill="#19B776">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.7s" repeatCount="indefinite" />
     </circle>
-    <circle cx="310" cy="240" r="5" fill="#189EFF">
+    <circle cx="310" cy="240" r="5" fill="#19B776">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.4s" repeatCount="indefinite" />
     </circle>
 
@@ -28,18 +28,18 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Authenticate your Storyclash account',
-    description: 'Quick and secure API setup that integrates seamlessly with your Shopware environment in minutes.'
+    title: 'Connect your Storyclash account',
+    description: 'Activate the Shopware connector in Storyclash in minutes.'
   },
   {
     number: '02',
-    title: 'Configure your data pipeline',
-    description: 'Select which creator metrics, campaign data, and KPIs you want to sync with your Shopware analytics platform.'
+    title: 'Sync creator attribution data',
+    description: 'Shopware orders, revenue and discount code usage flow automatically into Storyclash for attribution and analysis.'
   },
   {
     number: '03',
-    title: 'Analyze influencer-driven sales',
-    description: 'Combine Shopware order data with creator performance to measure true ROI, attribute revenue, and optimize your influencer strategy.'
+    title: 'Build dashboards & measure ROI',
+    description: 'Visualize campaign performance inside Storyclash, compare creators, and monitor ROI by product and region.'
   }
 ];
 

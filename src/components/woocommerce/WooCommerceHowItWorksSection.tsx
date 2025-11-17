@@ -32,18 +32,18 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect your Storyclash account',
-    description: 'Secure API authentication in minutes.'
+    title: 'Connect WooCommerce in Storyclash',
+    description: 'Activate the WooCommerce connector in Storyclash and link it to your shop in just a few clicks – no custom development required.'
   },
   {
     number: '02',
-    title: 'Sync your creator campaign data',
-    description: 'All metrics (revenue, conversions, EMV, engagement) flow automatically into WooCommerce datasets.'
+    title: 'Sync WooCommerce orders into Storyclash',
+    description: 'Storyclash automatically receives WooCommerce orders, revenue and discount code usage, and matches them to your creator campaigns – no spreadsheets needed.'
   },
   {
     number: '03',
     title: 'Build dashboards & measure ROI',
-    description: 'Visualize campaign performance, compare creators, and monitor ROI over time.'
+    description: 'Analyze creator-driven revenue and conversions inside Storyclash, compare creators, and monitor ROI over time with always-up-to-date WooCommerce data.'
   }
 ];
 

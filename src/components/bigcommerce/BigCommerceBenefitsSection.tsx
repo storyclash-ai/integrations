@@ -4,20 +4,20 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Direct BigCommerce Integration',
-    description: 'Native connection between Storyclash creator data and your BigCommerce store analytics for seamless performance tracking.'
+    title: 'Seamless BigCommerce integration',
+    description: 'Securely connect your BigCommerce store to Storyclash and bring orders, revenue and customer data into one place – without handling REST APIs or API keys in your daily workflow.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
-    title: 'Creator-to-Revenue Attribution',
-    description: 'Track which influencers drive actual sales, product purchases, and customer lifetime value in your BigCommerce store.'
+    title: 'Sync creator attribution data',
+    description: 'Storyclash automatically combines BigCommerce orders, revenue and customer segments with creator engagement metrics – giving you a single source of truth for campaign performance inside Storyclash.'
   },
   {
     icon: AutomateIcon,
     color: '#F49D3B',
-    title: 'Automated Performance Reporting',
-    description: 'Real-time sync of creator campaigns with BigCommerce order data - no manual exports or spreadsheet juggling.'
+    title: 'Build dashboards & measure ROI',
+    description: 'Visualize campaign performance inside Storyclash, compare creators, and monitor ROI by product and region based on live BigCommerce sales data.'
   }
 ];
 
@@ -27,7 +27,7 @@ export default function BigCommerceBenefitsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Import Creator Performance Data into BigCommerce
+            Sync BigCommerce Sales Data into Storyclash
           </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
             Prove influencer ROI with complete sales attribution

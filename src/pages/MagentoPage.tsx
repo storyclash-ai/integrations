@@ -12,7 +12,8 @@ import { Seo } from '../components/Seo';
 
 export default function MagentoPage() {
   const title = "Magento Influencer Marketing Integration | Storyclash";
-  const description = "Connect Magento with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync campaign data to Magento. Book a demo.";
+  const description = "Connect Magento with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync Magento order and revenue data into Storyclash for analysis. Book a demo.";
+  const keywords = "Magento influencer marketing integration, Magento creator tracking, Magento influencer ROI, Magento order attribution, Magento Storyclash connector";
   const canonical = "https://www.storyclash.com/integrations/magento-influencer-marketing";
 
   const jsonLd = {
@@ -44,7 +45,7 @@ export default function MagentoPage() {
                               "name": "Does this work with both Magento 2 and Adobe Commerce?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - Storyclash integrates with both Magento Open Source 2.x and Adobe Commerce (formerly Magento Commerce) using the standard REST API."
+                                      "text": "Yes – Storyclash integrates with both Magento Open Source 2.x and Adobe Commerce (formerly Magento Commerce) via a secure connector. Your stores send orders, revenue and customer events to Storyclash, where influencer campaigns are tracked and attributed across all store views."
                               }
                       },
                       {
@@ -57,10 +58,10 @@ export default function MagentoPage() {
                       },
                       {
                               "@type": "Question",
-                              "name": "How is the API connection secured?",
+                              "name": "How is the Magento → Storyclash connection secured?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "We use OAuth token-based authentication with role-based permissions. You control exactly which data Storyclash can access from your Magento instance."
+                                      "text": "The Magento → Storyclash connection is secured via an encrypted data connector with role-based access control. You control exactly which order, revenue and customer event data flows from your Magento instance into Storyclash, with full GDPR compliance and enterprise-grade security standards."
                               }
                       },
                       {
@@ -68,7 +69,7 @@ export default function MagentoPage() {
                               "name": "What Magento data gets synced?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Order data, revenue, product SKUs, customer acquisition, and conversion events - matched to specific influencer campaigns and creators."
+                                      "text": "Order data, revenue, product SKUs, customer acquisition and conversion events are synced from your Magento stores into Storyclash and matched to specific influencer campaigns and creators."
                               }
                       },
                       {
@@ -76,7 +77,7 @@ export default function MagentoPage() {
                               "name": "Will this slow down my Magento store?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "No - data syncing happens via scheduled API calls that run during low-traffic periods. Your storefront performance is unaffected."
+                                      "text": "No – data syncing happens via the Storyclash connector in an asynchronous way that does not impact storefront performance. Magento data is processed outside of the checkout flow, so your store remains fast and responsive."
                               }
                       }
               ]
@@ -90,6 +91,7 @@ export default function MagentoPage() {
         title={title}
         description={description}
         canonical={canonical}
+        keywords={keywords}
         openGraphImage="/og/integrations-Magento.png"
         jsonLd={jsonLd}
       />

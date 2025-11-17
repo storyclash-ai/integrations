@@ -3,7 +3,7 @@ import { Check } from 'lucide-react';
 const features = [
   {
     name: 'Direct Shop Access',
-    description: 'Pull campaign & creator data securely into WooCommerce.'
+    description: 'Pull WooCommerce shop and creator revenue data securely into Storyclash.'
   },
   {
     name: 'Automated Updates',

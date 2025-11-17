@@ -2,24 +2,24 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Shopware API Integration',
-    description: 'Seamlessly sync creator campaign data with your Shopware store analytics.'
+    name: 'Connector-Based Integration',
+    description: 'Shopware sends orders, revenue and customer data to Storyclash via a secure connector – no API key required.'
   },
   {
     name: 'Real-Time Data Sync',
-    description: 'Automated daily updates ensure your dashboards reflect the latest performance.'
+    description: 'Automated sync ensures your Storyclash dashboards reflect the latest Shopware orders and creator attribution data.'
   },
   {
-    name: 'Custom Ecommerce Metrics',
-    description: 'Track revenue, AOV, conversion rates, and customer acquisition from influencers.'
+    name: 'Custom KPIs',
+    description: 'Build custom dashboards and KPIs tailored to your business – track any combination of Shopware metrics and creator engagement data.'
   },
   {
-    name: 'Multi-Campaign Attribution',
-    description: 'Consolidate data from multiple creator campaigns and sales channels.'
+    name: 'Multi-Store Support',
+    description: 'Consolidate creator performance across multiple Shopware stores and regions.'
   },
   {
-    name: 'EU-Hosted & GDPR Compliant',
-    description: 'Enterprise-grade security with data hosted in the European Union.'
+    name: 'Enterprise Security',
+    description: 'GDPR-compliant, EU-hosted, encrypted to enterprise standards, role-based access.'
   }
 ];
 

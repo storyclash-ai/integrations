@@ -53,8 +53,8 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Simplify Data Integration',
-    description: 'No manual exports or spreadsheets. Storyclash delivers ready-to-use influencer and campaign data via REST API - clean, standardized, and automated.'
+    title: 'Connect WooCommerce to Storyclash effortlessly',
+    description: 'WooCommerce delivers e-commerce data over the Storyclash connector. Storyclash receives orders, revenue and discount code usage directly from your shop system – no API key required.'
   },
   {
     icon: EnterpriseIcon,
@@ -63,8 +63,8 @@ const benefits = [
   },
   {
     icon: ROIIcon,
-    title: 'Prove ROI with Confidence',
-    description: 'Combine influencer engagement and sales performance via REST API in your analytics tools to visualize what truly drives business impact - with full transparency and zero guesswork.'
+    title: 'Build automated Storyclash reports',
+    description: 'Build automated Storyclash reports for management and stakeholders based on WooCommerce sales data – no manual data wrangling.'
   }
 ];
 
@@ -73,7 +73,7 @@ export default function WooCommerceWhyStoryclashSection() {
     <section className="py-20 px-6 border-t border-b" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5EAEC' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="mb-16 text-center" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>
-          Connect Social Commerce Data to WordPress Analytics
+          Sync WooCommerce Sales Data into Storyclash
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">

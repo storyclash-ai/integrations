@@ -3,24 +3,24 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash measure influencer ROI in Shopware?',
-    answer: 'Storyclash connects to Shopware via REST API and attributes revenue, conversions, and AOV to creators using UTM parameters, discount codes, and referral tracking. The platform combines Shopware order data with campaign metrics to calculate ROI, ROAS, and customer acquisition cost per influencer-showing which creators drive profitable sales across sales channels, storefronts, and customer segments in your German or European ecommerce operations.'
+    question: 'How does Storyclash receive Shopware orders, revenue and discount code data?',
+    answer: 'Storyclash connects to Shopware via a secure connector and automatically receives orders, revenue, discount code usage and customer events from your store. These e-commerce signals are matched with creator content to measure real sales impact and calculate influencer ROI inside Storyclash.'
   },
   {
-    question: 'What influencer data can I sync from Shopware to Storyclash?',
-    answer: 'Sync order revenue, product SKUs, conversion events, shopping experiences data, customer segments, promotional code usage, cart values, and sales channel performance from Shopware. Storyclash maps this to creator campaigns, providing revenue attribution, AOV, LTV, ROAS, EMV, engagement rates, and traffic sources-all segmented by influencer, campaign, storefront, and product line for actionable insights tailored to European ecommerce teams.'
+    question: 'Which Shopware metrics can be imported into Storyclash for influencer revenue attribution?',
+    answer: 'Storyclash imports Shopware metrics such as orders, revenue, net sales, products sold, discount code usage, cart values, refunds, conversions, first-time vs. returning customers, customer acquisition cost (CAC), and return on ad spend (ROAS). These shop metrics are combined with creator engagement data to deliver accurate revenue attribution for every influencer campaign.'
   },
   {
-    question: 'How does Storyclash attribute Shopware sales to specific creators?',
-    answer: 'Attribution uses unique discount codes, UTM parameters in referral URLs, and tracking pixels to match Shopware orders to influencer content. The system captures customer journeys from creator post to checkout across multiple storefronts and sales channels, handling multi-touch attribution scenarios. This ensures accurate revenue tracking even when customers browse multiple Shopware Shopping Experiences before purchasing.'
+    question: 'How does Storyclash attribute Shopware orders to specific creators and campaigns?',
+    answer: 'Storyclash uses discount codes, UTM parameters, referral URLs and cross-platform tracking to connect Shopware orders to creator activity. Multi-touch journeys are supported, ensuring every sale is attributed to the correct influencer even when customers interact with multiple posts.'
   },
   {
-    question: 'Can I connect Storyclash to Shopware without developer help?',
-    answer: 'Yes. Marketing and ecommerce teams can connect Storyclash to Shopware via the REST API using API key authentication through your Shopware admin panel. Our documentation guides you through the setup-simply generate your API keys, configure the connection in Shopware settings, and creator campaign data syncs automatically. The integration works with Shopware 6, supports multi-storefront setups, and respects custom sales channel configurations for German and European market requirements.'
+    question: 'Do I need a developer to integrate Shopware with Storyclash?',
+    answer: 'No. Shopware can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet or app to your Shopware store and e-commerce data starts flowing into Storyclash automatically.'
   },
   {
-    question: 'Is Storyclash\'s Shopware integration GDPR compliant?',
-    answer: 'Yes. All Shopware order and customer data is encrypted, stored in EU data centers (primarily in Germany), and processed under strict GDPR compliance. Storyclash supports data processing agreements, customer data deletion requests (DSGVO Article 17), consent management, and audit logging. The integration meets German ecommerce privacy requirements including Datenschutzgrundverordnung (DSGVO) and Telemediengesetz (TMG) standards.'
+    question: 'Is the Shopware → Storyclash connector GDPR-compliant and secure?',
+    answer: 'Yes. The Shopware connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers role-based access, SSO and secure data handling for all e-commerce and creator metrics.'
   }
 ];
 

@@ -4,20 +4,20 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Seamless Shopware integration',
-    description: 'Import creator metrics and campaign performance data via Storyclash REST API using your API key for unified ecommerce analytics.'
+    title: 'Connect Shopware to Storyclash seamlessly',
+    description: 'Shopware delivers e-commerce data over the Storyclash connector. Storyclash receives orders, revenue and discount code usage directly from your store – no API key required.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
-    title: 'Track influencer-driven revenue',
-    description: 'Combine influencer data with Shopware sales, customer behavior, and order data to identify which creators generate the highest ROI.'
+    title: 'Sync creator attribution data',
+    description: 'Storyclash automatically combines Shopware orders, revenue and customer segments with creator engagement metrics – giving you a single source of truth for campaign performance inside Storyclash.'
   },
   {
     icon: AutomateIcon,
     color: '#F49D3B',
-    title: 'Automated performance reports',
-    description: 'Build automated dashboards that combine Shopware sales data with creator metrics for stakeholder-ready reporting.'
+    title: 'Build dashboards & measure ROI',
+    description: 'Visualize campaign performance inside Storyclash, compare creators, and monitor ROI by product and region based on live Shopware sales data.'
   }
 ];
 
@@ -27,10 +27,10 @@ export default function ShopwareBenefitsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Import Influencer Campaign Data into Shopware
+            Track Creator Revenue from Shopware inside Storyclash
           </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Connect Shopware with influencer intelligence for smarter business decisions
+            Connect your Shopware store to Storyclash and unlock powerful, commerce-ready insights.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

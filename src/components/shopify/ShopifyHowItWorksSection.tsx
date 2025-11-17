@@ -33,17 +33,17 @@ const steps = [
   {
     number: '01',
     title: 'Connect your Storyclash account',
-    description: 'Secure API authentication in minutes.'
+    description: 'Activate the Shopify connector in Storyclash in minutes.'
   },
   {
     number: '02',
-    title: 'Sync your creator campaign data',
-    description: 'All metrics (revenue, conversions, EMV, engagement) flow automatically into Shopify datasets.'
+    title: 'Sync creator attribution data',
+    description: 'Shopify orders, revenue and discount code usage flow automatically into Storyclash for attribution and analysis.'
   },
   {
     number: '03',
     title: 'Build dashboards & measure ROI',
-    description: 'Visualize campaign performance, compare creators, and monitor ROI over time.'
+    description: 'Visualize campaign performance inside Storyclash, compare creators, and monitor ROI by product and region.'
   }
 ];
 

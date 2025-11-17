@@ -3,24 +3,24 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash measure influencer ROI in Adobe Commerce?',
-    answer: 'Storyclash connects to Adobe Commerce (Magento) via REST API with OAuth 2.0 authentication, syncing order data, revenue, and customer segments. The platform attributes sales to creators using UTM tracking, discount codes, and multi-touch attribution models-calculating ROI, ROAS, AOV, and LTV per influencer. Enterprise dashboards show which creators drive revenue across multiple store views, regions, and customer segments with full Adobe Analytics integration.'
+    question: 'How does Storyclash receive Adobe Commerce orders, revenue and customer data?',
+    answer: 'Storyclash connects to Adobe Commerce via a secure connector or extension and automatically receives orders, revenue, line items, refunds and customer segments from your stores. This Adobe Commerce data is combined with creator content and campaign tracking in Storyclash, so you can measure influencer-driven revenue based on real purchases across all markets and store views.'
   },
   {
-    question: 'What influencer metrics can I track in Adobe Commerce with Storyclash?',
-    answer: 'Track revenue attribution by creator and campaign, conversion rates, average order value, customer lifetime value, return on ad spend, earned media value, product performance by SKU, cart abandonment rates, cross-sell impact, and customer segment behavior. All metrics sync to Adobe Commerce data models and support multi-store reporting, B2B account analysis, and custom attribute mapping for enterprise merchandising and marketing teams.'
+    question: 'Which Adobe Commerce metrics can be imported into Storyclash for influencer revenue reporting?',
+    answer: 'Storyclash can ingest Adobe Commerce metrics such as orders, revenue, net sales, products sold, discount code usage, average order value, refunds, conversions, new vs. returning customers, customer acquisition cost (CAC), and return on ad spend (ROAS). These metrics are mapped into Storyclash and used to power creator revenue dashboards, cohort analysis and multi-store reporting.'
   },
   {
-    question: 'How does Storyclash attribute Adobe Commerce sales to influencers?',
-    answer: 'Attribution combines first-party tracking pixels, UTM parameters, unique promotional codes, and referral URLs to match Adobe Commerce orders to creator campaigns. The system supports multi-touch attribution across customer segments, store views, and sales channels-handling complex B2B scenarios, account-based purchases, and cross-border transactions. Integration with Adobe Analytics provides unified customer journey visibility from influencer touchpoint to purchase.'
+    question: 'How does Storyclash attribute Adobe Commerce orders to specific creators and campaigns?',
+    answer: 'Storyclash attributes Adobe Commerce orders to creators using discount codes, UTM parameters, referral URLs and first-party tracking. Multi-touch journeys are supported, so complex B2B and B2C buying paths across store views, regions and channels can still be tied back to the right influencer and campaign.'
   },
   {
-    question: 'Can I connect Storyclash to Adobe Commerce without a developer?',
-    answer: 'Adobe Commerce integrations typically require IT involvement for initial API authentication, OAuth configuration, and security policy setup. However, once connected, marketing teams manage creator tracking, campaign attribution, and reporting independently through the Storyclash dashboard. Enterprise customers receive dedicated onboarding support including API configuration, custom attribute mapping, and multi-store setup assistance for complex Adobe Commerce deployments.'
+    question: 'Do I need a developer to connect Adobe Commerce with Storyclash?',
+    answer: 'No. Marketing teams can connect Adobe Commerce with Storyclash using the connector. Simply activate the Adobe Commerce connector in Storyclash, install the extension or tracking snippet in your Adobe Commerce environment, and e-commerce data will start flowing into Storyclash automatically. Your IT team can still review and approve the setup, but day-to-day management stays with marketing.'
   },
   {
-    question: 'Is Storyclash\'s Adobe Commerce integration enterprise-secure and GDPR compliant?',
-    answer: 'Yes. Storyclash is GDPR compliant and supports data processing agreements (DPAs). The integration supports enterprise security requirements including single sign-on (SSO), role-based access control (RBAC), audit logging, data encryption at rest and in transit, and custom data retention policies. All Adobe Commerce customer data is stored in EU-based data centers with DPA support, meeting Magento Enterprise and Adobe Experience Cloud security standards.'
+    question: 'Is the Adobe Commerce → Storyclash connector enterprise-secure and GDPR-compliant?',
+    answer: 'Yes. The Adobe Commerce → Storyclash connector is fully GDPR-compliant, hosted in the EU and encrypted to enterprise standards. Storyclash offers role-based access control, SSO and secure data handling for all Adobe Commerce and creator metrics, aligned with the security requirements of enterprise commerce teams.'
   }
 ];
 

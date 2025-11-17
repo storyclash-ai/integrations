@@ -2,16 +2,16 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Native BigCommerce Integration',
-    description: 'OAuth-secured REST API connection to your store data using API keys for secure authentication.'
+    name: 'Direct BigCommerce Access',
+    description: 'Securely bring BigCommerce order and revenue data into Storyclash for unified ecommerce and creator analytics.'
   },
   {
     name: 'Creator-to-Order Attribution',
     description: 'Match influencer traffic to actual BigCommerce orders and revenue with precision tracking.'
   },
   {
-    name: 'Product Performance Tracking',
-    description: 'See which products sell best through each creator and optimize product placement strategies.'
+    name: 'Custom KPIs',
+    description: 'Build custom dashboards and KPIs tailored to your business – track any combination of BigCommerce metrics and creator engagement data.'
   },
   {
     name: 'Automated Revenue Reporting',

@@ -5,6 +5,7 @@ type SeoProps = {
   description: string;
   canonical?: string;
   openGraphImage?: string;
+  keywords?: string;
   jsonLd?: object;
 };
 
@@ -13,6 +14,7 @@ export const Seo: React.FC<SeoProps> = ({
   description,
   canonical,
   openGraphImage,
+  keywords,
   jsonLd,
 }) => {
   useEffect(() => {
@@ -33,6 +35,10 @@ export const Seo: React.FC<SeoProps> = ({
     updateMetaTag('og:title', title, true);
     updateMetaTag('og:description', description, true);
     updateMetaTag('twitter:card', 'summary_large_image');
+
+    if (keywords) {
+      updateMetaTag('keywords', keywords);
+    }
 
     if (openGraphImage) {
       updateMetaTag('og:image', openGraphImage, true);
@@ -57,7 +63,7 @@ export const Seo: React.FC<SeoProps> = ({
       }
       script.textContent = JSON.stringify(jsonLd);
     }
-  }, [title, description, canonical, openGraphImage, jsonLd]);
+  }, [title, description, canonical, openGraphImage, keywords, jsonLd]);
 
   return null;
 };

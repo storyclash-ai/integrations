@@ -2,24 +2,24 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Direct API Access',
-    description: 'Pull campaign & creator data securely into Shopify.'
+    name: 'Connector-Based Integration',
+    description: 'Shopify sends orders, revenue and customer data to Storyclash via a secure connector – no API key required.'
   },
   {
     name: 'Automated Updates',
-    description: 'Keep dashboards synced daily without manual exports.'
+    description: 'Keep dashboards synced with real-time Shopify order and creator attribution data.'
   },
   {
     name: 'Custom KPIs',
-    description: 'Track EMV, ROAS, conversions, and engagement metrics.'
+    description: 'Build custom dashboards and KPIs tailored to your brand – track any combination of Shopify metrics and creator engagement data.'
   },
   {
-    name: 'Multi-Campaign Support',
-    description: 'Consolidate data from multiple Storyclash campaigns.'
+    name: 'Multi-Store Support',
+    description: 'Consolidate creator performance across multiple Shopify stores and regions.'
   },
   {
     name: 'Enterprise Security',
-    description: 'GDPR-compliant, hosted in the EU, token-based access.'
+    description: 'GDPR-compliant, EU-hosted, encrypted to enterprise standards, role-based access.'
   }
 ];
 

@@ -79,11 +79,10 @@ export default function ShopwareUseCaseSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Connect Social Commerce to Shopware Analytics
+            Connect Influencer Metrics to Commerce Operations
           </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with Shopware to connect influencer performance with order data, customer lifetime value, and conversion metrics.
-            Get a complete view of how creator campaigns drive your ecommerce growth.
+            Connect Storyclash with Shopware to bring every commerce metric that matters – orders, revenue, AOV and customer segments – into one place. Storyclash ingests Shopware data and combines it with influencer content, so you can prove the impact of creator campaigns across global markets and product lines.
           </p>
         </div>
 

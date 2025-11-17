@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function ShopifyPage() {
   const title = "Shopify Influencer Marketing Integration | Storyclash";
-  const description = "Connect Shopify with Storyclash's influencer marketing platform. Track creator sales, measure ROI, and sync revenue data to your store. Native integration available. Book a demo.";
+  const description = "Connect Shopify with Storyclash's influencer marketing platform. Track creator sales, measure ROI, and sync Shopify order and revenue data into Storyclash for analysis. Native connector available. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/shopify-influencer-marketing";
 
   const jsonLd = {
@@ -41,34 +41,42 @@ export default function ShopifyPage() {
               "mainEntity": [
 {
                         "@type": "Question",
-                        "name": "How does Storyclash measure influencer ROI in Shopify?",
+                        "name": "How does Storyclash receive Shopify orders, revenue and discount code data?",
                         "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "Storyclash connects to Shopify via native API and tracks revenue, conversions, and AOV by matching UTM parameters and discount codes to creator campaigns. Results appear in real-time dashboards showing ROI, ROAS, customer acquisition cost, and repeat purchase rates per influencer-enabling teams to compare creator performance and optimize social commerce spend directly within Shopify analytics."
+                                "text": "Storyclash connects to Shopify via a secure connector and automatically receives orders, revenue, discount code usage and customer events from your store. These e-commerce signals are matched with creator content to measure real sales impact and calculate influencer ROI inside Storyclash."
                         }
                 },
 {
                         "@type": "Question",
-                        "name": "What influencer metrics can I track in Shopify with Storyclash?",
+                        "name": "Which Shopify metrics can be imported into Storyclash for influencer revenue attribution?",
                         "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "Track revenue attribution, conversion rates, average order value (AOV), customer lifetime value (LTV), return on ad spend (ROAS), earned media value (EMV), engagement rates, impressions, and click-through rates. All metrics are segmented by creator, campaign, product SKU, and time period-giving you complete visibility into which influencers drive profitable sales in your Shopify store."
+                                "text": "Storyclash imports Shopify metrics such as orders, revenue, net sales, products sold, discount code usage, cart values, refunds, conversions, first-time vs. returning customers, customer acquisition cost (CAC), and return on ad spend (ROAS). These shop metrics are combined with creator engagement data to deliver accurate revenue attribution for every influencer campaign."
                         }
                 },
 {
                         "@type": "Question",
-                        "name": "How does attribution work for Shopify influencer campaigns?",
+                        "name": "How does Storyclash attribute Shopify orders to specific creators and campaigns?",
                         "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "Storyclash uses first-party tracking via UTM parameters, unique discount codes, and referral URLs to attribute Shopify orders to specific creators and campaigns. The system captures customer journey data from initial click through purchase, handling multi-touch attribution scenarios. This ensures accurate ROI measurement even when customers interact with multiple influencer posts before buying."
+                                "text": "Storyclash uses discount codes, UTM parameters, referral URLs and cross-platform tracking to connect Shopify orders to creator activity. Multi-touch journeys are supported, ensuring every sale is attributed to the correct influencer even when customers interact with multiple posts."
                         }
                 },
 {
                         "@type": "Question",
-                        "name": "Can I connect Storyclash to Shopify without a developer?",
+                        "name": "Do I need a developer to integrate Shopify with Storyclash?",
                         "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "Yes. Marketing and ecommerce teams can connect Storyclash to Shopify using the REST API with API key authentication. Our documentation guides you through the setup process-simply generate your API key, configure the connection, and creator campaign data syncs automatically to your Shopify analytics dashboards with configurable refresh intervals for near real-time reporting."
+                                "text": "No. Shopify can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet or app to your Shopify store and e-commerce data starts flowing into Storyclash automatically."
+                        }
+                },
+{
+                        "@type": "Question",
+                        "name": "Is the Shopify → Storyclash connector GDPR-compliant and secure?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes. The Shopify connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers role-based access, SSO and secure data handling for all e-commerce and creator metrics."
                         }
                 }
               ]

@@ -2,8 +2,8 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Direct API Access',
-    description: 'Pull campaign & creator data securely into Adobe Commerce via REST API.'
+    name: 'Connector-Based Integration',
+    description: 'Adobe Commerce sends orders, revenue and customer data to Storyclash via a secure connector – no API keys required.'
   },
   {
     name: 'Automated Updates',
@@ -11,7 +11,7 @@ const features = [
   },
   {
     name: 'Custom KPIs',
-    description: 'Track EMV, ROAS, revenue attribution, conversions, and engagement metrics.'
+    description: 'Build custom dashboards and KPIs tailored to your business – track any combination of Adobe Commerce metrics and creator engagement data.'
   },
   {
     name: 'Multi-Market Support',
@@ -19,7 +19,7 @@ const features = [
   },
   {
     name: 'Enterprise Security',
-    description: 'GDPR-compliant, role-based access control, OAuth 2.0, encrypted data transfer.'
+    description: 'GDPR-compliant, role-based access control, encrypted data transfer.'
   },
   {
     name: 'B2B & B2C Ready',

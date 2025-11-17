@@ -4,20 +4,20 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Connect Storyclash to Adobe Commerce seamlessly',
-    description: 'Import creator metrics and campaign performance data via REST API to Adobe Commerce for real-time insights.'
+    title: 'Connect Adobe Commerce to Storyclash seamlessly',
+    description: 'Adobe Commerce delivers e-commerce data over the Storyclash connector. Storyclash receives orders, revenue and customer events directly from your commerce platform – no REST API or API key required.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
-    title: 'Enterprise attribution & ROI tracking',
-    description: 'Combine influencer data with multi-channel commerce data to identify which creators drive B2B and B2C revenue across global markets.'
+    title: 'Sync creator attribution data',
+    description: 'Storyclash automatically combines Adobe Commerce orders, revenue and customer segments with creator engagement metrics – giving you a single source of truth for campaign performance inside Storyclash.'
   },
   {
     icon: AutomateIcon,
     color: '#F49D3B',
-    title: 'Automate executive dashboards',
-    description: 'Build automated Adobe Commerce reports for C-level stakeholders with real-time creator performance and revenue attribution metrics.'
+    title: 'Build dashboards & measure ROI',
+    description: 'Visualize campaign performance inside Storyclash, compare creators, and monitor ROI by product and region based on live Adobe Commerce sales data.'
   }
 ];
 
@@ -27,7 +27,7 @@ export default function AdobeCommerceBenefitsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Sync Influencer Campaign Data to Adobe Commerce Analytics
+            Sync Adobe Commerce Sales Data into Storyclash
           </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
             Scale your creator marketing with Adobe Commerce integration

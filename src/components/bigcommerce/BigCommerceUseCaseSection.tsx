@@ -79,10 +79,10 @@ export default function BigCommerceUseCaseSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Track Social Commerce Conversions by Campaign
+            Connect Social Commerce and BigCommerce Data inside Storyclash
           </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with BigCommerce to connect influencer performance with your e-commerce analytics. Track creator-driven orders, revenue, and customer acquisition with complete attribution visibility across your entire sales funnel.
+            Integrate Storyclash with BigCommerce to connect influencer performance with order data, customer lifetime value and conversion metrics – all inside Storyclash.
           </p>
         </div>
 

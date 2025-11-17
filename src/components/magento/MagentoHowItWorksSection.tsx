@@ -32,13 +32,13 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect via Magento REST API',
-    description: 'Secure token-based authentication connects Storyclash to your Magento 2 or Adobe Commerce instance.'
+    title: 'Connect your Magento store in Storyclash',
+    description: 'Activate the Magento connector in Storyclash and link it to your store in just a few clicks – no custom API work or developer support required.'
   },
   {
     number: '02',
     title: 'Track creators & sync orders',
-    description: 'Storyclash automatically matches influencer traffic to Magento orders, products, and customer data in real-time.'
+    description: 'Storyclash automatically matches influencer traffic to Magento orders, products and customer data received via the connector – in real time and across all your campaigns.'
   },
   {
     number: '03',

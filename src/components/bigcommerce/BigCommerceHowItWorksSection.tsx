@@ -32,18 +32,18 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect Storyclash to BigCommerce',
-    description: 'Secure OAuth REST API integration using API key authentication - straightforward setup process.'
+    title: 'Connect your Storyclash account',
+    description: 'Activate the BigCommerce connector in Storyclash in minutes.'
   },
   {
     number: '02',
-    title: 'Track creators & sync conversions',
-    description: 'Storyclash automatically matches influencer traffic to BigCommerce orders and revenue.'
+    title: 'Sync creator attribution data',
+    description: 'Select which BigCommerce order metrics and creator KPIs you want to use inside Storyclash dashboards for your ecommerce reporting.'
   },
   {
     number: '03',
-    title: 'Measure ROI & optimize campaigns',
-    description: 'See which creators drive sales, which products perform best, and where to invest next.'
+    title: 'Build dashboards & measure ROI',
+    description: 'Combine BigCommerce order data with creator performance in Storyclash to measure ROI, attribute revenue and optimize your influencer campaigns.'
   }
 ];
 

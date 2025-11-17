@@ -12,7 +12,8 @@ import { Seo } from '../components/Seo';
 
 export default function BigCommercePage() {
   const title = "BigCommerce Influencer Marketing Integration | Storyclash";
-  const description = "Connect BigCommerce with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync campaign data to BigCommerce. Book a demo.";
+  const description = "Connect BigCommerce with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync BigCommerce order and revenue data into Storyclash for analysis. Book a demo.";
+  const keywords = "BigCommerce influencer marketing integration, BigCommerce creator analytics, BigCommerce influencer ROI, BigCommerce revenue attribution, BigCommerce Storyclash connector";
   const canonical = "https://www.storyclash.com/integrations/bigcommerce-influencer-marketing";
 
   const jsonLd = {
@@ -41,34 +42,42 @@ export default function BigCommercePage() {
               "mainEntity": [
 {
                         "@type": "Question",
-                        "name": "How does Storyclash measure influencer ROI in BigCommerce?",
+                        "name": "How does Storyclash receive BigCommerce orders, revenue and customer data?",
                         "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "Storyclash connects to BigCommerce via OAuth API and tracks revenue, conversions, and AOV by matching UTM parameters, discount codes, and referral URLs to creator campaigns. The platform syncs BigCommerce order data in real-time, calculating ROI, ROAS, customer acquisition cost, and LTV per influencer. Dashboards show which creators drive sales across channels, product categories, and customer segments-optimizing social commerce spend for growing brands."
+                                "text": "Storyclash connects to BigCommerce via a secure connector and automatically receives orders, revenue, line items, refunds and customer segments. This BigCommerce data is combined with creator content and campaign tracking to measure influencer-driven revenue based on real purchases."
                         }
                 },
 {
                         "@type": "Question",
-                        "name": "What influencer metrics can I track in BigCommerce with Storyclash?",
+                        "name": "Which BigCommerce metrics can be imported into Storyclash for influencer revenue attribution?",
                         "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "Track revenue attribution by creator and campaign, conversion rates, average order value, customer lifetime value, return on ad spend, earned media value, product performance by SKU, cart metrics, checkout behavior, and multi-channel attribution. All data syncs from BigCommerce APIs and supports multi-store reporting, B2B wholesale tracking, and custom field mapping-giving ecommerce teams complete visibility into creator-driven sales performance."
+                                "text": "Storyclash ingests BigCommerce metrics such as orders, revenue, products sold, discount code usage, average order value, refunds, customer segments and timestamps for accurate revenue attribution and ecommerce reporting."
                         }
                 },
 {
                         "@type": "Question",
-                        "name": "How does Storyclash attribute BigCommerce sales to specific influencers?",
+                        "name": "How does Storyclash attribute BigCommerce orders to specific creators and campaigns?",
                         "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "Attribution uses UTM parameters, tracking pixels, unique promotional codes, and referral URLs to match BigCommerce orders to influencer content. The system captures the full customer journey from creator touchpoint through checkout, handling multi-touch scenarios where customers interact with multiple creators. First-click, last-click, and linear attribution models ensure accurate revenue tracking across complex BigCommerce sales funnels."
+                                "text": "Storyclash attributes BigCommerce orders to creators using discount codes, UTM parameters, referral URLs and first-party tracking. Multi-touch journeys are supported for accurate attribution across channels."
                         }
                 },
 {
                         "@type": "Question",
-                        "name": "Can I track multiple BigCommerce stores with one Storyclash account?",
+                        "name": "Do I need a developer to connect BigCommerce with Storyclash?",
                         "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "Yes. Connect multiple BigCommerce stores to a single Storyclash account for consolidated cross-store reporting and unified creator performance tracking. The platform supports multi-store setups including separate brands, regional stores, B2B wholesale portals, and test environments-with store-level segmentation in dashboards. Perfect for brands managing multiple BigCommerce storefronts or operating international ecommerce operations with centralized influencer marketing teams."
+                                "text": "No. BigCommerce can be connected to Storyclash without building a custom API integration. Activate the BigCommerce connector in Storyclash, add the tracking snippet to your store, and ecommerce data will start flowing automatically."
+                        }
+                },
+{
+                        "@type": "Question",
+                        "name": "Is the BigCommerce → Storyclash connector GDPR-compliant and secure?",
+                        "acceptedAnswer": {
+                                "@type": "Answer",
+                                "text": "Yes. The BigCommerce → Storyclash connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers SSO, role-based access and secure data handling for all ecommerce and creator metrics."
                         }
                 }
               ]
@@ -82,6 +91,7 @@ export default function BigCommercePage() {
         title={title}
         description={description}
         canonical={canonical}
+        keywords={keywords}
         openGraphImage="/og/integrations-wooCommerce.png"
         jsonLd={jsonLd}
       />

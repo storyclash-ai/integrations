@@ -3,24 +3,24 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash measure influencer ROI in WooCommerce?',
-    answer: 'Storyclash connects to WooCommerce via REST API and attributes revenue, conversions, and AOV to influencers using discount code tracking, UTM parameters, and referral URLs. The platform combines WooCommerce order data with campaign metrics to calculate ROI, ROAS, and customer acquisition cost per creator-showing which influencers drive profitable sales and repeat purchases in your WordPress store.'
+    question: 'How does Storyclash receive WooCommerce orders, revenue and discount code data?',
+    answer: 'Storyclash connects to WooCommerce via a secure connector and automatically receives orders, revenue, discount code usage and customer events from your shop. These e-commerce signals are matched with creator content to measure real sales impact and calculate influencer ROI inside Storyclash.'
   },
   {
-    question: 'What influencer data can I sync from WooCommerce to Storyclash?',
-    answer: 'Sync order revenue, conversion events, customer segments, discount code usage, cart values, refund rates, and purchase timestamps from WooCommerce. Storyclash matches this data to creator campaigns, providing metrics like revenue attribution, AOV, LTV, ROAS, EMV, engagement rates, and traffic sources-all segmented by influencer, campaign, and product category for actionable WordPress ecommerce insights.'
+    question: 'Which WooCommerce metrics can be imported into Storyclash for influencer revenue attribution?',
+    answer: 'Storyclash imports WooCommerce metrics such as orders, revenue, products sold, discount code usage, cart values, refunds, first-time vs. returning customers and timestamps. These shop metrics are combined with creator engagement data to deliver accurate revenue attribution for every influencer campaign.'
   },
   {
-    question: 'How does Storyclash attribute WooCommerce sales to specific influencers?',
-    answer: 'Attribution uses unique discount codes, UTM parameters in referral URLs, and tracking pixels to match WooCommerce orders to creator content. The system captures the customer journey from influencer post click to checkout, handling multi-touch scenarios where customers engage with multiple creators. This ensures accurate revenue attribution even in complex WordPress sales funnels.'
+    question: 'How does Storyclash attribute WooCommerce orders to specific creators and campaigns?',
+    answer: 'Storyclash uses discount codes, UTM parameters, referral URLs and cross-platform tracking to connect WooCommerce orders to creator activity. Multi-touch journeys are supported, ensuring every sale is attributed to the correct influencer even when customers interact with multiple posts.'
   },
   {
-    question: 'Can I connect Storyclash to WooCommerce without developer help?',
-    answer: 'Yes. Marketing teams can connect Storyclash to WooCommerce using the REST API with API key authentication through your WordPress admin panel. Our documentation guides you through the setup-simply enter your API credentials in WooCommerce settings, and creator campaign data syncs automatically. The integration works with any WooCommerce setup, including multi-site WordPress installations and custom themes.'
+    question: 'Do I need a developer to integrate WooCommerce with Storyclash?',
+    answer: 'No. WooCommerce can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet or plugin to your WordPress/WooCommerce store and e-commerce data starts flowing into Storyclash automatically.'
   },
   {
-    question: 'Is Storyclash\'s WooCommerce integration GDPR compliant?',
-    answer: 'Yes. All WooCommerce order and customer data is encrypted, stored in EU data centers, and processed under GDPR compliance. Storyclash supports data processing agreements, customer data deletion requests, consent management, and audit logging-meeting WordPress and WooCommerce privacy requirements. The integration respects WooCommerce privacy settings and customer opt-out preferences automatically.'
+    question: 'Is the WooCommerce → Storyclash connector GDPR-compliant and secure?',
+    answer: 'Yes. The WooCommerce connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers role-based access, SSO and secure data handling for all e-commerce and creator metrics.'
   }
 ];
 

@@ -14,8 +14,8 @@ const features = [
     description: 'First-touch, last-touch, and multi-touch attribution models for complex customer journeys.'
   },
   {
-    name: 'REST API Integration',
-    description: 'Secure token-based API connection with enterprise-grade encryption and access control.'
+    name: 'Connector-Based Integration',
+    description: 'Connect your Magento store via the Storyclash connector or tracking snippet – simple setup, encrypted data transfer and enterprise-grade access control, without manual API handling.'
   },
   {
     name: 'Custom Extension Support',

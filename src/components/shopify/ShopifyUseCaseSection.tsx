@@ -82,8 +82,7 @@ export default function ShopifyUseCaseSection() {
             Automate Discount Codes and Product Seeding Workflows
           </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with Shopify to connect influencer data with every marketing KPI that matters - sales, traffic, CRM.
-            With one unified view, you can finally prove the impact of creator campaigns across your entire marketing mix.
+            Connect Storyclash with Shopify to bring every commerce metric that matters – orders, revenue, conversions, customer segments – into one place. With one unified view in Storyclash, you can prove the impact of creator campaigns across every region and product line.
           </p>
         </div>
 

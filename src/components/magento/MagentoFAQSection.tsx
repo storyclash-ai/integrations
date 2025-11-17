@@ -4,23 +4,23 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'Does this work with both Magento 2 and Adobe Commerce?',
-    answer: 'Yes - Storyclash integrates with both Magento Open Source 2.x and Adobe Commerce (formerly Magento Commerce) using the standard REST API.'
+    answer: 'Yes – Storyclash integrates with both Magento Open Source 2.x and Adobe Commerce (formerly Magento Commerce) via a secure connector. Your stores send orders, revenue and customer events to Storyclash, where influencer campaigns are tracked and attributed across all store views.'
   },
   {
     question: 'Can I track multiple stores and websites?',
     answer: 'Absolutely. Track creator performance across multiple Magento websites, store views, and store codes with unified or separate reporting.'
   },
   {
-    question: 'How is the API connection secured?',
-    answer: 'We use OAuth token-based authentication with role-based permissions. You control exactly which data Storyclash can access from your Magento instance.'
+    question: 'How is the Magento → Storyclash connection secured?',
+    answer: 'The Magento → Storyclash connection is secured via an encrypted data connector with role-based access control. You control exactly which order, revenue and customer event data flows from your Magento instance into Storyclash, with full GDPR compliance and enterprise-grade security standards.'
   },
   {
     question: 'What Magento data gets synced?',
-    answer: 'Order data, revenue, product SKUs, customer acquisition, and conversion events - matched to specific influencer campaigns and creators.'
+    answer: 'Order data, revenue, product SKUs, customer acquisition and conversion events are synced from your Magento stores into Storyclash and matched to specific influencer campaigns and creators.'
   },
   {
     question: 'Will this slow down my Magento store?',
-    answer: 'No - data syncing happens via scheduled API calls that run during low-traffic periods. Your storefront performance is unaffected.'
+    answer: 'No – data syncing happens via the Storyclash connector in an asynchronous way that does not impact storefront performance. Magento data is processed outside of the checkout flow, so your store remains fast and responsive.'
   }
 ];
 

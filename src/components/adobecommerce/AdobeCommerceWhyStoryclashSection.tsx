@@ -54,7 +54,7 @@ const benefits = [
   {
     icon: SimplifyIcon,
     title: 'Unified Creator Attribution for Enterprise',
-    description: 'No manual exports or spreadsheets. Storyclash delivers standardized influencer and campaign data via REST API - clean, automated, and enterprise-ready.'
+    description: 'No manual exports or spreadsheets. Adobe Commerce sends orders and revenue data directly to Storyclash via the connector - clean, automated, and enterprise-ready.'
   },
   {
     icon: EnterpriseIcon,

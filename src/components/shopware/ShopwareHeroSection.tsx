@@ -26,7 +26,7 @@ export default function ShopwareHeroSection() {
                 padding: '0 0 30px 0'
               }}
             >
-              Connect your Shopware store with creator data to track influencer-driven sales, measure campaign ROI, and optimize your creator partnerships for maximum ecommerce impact.
+              Bring Shopware orders, creator performance and ROI insights into Storyclash and make data-driven decisions for every campaign.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"
