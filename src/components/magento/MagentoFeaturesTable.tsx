@@ -2,8 +2,8 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Magento 2 & Adobe Commerce',
-    description: 'Full support for both Magento Open Source and Adobe Commerce enterprise deployments.'
+    name: 'Magento 2 & Open Source',
+    description: 'Full support for Magento Open Source 2.x and enterprise deployments.'
   },
   {
     name: 'Multi-Store Architecture',
