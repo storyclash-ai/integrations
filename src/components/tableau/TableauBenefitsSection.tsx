@@ -4,8 +4,8 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Connect Storyclash to Tableau in minutes',
-    description: 'Sync creator metrics and campaign data seamlessly through the Storyclash REST API and Tableau integration.'
+    title: 'Direct Tableau integration',
+    description: 'Storyclash exports creator metrics and campaign data to Tableau via REST API, enabling fully customized influencer dashboards.'
   },
   {
     icon: ChartIcon,

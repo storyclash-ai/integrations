@@ -10,8 +10,8 @@ const features = [
     description: 'Build custom SQL queries on Storyclash influencer data. Create advanced attribution models and predictive analytics using Tableau\'s full analytical power.'
   },
   {
-    name: 'Import Insights Back to Storyclash',
-    description: 'Export calculated segments and insights from Tableau back to Storyclash via API. Use custom metrics for influencer scoring and segmentation.'
+    name: 'Custom Dashboards & Metrics',
+    description: 'Build custom dashboards and reports in Tableau using Storyclash creator data. Create custom metrics and segments for deeper influencer analysis.'
   },
   {
     name: 'Cross-Platform Creator Analysis',

@@ -33,13 +33,13 @@ const steps = [
   },
   {
     number: '02',
-    title: 'Analyze and create custom metrics',
-    description: 'Use Tableau\'s SQL analytics and visualization tools to build custom attribution models, segments, and advanced influencer insights.'
+    title: 'Sync Storyclash creator data into Tableau',
+    description: 'Storyclash automatically exports your creator, content, and campaign metrics into your Tableau datasets for seamless reporting.'
   },
   {
     number: '03',
-    title: 'Import insights back to Storyclash',
-    description: 'Export calculated segments and custom metrics from Tableau back to Storyclash via API for influencer scoring and segmentation.'
+    title: 'Analyze influencer performance',
+    description: 'Use Tableau\'s advanced analytics to segment creators, identify top performers, and optimize your influencer strategy.'
   }
 ];
 

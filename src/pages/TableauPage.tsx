@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function TableauPage() {
   const title = "Tableau Influencer Marketing Integration | Storyclash";
-  const description = "Connect Tableau with Storyclash's influencer marketing platform. Store creator campaign data in your data warehouse, analyze performance, and build custom models. Book a demo.";
+  const description = "Connect Tableau with Storyclash's influencer marketing platform. Export creator and campaign data via REST API to build interactive dashboards, visualize influencer ROI, and combine Storyclash metrics with your business data. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/tableau-influencer-marketing";
 
   const jsonLd = {
@@ -41,42 +41,42 @@ export default function TableauPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How does Storyclash integrate with Tableau?",
+                              "name": "How do I connect Storyclash influencer data to Tableau via REST API?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Authenticate via your API key and connect through the Storyclash REST API. The integration provides a live data source that you can drag directly into your Tableau workbooks."
+                                      "text": "Storyclash connects to Tableau as a REST API data source. After authenticating with your API token, Storyclash exports creator and campaign metrics directly to Tableau so you can build interactive influencer dashboards without manual file uploads."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "What creator metrics are available in Tableau?",
+                              "name": "Which Storyclash metrics can I visualize in Tableau dashboards?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "All core influencer KPIs including engagement rate, reach, impressions, EMV, conversions, audience demographics, sentiment analysis, and campaign performance-organized by creator, platform, and time period."
+                                      "text": "You can visualize Storyclash metrics such as impressions, reach, engagement, engagement rate, EMV, conversions, attributed revenue, ROI, ROAS and creator-level KPIs. Tableau can blend these metrics with your BI or sales data."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I combine Storyclash data with other data sources in Tableau?",
+                              "name": "How often does Storyclash sync creator and campaign data to Tableau?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Absolutely. Blend Storyclash creator metrics with your CRM, ad spend, sales, or web analytics data to build comprehensive marketing performance dashboards."
+                                      "text": "Storyclash updates data via API on the schedule you configure. Tableau refreshes your dashboards automatically so stakeholders always see up-to-date influencer performance."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How often does the data refresh?",
+                              "name": "Do I need technical skills to connect Storyclash to Tableau?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Data syncs automatically based on your Tableau refresh schedule. You can configure real-time updates or scheduled refreshes (hourly, daily, weekly)."
+                                      "text": "Yes, you need some technical skills to set up the REST API connection with your API key. However, once connected, any Tableau user can build dashboards without additional technical expertise."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Do I need technical expertise to set this up?",
+                              "name": "Is the Storyclash → Tableau integration secure and GDPR-compliant?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "No coding required. If you can use Tableau, you can connect Storyclash. Setup takes less than 10 minutes with our step-by-step guide."
+                                      "text": "Yes. Storyclash uses encrypted REST API endpoints, secure token-based authentication, and GDPR-compliant EU hosting. Access can be restricted via roles and audit logs."
                               }
                       }
               ]
