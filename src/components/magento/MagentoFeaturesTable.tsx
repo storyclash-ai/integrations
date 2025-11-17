@@ -15,11 +15,11 @@ const features = [
   },
   {
     name: 'Connector-Based Integration',
-    description: 'Connect your Magento store via the Storyclash connector or tracking snippet – simple setup, encrypted data transfer and enterprise-grade access control, without manual API handling.'
+    description: 'Connect your Magento store via the Storyclash connector or tracking snippet – no API keys or custom development required.'
   },
   {
-    name: 'Custom Extension Support',
-    description: 'Works seamlessly with custom Magento extensions and third-party modules.'
+    name: 'Enterprise Security',
+    description: 'GDPR-compliant, role-based access control, encrypted data transfer.'
   }
 ];
 
