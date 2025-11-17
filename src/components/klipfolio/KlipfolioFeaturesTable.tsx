@@ -1,7 +1,7 @@
 import { Check } from 'lucide-react';
 
 const features = [
-  { name: 'Real-Time Data Sync', description: 'Creator metrics update automatically in Klipfolio - see live influencer performance without manual exports.' },
+  { name: 'API Access', description: 'Pull creator and campaign data securely from Storyclash into Klipfolio using the REST API.' },
   { name: 'Custom KPI Builder', description: 'Define your own creator metrics - combine engagement, reach, conversions into custom performance indicators.' },
   { name: 'Interactive Dashboards', description: 'Build drag-and-drop visualizations - charts, tables, gauges, and maps for influencer campaign analysis.' },
   { name: 'Stakeholder Sharing', description: 'Publish dashboards via URL or embed in websites - give team members live access to creator performance data.' },

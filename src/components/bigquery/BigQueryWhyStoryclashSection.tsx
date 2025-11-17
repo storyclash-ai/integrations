@@ -53,8 +53,8 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Bi-Directional Data Flow',
-    description: 'Export Storyclash creator metrics to BigQuery for analysis. Import calculated metrics and insights from BigQuery back to Storyclash for ongoing influencer scoring and attribution.'
+    title: 'Automated Data Export to BigQuery',
+    description: 'Storyclash continuously exports creator and campaign metrics to BigQuery via secure REST API. Your warehouse stays updated automatically without manual ETL work.'
   },
   {
     icon: EnterpriseIcon,
@@ -64,7 +64,7 @@ const benefits = [
   {
     icon: ROIIcon,
     title: 'Blend and Enrich Influencer Data',
-    description: 'Join Storyclash creator data with sales, marketing, CRM, and financial data in BigQuery. Create unified insights and export enriched metrics back to Storyclash.'
+    description: 'Join Storyclash creator data with sales, marketing, CRM, and financial data in BigQuery. Create unified insights for advanced cross-channel attribution analysis.'
   }
 ];
 

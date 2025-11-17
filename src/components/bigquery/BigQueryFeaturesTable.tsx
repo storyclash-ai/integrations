@@ -10,8 +10,8 @@ const features = [
     description: 'Build custom reports, cohort analysis, and attribution models using SQL. Create calculated metrics (ROI, LTV, segments) in BigQuery.'
   },
   {
-    name: 'Import Insights Back to Storyclash',
-    description: 'Export calculated metrics and insights from BigQuery back to Storyclash. Use them for influencer scoring, segmentation, and ongoing attribution.'
+    name: 'Advanced Attribution Modeling',
+    description: 'Build sophisticated cross-channel attribution models in BigQuery combining Storyclash influencer data with sales, web traffic, and advertising data.'
   },
   {
     name: 'Historical Data & Trending',

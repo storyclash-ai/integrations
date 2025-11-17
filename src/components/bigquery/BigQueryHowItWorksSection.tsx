@@ -33,8 +33,8 @@ const steps = [
   },
   {
     number: '02',
-    title: 'Design your schema',
-    description: 'Structure influencer data in BigQuery tables optimized for your analytics needs, with proper partitioning and clustering.'
+    title: 'Sync Storyclash creator data into BigQuery',
+    description: 'Storyclash continuously exports creator, content and campaign metrics directly into your BigQuery tables for always-on analytics.'
   },
   {
     number: '03',

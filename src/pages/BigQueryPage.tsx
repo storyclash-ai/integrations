@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function BigQueryPage() {
   const title = "BigQuery Influencer Marketing Integration | Storyclash";
-  const description = "Connect BigQuery with Storyclash's influencer marketing platform. Store creator campaign data in your data warehouse, analyze performance, and build custom models. Book a demo.";
+  const description = "Connect BigQuery with Storyclash's influencer marketing platform. Export creator, content and campaign data directly into BigQuery, power advanced SQL analysis, and join Storyclash metrics with your business and e-commerce datasets. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/bigquery-influencer-marketing";
 
   const jsonLd = {
@@ -41,26 +41,34 @@ export default function BigQueryPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How does Storyclash integrate with BigQuery?",
+                              "name": "How does Storyclash export influencer and campaign data to BigQuery?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Extract creator data via Storyclash API and load it into BigQuery tables using Cloud Functions, scheduled queries, or ETL tools like Dataflow. Data is structured for optimal query performance."
+                                      "text": "Storyclash exports creator, content and campaign metrics to BigQuery via a secure REST API. After authentication with your API key, Storyclash populates your BigQuery tables automatically without manual ETL work or scheduled file uploads."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "What creator data can I analyze in BigQuery?",
+                              "name": "Which Storyclash creator and campaign metrics are available in BigQuery?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "All influencer metrics including reach, engagement, conversions, content performance, and campaign ROI - structured as BigQuery tables ready for SQL analysis."
+                                      "text": "BigQuery receives impressions, reach, engagement, conversions, EMV, creator identifiers, content performance, attributed revenue, ROI, ROAS and campaign-level KPIs. All Storyclash metrics are available for SQL queries and joins."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I import insights from BigQuery back to Storyclash?",
+                              "name": "What are the benefits of using BigQuery as a warehouse for Storyclash data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - export calculated metrics, segments, and insights from BigQuery back to Storyclash via API. Use them for influencer scoring, segmentation, and ongoing attribution in the platform."
+                                      "text": "BigQuery enables large-scale analysis, automated pipelines, advanced attribution models, AI workloads and joins with sales, CRM, e-commerce and advertising datasets. Storyclash becomes a unified data source inside your marketing warehouse."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "Can I build custom models and SQL analyses in BigQuery using Storyclash data?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Yes. You can build custom SQL models, predictive scoring, LTV analysis, cross-channel attribution and machine-learning models using Storyclash creator data stored in BigQuery."
                               }
                       }
               ]
@@ -75,6 +83,7 @@ export default function BigQueryPage() {
         description={description}
         canonical={canonical}
         openGraphImage="/og/integrations-bigquery.png"
+        keywords="BigQuery influencer marketing integration, BigQuery creator analytics, BigQuery campaign warehouse, Storyclash BigQuery export, influencer SQL analytics"
         jsonLd={jsonLd}
       />
       <Header />

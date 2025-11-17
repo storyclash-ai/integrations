@@ -49,8 +49,8 @@ const OpenSourceIcon = () => (
 const benefits = [
   {
     icon: StructuredDataIcon,
-    title: 'Bi-Directional Data Sync',
-    description: 'Export Storyclash creator data to Metabase for analysis, then sync Metabase insights (sales, conversions, ROI calculations) back to Storyclash for complete attribution.'
+    title: 'Live Data Sync via REST API',
+    description: 'Storyclash exports creator data to Metabase via secure REST API. Your dashboards stay updated in real time without manual exports or data transfers.'
   },
   {
     icon: SelfServiceIcon,

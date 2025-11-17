@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function GrafanaPage() {
   const title = "Grafana Influencer Marketing Integration | Storyclash";
-  const description = "Connect Grafana with Storyclash's influencer marketing platform. Store creator campaign data in your data warehouse, analyze performance, and build custom models. Book a demo.";
+  const description = "Connect Grafana with Storyclash's influencer marketing platform. Stream creator and campaign metrics into Grafana dashboards in real time, set alerts on influencer KPIs, and combine Storyclash data with your existing monitoring stack. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/grafana-influencer-marketing";
 
   const jsonLd = {
@@ -41,7 +41,7 @@ export default function GrafanaPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How does real-time monitoring work?",
+                              "name": "How does Storyclash stream creator metrics into Grafana for real-time monitoring?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "Storyclash streams creator metrics to Grafana as data becomes available. Your dashboards update automatically with the latest influencer performance data without manual refreshes."
@@ -49,26 +49,26 @@ export default function GrafanaPage() {
                       },
                       {
                               "@type": "Question",
-                              "name": "What alerts can I set up?",
+                              "name": "What types of alerts can I configure in Grafana with Storyclash data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Configure alerts for any creator metric - engagement rate drops, viral content detection, conversion spikes, or custom thresholds. Receive notifications via Slack, email, PagerDuty, or webhook."
+                                      "text": "Configure alerts for any creator metric – engagement rate drops, viral content detection, conversion spikes, or custom thresholds. Receive notifications via Slack, email, PagerDuty, or webhook."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I combine multiple data sources?",
+                              "name": "Can I combine Storyclash creator data with other data sources in Grafana dashboards?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - Grafana supports multi-source dashboards. Correlate creator metrics from Storyclash with sales data, ad spend, website traffic, or any other data source your team monitors."
+                                      "text": "Yes – Grafana supports multi-source dashboards. Correlate creator metrics from Storyclash with sales data, ad spend, website traffic, or any other data source your team monitors."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I monitor multiple influencer campaigns simultaneously in Grafana?",
+                              "name": "Can I monitor multiple influencer campaigns simultaneously in Grafana using Storyclash data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - create dashboards for each campaign or view all campaigns in one unified dashboard. Filter by creator, campaign name, platform, or time period to monitor performance across your entire influencer strategy."
+                                      "text": "Yes – create dashboards for each campaign or view all campaigns in one unified dashboard. Filter by creator, campaign name, platform, or time period to monitor performance across your entire influencer strategy."
                               }
                       }
               ]
@@ -83,6 +83,7 @@ export default function GrafanaPage() {
         description={description}
         canonical={canonical}
         openGraphImage="/og/integrations-grafana.png"
+        keywords="Grafana influencer marketing integration, Grafana creator dashboards, Grafana influencer KPIs, Storyclash Grafana API, Grafana real-time monitoring"
         jsonLd={jsonLd}
       />
       <Header />

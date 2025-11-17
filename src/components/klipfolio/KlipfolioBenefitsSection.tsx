@@ -5,7 +5,7 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Real-Time Dashboards',
-    description: 'Monitor creator performance live - build Klipfolio dashboards that update automatically with fresh influencer data.'
+    description: 'Storyclash exports creator metrics and campaign performance data into Klipfolio via REST API, enabling fully customizable influencer dashboards.'
   },
   {
     icon: ChartIcon,

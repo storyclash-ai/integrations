@@ -4,7 +4,7 @@ const benefits = [
   {
     icon: ConnectIcon,
     title: 'SQL-powered creator analytics',
-    description: 'Query influencer data using standard SQL in BigQuery. Run complex analytics on creator performance alongside web, ads, and CRM data.'
+    description: 'Storyclash automatically exports creator and campaign metrics to BigQuery, keeping your warehouse updated without manual pipelines.'
   },
   {
     icon: ChartIcon,

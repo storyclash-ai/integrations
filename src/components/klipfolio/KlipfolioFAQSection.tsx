@@ -3,20 +3,24 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How often does creator data update in Klipfolio?',
-    answer: 'Storyclash syncs influencer data to Klipfolio in real-time via API. Your dashboards update automatically as new creator performance metrics become available.'
+    question: 'How does Storyclash export influencer and campaign data to Klipfolio dashboards?',
+    answer: 'Storyclash exports creator and campaign metrics to Klipfolio via a secure REST API. After authenticating with your API key, Storyclash becomes a live data source for Klipfolio dashboards without any manual data uploads.'
   },
   {
-    question: 'Can I combine Storyclash data with other sources?',
-    answer: 'Yes - Klipfolio allows multi-source dashboards. Combine creator metrics from Storyclash with sales data, ad spend, or other marketing channels for comprehensive analysis.'
+    question: 'Which Storyclash metrics can I visualize in Klipfolio?',
+    answer: 'You can visualize impressions, reach, engagement rate, conversions, revenue attribution, EMV, ROI, ROAS and other Storyclash creator metrics inside Klipfolio. All metrics can be used in charts, tables, goals and KPI tiles.'
   },
   {
-    question: 'What creator metrics are available?',
-    answer: 'Access all Storyclash metrics including engagement rates, reach, impressions, conversions, ROI, and custom performance indicators. Build any KPI your team needs.'
+    question: 'How often does Storyclash sync creator data with Klipfolio?',
+    answer: 'Storyclash syncs influencer performance data to Klipfolio in near real time or on scheduled intervals, depending on your dashboard refresh settings.'
   },
   {
-    question: 'Can I share dashboards with my team?',
-    answer: 'Yes - publish dashboards via shareable URLs, embed in websites, or schedule automated email reports. Control access permissions for different stakeholders.'
+    question: 'Do I need technical skills to connect Storyclash to Klipfolio?',
+    answer: 'Yes, you need some technical skills to set up the REST API connection with your Storyclash API key. However, once connected, marketing teams can build dashboards with drag-and-drop components without additional technical expertise.'
+  },
+  {
+    question: 'Is the Storyclash → Klipfolio integration secure and GDPR-compliant?',
+    answer: 'Yes. Storyclash uses encrypted REST API endpoints and token-based authentication, and processes influencer and campaign data on GDPR-compliant EU infrastructure.'
   }
 ];
 

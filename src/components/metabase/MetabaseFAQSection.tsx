@@ -3,20 +3,24 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does the Storyclash + Metabase integration work?',
-    answer: 'Storyclash exports creator performance data to Metabase via API. You build custom dashboards and analyses in Metabase. Insights and calculated metrics sync back to Storyclash for complete influencer attribution and ROI tracking.'
+    question: 'How does Storyclash export influencer and campaign data to Metabase?',
+    answer: 'Storyclash exports creator and campaign metrics to Metabase via a secure REST API. After authenticating with your API key, Storyclash becomes a live data source inside Metabase without manual file uploads.'
   },
   {
-    question: 'Can I blend Storyclash creator data with other business data in Metabase?',
-    answer: 'Yes - in Metabase you can join Storyclash creator metrics with your sales, marketing, CRM, and financial data. Build unified dashboards showing influencer ROI alongside total business metrics.'
+    question: 'Which Storyclash metrics can I visualize in Metabase dashboards?',
+    answer: 'You can visualize impressions, reach, engagement rate, EMV, conversions, revenue attribution, ROI, ROAS and other Storyclash creator metrics. Metabase lets you filter, aggregate and chart these metrics in fully customizable dashboards.'
   },
   {
-    question: 'What metrics can I export from Storyclash to Metabase?',
-    answer: 'All Storyclash metrics: engagement rates, reach, impressions, conversions, revenue attribution, AOV, ROI, ROAS, and custom KPIs. Analyze, transform, and blend them with other data sources.'
+    question: 'How often does Storyclash sync creator data with Metabase?',
+    answer: 'Storyclash syncs influencer performance data to Metabase in near real time or on scheduled refresh intervals, depending on your Metabase settings.'
   },
   {
-    question: 'Can insights from Metabase sync back to Storyclash?',
-    answer: 'Yes - calculated metrics, segments, and insights from Metabase can be exported back to Storyclash. This creates a bi-directional workflow where both platforms enhance each other.'
+    question: 'Do I need technical skills to connect Storyclash to Metabase?',
+    answer: 'Yes, you need some technical skills to set up the REST API connection with your Storyclash API key. However, once connected, marketing teams can build dashboards with drag-and-drop tools without additional technical expertise.'
+  },
+  {
+    question: 'Is the Storyclash → Metabase integration secure and GDPR-compliant?',
+    answer: 'Yes. Storyclash uses encrypted REST API endpoints, secure token authentication and GDPR-compliant EU hosting. Access can be restricted using roles and auditing inside Metabase.'
   }
 ];
 

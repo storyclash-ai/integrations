@@ -32,18 +32,18 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Export Storyclash data to Metabase',
-    description: 'Sync creator performance metrics from Storyclash to Metabase via API. All influencer data is available for analysis and blending with business metrics.'
+    title: 'Connect data sources',
+    description: 'Link Storyclash to Metabase via REST API - authenticate once for automatic creator data synchronization.'
   },
   {
     number: '02',
-    title: 'Analyze and create custom metrics',
-    description: 'Build dashboards in Metabase combining creator data with sales, marketing, and financial data. Create calculated metrics (ROI, LTV, segments) and segments.'
+    title: 'Sync Storyclash creator data into Metabase',
+    description: 'Storyclash automatically exports all creator, content and campaign metrics into your Metabase datasets, keeping your dashboards always up to date.'
   },
   {
     number: '03',
-    title: 'Sync insights back to Storyclash',
-    description: 'Export calculated metrics and insights from Metabase back to Storyclash. Use them for influencer scoring, segmentation, and ongoing attribution.'
+    title: 'Build and share dashboards',
+    description: 'Create custom dashboards in Metabase combining creator data with your business metrics. Share insights with your team.'
   }
 ];
 

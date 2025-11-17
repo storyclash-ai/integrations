@@ -37,8 +37,8 @@ const steps = [
   },
   {
     number: '02',
-    title: 'Build custom dashboards',
-    description: 'Drag-and-drop influencer metrics into Klipfolio - create KPI tiles, charts, and tables for your team.'
+    title: 'Sync Storyclash creator data into Klipfolio',
+    description: 'Storyclash automatically exports all creator, content and campaign metrics into your Klipfolio datasets for automated reporting.'
   },
   {
     number: '03',

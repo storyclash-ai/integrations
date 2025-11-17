@@ -3,20 +3,20 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does real-time monitoring work?',
+    question: 'How does Storyclash stream creator metrics into Grafana for real-time monitoring?',
     answer: 'Storyclash streams creator metrics to Grafana as data becomes available. Your dashboards update automatically with the latest influencer performance data without manual refreshes.'
   },
   {
-    question: 'What alerts can I set up?',
-    answer: 'Configure alerts for any creator metric - engagement rate drops, viral content detection, conversion spikes, or custom thresholds. Receive notifications via Slack, email, PagerDuty, or webhook.'
+    question: 'What types of alerts can I configure in Grafana with Storyclash data?',
+    answer: 'Configure alerts for any creator metric – engagement rate drops, viral content detection, conversion spikes, or custom thresholds. Receive notifications via Slack, email, PagerDuty, or webhook.'
   },
   {
-    question: 'Can I combine multiple data sources?',
-    answer: 'Yes - Grafana supports multi-source dashboards. Correlate creator metrics from Storyclash with sales data, ad spend, website traffic, or any other data source your team monitors.'
+    question: 'Can I combine Storyclash creator data with other data sources in Grafana dashboards?',
+    answer: 'Yes – Grafana supports multi-source dashboards. Correlate creator metrics from Storyclash with sales data, ad spend, website traffic, or any other data source your team monitors.'
   },
   {
-    question: 'Can I monitor multiple influencer campaigns simultaneously in Grafana?',
-    answer: 'Yes - create dashboards for each campaign or view all campaigns in one unified dashboard. Filter by creator, campaign name, platform, or time period to monitor performance across your entire influencer strategy.'
+    question: 'Can I monitor multiple influencer campaigns simultaneously in Grafana using Storyclash data?',
+    answer: 'Yes – create dashboards for each campaign or view all campaigns in one unified dashboard. Filter by creator, campaign name, platform, or time period to monitor performance across your entire influencer strategy.'
   }
 ];
 

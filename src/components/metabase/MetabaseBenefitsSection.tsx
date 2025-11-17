@@ -5,7 +5,7 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Self-Service Analytics',
-    description: 'Empower teams to explore creator data independently - build custom queries and dashboards without SQL knowledge.'
+    description: 'Storyclash exports creator metrics and campaign performance data to Metabase via REST API, enabling fully customizable influencer dashboards.'
   },
   {
     icon: ChartIcon,
