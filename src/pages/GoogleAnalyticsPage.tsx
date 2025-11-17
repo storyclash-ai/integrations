@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function GoogleAnalyticsPage() {
   const title = "Google Analytics Influencer Marketing Integration | Storyclash";
-  const description = "Connect Google Analytics with Storyclash's influencer marketing platform. Store creator campaign data in your data warehouse, analyze performance, and build custom models. Book a demo.";
+  const description = "Connect Google Analytics with Storyclash's influencer marketing platform. Send creator and campaign data into your GA4 property, measure influencer-driven traffic and conversions, and build attribution-ready reports. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/google-analytics-influencer-marketing";
 
   const jsonLd = {
@@ -41,42 +41,42 @@ export default function GoogleAnalyticsPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How does Storyclash integrate with Google Analytics?",
+                              "name": "How does Storyclash send influencer and campaign data to Google Analytics 4?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Use your Storyclash API credentials to connect with Google Analytics 4 via custom dimensions, UTM parameters, and the Measurement Protocol. The integration syncs creator campaign data directly with your GA4 property."
+                                      "text": "Storyclash uses its API and the Google Analytics 4 Measurement Protocol to send creator and campaign events into your GA4 property. UTM parameters, custom dimensions and event parameters ensure that every click, session and conversion is tied back to the right creator and campaign in Google Analytics."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "What creator data can I track in Google Analytics?",
+                              "name": "Which influencer metrics can I see in Google Analytics with Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Traffic attribution, conversion paths, engagement metrics, campaign performance, UTM-tagged sessions, and custom events - all segmented by creator and campaign. Track which influencers drive the most valuable website visitors."
+                                      "text": "With Storyclash you can see sessions, engagement metrics, conversions, revenue, new vs. returning users, assisted conversions and other GA4 metrics segmented by creator and campaign. Creator IDs and campaign tags are passed as custom dimensions so you can build detailed influencer reports directly in Google Analytics."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How often does data sync with Google Analytics?",
+                              "name": "How often does Storyclash sync creator data with Google Analytics dashboards?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Data syncs in near real-time, keeping your Google Analytics dashboards updated with the latest creator performance and attribution data."
+                                      "text": "Storyclash syncs influencer events with Google Analytics in near real time. As soon as creator traffic and conversions are tracked in Storyclash, corresponding GA4 events are triggered so your dashboards always reflect the latest campaign performance."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Do I need technical expertise to set this up?",
+                              "name": "Do I need developers to connect Storyclash and Google Analytics 4?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "No - marketing teams can connect Storyclash to Google Analytics in minutes without developer support or complex configurations."
+                                      "text": "Yes, you need some technical skills to set up the API connection with your Storyclash credentials. However, once connected, marketing teams can use Google Analytics dashboards and reports without additional technical expertise."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Is the integration compliant with privacy regulations?",
+                              "name": "Is the Google Analytics 4 influencer integration with Storyclash GDPR-compliant?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - all data is processed in compliance with GDPR and Google Analytics privacy standards, respecting user consent and data protection requirements."
+                                      "text": "Yes. The Google Analytics 4 integration with Storyclash is fully GDPR-compliant. Events are sent in line with consent settings, IP addresses are not stored by Storyclash, and all creator and campaign data is processed according to EU data protection standards."
                               }
                       }
               ]
