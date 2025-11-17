@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function LookerStudioPage() {
   const title = "Looker Studio Influencer Marketing Integration | Storyclash";
-  const description = "Connect Looker Studio with Storyclash's influencer marketing platform. Store creator campaign data in your data warehouse, analyze performance, and build custom models. Book a demo.";
+  const description = "Connect Looker Studio with Storyclash's influencer marketing platform. Export creator and campaign data via REST API, build interactive dashboards, and combine influencer metrics with other marketing sources. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/looker-studio-influencer-marketing";
 
   const jsonLd = {
@@ -41,34 +41,42 @@ export default function LookerStudioPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How does Storyclash integrate with Looker Studio?",
+                              "name": "How does Storyclash export influencer data to Looker Studio via REST API?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Authenticate via your API key to connect Storyclash with Looker Studio through our REST API. The API data source appears in Looker Studio, allowing you to build dashboards with creator campaign data."
+                                      "text": "Storyclash connects to Looker Studio as a custom REST API data source. After authenticating with your API key, Storyclash exports creator and campaign metrics directly into Looker Studio so you can build live influencer performance dashboards without manual CSV uploads."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "What influencer data can I visualize in Looker Studio?",
+                              "name": "What creator and campaign metrics can I visualize in Looker Studio dashboards?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "All key creator metrics including reach, engagement, EMV, conversions, campaign performance, and ROI - all available as dimensions and metrics in Looker Studio charts and tables."
+                                      "text": "You can visualize Storyclash metrics such as reach, impressions, engagement, EMV, clicks, conversions, revenue attribution, ROI, ROAS, and campaign-level KPIs. All metrics are exposed as dimensions and measures in Looker Studio charts, tables, and scorecards."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I combine Storyclash data with other sources?",
+                              "name": "Can I combine Storyclash influencer data in Looker Studio with other marketing sources?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - blend Storyclash data with Google Analytics, Google Ads, BigQuery, and other Looker Studio data sources for comprehensive cross-channel analysis."
+                                      "text": "Yes. In Looker Studio you can blend Storyclash creator data with other marketing data sources like Google Analytics, Google Ads, or your CRM for comprehensive cross-channel analysis."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How often does data refresh in Looker Studio?",
+                              "name": "Do I need technical skills to connect Storyclash to Looker Studio and build dashboards?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Dashboards refresh automatically based on your configured schedule, ensuring stakeholders always see the latest creator performance data."
+                                      "text": "Yes, you need some technical skills to set up the REST API connection with your API key. However, once connected, marketing teams can build dashboards using Looker Studio's drag-and-drop interface without coding."
+                              }
+                      },
+                      {
+                              "@type": "Question",
+                              "name": "How often does Storyclash data refresh in Looker Studio dashboards?",
+                              "acceptedAnswer": {
+                                      "@type": "Answer",
+                                      "text": "Data refresh depends on your Looker Studio configuration. Storyclash exposes up-to-date creator metrics via the API, and Looker Studio pulls fresh data on your chosen schedule so stakeholders always see current influencer performance without manual updates."
                               }
                       }
               ]

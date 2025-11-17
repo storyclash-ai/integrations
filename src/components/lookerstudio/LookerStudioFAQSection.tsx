@@ -3,24 +3,24 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash integrate with Looker Studio?',
-    answer: 'Authenticate via your API key to connect Storyclash with Looker Studio through our REST API. The API data source appears in Looker Studio, allowing you to build dashboards with creator campaign data.'
+    question: 'How does Storyclash export influencer data to Looker Studio via REST API?',
+    answer: 'Storyclash connects to Looker Studio as a custom REST API data source. After authenticating with your API key, Storyclash exports creator and campaign metrics directly into Looker Studio so you can build live influencer performance dashboards without manual CSV uploads.'
   },
   {
-    question: 'What influencer data can I visualize in Looker Studio?',
-    answer: 'All key creator metrics including reach, engagement, EMV, conversions, campaign performance, and ROI - all available as dimensions and metrics in Looker Studio charts and tables.'
+    question: 'What creator and campaign metrics can I visualize in Looker Studio dashboards?',
+    answer: 'You can visualize Storyclash metrics such as reach, impressions, engagement, EMV, clicks, conversions, revenue attribution, ROI, ROAS, and campaign-level KPIs. All metrics are exposed as dimensions and measures in Looker Studio charts, tables, and scorecards.'
   },
   {
-    question: 'Can I combine Storyclash data with other sources?',
-    answer: 'Yes - blend Storyclash data with Google Analytics, Google Ads, BigQuery, and other Looker Studio data sources for comprehensive cross-channel analysis.'
+    question: 'Can I combine Storyclash influencer data in Looker Studio with other marketing sources?',
+    answer: 'Yes. In Looker Studio you can blend Storyclash creator data with other marketing data sources like Google Analytics, Google Ads, or your CRM for comprehensive cross-channel analysis.'
   },
   {
-    question: 'Do I need technical skills to build dashboards?',
-    answer: 'No - Looker Studio\'s drag-and-drop interface makes it easy for marketers to create professional dashboards without coding or technical expertise.'
+    question: 'Do I need technical skills to connect Storyclash to Looker Studio and build dashboards?',
+    answer: 'Yes, you need some technical skills to set up the REST API connection with your API key. However, once connected, marketing teams can build dashboards using Looker Studio\'s drag-and-drop interface without coding.'
   },
   {
-    question: 'How often does data refresh in Looker Studio?',
-    answer: 'Dashboards refresh automatically based on your configured schedule, ensuring stakeholders always see the latest creator performance data.'
+    question: 'How often does Storyclash data refresh in Looker Studio dashboards?',
+    answer: 'Data refresh depends on your Looker Studio configuration. Storyclash exposes up-to-date creator metrics via the API, and Looker Studio pulls fresh data on your chosen schedule so stakeholders always see current influencer performance without manual updates.'
   }
 ];
 
