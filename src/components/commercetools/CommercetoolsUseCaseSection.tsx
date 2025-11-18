@@ -26,7 +26,7 @@ const DataPipelineIllustration = () => (
     <text x="85" y="225" fontSize="11" fontWeight="600" fill="#19B776" textAnchor="middle">Headless</text>
 
     <circle cx="200" cy="260" r="35" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
-    <text x="200" y="265" fontSize="11" fontWeight="600" fill="#19B776" textAnchor="middle">API-First</text>
+    <text x="200" y="265" fontSize="11" fontWeight="600" fill="#19B776" textAnchor="middle">Composable</text>
 
     <circle cx="315" cy="220" r="35" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
     <text x="315" y="225" fontSize="11" fontWeight="600" fill="#19B776" textAnchor="middle">Flexible</text>
@@ -69,7 +69,7 @@ const useCases = [
   },
   {
     icon: ShareIcon,
-    text: 'Scale creator operations with API-first architecture - add channels and touchpoints without reintegration'
+    text: 'Scale creator operations with composable commerce - add channels and touchpoints without reintegration'
   }
 ];
 
@@ -82,7 +82,7 @@ export default function CommercetoolsUseCaseSection() {
           Connect Social Commerce to composable Architecture
         </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with commercetools to power influencer marketing for headless commerce. Track creator performance across any frontend experience while maintaining the flexibility and scalability of your API-first architecture.
+            Integrate Storyclash with commercetools to power influencer marketing for headless commerce. Sync order data into Storyclash to track creator performance across any frontend experience while maintaining the flexibility and scalability of your composable commerce architecture.
           </p>
         </div>
 

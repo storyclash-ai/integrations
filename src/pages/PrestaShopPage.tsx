@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function PrestaShopPage() {
   const title = "PrestaShop Influencer Marketing Integration | Storyclash";
-  const description = "Connect PrestaShop with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync campaign data to PrestaShop. Book a demo.";
+  const description = "Connect PrestaShop with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync PrestaShop order and revenue data into Storyclash for analysis. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/prestashop-influencer-marketing";
 
   const jsonLd = {
@@ -44,39 +44,39 @@ export default function PrestaShopPage() {
                               "name": "How do I connect Storyclash to my PrestaShop store?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Authenticate via your API key to connect your PrestaShop store through the Storyclash REST API. Our documentation guides you through the setup process."
+                                      "text": "Connect your PrestaShop store to Storyclash using the native module or connector. Follow the setup guide in Storyclash, install the connector in your PrestaShop back office, and influencer-related orders and revenue will start flowing into Storyclash automatically – no manual REST API configuration required."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Does this work with multi-store PrestaShop setups?",
+                              "name": "Does the PrestaShop integration work with multi-store setups?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - track creator performance across all your PrestaShop stores with unified reporting or separate analytics per store."
+                                      "text": "Yes – the Storyclash PrestaShop integration supports multi-store setups. You can track creator performance across all your PrestaShop stores with unified reporting or separate analytics per store and market."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I track influencers across different European countries?",
+                              "name": "Can I track influencers across different European countries with PrestaShop?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Absolutely. The integration handles multiple currencies, languages, and markets with accurate revenue attribution per region."
+                                      "text": "Absolutely. The PrestaShop integration handles multiple currencies, languages and markets with accurate revenue attribution per region, so you can compare influencer performance across European countries inside Storyclash."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Is this GDPR compliant?",
+                              "name": "Is the PrestaShop → Storyclash integration GDPR-compliant?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - fully GDPR compliant with European data privacy standards. All data is encrypted and stored securely with proper consent handling."
+                                      "text": "Yes – the PrestaShop → Storyclash integration is fully GDPR-compliant and aligned with European data privacy standards. Data from your PrestaShop store is encrypted in transit and at rest, processed on EU infrastructure and handled with proper consent and access controls."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Which PrestaShop versions are supported?",
+                              "name": "Which PrestaShop versions are supported by the Storyclash integration?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "The module supports PrestaShop 1.7.x and 8.x versions. Check our documentation for specific version compatibility."
+                                      "text": "The Storyclash integration supports PrestaShop 1.7.x and 8.x. Check our documentation for detailed compatibility notes and the latest supported versions."
                               }
                       }
               ]

@@ -5,7 +5,7 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Headless Commerce Integration',
-    description: 'Native API connection with commercetools - decouple influencer attribution from frontend presentation for ultimate flexibility.'
+    description: 'Pre-built commercetools connector that securely routes influencer-driven revenue into Storyclash while keeping your frontend fully decoupled and flexible.'
   },
   {
     icon: ChartIcon,
@@ -16,8 +16,8 @@ const benefits = [
   {
     icon: AutomateIcon,
     color: '#F49D3B',
-    title: 'Real-Time API Sync',
-    description: 'GraphQL and REST API integration for real-time order data, customer segments, and product catalog synchronization.'
+    title: 'Real-Time Data Sync',
+    description: 'Storyclash receives real-time order data, customer segments and product catalog updates from your commercetools instance for accurate, up-to-the-minute influencer attribution.'
   }
 ];
 
@@ -27,10 +27,10 @@ export default function CommercetoolsBenefitsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Sync Creator Performance Data to commercetools
+          Sync commercetools Commerce Data into Storyclash
         </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Built for modern brands running commercetools API-first architecture
+            Built for modern brands running headless commerce with flexible, composable architecture
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

@@ -26,7 +26,7 @@ export default function WixHeroSection() {
                 padding: '0 0 30px 0'
               }}
             >
-              Connect creator campaigns to your Wix store and measure influencer-driven sales with seamless attribution tracking.
+              Bring Wix orders, creator performance and ROI insights into Storyclash for a complete view of your ecommerce performance.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"

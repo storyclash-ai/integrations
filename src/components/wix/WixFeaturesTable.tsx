@@ -2,8 +2,8 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'REST API Integration',
-    description: 'Connect your Wix store via our REST API using your API key - clear authentication, simple integration.'
+    name: 'Direct Wix Access',
+    description: 'Securely bring Wix order and revenue data into Storyclash for unified ecommerce and creator analytics.'
   },
   {
     name: 'Automatic Order Tracking',

@@ -53,8 +53,8 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Simple API Integration',
-    description: 'Connect your Wix store via our REST API with clear authentication and documentation. Get your API key and integrate in minutes with our detailed guide.'
+    title: 'Connector-Based Setup',
+    description: 'Activate the Wix connector in Storyclash and add the snippet to your store. No API keys, no backend development – data syncs automatically.'
   },
   {
     icon: EnterpriseIcon,
@@ -73,7 +73,7 @@ export default function WixWhyStoryclashSection() {
     <section className="py-20 px-6 border-t border-b" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5EAEC' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="mb-16 text-center" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>
-          Measure Social Commerce ROI in Wix Analytics
+          Why Storyclash for Wix?
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">

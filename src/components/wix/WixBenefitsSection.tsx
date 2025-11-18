@@ -4,8 +4,8 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Easy Wix Integration',
-    description: 'Connect your Wix store via the Storyclash REST API using your API key - our documentation makes the setup straightforward.'
+    title: 'Seamless Wix Integration',
+    description: 'Securely connect your Wix store to Storyclash and bring orders, revenue and customer data into one place – without handling REST APIs or API keys in your daily workflow.'
   },
   {
     icon: ChartIcon,

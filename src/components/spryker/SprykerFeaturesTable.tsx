@@ -2,8 +2,8 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Glue API Integration',
-    description: 'Native connection to Spryker Glue API - flexible access to your custom commerce data structures and logic.'
+    name: 'Flexible Commerce Connector',
+    description: 'Secure connection to Spryker Commerce OS - flexible access to your custom commerce data structures and logic for accurate influencer attribution.'
   },
   {
     name: 'Custom Data Model Support',

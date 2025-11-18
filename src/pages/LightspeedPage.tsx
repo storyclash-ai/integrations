@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function LightspeedPage() {
   const title = "Lightspeed Influencer Marketing Integration | Storyclash";
-  const description = "Connect Lightspeed with Storyclash's influencer marketing platform. Store creator campaign data in your data warehouse, analyze performance, and build custom models. Book a demo.";
+  const description = "Connect Lightspeed Retail & eCom with Storyclash's influencer marketing platform. Track creator-driven sales across POS and online channels, and sync Lightspeed order and revenue data into Storyclash for omnichannel analysis. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/lightspeed-influencer-marketing";
 
   const jsonLd = {
@@ -44,7 +44,7 @@ export default function LightspeedPage() {
                               "name": "How does Storyclash integrate with Lightspeed eCom?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Storyclash connects to your Lightspeed eCom store via REST API, syncing order data, revenue, and customer information. We track which influencers drive actual sales with accurate attribution and ROI measurement."
+                                      "text": "Storyclash connects to your Lightspeed eCom store via a secure data connector, receiving order data, revenue and customer information from your POS and online channels. This Lightspeed data is matched with creator campaigns in Storyclash to track which influencers drive actual sales with accurate attribution and ROI measurement."
                               }
                       },
                       {

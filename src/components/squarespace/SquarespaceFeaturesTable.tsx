@@ -2,12 +2,12 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Native Commerce Integration',
-    description: 'Seamless API connection to Squarespace Commerce for automated order and revenue tracking.'
+    name: 'Direct Squarespace Access',
+    description: 'Securely bring Squarespace order and revenue data into Storyclash for unified ecommerce and creator analytics.'
   },
   {
-    name: 'Designer-Friendly Dashboards',
-    description: 'Beautiful, intuitive analytics that match Squarespace\'s clean aesthetic and design principles.'
+    name: 'Unified Analytics Dashboard',
+    description: 'View all Squarespace order data, creator performance, and revenue attribution in one unified Storyclash dashboard.'
   },
   {
     name: 'Product-Level Attribution',
@@ -18,8 +18,8 @@ const features = [
     description: 'Track creator impact on memberships, courses, and digital products - not just physical goods.'
   },
   {
-    name: 'Creative Business Tools',
-    description: 'Built for photographers, designers, artists, and creative entrepreneurs selling through Squarespace.'
+    name: 'Complete Ecommerce Attribution',
+    description: 'Track all Squarespace Commerce transactions and attribute revenue to creators across your entire influencer network.'
   }
 ];
 

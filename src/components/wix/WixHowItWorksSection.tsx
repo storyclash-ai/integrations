@@ -33,17 +33,17 @@ const steps = [
   {
     number: '01',
     title: 'Connect your Wix store',
-    description: 'Connect your Wix data via the Storyclash REST API using your API key - no plugin required.'
+    description: 'Activate the Wix connector in Storyclash, add the snippet to your store and data will start syncing automatically.'
   },
   {
     number: '02',
     title: 'Track creators & sync sales',
-    description: 'Storyclash automatically matches influencer traffic to Wix orders and revenue in real-time.'
+    description: 'Select which Wix order metrics and creator KPIs you want to use inside Storyclash dashboards for your ecommerce reporting.'
   },
   {
     number: '03',
     title: 'Measure ROI & grow',
-    description: 'See which creators drive the most sales and optimize your influencer marketing budget.'
+    description: 'Combine Wix order data with creator performance in Storyclash to measure ROI, attribute revenue and optimize your influencer campaigns.'
   }
 ];
 

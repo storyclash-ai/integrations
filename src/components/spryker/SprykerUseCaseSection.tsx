@@ -79,10 +79,10 @@ export default function SprykerUseCaseSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Connect Social Commerce to Spryker Analytics
+          Connect social commerce and Spryker data in Storyclash
         </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with Spryker Commerce OS to power influencer marketing for modern, modular commerce. Track creator performance across custom data models, business units, and commerce experiences with the flexibility your composable architecture demands.
+            Integrate Storyclash with Spryker Commerce OS to power influencer marketing for modern, modular commerce. Track creator performance across custom data models, business units and commerce experiences with Storyclash dashboards that match the flexibility your composable architecture demands.
           </p>
         </div>
 

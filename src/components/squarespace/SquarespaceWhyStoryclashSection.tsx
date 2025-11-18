@@ -53,8 +53,8 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Built for Creative Entrepreneurs',
-    description: 'Just like Squarespace empowers you to build beautiful websites, Storyclash empowers you with elegant influencer analytics. No technical complexity - just clean, actionable insights.'
+    title: 'Connector-Based Setup',
+    description: 'Activate the Squarespace connector in Storyclash and add the snippet to your store. No API keys, no backend development – data syncs automatically.'
   },
   {
     icon: EnterpriseIcon,
@@ -73,7 +73,7 @@ export default function SquarespaceWhyStoryclashSection() {
     <section className="py-20 px-6 border-t border-b" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5EAEC' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="mb-16 text-center" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>
-          Connect Social Commerce to Squarespace Analytics
+          Why Storyclash for Squarespace?
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">

@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function SquarespacePage() {
   const title = "Squarespace Influencer Marketing Integration | Storyclash";
-  const description = "Connect Squarespace with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync campaign data to Squarespace. Book a demo.";
+  const description = "Connect Squarespace Commerce with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync Squarespace order and revenue data into Storyclash for analysis. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/squarespace-influencer-marketing";
 
   const jsonLd = {
@@ -41,42 +41,42 @@ export default function SquarespacePage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How do I connect Storyclash to Squarespace Commerce?",
+                              "name": "How does Storyclash receive Squarespace Commerce orders, revenue and customer data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Use the Squarespace API key from your account settings. Our guided setup takes about 5 minutes with clear step-by-step instructions."
+                                      "text": "Storyclash receives orders, revenue, products and customer events from your Squarespace Commerce store via a secure connector. All ecommerce data is unified in Storyclash and linked with creator activity for accurate attribution."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Does this work with Squarespace memberships and digital products?",
+                              "name": "Which Squarespace Commerce metrics can be imported into Storyclash for influencer revenue attribution?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - track creator performance for physical products, digital downloads, memberships, and courses sold through Squarespace."
+                                      "text": "Storyclash ingests Squarespace metrics such as orders, revenue, products sold, discount code usage, AOV, refunds, new vs. returning customers and timestamps for influencer revenue reporting."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Which Squarespace data gets synced?",
+                              "name": "How does Storyclash attribute Squarespace orders to specific creators and campaigns?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Order data, revenue, product SKUs, customer acquisition, and conversion events - all matched to specific influencer campaigns."
+                                      "text": "Storyclash attributes Squarespace orders to creators using discount codes, UTM parameters and first-party tracking. Multi-touch journeys are fully supported."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I track creators promoting my portfolio or services?",
+                              "name": "Do I need a developer to connect Squarespace Commerce with Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Absolutely. Whether you sell products, services, bookings, or digital goods on Squarespace, Storyclash tracks creator-driven conversions."
+                                      "text": "No. Squarespace Commerce can be connected to Storyclash without backend development. Activate the connector in Storyclash, add the snippet to your store and data begins syncing automatically."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Is this suitable for creative entrepreneurs and small businesses?",
+                              "name": "Is the Squarespace → Storyclash connector GDPR-compliant and secure?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - designed specifically for creative professionals, photographers, designers, and small business owners using Squarespace."
+                                      "text": "Yes. The Squarespace → Storyclash connector is fully GDPR-compliant, encrypted and EU-hosted, with role-based permissions and SSO for enterprise-grade security."
                               }
                       }
               ]

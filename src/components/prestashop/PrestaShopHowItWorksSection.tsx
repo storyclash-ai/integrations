@@ -32,18 +32,18 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect via REST API',
-    description: 'Authenticate your PrestaShop store using the Storyclash REST API with API key authentication.'
+    title: 'Connect your PrestaShop store in Storyclash',
+    description: 'Activate the PrestaShop module or connector in Storyclash and link it to your store in just a few clicks – no manual REST API setup or custom development required.'
   },
   {
     number: '02',
     title: 'Configure & track creators',
-    description: 'Storyclash automatically syncs PrestaShop orders, products, and customer data matched to influencer campaigns.'
+    description: 'Storyclash automatically receives PrestaShop orders, products and customer data via the connector and matches them to your influencer campaigns.'
   },
   {
     number: '03',
     title: 'Analyze multi-store ROI',
-    description: 'See which creators drive sales across all your PrestaShop stores with unified performance dashboards.'
+    description: 'See which creators drive sales across all your PrestaShop stores with unified Storyclash dashboards and multi-store ROI reporting.'
   }
 ];
 

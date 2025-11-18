@@ -14,7 +14,7 @@ const DataFlowIllustration = () => (
     <text x="100" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Headless</text>
 
     <circle cx="200" cy="240" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
-    <text x="200" y="245" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">API-First</text>
+    <text x="200" y="245" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Scalable</text>
 
     <circle cx="300" cy="180" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
     <text x="300" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Flexible</text>

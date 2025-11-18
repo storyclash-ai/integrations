@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function CommercetoolsPage() {
   const title = "Commercetools Influencer Marketing Integration | Storyclash";
-  const description = "Connect Commercetools with Storyclash's influencer marketing platform. Store creator campaign data in your data warehouse, analyze performance, and build custom models. Book a demo.";
+  const description = "Connect commercetools with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync commercetools orders and revenue into Storyclash for headless commerce attribution. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/commercetools-influencer-marketing";
 
   const jsonLd = {
@@ -44,7 +44,7 @@ export default function CommercetoolsPage() {
                               "name": "How does Storyclash integrate with commercetools?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Storyclash connects to commercetools via secure API authentication, syncing order data, customer information, and product details. We track which influencers drive actual sales with accurate attribution and ROI measurement."
+                                      "text": "Storyclash connects to commercetools via a secure, pre-built connector that syncs order data, customer information and product details into Storyclash. This lets you see which influencers drive actual sales with accurate attribution and ROI measurement inside Storyclash."
                               }
                       },
                       {

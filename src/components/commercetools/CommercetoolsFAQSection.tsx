@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'How does Storyclash integrate with commercetools?',
-    answer: 'Storyclash connects to commercetools via secure API authentication, syncing order data, customer information, and product details. We track which influencers drive actual sales with accurate attribution and ROI measurement.'
+    answer: 'Storyclash connects to commercetools via a secure, pre-built connector that syncs order data, customer information and product details into Storyclash. This lets you see which influencers drive actual sales with accurate attribution and ROI measurement inside Storyclash.'
   },
   {
     question: 'Can I track both B2B and B2C sales attribution?',

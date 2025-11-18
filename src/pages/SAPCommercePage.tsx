@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function SAPCommercePage() {
   const title = "SAP Commerce Cloud Influencer Marketing Integration | Storyclash";
-  const description = "Connect SAP Commerce Cloud with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync campaign data to SAP. Book a demo.";
+  const description = "Connect SAP Commerce Cloud with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync SAP Commerce Cloud order and revenue data into Storyclash for analysis. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/sap-commerce-cloud-influencer-marketing";
 
   const jsonLd = {
@@ -44,7 +44,7 @@ export default function SAPCommercePage() {
                               "name": "Which versions of SAP Commerce Cloud are supported?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "We support SAP Commerce Cloud 2.x and newer versions. Our API integration works with both cloud-hosted and on-premise deployments."
+                                      "text": "We support SAP Commerce Cloud 2.x and newer versions. Our SAP Commerce Cloud connector works with both cloud-hosted and on-premise deployments."
                               }
                       },
                       {
@@ -73,10 +73,10 @@ export default function SAPCommercePage() {
                       },
                       {
                               "@type": "Question",
-                              "name": "How does the API integration work with SAP Commerce Cloud?",
+                              "name": "How does the SAP Commerce Cloud integration work with Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Storyclash connects via SAP Commerce Cloud REST APIs using secure OAuth 2.0 authentication. We handle order data syncing, customer segmentation, and revenue attribution automatically. Our API documentation and integration support help your team connect Storyclash without extensive development effort."
+                                      "text": "Storyclash connects to SAP Commerce Cloud via a secure, pre-built connector that uses enterprise authentication. SAP Commerce Cloud sends order, revenue and customer data into Storyclash, where it is combined with creator content and campaign tracking to deliver revenue attribution and customer journey insights. Your IT team controls permissions and security, while marketing teams work directly in Storyclash without managing APIs."
                               }
                       }
               ]

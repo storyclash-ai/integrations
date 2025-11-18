@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'Which versions of SAP Commerce Cloud are supported?',
-    answer: 'We support SAP Commerce Cloud 2.x and newer versions. Our API integration works with both cloud-hosted and on-premise deployments.'
+    answer: 'We support SAP Commerce Cloud 2.x and newer versions. Our SAP Commerce Cloud connector works with both cloud-hosted and on-premise deployments.'
   },
   {
     question: 'How does the integration handle multi-country operations?',
@@ -19,8 +19,8 @@ const faqs = [
     answer: 'Absolutely. You can create separate views for different brands, regions, or business units while maintaining centralized governance and data consistency.'
   },
   {
-    question: 'How does the API integration work with SAP Commerce Cloud?',
-    answer: 'Storyclash connects via SAP Commerce Cloud REST APIs using secure OAuth 2.0 authentication. We handle order data syncing, customer segmentation, and revenue attribution automatically. Our API documentation and integration support help your team connect Storyclash without extensive development effort.'
+    question: 'How does the SAP Commerce Cloud integration work with Storyclash?',
+    answer: 'Storyclash connects to SAP Commerce Cloud via a secure, pre-built connector that uses enterprise authentication. SAP Commerce Cloud sends order, revenue and customer data into Storyclash, where it is combined with creator content and campaign tracking to deliver revenue attribution and customer journey insights. Your IT team controls permissions and security, while marketing teams work directly in Storyclash without managing APIs.'
   }
 ];
 

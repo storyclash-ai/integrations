@@ -32,13 +32,13 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect Lightspeed API',
-    description: 'Secure API integration with Lightspeed Retail POS and eCom platforms - setup in minutes with OAuth authentication.'
+    title: 'Connect Lightspeed Retail & eCom in Storyclash',
+    description: 'Activate the Lightspeed Retail & eCom connector in Storyclash and link it to your accounts in just a few clicks – no manual API setup or custom development required.'
   },
   {
     number: '02',
     title: 'Track omnichannel sales',
-    description: 'Storyclash automatically matches influencer traffic to both in-store POS transactions and online eCom orders.'
+    description: 'Lightspeed sends transaction data from retail and online channels to Storyclash, which automatically matches influencer campaigns to these omnichannel sales.'
   },
   {
     number: '03',

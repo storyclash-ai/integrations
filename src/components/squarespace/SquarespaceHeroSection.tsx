@@ -26,7 +26,7 @@ export default function SquarespaceHeroSection() {
                 padding: '0 0 30px 0'
               }}
             >
-              Connect creator campaigns to your Squarespace store and track influencer-driven sales with elegant, data-driven attribution.
+              Bring Squarespace orders, creator performance and ROI insights into Storyclash for a complete view of your ecommerce performance.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"

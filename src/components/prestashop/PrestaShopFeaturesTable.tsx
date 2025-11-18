@@ -2,8 +2,8 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'REST API Integration',
-    description: 'Connect your PrestaShop store via the Storyclash REST API using API key authentication for secure integration.'
+    name: 'Secure Connector Integration',
+    description: 'Connect your PrestaShop store to Storyclash via a secure data connector with encrypted transfer and role-based access control for a reliable integration.'
   },
   {
     name: 'Multi-Store Support',

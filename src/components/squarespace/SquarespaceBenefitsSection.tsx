@@ -5,7 +5,7 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Seamless Squarespace Integration',
-    description: 'Native connection to Squarespace Commerce with beautiful, designer-friendly analytics dashboards.'
+    description: 'Securely connect your Squarespace Commerce store to Storyclash and bring orders, revenue and customer data into one place – without handling REST APIs or API keys.'
   },
   {
     icon: ChartIcon,
@@ -27,10 +27,10 @@ export default function SquarespaceBenefitsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Import Influencer Campaign Data into Squarespace
+            Sync Squarespace Commerce Sales Data into Storyclash
           </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Built for creative entrepreneurs and design-forward brands
+            Connect Squarespace Commerce with influencer intelligence in Storyclash for smarter ecommerce decisions
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

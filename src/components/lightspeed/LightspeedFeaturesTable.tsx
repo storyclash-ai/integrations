@@ -3,7 +3,7 @@ import { Check } from 'lucide-react';
 const features = [
   {
     name: 'Lightspeed eCom Integration',
-    description: 'Connect Lightspeed eCom via secure API to sync order data, revenue, and customer information for influencer tracking.'
+    description: 'Connect Lightspeed eCom via a secure data connector to sync order data, revenue and customer information into Storyclash for influencer tracking and revenue attribution.'
   },
   {
     name: 'Revenue Attribution',

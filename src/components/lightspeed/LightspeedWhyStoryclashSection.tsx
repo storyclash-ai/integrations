@@ -59,7 +59,7 @@ const benefits = [
   {
     icon: EnterpriseIcon,
     title: 'Scale Your eCom Operations',
-    description: 'Whether you have 1 product or 1000, Storyclash tracks which creators drive the most profitable sales on your Lightspeed eCom store.'
+    description: 'Storyclash tracks which creators drive the most profitable sales on your Lightspeed eCom store, helping you optimize your influencer partnerships at any scale.'
   },
   {
     icon: ROIIcon,

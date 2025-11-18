@@ -79,10 +79,10 @@ export default function SquarespaceUseCaseSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Connect Social Commerce to Squarespace Analytics
+            Connect Social Commerce and Squarespace Data inside Storyclash
           </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with Squarespace Commerce to unite influencer performance with your beautifully designed online store. Track creator-driven orders, revenue, and product insights with analytics that match Squarespace's elegant design philosophy.
+            Integrate Storyclash with Squarespace to connect influencer performance with order data, CLV and conversion metrics – all inside Storyclash.
           </p>
         </div>
 

@@ -5,8 +5,8 @@ const FlowIllustration = () => (
     <text x="90" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Track</text>
 
     <rect x="150" y="140" width="100" height="70" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
-    <text x="200" y="172" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">GraphQL</text>
-    <text x="200" y="188" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">API</text>
+    <text x="200" y="172" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Connector</text>
+    <text x="200" y="188" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Sync</text>
 
     <rect x="260" y="40" width="100" height="70" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
 
@@ -32,8 +32,8 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect commercetools APIs',
-    description: 'Secure OAuth integration with commercetools GraphQL and REST APIs - flexible, headless access to your commerce data.'
+    title: 'Connect commercetools in Storyclash',
+    description: 'Activate the commercetools connector in Storyclash and authorize access to your headless commerce data – no custom integration required.'
   },
   {
     number: '02',
@@ -42,8 +42,8 @@ const steps = [
   },
   {
     number: '03',
-    title: 'Scale with API-first architecture',
-    description: 'Add new storefronts, channels, and experiences without reintegration - true headless flexibility for influencer attribution.'
+    title: 'Scale with headless flexibility',
+    description: 'Add new storefronts, channels, and experiences without reintegration - the connector grows with your architecture.'
   }
 ];
 
@@ -52,7 +52,7 @@ export default function CommercetoolsHowItWorksSection() {
     <section className="py-20 px-6" style={{ backgroundColor: '#FAFAFA' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Track Influencer Revenue via Headless Commerce APIs
+          Track Influencer Revenue with commercetools
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">

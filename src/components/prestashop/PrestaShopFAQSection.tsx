@@ -4,23 +4,23 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'How do I connect Storyclash to my PrestaShop store?',
-    answer: 'Authenticate via your API key to connect your PrestaShop store through the Storyclash REST API. Our documentation guides you through the setup process.'
+    answer: 'Connect your PrestaShop store to Storyclash using the native module or connector. Follow the setup guide in Storyclash, install the connector in your PrestaShop back office, and influencer-related orders and revenue will start flowing into Storyclash automatically – no manual REST API configuration required.'
   },
   {
-    question: 'Does this work with multi-store PrestaShop setups?',
-    answer: 'Yes - track creator performance across all your PrestaShop stores with unified reporting or separate analytics per store.'
+    question: 'Does the PrestaShop integration work with multi-store setups?',
+    answer: 'Yes – the Storyclash PrestaShop integration supports multi-store setups. You can track creator performance across all your PrestaShop stores with unified reporting or separate analytics per store and market.'
   },
   {
-    question: 'Can I track influencers across different European countries?',
-    answer: 'Absolutely. The integration handles multiple currencies, languages, and markets with accurate revenue attribution per region.'
+    question: 'Can I track influencers across different European countries with PrestaShop?',
+    answer: 'Absolutely. The PrestaShop integration handles multiple currencies, languages and markets with accurate revenue attribution per region, so you can compare influencer performance across European countries inside Storyclash.'
   },
   {
-    question: 'Is this GDPR compliant?',
-    answer: 'Yes - fully GDPR compliant with European data privacy standards. All data is encrypted and stored securely with proper consent handling.'
+    question: 'Is the PrestaShop → Storyclash integration GDPR-compliant?',
+    answer: 'Yes – the PrestaShop → Storyclash integration is fully GDPR-compliant and aligned with European data privacy standards. Data from your PrestaShop store is encrypted in transit and at rest, processed on EU infrastructure and handled with proper consent and access controls.'
   },
   {
-    question: 'Which PrestaShop versions are supported?',
-    answer: 'The module supports PrestaShop 1.7.x and 8.x versions. Check our documentation for specific version compatibility.'
+    question: 'Which PrestaShop versions are supported by the Storyclash integration?',
+    answer: 'The Storyclash integration supports PrestaShop 1.7.x and 8.x. Check our documentation for detailed compatibility notes and the latest supported versions.'
   }
 ];
 

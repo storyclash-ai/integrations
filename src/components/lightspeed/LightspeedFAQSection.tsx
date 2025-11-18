@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'How does Storyclash integrate with Lightspeed eCom?',
-    answer: 'Storyclash connects to your Lightspeed eCom store via REST API, syncing order data, revenue, and customer information. We track which influencers drive actual sales with accurate attribution and ROI measurement.'
+    answer: 'Storyclash connects to your Lightspeed eCom store via a secure data connector, receiving order data, revenue and customer information from your POS and online channels. This Lightspeed data is matched with creator campaigns in Storyclash to track which influencers drive actual sales with accurate attribution and ROI measurement.'
   },
   {
     question: 'How does Storyclash attribute Lightspeed eCom sales to influencers?',

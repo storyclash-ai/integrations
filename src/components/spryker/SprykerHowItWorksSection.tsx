@@ -32,8 +32,8 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect Spryker Glue API',
-    description: 'Secure integration with Spryker Glue API - flexible access to your custom commerce data structures and business logic.'
+    title: 'Connect Spryker Commerce in Storyclash',
+    description: 'Activate the Spryker Commerce OS connector in Storyclash with secure, flexible access to your custom commerce data structures and business logic.'
   },
   {
     number: '02',

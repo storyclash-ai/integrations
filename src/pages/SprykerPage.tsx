@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function SprykerPage() {
   const title = "Spryker Influencer Marketing Integration | Storyclash";
-  const description = "Connect Spryker with Storyclash's influencer marketing platform. Export creator data to your reporting tools, automate data transfers, and unify campaign metrics. Book a demo.";
+  const description = "Connect Spryker Commerce OS with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync Spryker order and revenue data into Storyclash for analysis. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/spryker-influencer-marketing";
 
   const jsonLd = {
@@ -57,10 +57,10 @@ export default function SprykerPage() {
                       },
                       {
                               "@type": "Question",
-                              "name": "How does this integrate with Spryker Glue API?",
+                              "name": "How does Storyclash connect to Spryker Commerce?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "We use secure OAuth authentication to connect to Spryker Glue API, giving us flexible access to your commerce data while respecting your custom configurations and security policies."
+                                      "text": "Our Spryker connector securely links Storyclash to your Spryker Commerce OS instance, automatically receiving orders, revenue, and customer data. Your data stays in your control while Storyclash provides the influencer attribution and ROI insights you need."
                               }
                       },
                       {

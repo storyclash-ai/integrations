@@ -2,8 +2,8 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Enterprise API Integration',
-    description: 'Secure OAuth connection with SAP Commerce Cloud APIs - full audit trails and role-based access control.'
+    name: 'Enterprise SAP Commerce connector',
+    description: 'Secure connector between SAP Commerce Cloud and Storyclash with OAuth-based authentication, full audit trails and role-based access control.'
   },
   {
     name: 'Multi-Country & Multi-Currency',

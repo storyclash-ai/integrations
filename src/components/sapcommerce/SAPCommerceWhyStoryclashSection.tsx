@@ -54,7 +54,7 @@ const benefits = [
   {
     icon: SimplifyIcon,
     title: 'Built for SAP Enterprise Architecture',
-    description: 'Native integration with SAP Commerce Cloud APIs means no middleware, no data lakes, no complexity. Storyclash speaks SAP natively - secure, compliant, and built to enterprise standards from day one.'
+    description: 'Our SAP Commerce Cloud connector provides native integration with no middleware, no data lakes, no complexity. Storyclash connects to SAP natively - secure, compliant, and built to enterprise standards from day one.'
   },
   {
     icon: EnterpriseIcon,

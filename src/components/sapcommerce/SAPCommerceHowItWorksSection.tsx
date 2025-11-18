@@ -32,8 +32,8 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect SAP Commerce API',
-    description: 'Secure OAuth integration with SAP Commerce Cloud APIs - enterprise-grade authentication with full audit trails.'
+    title: 'Connect SAP Commerce Cloud in Storyclash',
+    description: 'Activate the SAP Commerce Cloud connector in Storyclash and link it to your commerce instance with secure, enterprise-grade authentication and full audit trails.'
   },
   {
     number: '02',

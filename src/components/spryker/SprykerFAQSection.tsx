@@ -11,8 +11,8 @@ const faqs = [
     answer: 'Absolutely. The integration works across both B2B marketplaces and B2C storefronts, with unified reporting that shows creator performance for each customer type.'
   },
   {
-    question: 'How does this integrate with Spryker Glue API?',
-    answer: 'We use secure OAuth authentication to connect to Spryker Glue API, giving us flexible access to your commerce data while respecting your custom configurations and security policies.'
+    question: 'How does Storyclash connect to Spryker Commerce?',
+    answer: 'Our Spryker connector securely links Storyclash to your Spryker Commerce OS instance, automatically receiving orders, revenue, and customer data. Your data stays in your control while Storyclash provides the influencer attribution and ROI insights you need.'
   },
   {
     question: 'How does Storyclash handle B2B and B2C attribution in Spryker?',

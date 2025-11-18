@@ -12,7 +12,7 @@ import { Seo } from '../components/Seo';
 
 export default function WixPage() {
   const title = "Wix Influencer Marketing Integration | Storyclash";
-  const description = "Connect Wix with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync campaign data to Wix eCommerce. Book a demo.";
+  const description = "Connect Wix with Storyclash's influencer marketing platform. Track creator performance, measure ROI, and sync Wix order and revenue data into Storyclash for analysis. Book a demo.";
   const canonical = "https://www.storyclash.com/integrations/wix-influencer-marketing";
 
   const jsonLd = {
@@ -41,42 +41,42 @@ export default function WixPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How do I connect Storyclash to my Wix store?",
+                              "name": "How does Storyclash receive Wix orders, revenue and customer data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Authenticate via your API key to connect your Wix store through the Storyclash REST API. Our documentation guides you through the setup process."
+                                      "text": "Storyclash receives orders, revenue, products and customer events from your Wix store via a secure connector. All ecommerce data is unified inside Storyclash and linked with creator activity for full-funnel reporting."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Do I need coding skills to set this up?",
+                              "name": "Which Wix ecommerce metrics can be imported into Storyclash for influencer revenue attribution?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Our REST API documentation makes it easy to connect. With your API key and our detailed integration guide, you can set up the connection without extensive technical knowledge."
+                                      "text": "Storyclash ingests Wix metrics such as orders, revenue, products sold, discount code usage, AOV, refunds, new vs. returning customers and timestamps for accurate revenue attribution."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Which data gets synced from my Wix store?",
+                              "name": "How does Storyclash attribute Wix orders to specific creators and campaigns?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Order data, revenue, product information, and customer acquisition metrics - all matched to specific influencer campaigns."
+                                      "text": "Storyclash attributes Wix orders to creators using discount codes, UTM parameters and first-party tracking. Multi-touch journeys are fully supported."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How do I track which creator drove which sale?",
+                              "name": "Do I need a developer to connect Wix with Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Storyclash uses UTM parameters, tracking pixels, and unique discount codes to match Wix orders to influencer content."
+                                      "text": "No. Wix can be connected to Storyclash without any backend development. Activate the Wix connector in Storyclash, add the snippet to your store and data will start syncing automatically."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Is my Wix store data secure?",
+                              "name": "Is the Wix → Storyclash connector GDPR-compliant and secure?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - all data is encrypted, GDPR-compliant, and stored securely with enterprise-grade security measures."
+                                      "text": "Yes. The Wix → Storyclash connector is fully GDPR-compliant, encrypted and EU-hosted, with SSO and role-based access for enterprise-grade security."
                               }
                       }
               ]

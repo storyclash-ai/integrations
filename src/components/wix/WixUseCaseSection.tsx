@@ -79,10 +79,10 @@ export default function WixUseCaseSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Measure Social Commerce ROI in Wix Analytics
+            Connect Social Commerce and Wix Data inside Storyclash
           </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with Wix eCommerce to connect influencer performance with your online store analytics. Track creator-driven orders, revenue, and traffic with simple, actionable insights designed for small businesses and growing brands.
+            Integrate Storyclash with Wix to connect influencer performance with order data, CLV and conversion metrics – all inside Storyclash.
           </p>
         </div>
 

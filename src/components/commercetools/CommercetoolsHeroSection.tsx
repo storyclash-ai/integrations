@@ -28,7 +28,7 @@ export default function CommercetoolsHeroSection() {
                 padding: '0 0 30px 0'
               }}
             >
-              Connect creator campaigns to your commercetools headless commerce platform for API-first influencer attribution and flexible customer journeys.
+              Sync commercetools order and revenue data into Storyclash to track influencer performance across any frontend and customer journey.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"

@@ -79,10 +79,10 @@ export default function LightspeedUseCaseSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Measure Social Commerce ROI in Lightspeed
+            Measure Social Commerce ROI with Lightspeed data in Storyclash
           </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with Lightspeed Retail and eCom to bridge the gap between influencer marketing and omnichannel sales. Track creator impact on both in-store POS transactions and online orders with unified reporting that shows the complete customer journey.
+            Integrate Storyclash with Lightspeed Retail and eCom to bridge the gap between influencer marketing and omnichannel sales. Track creator impact on both in-store POS transactions and online orders with unified Storyclash reporting that shows the complete customer journey.
           </p>
         </div>
 

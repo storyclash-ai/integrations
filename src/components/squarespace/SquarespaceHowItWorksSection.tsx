@@ -33,17 +33,17 @@ const steps = [
   {
     number: '01',
     title: 'Connect Squarespace Commerce',
-    description: 'Quick API integration with your Squarespace store - setup in minutes with our guided workflow.'
+    description: 'Activate the Squarespace connector in Storyclash, add the snippet to your store and data will start syncing automatically.'
   },
   {
     number: '02',
     title: 'Track creators & sync orders',
-    description: 'Storyclash automatically matches influencer traffic to Squarespace orders, revenue, and product performance.'
+    description: 'Select which Squarespace order metrics and creator KPIs you want to use inside Storyclash dashboards for your ecommerce reporting.'
   },
   {
     number: '03',
     title: 'Measure ROI & scale',
-    description: 'Beautiful dashboards show which creators drive sales, helping you invest in the partnerships that matter.'
+    description: 'Combine Squarespace order data with creator performance in Storyclash to measure ROI, attribute revenue and optimize your influencer campaigns.'
   }
 ];
 
