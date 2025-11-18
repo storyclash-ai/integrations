@@ -1,28 +1,12 @@
 const FlowIllustration = () => (
-  <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-    <rect x="40" y="40" width="100" height="70" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
-    <text x="90" y="72" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Storyclash</text>
-    <text x="90" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Creator Data</text>
-
-    <rect x="150" y="140" width="100" height="70" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
-    <text x="200" y="172" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Connector</text>
-    <text x="200" y="188" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Data Sync</text>
-
-    <rect x="260" y="40" width="100" height="70" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
-    <text x="310" y="72" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Storyclash</text>
-    <text x="310" y="88" fontSize="11" fontWeight="500" fill="#233C42" textAnchor="middle">Dashboard</text>
-
-    <circle cx="90" cy="240" r="5" fill="#19B776">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="200" cy="240" r="5" fill="#19B776">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.7s" repeatCount="indefinite" />
-    </circle>
-    <circle cx="310" cy="240" r="5" fill="#19B776">
-      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.4s" repeatCount="indefinite" />
-    </circle>
-
-  </svg>
+  <div className="relative w-full h-full flex items-center justify-center" style={{ minHeight: '250px', maxHeight: '350px' }}>
+    <img
+      src="/illustrations/sync-illustration.png"
+      alt="Data synchronization illustration showing two people with sync symbol"
+      className="w-full h-auto object-cover"
+      style={{ maxHeight: '350px', objectPosition: 'center', opacity: '0.85' }}
+    />
+  </div>
 );
 
 const steps = [
