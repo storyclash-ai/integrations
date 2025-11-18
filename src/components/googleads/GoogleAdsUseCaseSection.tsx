@@ -1,36 +1,12 @@
 const DataPipelineIllustration = () => (
-  <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-    <rect x="30" y="60" width="110" height="80" rx="8" stroke="#E5EAEC" strokeWidth="2" fill="white" />
-    <text x="85" y="95" fontSize="12" fontWeight="600" fill="#233C42" textAnchor="middle">Creator Ads</text>
-    <circle cx="60" cy="115" r="3" fill="#4285F4" />
-    <circle cx="85" cy="115" r="3" fill="#4285F4" />
-    <circle cx="110" cy="115" r="3" fill="#4285F4" />
-
-    <rect x="145" y="100" width="110" height="80" rx="8" stroke="#4285F4" strokeWidth="2.5" fill="rgba(66, 133, 244, 0.06)" />
-    <text x="200" y="135" fontSize="13" fontWeight="700" fill="#4285F4" textAnchor="middle">Google Ads</text>
-    <rect x="165" y="150" width="70" height="8" rx="4" fill="#4285F4" opacity="0.3" />
-    <rect x="165" y="162" width="55" height="8" rx="4" fill="#4285F4" opacity="0.5" />
-
-    <rect x="260" y="60" width="110" height="80" rx="8" stroke="#E5EAEC" strokeWidth="2" fill="white" />
-    <text x="315" y="95" fontSize="12" fontWeight="600" fill="#233C42" textAnchor="middle">Conversions</text>
-    <path d="M280 115 L290 125 L300 110 L310 120 L320 105 L330 115 L340 108" stroke="#4285F4" strokeWidth="2" fill="none" />
-
-    <path d="M145 100 L200 80" stroke="#4285F4" strokeWidth="2" strokeDasharray="4 4">
-      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="0.5s" repeatCount="indefinite" />
-    </path>
-    <path d="M255 140 L315 140" stroke="#4285F4" strokeWidth="2" strokeDasharray="4 4">
-      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="0.5s" repeatCount="indefinite" />
-    </path>
-
-    <circle cx="85" cy="220" r="35" stroke="#4285F4" strokeWidth="2" fill="rgba(66, 133, 244, 0.05)" />
-    <text x="85" y="225" fontSize="11" fontWeight="600" fill="#4285F4" textAnchor="middle">ROAS</text>
-
-    <circle cx="200" cy="260" r="35" stroke="#4285F4" strokeWidth="2" fill="rgba(66, 133, 244, 0.05)" />
-    <text x="200" y="265" fontSize="11" fontWeight="600" fill="#4285F4" textAnchor="middle">Audiences</text>
-
-    <circle cx="315" cy="220" r="35" stroke="#4285F4" strokeWidth="2" fill="rgba(66, 133, 244, 0.05)" />
-    <text x="315" y="225" fontSize="11" fontWeight="600" fill="#4285F4" textAnchor="middle">Optimize</text>
-  </svg>
+  <div className="relative w-full h-full flex items-center justify-center">
+    <img
+      src="/illustrations/powerful-influencer-analytics.png"
+      alt="Influencer analytics dashboard showing engagement metrics and KPIs"
+      className="w-full h-auto object-contain"
+      style={{ maxHeight: '400px' }}
+    />
+  </div>
 );
 
 const ROIIcon = () => (

@@ -1,29 +1,12 @@
 const DataFlowIllustration = () => (
-  <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-    <rect x="40" y="40" width="120" height="80" rx="8" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
-    <text x="100" y="85" fontSize="14" fontWeight="600" fill="#233C42" textAnchor="middle">Storyclash</text>
-
-    <rect x="240" y="40" width="120" height="80" rx="8" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
-    <text x="300" y="85" fontSize="14" fontWeight="600" fill="#233C42" textAnchor="middle">SAP</text>
-
-    <path d="M165 80 L235 80" stroke="#19B776" strokeWidth="2" strokeDasharray="4 4">
-      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="0.5s" repeatCount="indefinite" />
-    </path>
-
-    <circle cx="100" cy="180" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
-    <text x="100" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Global</text>
-
-    <circle cx="200" cy="240" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
-    <text x="200" y="245" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Secure</text>
-
-    <circle cx="300" cy="180" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
-    <text x="300" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Scale</text>
-
-    <path d="M100 150 L100 130" stroke="#E5EAEC" strokeWidth="2" />
-    <path d="M180 220 L130 190" stroke="#E5EAEC" strokeWidth="2" />
-    <path d="M220 220 L270 190" stroke="#E5EAEC" strokeWidth="2" />
-    <path d="M300 150 L300 130" stroke="#E5EAEC" strokeWidth="2" />
-  </svg>
+  <div className="relative w-full h-full flex items-start justify-start pl-8" style={{ paddingTop: '10px' }}>
+    <img
+      src="/illustrations/why Storyclash.png"
+      alt="Storyclash Dashboard"
+      className="w-full h-auto object-contain"
+      style={{ maxHeight: '500px', transform: 'scale(1.0)', opacity: '0.9' }}
+    />
+  </div>
 );
 
 const SimplifyIcon = () => (

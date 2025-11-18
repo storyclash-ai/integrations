@@ -1,39 +1,12 @@
 const DataPipelineIllustration = () => (
-  <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-    <rect x="30" y="60" width="110" height="80" rx="8" stroke="#E5EAEC" strokeWidth="2" fill="white" />
-    <text x="85" y="95" fontSize="12" fontWeight="600" fill="#233C42" textAnchor="middle">Creator</text>
-    <text x="85" y="110" fontSize="12" fontWeight="600" fill="#233C42" textAnchor="middle">Campaigns</text>
-    <circle cx="60" cy="125" r="3" fill="#19B776" />
-    <circle cx="85" cy="125" r="3" fill="#19B776" />
-    <circle cx="110" cy="125" r="3" fill="#19B776" />
-
-    <rect x="145" y="100" width="110" height="80" rx="8" stroke="#19B776" strokeWidth="2.5" fill="rgba(25, 183, 118, 0.06)" />
-    <text x="200" y="135" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Attribution &</text>
-    <text x="200" y="153" fontSize="13" fontWeight="700" fill="#19B776" textAnchor="middle">Measurement</text>
-    <rect x="165" y="165" width="70" height="8" rx="4" fill="#19B776" opacity="0.3" />
-    <rect x="165" y="177" width="55" height="8" rx="4" fill="#19B776" opacity="0.5" />
-
-    <rect x="260" y="60" width="110" height="80" rx="8" stroke="#E5EAEC" strokeWidth="2" fill="white" />
-    <text x="315" y="95" fontSize="12" fontWeight="600" fill="#233C42" textAnchor="middle">Triple Whale</text>
-    <text x="315" y="110" fontSize="12" fontWeight="600" fill="#233C42" textAnchor="middle">Dashboard</text>
-    <path d="M280 125 L290 135 L300 120 L310 130 L320 115 L330 125 L340 118" stroke="#19B776" strokeWidth="2" fill="none" />
-
-    <path d="M145 100 L200 80" stroke="#19B776" strokeWidth="2" strokeDasharray="4 4">
-      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="0.5s" repeatCount="indefinite" />
-    </path>
-    <path d="M255 140 L315 140" stroke="#19B776" strokeWidth="2" strokeDasharray="4 4">
-      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="0.5s" repeatCount="indefinite" />
-    </path>
-
-    <circle cx="85" cy="220" r="35" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
-    <text x="85" y="225" fontSize="11" fontWeight="600" fill="#19B776" textAnchor="middle">Revenue</text>
-
-    <circle cx="200" cy="260" r="35" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
-    <text x="200" y="265" fontSize="11" fontWeight="600" fill="#19B776" textAnchor="middle">CAC</text>
-
-    <circle cx="315" cy="220" r="35" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
-    <text x="315" y="225" fontSize="11" fontWeight="600" fill="#19B776" textAnchor="middle">ROI</text>
-  </svg>
+  <div className="relative w-full h-full flex items-center justify-center">
+    <img
+      src="/illustrations/powerful-influencer-analytics.png"
+      alt="Influencer analytics dashboard showing engagement metrics and KPIs"
+      className="w-full h-auto object-contain"
+      style={{ maxHeight: '400px' }}
+    />
+  </div>
 );
 
 const PixelIcon = () => (
