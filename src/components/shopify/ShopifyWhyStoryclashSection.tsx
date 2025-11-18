@@ -1,29 +1,12 @@
 const DataFlowIllustration = () => (
-  <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
-    <rect x="40" y="40" width="120" height="80" rx="8" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
-    <text x="100" y="85" fontSize="14" fontWeight="600" fill="#233C42" textAnchor="middle">Storyclash</text>
-
-    <rect x="240" y="40" width="120" height="80" rx="8" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.05)" />
-    <text x="300" y="85" fontSize="14" fontWeight="600" fill="#233C42" textAnchor="middle">Shopify</text>
-
-    <path d="M165 80 L235 80" stroke="#19B776" strokeWidth="2" strokeDasharray="4 4">
-      <animate attributeName="stroke-dashoffset" from="0" to="8" dur="0.5s" repeatCount="indefinite" />
-    </path>
-
-    <circle cx="100" cy="180" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
-    <text x="100" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">Data</text>
-
-    <circle cx="200" cy="240" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
-    <text x="200" y="245" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">KPIs</text>
-
-    <circle cx="300" cy="180" r="30" stroke="#19B776" strokeWidth="2" fill="rgba(25, 183, 118, 0.08)" />
-    <text x="300" y="185" fontSize="12" fontWeight="500" fill="#19B776" textAnchor="middle">ROI</text>
-
-    <path d="M100 150 L100 130" stroke="#E5EAEC" strokeWidth="2" />
-    <path d="M180 220 L130 190" stroke="#E5EAEC" strokeWidth="2" />
-    <path d="M220 220 L270 190" stroke="#E5EAEC" strokeWidth="2" />
-    <path d="M300 150 L300 130" stroke="#E5EAEC" strokeWidth="2" />
-  </svg>
+  <div className="relative w-full h-full flex items-start justify-start pl-8" style={{ paddingTop: '10px' }}>
+    <img
+      src="/illustrations/why Storyclash.png"
+      alt="Storyclash Dashboard"
+      className="w-full h-auto object-contain"
+      style={{ maxHeight: '500px', transform: 'scale(1.0)', opacity: '0.9' }}
+    />
+  </div>
 );
 
 const SimplifyIcon = () => (
@@ -54,17 +37,20 @@ const benefits = [
   {
     icon: SimplifyIcon,
     title: 'Track Creator Revenue in Storyclash',
-    description: 'No manual exports or spreadsheets. Shopify sends orders and revenue data directly to Storyclash via the connector - clean, standardized, and automated.'
+    description: 'No manual exports or spreadsheets. Shopify sends orders and revenue data directly to Storyclash via the connector — clean, standardized, and automated.',
+    image: undefined
   },
   {
     icon: EnterpriseIcon,
     title: 'Attribute Sales to Individual Influencers and Campaigns',
-    description: 'Get trustworthy, GDPR-compliant metrics for every creator, campaign, and conversion. Storyclash provides consistent KPIs designed for analytics teams and global marketing operations.'
+    description: 'Shopify order data syncs into Storyclash for trustworthy, GDPR-compliant attribution metrics. Get consistent KPIs designed for analytics teams and global marketing operations.',
+    image: undefined
   },
   {
     icon: ROIIcon,
     title: 'Automate Discount Codes and Product Seeding Workflows',
-    description: 'Use Storyclash to combine influencer engagement and Shopify sales performance data in one place, so you can see what truly drives business impact – with full transparency and zero guesswork.'
+    description: 'Use Storyclash to combine influencer engagement and Shopify sales performance data in one place, so you can see what truly drives business impact – with full transparency and zero guesswork.',
+    image: undefined
   }
 ];
 
@@ -78,7 +64,7 @@ export default function ShopifyWhyStoryclashSection() {
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">
-            <div className="bg-gradient-to-br from-green-50/50 to-transparent p-8 lg:p-12" style={{ borderRadius: '20px' }}>
+            <div className="relative p-8 lg:p-12">
               <DataFlowIllustration />
             </div>
           </div>
@@ -94,9 +80,15 @@ export default function ShopifyWhyStoryclashSection() {
                     animation: `fadeInUp 0.6s ease-out ${index * 0.15}s both`,
                   }}
                 >
-                  <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:scale-110" style={{ color: '#19B776' }}>
-                    <Icon />
-                  </div>
+                  {benefit.image ? (
+                    <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center">
+                      <img src={benefit.image} alt="" className="w-12 h-12 object-contain" />
+                    </div>
+                  ) : (
+                    <div className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-lg transition-all duration-300 group-hover:scale-110" style={{ color: '#19B776' }}>
+                      <Icon />
+                    </div>
+                  )}
 
                   <div>
                     <h3 className="mb-2" style={{ fontSize: '20px', lineHeight: '1.1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
