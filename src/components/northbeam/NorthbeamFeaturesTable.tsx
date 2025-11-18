@@ -3,7 +3,7 @@ import { Check } from 'lucide-react';
 const features = [
   { name: 'Multi-Touch Attribution', description: 'Track creator touchpoints precisely - machine learning models attribute revenue to influencers across multiple customer interactions and channels.' },
   { name: 'Incrementality Testing', description: 'Measure true creator impact - run hold-out tests comparing revenue from exposed audiences versus control groups for scientific measurement.' },
-  { name: 'Channel Comparison', description: 'Compare creator performance holistically - view influencer metrics alongside Facebook Ads, Google Ads, TikTok Ads, and email in unified reports.' },
+  { name: 'Channel Comparison', description: 'Compare creator performance holistically - view influencer metrics alongside paid social, search, email and other channels in unified reports.' },
   { name: 'Customer Journey Mapping', description: 'Visualize creator touchpoints - see how influencers contribute at awareness, consideration, and conversion stages with path analysis.' },
   { name: 'Incremental ROAS', description: 'Calculate true creator profitability - measure incremental revenue over baseline to understand real ROI beyond correlated conversions.' }
 ];
