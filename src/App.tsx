@@ -30,6 +30,7 @@ import TealiumPage from './pages/TealiumPage';
 import SegmentPage from './pages/SegmentPage';
 import SupermetricsPage from './pages/SupermetricsPage';
 import KlarPage from './pages/KlarPage';
+import KlarKopiePage from './pages/KlarKopiePage';
 import TripleWhalePage from './pages/TripleWhalePage';
 import NorthbeamPage from './pages/NorthbeamPage';
 import SalesforcePage from './pages/SalesforcePage';
@@ -76,6 +77,7 @@ function App() {
         <Route path="/segment" element={<SegmentPage />} />
         <Route path="/supermetrics" element={<SupermetricsPage />} />
         <Route path="/klar" element={<KlarPage />} />
+        <Route path="/klarkopie" element={<KlarKopiePage />} />
         <Route path="/triple-whale" element={<TripleWhalePage />} />
         <Route path="/northbeam" element={<NorthbeamPage />} />
         <Route path="/salesforce" element={<SalesforcePage />} />
