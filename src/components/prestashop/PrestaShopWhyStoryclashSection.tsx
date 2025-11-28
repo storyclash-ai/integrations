@@ -36,18 +36,18 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Built for Multi-Store Operations',
-    description: 'Whether you run one PrestaShop store or ten across different European markets, Storyclash handles the complexity. Track creator performance per store or unified across your entire operation.'
+    title: 'Built for E-Commerce Brands',
+    description: 'Storyclash handles the complexity of influencer marketing attribution. Track creator performance with clear, actionable metrics and understand which influencers drive real sales.'
   },
   {
     icon: EnterpriseIcon,
-    title: 'Global Influencer Tracking',
-    description: 'Measure influencer ROI regardless of your market, currency, or store location. Track creator performance across all your PrestaShop stores worldwide with consistent attribution metrics.'
+    title: 'Accurate Revenue Attribution',
+    description: 'Measure influencer ROI with discount code tracking. Every sale is attributed to the right creator and campaign, giving you complete visibility into influencer-driven revenue.'
   },
   {
     icon: ROIIcon,
     title: 'Grow with Confidence',
-    description: 'Understand which influencers drive sales in each market. Make data-backed decisions on creator partnerships as you scale across countries, languages, and currencies.'
+    description: 'Understand which influencers drive the most sales. Make data-backed decisions on creator partnerships and optimize your influencer marketing budget based on real performance data.'
   }
 ];
 
@@ -56,7 +56,7 @@ export default function PrestaShopWhyStoryclashSection() {
     <section className="py-20 px-6 border-t border-b" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5EAEC' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="mb-16 text-center" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>
-          Measure Social Commerce Impact in PrestaShop
+          Why Choose Storyclash for PrestaShop
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">

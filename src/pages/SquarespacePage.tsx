@@ -60,7 +60,7 @@ export default function SquarespacePage() {
                               "name": "How does Storyclash attribute Squarespace orders to specific creators and campaigns?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Storyclash attributes Squarespace orders to creators using discount codes, UTM parameters and first-party tracking. Multi-touch journeys are fully supported."
+                                      "text": "Storyclash uses unique discount codes to connect Squarespace orders to specific creators and campaigns. When a customer uses a creator's discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking."
                               }
                       },
                       {

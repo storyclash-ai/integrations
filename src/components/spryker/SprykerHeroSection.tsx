@@ -28,7 +28,7 @@ export default function SprykerHeroSection() {
                 padding: '0 0 30px 0'
               }}
             >
-              Connect creator campaigns to your Spryker Commerce OS for composable commerce with full influencer attribution and flexible data modeling.
+              Connect creator campaigns to your Spryker Commerce OS and track influencer-driven sales with accurate revenue attribution.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"

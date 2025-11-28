@@ -4,11 +4,11 @@ import { useState } from 'react';
 const faqs = [
   {
     question: 'How does Storyclash integrate creator data with Northbeam for multi-touch attribution?',
-    answer: 'Storyclash exports creator performance and revenue data to Northbeam via REST API. In Northbeam, this data is combined with paid ads, ecommerce and analytics signals so you can run multi-touch attribution models and understand how influencer campaigns contribute across the full customer journey.'
+    answer: 'Attribution works through Northbeam\'s tracking pixel on your website. When influencer traffic arrives via creator links, Northbeam captures these touchpoints and attributes conversions. Storyclash provides campaign context (creator names, content types, spend) which enriches Northbeam\'s attribution model so you understand how influencer campaigns contribute across the full customer journey.'
   },
   {
-    question: 'Which creator and revenue metrics can Storyclash send to Northbeam?',
-    answer: 'Storyclash can send creator metrics such as impressions, views, clicks, engagement, EMV, as well as revenue-related metrics like orders, attributed revenue, AOV and ROAS into Northbeam. These metrics enrich your marketing measurement setup and allow you to analyze influencer performance alongside all other channels.'
+    question: 'Which creator metrics can I analyze in Northbeam with Storyclash?',
+    answer: 'You can analyze creator performance metrics like clicks, engagement, reach, and EMV from Storyclash. Attribution for conversions and revenue happens through Northbeam\'s pixel tracking. Together, this provides complete influencer funnel visibility from awareness (Storyclash) to conversion (Northbeam\'s tracking).'
   },
   {
     question: 'How does Northbeam measure incrementality and true influencer ROI with Storyclash data?',

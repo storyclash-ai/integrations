@@ -2,24 +2,24 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Secure Connector Integration',
-    description: 'Connect your PrestaShop store to Storyclash via a secure data connector with encrypted transfer and role-based access control for a reliable integration.'
+    name: 'Connector-Based Integration',
+    description: 'PrestaShop sends orders, revenue and customer data to Storyclash via a secure connector – no API key required.'
   },
   {
-    name: 'Multi-Store Support',
-    description: 'Track creator performance across all your PrestaShop stores with unified or separate reporting per store.'
+    name: 'Automated Updates',
+    description: 'Keep dashboards synced with real-time PrestaShop order and creator attribution data.'
   },
   {
-    name: 'Multi-Currency & Language',
-    description: 'Support multiple currencies and languages with accurate revenue attribution across global markets.'
+    name: 'Custom KPIs',
+    description: 'Build custom dashboards and KPIs tailored to your brand – track any combination of PrestaShop metrics and creator engagement data.'
   },
   {
-    name: 'GDPR Compliant',
-    description: 'Built with European privacy standards in mind - fully GDPR compliant data handling and storage.'
+    name: 'Multi-Workspace Support',
+    description: 'Connect one PrestaShop store per workspace. Set up multiple workspaces to manage different stores or regional shops independently.'
   },
   {
-    name: 'Influencer Attribution at Scale',
-    description: 'Accurately track which creators drive sales across multiple stores and markets with consistent ROI measurement.'
+    name: 'Enterprise Security',
+    description: 'GDPR-compliant, EU-hosted, encrypted to enterprise standards, role-based access.'
   }
 ];
 

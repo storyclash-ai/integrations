@@ -4,33 +4,33 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Connect Shopware to Storyclash',
-    description: 'Shopware delivers e-commerce data over the Storyclash connector. Storyclash receives orders, revenue and discount code usage directly from your store – no API key required.'
+    title: 'Direct Power BI integration',
+    description: 'Storyclash exports creator metrics and campaign data to Power BI via REST API, enabling fully customized influencer analytics dashboards.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
-    title: 'Sync creator attribution data',
-    description: 'Storyclash automatically combines Shopware orders, revenue and customer segments with creator engagement metrics – giving you a single source of truth for campaign performance inside Storyclash.'
+    title: 'Advanced influencer ROI modeling',
+    description: 'Build sophisticated attribution models that connect creator content to conversions, revenue, and business outcomes using Power BI\'s DAX formulas.'
   },
   {
     icon: AutomateIcon,
     color: '#F49D3B',
-    title: 'Build dashboards & measure ROI',
-    description: 'Visualize campaign performance inside Storyclash, compare creators, and monitor ROI by product and region based on live Shopware sales data.'
+    title: 'Automated influencer reporting',
+    description: 'Keep your Power BI dashboards current with automatic data refresh from active creator campaigns and scheduled report delivery to stakeholders.'
   }
 ];
 
-export default function ShopwareBenefitsSection() {
+export default function PowerBIBenefitsSection() {
   return (
     <section className="py-24 px-6" style={{ backgroundColor: '#FAFAFA' }}>
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Track Creator Revenue from Shopware inside Storyclash
-          </h2>
+          Build Enterprise-Grade Influencer Analytics
+        </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Connect your Shopware store to Storyclash and unlock powerful, commerce-ready insights.
+            Leverage Power BI's analytical power to measure creator ROI and campaign performance
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

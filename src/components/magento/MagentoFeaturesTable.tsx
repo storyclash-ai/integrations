@@ -2,24 +2,24 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Magento 2 & Open Source',
-    description: 'Full support for Magento Open Source 2.x and enterprise deployments.'
-  },
-  {
-    name: 'Multi-Store Architecture',
-    description: 'Track creator performance across multiple websites, store views, and languages in one unified dashboard.'
-  },
-  {
-    name: 'Advanced Attribution',
-    description: 'First-touch, last-touch, and multi-touch attribution models for complex customer journeys.'
-  },
-  {
     name: 'Connector-Based Integration',
-    description: 'Connect your Magento store via the Storyclash connector or tracking snippet – no API keys or custom development required.'
+    description: 'Magento sends orders, revenue and customer data to Storyclash via a secure connector – no API key required.'
+  },
+  {
+    name: 'Automated Updates',
+    description: 'Keep dashboards synced with real-time Magento order and creator attribution data.'
+  },
+  {
+    name: 'Custom KPIs',
+    description: 'Build custom dashboards and KPIs tailored to your brand – track any combination of Magento metrics and creator engagement data.'
+  },
+  {
+    name: 'Multi-Workspace Support',
+    description: 'Connect one Magento store per workspace. Set up multiple workspaces to manage different stores or regional shops independently.'
   },
   {
     name: 'Enterprise Security',
-    description: 'GDPR-compliant, role-based access control, encrypted data transfer.'
+    description: 'GDPR-compliant, EU-hosted, encrypted to enterprise standards, role-based access.'
   }
 ];
 

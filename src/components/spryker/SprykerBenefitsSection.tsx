@@ -4,14 +4,14 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Composable Commerce Integration',
-    description: 'Spryker Commerce OS connector that sends order and revenue data securely into Storyclash – with flexible, modular architecture for custom influencer attribution workflows.'
+    title: 'Spryker Commerce Integration',
+    description: 'Secure connector for Spryker Commerce OS that sends order and revenue data into Storyclash for influencer attribution and ROI measurement.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
-    title: 'Flexible Data Modeling',
-    description: 'Map creator touchpoints to any Spryker data model - adapt attribution logic to your unique business requirements.'
+    title: 'Revenue Attribution',
+    description: 'Track creator performance and measure which influencers drive sales with discount code attribution.'
   },
   {
     icon: AutomateIcon,

@@ -7,11 +7,11 @@ const features = [
   },
   {
     name: 'Multi-Country & Multi-Currency',
-    description: 'Track creator performance across all SAP storefronts, currencies, and languages with normalized reporting.'
+    description: 'Track creator performance across multiple currencies and languages with normalized reporting.'
   },
   {
-    name: 'Customer Journey Mapping',
-    description: 'Connect influencer touchpoints to complete SAP customer journeys from awareness to purchase.'
+    name: 'Unified Performance View',
+    description: 'Combine social media performance data and revenue from SAP Commerce Cloud in one unified dashboard for complete visibility.'
   },
   {
     name: 'Business Unit Segmentation',

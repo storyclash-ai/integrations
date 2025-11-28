@@ -4,20 +4,20 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Headless Commerce Integration',
-    description: 'Pre-built commercetools connector that securely routes influencer-driven revenue into Storyclash while keeping your frontend fully decoupled and flexible.'
+    title: 'commercetools Integration',
+    description: 'Secure connector for commercetools that sends order and revenue data into Storyclash for influencer attribution and ROI measurement.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
-    title: 'Custom Journey Mapping',
-    description: 'Track creators across any customer journey - adapt to your unique commerce experiences and touchpoint sequences.'
+    title: 'Revenue Attribution',
+    description: 'Track creator performance and measure which influencers drive sales with discount code attribution.'
   },
   {
     icon: AutomateIcon,
     color: '#F49D3B',
-    title: 'Real-Time Data Sync',
-    description: 'Storyclash receives real-time order data, customer segments and product catalog updates from your commercetools instance for accurate, up-to-the-minute influencer attribution.'
+    title: 'Automated Data Sync',
+    description: 'Storyclash receives orders, revenue and discount code usage from your commercetools store to calculate influencer ROI.'
   }
 ];
 
@@ -30,7 +30,7 @@ export default function CommercetoolsBenefitsSection() {
           Sync commercetools Commerce Data into Storyclash
         </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Built for modern brands running headless commerce with flexible, composable architecture
+            Built for modern brands running commercetools headless commerce
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

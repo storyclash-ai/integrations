@@ -105,7 +105,7 @@ export default function IntegrationsHero({ onSearch }: IntegrationsHeroProps) {
               fontFamily: 'Roboto, sans-serif'
             }}
           >
-            Connect Storyclash with your stack. Explore 50+ ready-to-use integrations.
+            Connect Storyclash with your stack. Explore 20+ ready-to-use integrations.
           </p>
         </div>
 

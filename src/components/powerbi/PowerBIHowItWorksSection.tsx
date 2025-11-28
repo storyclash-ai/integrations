@@ -12,28 +12,29 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Assign unique discount codes',
-    description: 'Create creator-specific discount codes or UTM parameters in Storyclash - each code tracks attribution when customers use it at checkout.'
+    title: 'Connect via REST API',
+    description: 'Set up the connection with your API token. Storyclash exports all creator metrics, campaign performance, and audience demographics directly to Power BI via REST API.'
   },
   {
     number: '02',
-    title: 'Launch tracked creator campaigns',
-    description: 'Distribute codes to creators through Storyclash campaigns - Triple Whale captures attribution when customers redeem codes or use UTM-tracked links.'
+    title: 'Storyclash sends data to Power BI',
+    description: 'Storyclash automatically exports your creator, content, and campaign metrics to Power BI datasets on your configured schedule for seamless analysis.'
   },
   {
     number: '03',
-    title: 'View unified analytics',
-    description: 'Access creator metrics in Triple Whale dashboard - compare influencer performance with paid ads, email, and organic channels in real-time.'
+    title: 'Analyze influencer ROI',
+    description: 'Use Power BI\'s DAX formulas and data modeling to segment creators, calculate ROI, and optimize your influencer marketing strategy.'
   }
 ];
 
-export default function TripleWhaleHowItWorksSection() {
+export default function PowerBIHowItWorksSection() {
   return (
     <section className="py-20 px-6" style={{ backgroundColor: '#FAFAFA' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Measure Influencer Marketing ROI Alongside Paid Channels
+          How the Integration Works
         </h2>
+
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div
             className="order-2 lg:order-1"

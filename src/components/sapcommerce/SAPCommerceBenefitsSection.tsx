@@ -11,7 +11,7 @@ const benefits = [
     icon: ChartIcon,
     color: '#D1215D',
     title: 'Multi-Market Attribution',
-    description: 'Track creator performance across multiple countries, currencies, and SAP storefronts with unified enterprise reporting.'
+    description: 'Track creator performance across multiple countries and currencies with unified enterprise reporting.'
   },
   {
     icon: AutomateIcon,

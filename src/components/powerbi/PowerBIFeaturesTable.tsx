@@ -2,33 +2,33 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Connector-Based Integration',
-    description: 'Squarespace sends orders, revenue and customer data to Storyclash via a secure connector – no API key required.'
+    name: 'Storyclash Exports to Power BI',
+    description: 'Storyclash sends all creator metrics to Power BI via secure REST API. Access engagement, reach, EMV, conversions, and audience demographics for comprehensive analysis.'
   },
   {
-    name: 'Automated Updates',
-    description: 'Keep dashboards synced with real-time Squarespace order and creator attribution data.'
+    name: 'DAX Formulas for Influencer Attribution',
+    description: 'Build custom DAX measures to calculate influencer ROI, multi-touch attribution, and advanced creator performance metrics within Power BI\'s data model.'
   },
   {
-    name: 'Custom KPIs',
-    description: 'Build custom dashboards and KPIs tailored to your brand – track any combination of Squarespace metrics and creator engagement data.'
+    name: 'Custom Influencer Dashboards',
+    description: 'Design interactive Power BI dashboards with creator performance metrics, campaign comparisons, and trend analysis tailored to your influencer marketing strategy.'
   },
   {
-    name: 'Multi-Workspace Support',
-    description: 'Connect one Squarespace store per workspace. Set up multiple workspaces to manage different stores or regional shops independently.'
+    name: 'Cross-Platform Creator Analytics',
+    description: 'Analyze influencer performance across Instagram, TikTok, YouTube, and other platforms in unified Power BI reports with drill-down capabilities.'
   },
   {
-    name: 'Enterprise Security',
-    description: 'GDPR-compliant, EU-hosted, encrypted to enterprise standards, role-based access.'
+    name: 'Real-Time Campaign Monitoring',
+    description: 'Monitor live influencer campaign performance with scheduled refresh. Track conversions, engagement, and creator ROI as campaigns unfold.'
   }
 ];
 
-export default function SquarespaceFeaturesTable() {
+export default function PowerBIFeaturesTable() {
   return (
     <section className="py-20" style={{ backgroundColor: '#FAFAFA', padding: '80px 24px' }}>
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Enterprise-Grade Features
+          Influencer Analytics in Power BI
         </h2>
         <div className="bg-white border-2 border-gray-100 overflow-hidden" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
           <div className="divide-y divide-gray-200">

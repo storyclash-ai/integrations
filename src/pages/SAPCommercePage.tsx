@@ -41,42 +41,42 @@ export default function SAPCommercePage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "Which versions of SAP Commerce Cloud are supported?",
+                              "name": "How does Storyclash receive SAP Commerce Cloud orders, revenue and discount code data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "We support SAP Commerce Cloud 2.x and newer versions. Our SAP Commerce Cloud connector works with both cloud-hosted and on-premise deployments."
+                                      "text": "Storyclash connects to SAP Commerce Cloud via a secure connector and automatically receives orders, revenue, discount code usage and customer events from your store. These e-commerce signals are matched with creator content to measure real sales impact and calculate influencer ROI inside Storyclash."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How does the integration handle multi-country operations?",
+                              "name": "Which SAP Commerce Cloud metrics can be imported into Storyclash for influencer revenue attribution?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "The integration natively supports multiple storefronts, currencies, and languages. You can track creator performance per market or view unified global reporting."
+                                      "text": "Storyclash imports SAP Commerce Cloud metrics such as orders, revenue, net sales, products sold, discount code usage, cart values, refunds, conversions, first-time vs. returning customers, customer acquisition cost (CAC), and return on ad spend (ROAS). These shop metrics are combined with creator engagement data to deliver accurate revenue attribution for every influencer campaign."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Is this integration compliant with enterprise security standards?",
+                              "name": "How does Storyclash attribute SAP Commerce Cloud orders to specific creators and campaigns?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - we use OAuth 2.0 authentication, encrypt all data in transit and at rest, and maintain GDPR compliance with data processing agreements (DPAs). Full audit logs are available."
+                                      "text": "Storyclash uses unique discount codes to connect SAP Commerce Cloud orders to specific creators and campaigns. When a customer uses a creator's discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can we segment reporting by business unit or brand?",
+                              "name": "Do I need a developer to integrate SAP Commerce Cloud with Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Absolutely. You can create separate views for different brands, regions, or business units while maintaining centralized governance and data consistency."
+                                      "text": "No. SAP Commerce Cloud can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet to your SAP Commerce Cloud store and e-commerce data starts flowing into Storyclash automatically."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How does the SAP Commerce Cloud integration work with Storyclash?",
+                              "name": "Is the SAP Commerce Cloud → Storyclash connector GDPR-compliant and secure?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Storyclash connects to SAP Commerce Cloud via a secure, pre-built connector that uses enterprise authentication. SAP Commerce Cloud sends order, revenue and customer data into Storyclash, where it is combined with creator content and campaign tracking to deliver revenue attribution and customer journey insights. Your IT team controls permissions and security, while marketing teams work directly in Storyclash without managing APIs."
+                                      "text": "Yes. The SAP Commerce Cloud connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers role-based access, SSO and secure data handling for all e-commerce and creator metrics."
                               }
                       }
               ]

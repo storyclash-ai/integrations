@@ -1,24 +1,23 @@
-import { LineChart } from 'lucide-react';
 
-
-export default function PrestaShopHeroSection() {
+export default function PowerBIHeroSection() {
   return (
     <section className="px-6" style={{ backgroundColor: '#FAFAFA', paddingTop: '156px', paddingBottom: '80px' }}>
       <div className="max-w-7xl mx-auto">
+        {/* Breadcrumb */}
         <div className="mb-16">
           <div className="text-sm text-gray-500">
             <a href="/integrations" className="hover:text-gray-700 transition-colors">
               Integrations
             </a>
             <span className="mx-2">/</span>
-            <span className="font-semibold">PrestaShop Influencer Marketing Integration</span>
+            <span className="font-semibold">Power BI Marketing Integration</span>
           </div>
         </div>
 
         <div className="text-center">
           <div className="animate-fade-in-up">
             <h1 className="leading-tight mb-6" style={{ fontSize: '56px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-              PrestaShop + Influencer Marketing Integration
+              Power BI + Influencer Marketing Integration
             </h1>
             <p
               className="hero-txt"
@@ -29,7 +28,7 @@ export default function PrestaShopHeroSection() {
                 padding: '0 0 30px 0'
               }}
             >
-              Connect creator campaigns to your PrestaShop store and track influencer-driven sales with accurate revenue attribution.
+              Transform creator data into powerful business intelligence. Build custom dashboards that reveal influencer ROI, campaign attribution, and content performance with enterprise-grade analytics.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"

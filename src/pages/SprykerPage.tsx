@@ -41,42 +41,42 @@ export default function SprykerPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "Does this work with custom Spryker data models?",
+                              "name": "How does Storyclash receive Spryker Commerce orders, revenue and discount code data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - the integration is built to adapt to your custom Spryker data structures. We map influencer attribution to your specific business logic and commerce entities."
+                                      "text": "Storyclash connects to Spryker Commerce OS via a secure connector and automatically receives orders, revenue, discount code usage and customer events from your store. These e-commerce signals are matched with creator content to measure real sales impact and calculate influencer ROI inside Storyclash."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I track both B2B and B2C influencer campaigns?",
+                              "name": "Which Spryker Commerce metrics can be imported into Storyclash for influencer revenue attribution?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Absolutely. The integration works across both B2B marketplaces and B2C storefronts, with unified reporting that shows creator performance for each customer type."
+                                      "text": "Storyclash imports Spryker metrics such as orders, revenue, net sales, products sold, discount code usage, cart values, refunds, conversions, first-time vs. returning customers, customer acquisition cost (CAC), and return on ad spend (ROAS). These shop metrics are combined with creator engagement data to deliver accurate revenue attribution for every influencer campaign."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How does Storyclash connect to Spryker Commerce?",
+                              "name": "How does Storyclash attribute Spryker Commerce orders to specific creators and campaigns?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Our Spryker connector securely links Storyclash to your Spryker Commerce OS instance, automatically receiving orders, revenue, and customer data. Your data stays in your control while Storyclash provides the influencer attribution and ROI insights you need."
+                                      "text": "Storyclash uses unique discount codes to connect Spryker Commerce orders to specific creators and campaigns. When a customer uses a creator's discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How does Storyclash handle B2B and B2C attribution in Spryker?",
+                              "name": "Do I need a developer to integrate Spryker Commerce with Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "We accurately attribute influencer-driven sales to both B2B and B2C customers. The integration tracks orders from both customer types and provides clear ROI metrics per influencer across your Spryker store."
+                                      "text": "No. Spryker Commerce can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet to your Spryker store and e-commerce data starts flowing into Storyclash automatically."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I track influencers across multiple Spryker environments?",
+                              "name": "Is the Spryker Commerce → Storyclash connector GDPR-compliant and secure?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Each Storyclash workspace connects to one Spryker storefront. For multiple stores, you can create separate workspaces - each tracking creator performance independently with its own attribution data and reporting."
+                                      "text": "Yes. The Spryker Commerce connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers role-based access, SSO and secure data handling for all e-commerce and creator metrics."
                               }
                       }
               ]

@@ -37,15 +37,15 @@ const ShareIcon = () => (
 const useCases = [
   {
     icon: ROIIcon,
-    text: 'Track influencer performance across B2B marketplaces and B2C storefronts with unified Spryker attribution'
+    text: 'Track influencer performance across B2B marketplaces and B2C storefronts with unified revenue attribution'
   },
   {
     icon: TrendsIcon,
-    text: 'Adapt attribution models to your custom Spryker data structures and business logic'
+    text: 'Measure creator ROI with discount code tracking for accurate sales attribution'
   },
   {
     icon: ShareIcon,
-    text: 'Scale influencer operations with composable architecture - add markets and channels without rebuilding'
+    text: 'Combine social media performance data and Spryker revenue in one unified dashboard'
   }
 ];
 
@@ -55,10 +55,10 @@ export default function SprykerUseCaseSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Connect social commerce and Spryker data in Storyclash
+          Track Influencer Revenue in Spryker
         </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with Spryker Commerce OS to power influencer marketing for modern, modular commerce. Track creator performance across custom data models, business units and commerce experiences with Storyclash dashboards that match the flexibility your composable architecture demands.
+            Integrate Storyclash with Spryker Commerce OS to connect influencer performance with your e-commerce operations. Track creator-driven orders, revenue, and product performance with centralized reporting and accurate discount code attribution.
           </p>
         </div>
 

@@ -4,14 +4,14 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'PrestaShop Module Integration',
-    description: 'Native PrestaShop module for seamless influencer tracking across single or multi-store deployments.'
+    title: 'PrestaShop Connector Integration',
+    description: 'Secure connector for seamless influencer tracking and revenue attribution in your PrestaShop store.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
-    title: 'Multi-Store Attribution',
-    description: 'Track creator performance across multiple PrestaShop stores and languages with unified reporting.'
+    title: 'Revenue Attribution',
+    description: 'Track creator performance and measure which influencers drive sales with discount code attribution.'
   },
   {
     icon: AutomateIcon,
@@ -30,7 +30,7 @@ export default function PrestaShopBenefitsSection() {
             Sync PrestaShop Sales Data into Storyclash
           </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Built for growing European merchants and multi-store operations
+            Built for growing e-commerce brands and data-driven marketing teams
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

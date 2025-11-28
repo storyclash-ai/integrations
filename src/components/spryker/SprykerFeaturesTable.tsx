@@ -2,24 +2,24 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Flexible Commerce Connector',
-    description: 'Secure connection to Spryker Commerce OS - flexible access to your custom commerce data structures and logic for accurate influencer attribution.'
+    name: 'Connector-Based Integration',
+    description: 'Spryker Commerce OS sends orders, revenue and customer data to Storyclash via a secure connector – no API key required.'
   },
   {
-    name: 'Custom Data Model Support',
-    description: 'Map influencer attribution to your unique Spryker data model - not constrained by rigid templates.'
+    name: 'Automated Updates',
+    description: 'Keep dashboards synced with real-time Spryker order and creator attribution data.'
   },
   {
     name: 'B2B & B2C Unified Tracking',
     description: 'Track creator performance across both B2B marketplaces and B2C storefronts with one integration.'
   },
   {
-    name: 'Modular Architecture',
-    description: 'Add new storefronts, markets, and attribution models without rebuilding - true composable commerce.'
+    name: 'Multi-Workspace Support',
+    description: 'Connect one Spryker store per workspace. Set up multiple workspaces to manage different stores or regional shops independently.'
   },
   {
-    name: 'Multi-Tenant Support',
-    description: 'Separate reporting per brand or business unit while maintaining centralized governance and data consistency.'
+    name: 'Enterprise Security',
+    description: 'GDPR-compliant, EU-hosted, encrypted to enterprise standards, role-based access.'
   }
 ];
 
@@ -28,7 +28,7 @@ export default function SprykerFeaturesTable() {
     <section className="py-20" style={{ backgroundColor: '#FAFAFA', padding: '80px 24px' }}>
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Composable Features
+          Enterprise-Grade Features
         </h2>
         <div className="bg-white border-2 border-gray-100 overflow-hidden" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
           <div className="divide-y divide-gray-200">

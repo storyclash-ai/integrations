@@ -28,7 +28,7 @@ export default function CommercetoolsHeroSection() {
                 padding: '0 0 30px 0'
               }}
             >
-              Sync commercetools order and revenue data into Storyclash to track influencer performance across any frontend and customer journey.
+              Sync commercetools order and revenue data into Storyclash to track influencer performance and measure creator ROI with accurate revenue attribution.
             </p>
             <a
               href="https://www.storyclash.com/request-demo"

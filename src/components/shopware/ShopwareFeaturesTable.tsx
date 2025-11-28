@@ -14,8 +14,8 @@ const features = [
     description: 'Build custom dashboards and KPIs tailored to your business – track any combination of Shopware metrics and creator engagement data.'
   },
   {
-    name: 'Multi-Store Support',
-    description: 'Consolidate creator performance across multiple Shopware stores and regions.'
+    name: 'Multi-Workspace Support',
+    description: 'Connect one Shopware store per workspace. Set up multiple workspaces to manage different stores or regional shops independently.'
   },
   {
     name: 'Enterprise Security',

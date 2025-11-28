@@ -41,42 +41,42 @@ export default function CommercetoolsPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How does Storyclash integrate with commercetools?",
+                              "name": "How does Storyclash receive commercetools orders, revenue and discount code data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Storyclash connects to commercetools via a secure, pre-built connector that syncs order data, customer information and product details into Storyclash. This lets you see which influencers drive actual sales with accurate attribution and ROI measurement inside Storyclash."
+                                      "text": "Storyclash connects to commercetools via a secure connector and automatically receives orders, revenue, discount code usage and customer events from your store. These e-commerce signals are matched with creator content to measure real sales impact and calculate influencer ROI inside Storyclash."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I track both B2B and B2C sales attribution?",
+                              "name": "Which commercetools metrics can be imported into Storyclash for influencer revenue attribution?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - the integration works for both B2B and B2C storefronts. You get separate ROI reporting for each customer type so you can see which creators drive value in each segment."
+                                      "text": "Storyclash imports commercetools metrics such as orders, revenue, net sales, products sold, discount code usage, cart values, refunds, conversions, first-time vs. returning customers, customer acquisition cost (CAC), and return on ad spend (ROAS). These shop metrics are combined with creator engagement data to deliver accurate revenue attribution for every influencer campaign."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How does influencer attribution work?",
+                              "name": "How does Storyclash attribute commercetools orders to specific creators and campaigns?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "We match influencer campaigns to commercetools orders using UTM parameters, unique discount codes, and referral URLs. This gives you clear attribution showing which creators drive conversions and revenue."
+                                      "text": "Storyclash uses unique discount codes to connect commercetools orders to specific creators and campaigns. When a customer uses a creator's discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I see real-time influencer performance?",
+                              "name": "Do I need a developer to integrate commercetools with Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes - influencer metrics update automatically as orders complete in commercetools. See live performance data on revenue, conversions, AOV, and ROI per creator without delays."
+                                      "text": "No. commercetools can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet to your commercetools store and e-commerce data starts flowing into Storyclash automatically."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I track multiple commercetools storefronts?",
+                              "name": "Is the commercetools → Storyclash connector GDPR-compliant and secure?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Each Storyclash workspace connects to one commercetools instance. For multiple stores, you can create separate workspaces to track each storefront's creator performance independently."
+                                      "text": "Yes. The commercetools connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers role-based access, SSO and secure data handling for all e-commerce and creator metrics."
                               }
                       }
               ]

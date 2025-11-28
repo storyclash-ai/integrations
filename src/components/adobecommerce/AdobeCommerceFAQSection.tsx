@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: 'How does Storyclash attribute Adobe Commerce orders to specific creators and campaigns?',
-    answer: 'Storyclash attributes Adobe Commerce orders to creators using discount codes, UTM parameters, referral URLs and first-party tracking. Multi-touch journeys are supported, so complex B2B and B2C buying paths across store views, regions and channels can still be tied back to the right influencer and campaign.'
+    answer: 'Storyclash uses unique discount codes to connect Adobe Commerce orders to specific creators and campaigns. When a customer uses a creator\'s discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking across all store views and regions.'
   },
   {
     question: 'Do I need a developer to connect Adobe Commerce with Storyclash?',

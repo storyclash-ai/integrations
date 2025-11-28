@@ -36,18 +36,18 @@ const ROIIcon = () => (
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Built for SAP Enterprise Architecture',
-    description: 'Our SAP Commerce Cloud connector provides native integration with no middleware, no data lakes, no complexity. Storyclash connects to SAP natively - secure, compliant, and built to enterprise standards from day one.'
+    title: 'Built for Enterprise E-Commerce',
+    description: 'Storyclash connects to SAP Commerce Cloud via a secure connector with enterprise-grade data handling. Track influencer-driven sales with encrypted data transfer, role-based access control, and full GDPR compliance.'
   },
   {
     icon: EnterpriseIcon,
     title: 'Global Scale, Local Control',
-    description: 'Track influencer performance across every SAP storefront, market, and business unit while maintaining centralized governance. Perfect for brands operating in multiple countries with complex organizational structures.'
+    description: 'Track influencer performance across markets and business units while maintaining centralized governance. Perfect for brands operating in multiple countries with complex organizational structures.'
   },
   {
     icon: ROIIcon,
     title: 'Prove Influencer ROI to the C-Suite',
-    description: 'Connect creator campaigns directly to SAP revenue data with enterprise-grade attribution. Finally answer the question: which influencers actually drive sales? Get the metrics finance teams trust.'
+    description: 'Connect creator campaigns directly to SAP revenue data with discount code attribution. Finally answer the question: which influencers actually drive sales? Get the metrics finance teams trust.'
   }
 ];
 

@@ -60,7 +60,7 @@ export default function WooCommercePage() {
                         "name": "How does Storyclash attribute WooCommerce orders to specific creators and campaigns?",
                         "acceptedAnswer": {
                                 "@type": "Answer",
-                                "text": "Storyclash uses discount codes, UTM parameters, referral URLs and cross-platform tracking to connect WooCommerce orders to creator activity. Multi-touch journeys are supported, ensuring every sale is attributed to the correct influencer even when customers interact with multiple posts."
+                                "text": "Storyclash uses unique discount codes to connect WooCommerce orders to specific creators and campaigns. When a customer uses a creator's discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking."
                         }
                 },
 {

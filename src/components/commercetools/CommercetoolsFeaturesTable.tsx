@@ -2,24 +2,24 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Revenue Attribution',
-    description: 'Match influencer campaigns to commercetools orders using UTM parameters, discount codes, and referral tracking for accurate ROI measurement.'
+    name: 'Connector-Based Integration',
+    description: 'commercetools sends orders, revenue and customer data to Storyclash via a secure connector – no API key required.'
   },
   {
-    name: 'Order & Customer Data Sync',
-    description: 'Sync order revenue, customer segments, products, and conversion events from commercetools to track which creators drive profitable sales.'
+    name: 'Automated Updates',
+    description: 'Keep dashboards synced with commercetools order and creator attribution data.'
   },
   {
     name: 'B2B & B2C Attribution',
     description: 'Track influencer impact across both B2B and B2C customer types with separate ROI reporting per segment.'
   },
   {
-    name: 'Real-Time Reporting',
-    description: 'See influencer performance metrics updated automatically as orders complete in commercetools - no manual exports or delays.'
+    name: 'Multi-Workspace Support',
+    description: 'Connect one commercetools store per workspace. Set up multiple workspaces to manage different stores independently.'
   },
   {
-    name: 'Multi-Store Support',
-    description: 'Track creator performance across multiple commercetools storefronts, brands, or markets with unified or separate reporting.'
+    name: 'Enterprise Security',
+    description: 'GDPR-compliant, EU-hosted, encrypted to enterprise standards, role-based access.'
   }
 ];
 
@@ -28,7 +28,7 @@ export default function CommercetoolsFeaturesTable() {
     <section className="py-20" style={{ backgroundColor: '#FAFAFA', padding: '80px 24px' }}>
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Headless Features
+          Enterprise-Grade Features
         </h2>
         <div className="bg-white border-2 border-gray-100 overflow-hidden" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
           <div className="divide-y divide-gray-200">

@@ -2,24 +2,24 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'REST API Data Source',
-    description: 'Native Looker Studio data source that pulls creator data directly from Storyclash via REST API.'
+    name: 'Storyclash Exports to Looker Studio',
+    description: 'Storyclash sends all creator metrics to Looker Studio via secure REST API. Access engagement, reach, EMV, conversions, and audience demographics for comprehensive analysis.'
   },
   {
-    name: 'Interactive Visualizations',
-    description: 'Build charts, tables, and scorecards with drag-and-drop simplicity using influencer metrics.'
+    name: 'Calculated Fields for Influencer Attribution',
+    description: 'Build custom calculated fields to track influencer ROI, multi-touch attribution, and advanced creator performance metrics within Looker Studio\'s data model.'
   },
   {
-    name: 'Multi-Source Dashboards',
-    description: 'Combine influencer data with Google Analytics, Ads, and other data sources in one dashboard.'
+    name: 'Custom Influencer Dashboards',
+    description: 'Design interactive Looker Studio dashboards with creator performance metrics, campaign comparisons, and trend analysis tailored to your influencer marketing strategy.'
   },
   {
-    name: 'Automated Refresh',
-    description: 'Dashboards update automatically with the latest creator performance data without manual intervention.'
+    name: 'Cross-Platform Creator Analytics',
+    description: 'Analyze influencer performance across Instagram, TikTok, YouTube, and other platforms in unified Looker Studio reports with drill-down capabilities.'
   },
   {
-    name: 'Shareable Reports',
-    description: 'Share interactive dashboards with teams and stakeholders via secure links or scheduled emails.'
+    name: 'Real-Time Campaign Monitoring',
+    description: 'Monitor live influencer campaign performance with automated refresh. Track conversions, engagement, and creator ROI as campaigns unfold.'
   }
 ];
 
@@ -28,7 +28,7 @@ export default function LookerStudioFeaturesTable() {
     <section className="py-20" style={{ backgroundColor: '#FAFAFA', padding: '80px 24px' }}>
       <div style={{ maxWidth: '900px', margin: '0 auto' }}>
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Enterprise-Grade Features
+          Influencer Analytics in Looker Studio
         </h2>
         <div className="bg-white border-2 border-gray-100 overflow-hidden" style={{ borderRadius: '20px', boxShadow: '0 4px 12px rgba(0,0,0,0.08)' }}>
           <div className="divide-y divide-gray-200">

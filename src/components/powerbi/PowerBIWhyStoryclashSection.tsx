@@ -25,38 +25,39 @@ const EnterpriseIcon = () => (
   </svg>
 );
 
-const ROIIcon = () => (
+const VisualIcon = () => (
   <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M14 24C19.5228 24 24 19.5228 24 14C24 8.47715 19.5228 4 14 4C8.47715 4 4 8.47715 4 14C4 19.5228 8.47715 24 14 24Z" stroke="currentColor" strokeWidth="2" />
-    <path d="M14 9V14L18 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-    <circle cx="14" cy="14" r="2" fill="currentColor" />
+    <rect x="4" y="4" width="9" height="9" rx="2" stroke="currentColor" strokeWidth="2" />
+    <rect x="15" y="4" width="9" height="9" rx="2" stroke="currentColor" strokeWidth="2" />
+    <rect x="4" y="15" width="9" height="9" rx="2" stroke="currentColor" strokeWidth="2" />
+    <rect x="15" y="15" width="9" height="9" rx="2" stroke="currentColor" strokeWidth="2" />
   </svg>
 );
 
 const benefits = [
   {
     icon: SimplifyIcon,
-    title: 'Built for E-Commerce Brands',
-    description: 'Storyclash connects to Spryker Commerce OS via a secure connector with enterprise-grade data handling. Track influencer-driven sales with encrypted data transfer, role-based access control, and full GDPR compliance.'
+    title: 'Purpose-Built for BI Teams',
+    description: 'Storyclash delivers standardized, analysis-ready creator data that integrates seamlessly with Power BI. No data wrangling, no complex transformations—just clean influencer metrics ready to model.'
   },
   {
     icon: EnterpriseIcon,
-    title: 'B2B & B2C in One Platform',
-    description: 'Track influencer impact across both B2B marketplaces and B2C storefronts with unified attribution. Perfect for brands running Spryker with diverse customer types and complex organizational structures.'
+    title: 'Enterprise-Grade Influencer Data',
+    description: 'Built for enterprise BI workflows with GDPR compliance, consistent KPIs, and reliable data refresh schedules. Storyclash provides the foundation for accurate, defensible influencer ROI reporting at scale.'
   },
   {
-    icon: ROIIcon,
-    title: 'Accurate Revenue Attribution',
-    description: 'Connect creator campaigns directly to Spryker revenue data with discount code attribution. Finally answer the question: which influencers actually drive sales? Get the metrics finance teams trust.'
+    icon: VisualIcon,
+    title: 'Unlock Advanced Analytics',
+    description: 'Transform complex creator campaigns into actionable insights. Combine Storyclash data with Power BI\'s DAX formulas and data modeling to build sophisticated influencer attribution and ROI dashboards.'
   }
 ];
 
-export default function SprykerWhyStoryclashSection() {
+export default function PowerBIWhyStoryclashSection() {
   return (
     <section className="py-20 px-6 border-t border-b" style={{ backgroundColor: '#FFFFFF', borderColor: '#E5EAEC' }}>
       <div className="max-w-7xl mx-auto">
         <h2 className="mb-16 text-center" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#19B776', fontFamily: 'Roboto, sans-serif' }}>
-          Why Storyclash for Spryker?
+          Why Storyclash + Power BI?
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">

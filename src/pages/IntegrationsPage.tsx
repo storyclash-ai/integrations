@@ -38,7 +38,7 @@ export default function IntegrationsPage() {
 
   useDocumentTitle(
     'Storyclash Integrations | Connect Your Marketing & Data Stack',
-    'Explore 50+ Storyclash integrations and connect creator performance with your tools. Dashboards, ROI & automation.'
+    'Explore 20+ Storyclash integrations and connect creator performance with your tools. Dashboards, ROI & automation.'
   );
 
   return (

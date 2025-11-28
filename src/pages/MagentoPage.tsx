@@ -42,42 +42,42 @@ export default function MagentoPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "Does this work with both Magento 2 and Adobe Commerce?",
+                              "name": "How does Storyclash receive Magento orders, revenue and discount code data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes – Storyclash integrates with both Magento Open Source 2.x and Adobe Commerce (formerly Magento Commerce) via a secure connector. Your stores send orders, revenue and customer events to Storyclash, where influencer campaigns are tracked and attributed across all store views."
+                                      "text": "Storyclash connects to Magento via a secure connector and automatically receives orders, revenue, discount code usage and customer events from your store. These e-commerce signals are matched with creator content to measure real sales impact and calculate influencer ROI inside Storyclash."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I track multiple stores and websites?",
+                              "name": "Which Magento metrics can be imported into Storyclash for influencer revenue attribution?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Absolutely. Track creator performance across multiple Magento websites, store views, and store codes with unified or separate reporting."
+                                      "text": "Storyclash imports Magento metrics such as orders, revenue, net sales, products sold, discount code usage, cart values, refunds, conversions, first-time vs. returning customers, customer acquisition cost (CAC), and return on ad spend (ROAS). These shop metrics are combined with creator engagement data to deliver accurate revenue attribution for every influencer campaign."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "How is the Magento → Storyclash connection secured?",
+                              "name": "How does Storyclash attribute Magento orders to specific creators and campaigns?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "The Magento → Storyclash connection is secured via an encrypted data connector with role-based access control. You control exactly which order, revenue and customer event data flows from your Magento instance into Storyclash, with full GDPR compliance and enterprise-grade security standards."
+                                      "text": "Storyclash uses unique discount codes to connect Magento orders to specific creators and campaigns. When a customer uses a creator's discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "What Magento data gets synced?",
+                              "name": "Do I need a developer to integrate Magento with Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Order data, revenue, product SKUs, customer acquisition and conversion events are synced from your Magento stores into Storyclash and matched to specific influencer campaigns and creators."
+                                      "text": "No. Magento can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet to your Magento store and e-commerce data starts flowing into Storyclash automatically."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Will this slow down my Magento store?",
+                              "name": "Is the Magento → Storyclash connector GDPR-compliant and secure?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "No – data syncing happens via the Storyclash connector in an asynchronous way that does not impact storefront performance. Magento data is processed outside of the checkout flow, so your store remains fast and responsive."
+                                      "text": "Yes. The Magento connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers role-based access, SSO and secure data handling for all e-commerce and creator metrics."
                               }
                       }
               ]

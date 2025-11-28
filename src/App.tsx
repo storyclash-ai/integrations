@@ -44,45 +44,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PowerBIPage />} />
-        <Route path="/integrations" element={<IntegrationsPage />} />
-        <Route path="/integrations/power-bi-influencer-marketing" element={<PowerBIPage />} />
-        <Route path="/integrations/cloudflare-influencer-marketing" element={<CloudflarePage />} />
-        <Route path="/integrations/shopify-influencer-marketing" element={<ShopifyPage />} />
-        <Route path="/integrations/shopware-influencer-marketing" element={<ShopwarePage />} />
-        <Route path="/integrations/woocommerce-influencer-marketing" element={<WooCommercePage />} />
-        <Route path="/integrations/Adobe-Commerce-influencer-marketing" element={<AdobeCommercePage />} />
-        <Route path="/integrations/bigcommerce-influencer-marketing" element={<BigCommercePage />} />
-        <Route path="/integrations/magento-influencer-marketing" element={<MagentoPage />} />
-        <Route path="/integrations/wix-ecommerce-influencer-marketing" element={<WixPage />} />
-        <Route path="/integrations/squarespace-commerce-influencer-marketing" element={<SquarespacePage />} />
-        <Route path="/integrations/prestashop-influencer-marketing" element={<PrestaShopPage />} />
-        <Route path="/integrations/lightspeed-influencer-marketing" element={<LightspeedPage />} />
-        <Route path="/integrations/sap-commerce-cloud-influencer-marketing" element={<SAPCommercePage />} />
-        <Route path="/integrations/spryker-influencer-marketing" element={<SprykerPage />} />
-        <Route path="/integrations/commercetools-influencer-marketing" element={<CommercetoolsPage />} />
-        <Route path="/integrations/tableau-influencer-marketing" element={<TableauPage />} />
-        <Route path="/integrations/google-analytics-influencer-marketing" element={<GoogleAnalyticsPage />} />
-        <Route path="/integrations/google-sheets-influencer-marketing" element={<GoogleSheetsPage />} />
-        <Route path="/integrations/excel-influencer-marketing" element={<MicrosoftExcelPage />} />
-        <Route path="/integrations/matomo-influencer-marketing" element={<MatomoPage />} />
-        <Route path="/integrations/klipfolio-influencer-marketing" element={<KlipfolioPage />} />
-        <Route path="/integrations/metabase-influencer-marketing" element={<MetabasePage />} />
-        <Route path="/integrations/grafana-influencer-marketing" element={<GrafanaPage />} />
-        <Route path="/integrations/looker-studio-influencer-marketing" element={<LookerStudioPage />} />
-        <Route path="/integrations/snowflake-influencer-marketing" element={<SnowflakePage />} />
-        <Route path="/integrations/hubspot-influencer-marketing" element={<HubSpotPage />} />
-        <Route path="/integrations/bigquery-influencer-marketing" element={<BigQueryPage />} />
-        <Route path="/integrations/tealium-influencer-marketing" element={<TealiumPage />} />
-        <Route path="/integrations/segment-influencer-marketing" element={<SegmentPage />} />
-        <Route path="/integrations/supermetrics-influencer-marketing" element={<SupermetricsPage />} />
-        <Route path="/integrations/klar-influencer-marketing" element={<KlarPage />} />
-        <Route path="/integrations/triple-whale-influencer-marketing" element={<TripleWhalePage />} />
-        <Route path="/integrations/northbeam-influencer-marketing" element={<NorthbeamPage />} />
-        <Route path="/integrations/salesforce-influencer-marketing" element={<SalesforcePage />} />
-        <Route path="/integrations/klaviyo-influencer-marketing" element={<KlaviyoPage />} />
-        <Route path="/integrations/mailchimp-influencer-marketing" element={<MailchimpPage />} />
-        <Route path="/integrations/google-ads-influencer-marketing" element={<GoogleAdsPage />} />
+        <Route path="/" element={<IntegrationsPage />} />
+        <Route path="/power-bi" element={<PowerBIPage />} />
         <Route path="/cloudflare" element={<CloudflarePage />} />
         <Route path="/shopify" element={<ShopifyPage />} />
         <Route path="/shopware" element={<ShopwarePage />} />

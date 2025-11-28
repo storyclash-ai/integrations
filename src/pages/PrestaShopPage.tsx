@@ -41,42 +41,42 @@ export default function PrestaShopPage() {
               "mainEntity": [
                       {
                               "@type": "Question",
-                              "name": "How do I connect Storyclash to my PrestaShop store?",
+                              "name": "How does Storyclash receive PrestaShop orders, revenue and discount code data?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Connect your PrestaShop store to Storyclash using the native module or connector. Follow the setup guide in Storyclash, install the connector in your PrestaShop back office, and influencer-related orders and revenue will start flowing into Storyclash automatically – no manual REST API configuration required."
+                                      "text": "Storyclash connects to PrestaShop via a secure connector and automatically receives orders, revenue, discount code usage and customer events from your store. These e-commerce signals are matched with creator content to measure real sales impact and calculate influencer ROI inside Storyclash."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Does the PrestaShop integration work with multi-store setups?",
+                              "name": "Which PrestaShop metrics can be imported into Storyclash for influencer revenue attribution?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes – the Storyclash PrestaShop integration supports multi-store setups. You can track creator performance across all your PrestaShop stores with unified reporting or separate analytics per store and market."
+                                      "text": "Storyclash imports PrestaShop metrics such as orders, revenue, net sales, products sold, discount code usage, cart values, refunds, conversions, first-time vs. returning customers, customer acquisition cost (CAC), and return on ad spend (ROAS). These shop metrics are combined with creator engagement data to deliver accurate revenue attribution for every influencer campaign."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Can I track influencers across different European countries with PrestaShop?",
+                              "name": "How does Storyclash attribute PrestaShop orders to specific creators and campaigns?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Absolutely. The PrestaShop integration handles multiple currencies, languages and markets with accurate revenue attribution per region, so you can compare influencer performance across European countries inside Storyclash."
+                                      "text": "Storyclash uses unique discount codes to connect PrestaShop orders to specific creators and campaigns. When a customer uses a creator's discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Is the PrestaShop → Storyclash integration GDPR-compliant?",
+                              "name": "Do I need a developer to integrate PrestaShop with Storyclash?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Yes – the PrestaShop → Storyclash integration is fully GDPR-compliant and aligned with European data privacy standards. Data from your PrestaShop store is encrypted in transit and at rest, processed on EU infrastructure and handled with proper consent and access controls."
+                                      "text": "No. PrestaShop can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet to your PrestaShop store and e-commerce data starts flowing into Storyclash automatically."
                               }
                       },
                       {
                               "@type": "Question",
-                              "name": "Which PrestaShop versions are supported by the Storyclash integration?",
+                              "name": "Is the PrestaShop → Storyclash connector GDPR-compliant and secure?",
                               "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "The Storyclash integration supports PrestaShop 1.7.x and 8.x. Check our documentation for detailed compatibility notes and the latest supported versions."
+                                      "text": "Yes. The PrestaShop connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers role-based access, SSO and secure data handling for all e-commerce and creator metrics."
                               }
                       }
               ]

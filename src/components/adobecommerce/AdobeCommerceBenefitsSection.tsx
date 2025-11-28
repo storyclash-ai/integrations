@@ -4,7 +4,7 @@ const benefits = [
   {
     icon: ConnectIcon,
     color: '#19B776',
-    title: 'Connect Adobe Commerce to Storyclash seamlessly',
+    title: 'Connect Adobe Commerce to Storyclash',
     description: 'Adobe Commerce delivers e-commerce data over the Storyclash connector. Storyclash receives orders, revenue and customer events directly from your commerce platform – no REST API or API key required.'
   },
   {

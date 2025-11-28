@@ -14,8 +14,8 @@ const features = [
     description: 'Build custom dashboards and KPIs tailored to your brand – track any combination of Shopify metrics and creator engagement data.'
   },
   {
-    name: 'Multi-Store Support',
-    description: 'Consolidate creator performance across multiple Shopify stores and regions.'
+    name: 'Multi-Workspace Support',
+    description: 'Connect one Shopify store per workspace. Set up multiple workspaces to manage different stores or regional shops independently.'
   },
   {
     name: 'Enterprise Security',

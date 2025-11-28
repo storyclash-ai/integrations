@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: 'How does Storyclash attribute Shopware orders to specific creators and campaigns?',
-    answer: 'Storyclash uses discount codes, UTM parameters, referral URLs and cross-platform tracking to connect Shopware orders to creator activity. Multi-touch journeys are supported, ensuring every sale is attributed to the correct influencer even when customers interact with multiple posts.'
+    answer: 'Storyclash uses unique discount codes to connect Shopware orders to specific creators and campaigns. When a customer uses a creator\'s discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking.'
   },
   {
     question: 'Do I need a developer to integrate Shopware with Storyclash?',

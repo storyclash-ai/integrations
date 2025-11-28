@@ -37,15 +37,15 @@ const ShareIcon = () => (
 const useCases = [
   {
     icon: ROIIcon,
-    text: 'Track influencer-driven sales across multiple PrestaShop stores and European markets'
+    text: 'Track influencer-driven sales and measure creator ROI with discount code attribution'
   },
   {
     icon: TrendsIcon,
-    text: 'Identify which creators resonate best in each country and language market'
+    text: 'Identify which creators and campaigns drive the most revenue for your store'
   },
   {
     icon: ShareIcon,
-    text: 'Scale your European e-commerce with data-driven influencer partnerships'
+    text: 'Scale your e-commerce with data-driven influencer partnerships'
   }
 ];
 
@@ -55,10 +55,10 @@ export default function PrestaShopUseCaseSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Track Influencer Revenue Across Sales Channels
+            Track Influencer Revenue in PrestaShop
           </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with PrestaShop to connect influencer performance with your multi-store e-commerce operations. Track creator-driven orders, revenue, and product performance across multiple countries, languages, and currencies with centralized reporting.
+            Integrate Storyclash with PrestaShop to connect influencer performance with your e-commerce operations. Track creator-driven orders, revenue, and product performance with centralized reporting and accurate discount code attribution.
           </p>
         </div>
 

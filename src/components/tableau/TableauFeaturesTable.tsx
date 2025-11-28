@@ -2,24 +2,24 @@ import { Check } from 'lucide-react';
 
 const features = [
   {
-    name: 'Export Influencer Data to Tableau',
-    description: 'Send all Storyclash creator metrics to Tableau via secure REST API. Access engagement, reach, EMV, conversions, and audience data for analysis.'
+    name: 'Storyclash Exports to Tableau',
+    description: 'Storyclash sends all creator metrics to Tableau via secure REST API. Access engagement, reach, EMV, conversions, and audience demographics for comprehensive analysis.'
   },
   {
-    name: 'SQL Analytics & Custom Models',
-    description: 'Build custom SQL queries on Storyclash influencer data. Create advanced attribution models and predictive analytics using Tableau\'s full analytical power.'
+    name: 'SQL Analytics for Influencer Attribution',
+    description: 'Build custom SQL queries and calculated fields to track influencer ROI, multi-touch attribution, and advanced creator performance metrics within Tableau\'s data model.'
   },
   {
-    name: 'Custom Dashboards & Metrics',
-    description: 'Build custom dashboards and reports in Tableau using Storyclash creator data. Create custom metrics and segments for deeper influencer analysis.'
+    name: 'Custom Influencer Dashboards',
+    description: 'Design interactive Tableau dashboards with creator performance metrics, campaign comparisons, and trend analysis tailored to your influencer marketing strategy.'
   },
   {
-    name: 'Cross-Platform Creator Analysis',
-    description: 'Analyze influencer performance across Instagram, TikTok, YouTube, and other platforms in unified Tableau dashboards.'
+    name: 'Cross-Platform Creator Analytics',
+    description: 'Analyze influencer performance across Instagram, TikTok, YouTube, and other platforms in unified Tableau reports with drill-down capabilities.'
   },
   {
-    name: 'Real-Time Campaign Dashboards',
-    description: 'Monitor live influencer campaign performance with automated refresh. Track ROI, conversions, and creator impact as it happens.'
+    name: 'Real-Time Campaign Monitoring',
+    description: 'Monitor live influencer campaign performance with automated refresh. Track conversions, engagement, and creator ROI as campaigns unfold.'
   }
 ];
 

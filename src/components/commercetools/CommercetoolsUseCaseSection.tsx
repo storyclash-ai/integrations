@@ -37,15 +37,15 @@ const ShareIcon = () => (
 const useCases = [
   {
     icon: ROIIcon,
-    text: 'Track influencer performance across any frontend - web, mobile, IoT - with unified commercetools attribution'
+    text: 'Track influencer impact across all social media platforms and measure commercetools orders and revenue'
   },
   {
     icon: TrendsIcon,
-    text: 'Adapt attribution to your custom customer journeys and commerce experiences without backend changes'
+    text: 'Measure creator ROI with discount code tracking for accurate sales attribution'
   },
   {
     icon: ShareIcon,
-    text: 'Scale creator operations with composable commerce - add channels and touchpoints without reintegration'
+    text: 'Combine social media performance data and commercetools revenue in one unified dashboard'
   }
 ];
 
@@ -55,10 +55,10 @@ export default function CommercetoolsUseCaseSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Connect Social Commerce to composable Architecture
+          Track Influencer Revenue in commercetools
         </h2>
           <p className="max-w-3xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Integrate Storyclash with commercetools to power influencer marketing for headless commerce. Sync order data into Storyclash to track creator performance across any frontend experience while maintaining the flexibility and scalability of your composable commerce architecture.
+            Integrate Storyclash with commercetools to connect influencer performance with your e-commerce operations. Track creator-driven orders, revenue, and product performance with centralized reporting and accurate discount code attribution.
           </p>
         </div>
 

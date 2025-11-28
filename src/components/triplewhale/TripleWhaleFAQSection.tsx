@@ -3,12 +3,12 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash export creator and campaign data to Triple Whale?',
-    answer: 'Storyclash exports creator and campaign performance metrics to Triple Whale via a secure integration. Storyclash creator data appears in your Triple Whale dashboard as a channel alongside paid ads, email and organic traffic, so you can track influencer revenue, orders, CAC and ROAS in the same unified view as all other marketing channels.'
+    question: 'How does Storyclash integrate creator campaigns with Triple Whale?',
+    answer: 'Attribution works through unique discount codes or UTM parameters assigned to each creator campaign. When customers use these codes at checkout, Triple Whale captures the attribution. Storyclash provides campaign context (creator names, content, spend) which appears in your Triple Whale dashboard as a channel alongside paid ads and email, so you can track influencer revenue, orders, CAC and ROAS in the same unified view.'
   },
   {
-    question: 'Can Triple Whale track creator touchpoints with pixel data from influencer campaigns?',
-    answer: 'Yes. Triple Whale\'s pixel captures influencer interactions across devices and sessions and combines them with creator campaign data from Storyclash. This enables accurate multi-touch attribution that shows how creators contribute to customer journeys alongside other marketing touchpoints.'
+    question: 'Can Triple Whale track creator touchpoints with code-based attribution from influencer campaigns?',
+    answer: 'Yes. When customers use creator-specific discount codes or UTM-tracked links, Triple Whale captures these attribution points and combines them with creator campaign data from Storyclash. This enables accurate attribution that shows how creators contribute to revenue alongside other marketing channels.'
   },
   {
     question: 'How do I compare creator CAC from Storyclash with other channels in Triple Whale?',

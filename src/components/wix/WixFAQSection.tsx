@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: 'How does Storyclash attribute Wix orders to specific creators and campaigns?',
-    answer: 'Storyclash attributes Wix orders to creators using discount codes, UTM parameters and first-party tracking. Multi-touch journeys are fully supported.'
+    answer: 'Storyclash uses unique discount codes to connect Wix orders to specific creators and campaigns. When a customer uses a creator\'s discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking.'
   },
   {
     question: 'Do I need a developer to connect Wix with Storyclash?',

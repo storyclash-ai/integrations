@@ -5,19 +5,19 @@ const benefits = [
     icon: ConnectIcon,
     color: '#19B776',
     title: 'Direct Looker Studio integration',
-    description: 'Storyclash exports creator metrics and campaign data to Looker Studio via REST API using your API key, enabling powerful influencer performance dashboards.'
+    description: 'Storyclash exports creator metrics and campaign data to Looker Studio via REST API, enabling fully customized influencer analytics dashboards.'
   },
   {
     icon: ChartIcon,
     color: '#D1215D',
-    title: 'Build interactive dashboards',
-    description: 'Create stunning, interactive dashboards that combine influencer data with other marketing metrics for comprehensive insights.'
+    title: 'Advanced influencer ROI modeling',
+    description: 'Build sophisticated attribution models that connect creator content to conversions, revenue, and business outcomes using Looker Studio\'s calculated fields and data blending.'
   },
   {
     icon: AutomateIcon,
     color: '#F49D3B',
-    title: 'Real-time data updates',
-    description: 'Build automated Looker Studio reports that refresh automatically with the latest creator performance metrics.'
+    title: 'Automated influencer reporting',
+    description: 'Keep your Looker Studio dashboards current with automatic data refresh from active creator campaigns and scheduled report delivery to stakeholders.'
   }
 ];
 
@@ -27,10 +27,10 @@ export default function LookerStudioBenefitsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-20">
           <h2 className="mb-4" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          Build Custom Creator Performance Dashboards
+          Build Enterprise-Grade Influencer Analytics
         </h2>
           <p className="max-w-2xl mx-auto" style={{ fontSize: '16px', lineHeight: '1.3', fontWeight: '400', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-            Connect Looker Studio with influencer intelligence for stunning data visualization
+            Leverage Looker Studio's analytical power to measure creator ROI and campaign performance
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">

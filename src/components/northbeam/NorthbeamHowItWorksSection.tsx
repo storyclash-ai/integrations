@@ -12,13 +12,13 @@ const FlowIllustration = () => (
 const steps = [
   {
     number: '01',
-    title: 'Connect data sources',
-    description: 'Link Storyclash to Northbeam - creator campaign data syncs automatically alongside ad platforms, e-commerce, and analytics tools.'
+    title: 'Install Northbeam tracking pixel',
+    description: 'Add Northbeam\'s tracking pixel to your website - it captures all visitor touchpoints including influencer traffic for attribution.'
   },
   {
     number: '02',
-    title: 'Enable attribution tracking',
-    description: 'Northbeam tracks creator touchpoints - machine learning models attribute revenue to influencers across the customer journey.'
+    title: 'Launch tracked creator campaigns',
+    description: 'Create creator campaigns in Storyclash with unique tracking links - Northbeam\'s pixel attributes conversions when influencer traffic arrives.'
   },
   {
     number: '03',

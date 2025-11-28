@@ -3,35 +3,35 @@ import { useState } from 'react';
 
 const faqs = [
   {
-    question: 'How does Storyclash receive commercetools orders, revenue and discount code data?',
-    answer: 'Storyclash connects to commercetools via a secure connector and automatically receives orders, revenue, discount code usage and customer events from your store. These e-commerce signals are matched with creator content to measure real sales impact and calculate influencer ROI inside Storyclash.'
+    question: 'How do I connect Storyclash influencer data to Power BI?',
+    answer: 'Storyclash exports data to Power BI via REST API. After authenticating with your API token, Storyclash sends creator metrics, campaign performance, and influencer ROI data directly to Power BI for custom dashboard creation.'
   },
   {
-    question: 'Which commercetools metrics can be imported into Storyclash for influencer revenue attribution?',
-    answer: 'Storyclash imports commercetools metrics such as orders, revenue, net sales, products sold, discount code usage, cart values, refunds, conversions, first-time vs. returning customers, customer acquisition cost (CAC), and return on ad spend (ROAS). These shop metrics are combined with creator engagement data to deliver accurate revenue attribution for every influencer campaign.'
+    question: 'Which influencer marketing metrics can I analyze in Power BI?',
+    answer: 'You can analyze comprehensive influencer metrics including impressions, reach, engagement, engagement rate, EMV (Earned Media Value), conversions, attributed revenue, ROI, ROAS, and creator-level KPIs. Power BI enables you to blend these with sales, CRM, or web analytics data for complete attribution analysis.'
   },
   {
-    question: 'How does Storyclash attribute commercetools orders to specific creators and campaigns?',
-    answer: 'Storyclash uses unique discount codes to connect commercetools orders to specific creators and campaigns. When a customer uses a creator\'s discount code at checkout, the sale is automatically attributed to that influencer, enabling accurate ROI measurement and performance tracking.'
+    question: 'How often does Storyclash send influencer campaign data to Power BI?',
+    answer: 'Storyclash exports data to Power BI via REST API based on your configured schedule. Power BI can automatically refresh dashboards so your team always sees current influencer performance, campaign ROI, and creator analytics.'
   },
   {
-    question: 'Do I need a developer to integrate commercetools with Storyclash?',
-    answer: 'No. commercetools can be connected to Storyclash without any developer support. Simply activate the connector in Storyclash, add the tracking snippet to your commercetools store and e-commerce data starts flowing into Storyclash automatically.'
+    question: 'Can I combine Storyclash influencer data with other business data in Power BI?',
+    answer: 'Yes. Power BI\'s data modeling lets you combine Storyclash creator metrics with CRM data, e-commerce sales, web analytics, and other business intelligence sources to build complete influencer attribution models and ROI dashboards.'
   },
   {
-    question: 'Is the commercetools → Storyclash connector GDPR-compliant and secure?',
-    answer: 'Yes. The commercetools connector is fully GDPR-compliant, EU-hosted and encrypted to enterprise standards. Storyclash offers role-based access, SSO and secure data handling for all e-commerce and creator metrics.'
+    question: 'Is the Storyclash → Power BI integration secure and GDPR-compliant?',
+    answer: 'Yes. Storyclash uses encrypted REST API endpoints, secure token-based authentication, and GDPR-compliant EU data hosting. Power BI integrations support enterprise security standards with role-based access control and audit logging.'
   }
 ];
 
-export default function CommercetoolsFAQSection() {
+export default function PowerBIFAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
     <section className="py-20 px-6" style={{ backgroundColor: '#FFFFFF' }}>
       <div className="max-w-4xl mx-auto">
         <h2 className="text-center mb-16" style={{ fontSize: '36px', lineHeight: '1', fontWeight: '600', color: '#333333', fontFamily: 'Roboto, sans-serif' }}>
-          commercetools Integration FAQ
+          Power BI Integration FAQ
         </h2>
         <div className="space-y-4">
           {faqs.map((faq, index) => (

@@ -9,8 +9,8 @@ export default function Header() {
     }
   }, []);
 
-  const isOverview = /^\/integrations\/?$/.test(path);
-  const isDetail = /^\/integrations\/[^/]+/.test(path);
+  const isOverview = path === "/" || /^\/integrations\/?$/.test(path);
+  const isDetail = !isOverview && path !== "" && path !== "/";
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white/80 backdrop-blur-md border-b border-gray-200/60 z-50 overflow-visible">
@@ -21,7 +21,7 @@ export default function Header() {
         <div className="flex items-center gap-2 sm:gap-3 flex-nowrap flex-shrink-0">
           {isDetail && (
             <a
-              href="/integrations"
+              href="/"
               aria-label="Explore more integrations"
               className="inline-flex items-center justify-center h-8 px-3 text-xs sm:h-10 sm:px-4 sm:text-sm rounded-full border border-gray-200 bg-white text-gray-900 font-semibold leading-none whitespace-nowrap text-center hover:bg-gray-50 transition"
             >
